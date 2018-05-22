@@ -1,0 +1,453 @@
+1-RETORNO SERVIDOR ListarPartidas: A,2,17/05/2018,testee
+A,4,17/05/2018,test
+A,5,17/05/2018,test
+J,6,17/05/2018,agrfoi
+J,7,17/05/2018,fdah
+J,8,17/05/2018,fon
+J,9,17/05/2018,fon
+J,10,17/05/2018,agr
+J,11,17/05/2018,dale
+J,12,17/05/2018,foi
+J,14,17/05/2018,fon
+J,15,17/05/2018,fon
+J,16,17/05/2018,tres
+J,18,18/05/2018,apple
+J,19,18/05/2018,teste
+J,20,18/05/2018,tetses
+J,21,18/05/2018,tetse
+J,22,18/05/2018,nmnasjas
+A,24,18/05/2018,romm
+J,25,18/05/2018,jhjaq
+J,26,18/05/2018,diok
+J,27,18/05/2018,floripa
+J,28,18/05/2018,floripa
+J,29,18/05/2018,Floriup
+J,30,18/05/2018,floripa
+J,31,18/05/2018,hshjs
+J,33,18/05/2018,jshasj
+J,34,18/05/2018,jhsahj
+J,35,18/05/2018,sahjQ
+J,36,18/05/2018,Londres
+A,39,19/05/2018,Londres
+J,42,19/05/2018,floripa
+J,43,19/05/2018,jasjjsa
+J,44,19/05/2018,ffff
+J,45,19/05/2018,sdsdsz
+J,46,19/05/2018,hwww
+J,47,19/05/2018,HHGHGH
+J,48,19/05/2018,nhfcnhfx
+J,49,19/05/2018,ufgff
+J,50,19/05/2018,jogo
+J,51,19/05/2018,mano
+J,52,19/05/2018,partida
+J,53,19/05/2018,humild
+J,54,19/05/2018,agrfoi
+J,55,19/05/2018,forninho
+J,56,19/05/2018,sdg
+J,57,19/05/2018,new
+J,58,19/05/2018,new
+J,59,19/05/2018,vamooo
+A,60,19/05/2018,sansiasa
+J,61,19/05/2018,TESTE
+A,62,19/05/2018,apple
+A,63,19/05/2018,apple
+A,64,19/05/2018,apple
+A,65,19/05/2018,apple
+A,66,19/05/2018,apple
+J,67,19/05/2018,teste
+A,68,19/05/2018,teste2
+J,69,19/05/2018,apple
+J,70,19/05/2018,tetse2
+J,71,19/05/2018,bcc
+J,72,19/05/2018,apple
+J,73,19/05/2018,apple
+A,74,19/05/2018,Londres
+J,75,19/05/2018,apple
+A,77,19/05/2018,bcc
+J,78,19/05/2018,Londres
+J,79,19/05/2018,apple
+J,80,19/05/2018,Londres
+A,81,19/05/2018,Londres
+A,83,19/05/2018,bcc
+A,84,19/05/2018,bccc
+A,85,19/05/2018,teste
+A,86,19/05/2018,bccc
+A,87,19/05/2018,bvr
+A,88,19/05/2018,bcc
+A,89,19/05/2018,floripa
+A,90,19/05/2018,bcctes
+A,91,19/05/2018,TESTEE
+A,92,19/05/2018,bccc
+A,93,19/05/2018,teste
+A,94,19/05/2018,florpia
+J,95,20/05/2018,teste
+J,96,20/05/2018,teste
+J,97,20/05/2018,FDFH
+J,98,20/05/2018,HGGVBH
+J,99,20/05/2018,jkfk
+J,100,20/05/2018,fgj
+J,101,20/05/2018,gjkfd
+J,102,20/05/2018,gjkh
+J,103,20/05/2018,JHGF
+J,104,20/05/2018,hsdha
+J,105,20/05/2018,sgv
+J,106,20/05/2018,sjsnsn
+J,107,20/05/2018,floripa
+J,108,20/05/2018,Floripa
+A,109,20/05/2018,apple
+J,111,20/05/2018,apple
+J,112,20/05/2018,scteste
+A,113,20/05/2018,Londres
+A,114,20/05/2018,Londres
+A,115,20/05/2018,apple
+A,116,20/05/2018,Londres
+A,117,20/05/2018,Londres
+J,118,20/05/2018,Londres
+J,119,20/05/2018,Londres
+J,120,20/05/2018,apple
+J,121,20/05/2018,scteste
+A,122,20/05/2018,apple
+A,123,20/05/2018,apple
+J,124,20/05/2018,scteste
+A,125,20/05/2018,apple
+J,126,20/05/2018,scteste
+J,127,20/05/2018,scteste
+J,128,20/05/2018,scteste
+J,129,20/05/2018,apple
+J,130,20/05/2018,apple
+J,131,20/05/2018,apple
+J,132,20/05/2018,apple
+J,133,20/05/2018,apple
+J,135,20/05/2018,apple
+J,136,20/05/2018,apple
+J,137,20/05/2018,apple
+J,139,20/05/2018,mario
+J,140,20/05/2018,SCTESTE
+J,141,20/05/2018,scteste
+J,143,20/05/2018,apple
+J,144,20/05/2018,sera?
+J,145,20/05/2018,apple
+J,146,20/05/2018,agr
+J,147,20/05/2018,fon
+J,148,20/05/2018,guerrApple
+J,149,20/05/2018,dale
+J,150,20/05/2018,foi
+J,152,20/05/2018,fomos
+J,153,20/05/2018,Norton
+J,154,20/05/2018,preda
+J,155,20/05/2018,ctz
+A,156,20/05/2018,biri
+A,157,20/05/2018,senha
+J,158,20/05/2018,asdf
+J,159,20/05/2018,apple
+J,160,20/05/2018,real
+J,162,20/05/2018,fora
+J,163,20/05/2018,fooi
+J,164,20/05/2018,ctrl
+A,165,20/05/2018,as2
+J,166,20/05/2018,as2
+J,167,21/05/2018,thay
+J,168,21/05/2018,WAR
+J,169,21/05/2018,DALE
+J,170,21/05/2018,blogrinha
+J,171,21/05/2018,combat
+J,172,21/05/2018,clark
+J,173,21/05/2018,dale
+J,174,21/05/2018,Foi
+J,175,21/05/2018,caiu
+J,176,21/05/2018,dahora
+J,177,21/05/2018,cri
+A,178,21/05/2018,arabella
+J,179,21/05/2018,dale
+A,181,21/05/2018,apple
+A,182,21/05/2018,apple
+A,183,21/05/2018,apple
+A,184,21/05/2018,apple
+A,185,21/05/2018,TESTE
+A,186,21/05/2018,scteste
+J,187,21/05/2018,scteste
+J,188,21/05/2018,scteste
+J,189,21/05/2018,scteste
+J,190,21/05/2018,scteste
+J,191,21/05/2018,Londres
+J,192,21/05/2018,Londres
+J,193,21/05/2018,scteste
+J,194,21/05/2018,scteste
+J,195,21/05/2018,Londres
+J,196,21/05/2018,dcwe
+A,197,21/05/2018,Londres
+J,198,21/05/2018,Londres
+J,199,21/05/2018,Londres
+J,200,22/05/2018,Londres
+A,201,22/05/2018,Londres
+
+3-RETORNO SERVIDOR Entrar: 404,B7640
+6-RETORNO SERVIDOR ListarJogadores: 403,iPad,0
+404,iPhone,0
+
+9-RETORNO SERVIDOR VerificarStatus: ERRO: Não foi possível identificar o status destas rodadas
+12-RETORNO SERVIDOR ListarJogadores: No Modifications
+16-RETORNO SERVIDOR VerificarStatus: No Modifications
+19-RETORNO SERVIDOR ListarJogadores: No Modifications
+23-RETORNO SERVIDOR VerificarStatus: No Modifications
+26-RETORNO SERVIDOR ListarJogadores: No Modifications
+30-RETORNO SERVIDOR VerificarStatus: No Modifications
+33-RETORNO SERVIDOR ListarJogadores: No Modifications
+37-RETORNO SERVIDOR VerificarStatus: No Modifications
+40-RETORNO SERVIDOR ListarJogadores: No Modifications
+42-RETORNO SERVIDOR Iniciar: 403
+45-RETORNO SERVIDOR VerificarStatus: J,S
+50-RETORNO SERVIDOR ListarJogadores: No Modifications
+53-RETORNO SERVIDOR ListarPersonagens: Alckmin
+Bolsonaro
+Collor
+Dilma
+Enéas
+FHC
+Garotinho
+Itamar
+Luciano Huck
+Marina Silva
+Neymar
+Orestes Quércia
+Paulo Maluf
+
+54-RETORNO SERVIDOR ListarCartas: DGILMP
+
+57-RETORNO SERVIDOR VerificarVez: 403
+
+60-RETORNO SERVIDOR ListarJogadores: No Modifications
+66-RETORNO SERVIDOR VerificarStatus: No Modifications
+73-RETORNO SERVIDOR VerificarVez: No Modifications
+76-RETORNO SERVIDOR ListarJogadores: No Modifications
+82-RETORNO SERVIDOR VerificarStatus: No Modifications
+89-RETORNO SERVIDOR VerificarVez: No Modifications
+92-RETORNO SERVIDOR ListarJogadores: No Modifications
+98-RETORNO SERVIDOR VerificarStatus: No Modifications
+105-RETORNO SERVIDOR VerificarVez: No Modifications
+108-RETORNO SERVIDOR ListarJogadores: No Modifications
+114-RETORNO SERVIDOR VerificarStatus: No Modifications
+121-RETORNO SERVIDOR VerificarVez: No Modifications
+124-RETORNO SERVIDOR ListarJogadores: No Modifications
+130-RETORNO SERVIDOR VerificarStatus: No Modifications
+137-RETORNO SERVIDOR VerificarVez: No Modifications
+140-RETORNO SERVIDOR ListarJogadores: No Modifications
+146-RETORNO SERVIDOR VerificarStatus: No Modifications
+153-RETORNO SERVIDOR VerificarVez: No Modifications
+156-RETORNO SERVIDOR ListarJogadores: No Modifications
+162-RETORNO SERVIDOR VerificarStatus: No Modifications
+169-RETORNO SERVIDOR VerificarVez: No Modifications
+172-RETORNO SERVIDOR ListarJogadores: No Modifications
+178-RETORNO SERVIDOR VerificarStatus: No Modifications
+185-RETORNO SERVIDOR VerificarVez: No Modifications
+188-RETORNO SERVIDOR ListarJogadores: No Modifications
+194-RETORNO SERVIDOR VerificarStatus: No Modifications
+201-RETORNO SERVIDOR VerificarVez: No Modifications
+204-RETORNO SERVIDOR ListarJogadores: No Modifications
+210-RETORNO SERVIDOR VerificarStatus: No Modifications
+217-RETORNO SERVIDOR VerificarVez: No Modifications
+220-RETORNO SERVIDOR ListarJogadores: No Modifications
+226-RETORNO SERVIDOR VerificarStatus: No Modifications
+233-RETORNO SERVIDOR VerificarVez: No Modifications
+236-RETORNO SERVIDOR ListarJogadores: No Modifications
+242-RETORNO SERVIDOR VerificarStatus: No Modifications
+249-RETORNO SERVIDOR VerificarVez: No Modifications
+252-RETORNO SERVIDOR ListarJogadores: No Modifications
+258-RETORNO SERVIDOR VerificarStatus: No Modifications
+265-RETORNO SERVIDOR VerificarVez: No Modifications
+268-RETORNO SERVIDOR ListarJogadores: No Modifications
+274-RETORNO SERVIDOR VerificarStatus: No Modifications
+281-RETORNO SERVIDOR VerificarVez: No Modifications
+284-RETORNO SERVIDOR ListarJogadores: No Modifications
+290-RETORNO SERVIDOR VerificarStatus: No Modifications
+297-RETORNO SERVIDOR VerificarVez: No Modifications
+300-RETORNO SERVIDOR ListarJogadores: No Modifications
+306-RETORNO SERVIDOR VerificarStatus: No Modifications
+313-RETORNO SERVIDOR VerificarVez: No Modifications
+316-RETORNO SERVIDOR ListarJogadores: No Modifications
+322-RETORNO SERVIDOR VerificarStatus: No Modifications
+329-RETORNO SERVIDOR VerificarVez: No Modifications
+332-RETORNO SERVIDOR ListarJogadores: No Modifications
+338-RETORNO SERVIDOR VerificarStatus: No Modifications
+345-RETORNO SERVIDOR VerificarVez: No Modifications
+348-RETORNO SERVIDOR ListarJogadores: No Modifications
+354-RETORNO SERVIDOR VerificarStatus: No Modifications
+361-RETORNO SERVIDOR VerificarVez: No Modifications
+364-RETORNO SERVIDOR ListarJogadores: No Modifications
+370-RETORNO SERVIDOR VerificarStatus: No Modifications
+377-RETORNO SERVIDOR VerificarVez: No Modifications
+380-RETORNO SERVIDOR ListarJogadores: No Modifications
+386-RETORNO SERVIDOR VerificarStatus: No Modifications
+393-RETORNO SERVIDOR VerificarVez: No Modifications
+396-RETORNO SERVIDOR ListarJogadores: No Modifications
+402-RETORNO SERVIDOR VerificarStatus: No Modifications
+409-RETORNO SERVIDOR VerificarVez: No Modifications
+412-RETORNO SERVIDOR ListarJogadores: No Modifications
+418-RETORNO SERVIDOR VerificarStatus: No Modifications
+425-RETORNO SERVIDOR VerificarVez: No Modifications
+428-RETORNO SERVIDOR ListarJogadores: No Modifications
+434-RETORNO SERVIDOR VerificarStatus: No Modifications
+441-RETORNO SERVIDOR VerificarVez: No Modifications
+444-RETORNO SERVIDOR ListarJogadores: No Modifications
+450-RETORNO SERVIDOR VerificarStatus: No Modifications
+457-RETORNO SERVIDOR VerificarVez: No Modifications
+460-RETORNO SERVIDOR ListarJogadores: No Modifications
+466-RETORNO SERVIDOR VerificarStatus: No Modifications
+473-RETORNO SERVIDOR VerificarVez: No Modifications
+476-RETORNO SERVIDOR ListarJogadores: No Modifications
+482-RETORNO SERVIDOR VerificarStatus: No Modifications
+489-RETORNO SERVIDOR VerificarVez: No Modifications
+492-RETORNO SERVIDOR ListarJogadores: No Modifications
+498-RETORNO SERVIDOR VerificarStatus: No Modifications
+505-RETORNO SERVIDOR VerificarVez: No Modifications
+508-RETORNO SERVIDOR ListarJogadores: No Modifications
+514-RETORNO SERVIDOR VerificarStatus: No Modifications
+521-RETORNO SERVIDOR VerificarVez: No Modifications
+524-RETORNO SERVIDOR ListarJogadores: No Modifications
+530-RETORNO SERVIDOR VerificarStatus: No Modifications
+537-RETORNO SERVIDOR VerificarVez: No Modifications
+540-RETORNO SERVIDOR ListarJogadores: No Modifications
+546-RETORNO SERVIDOR VerificarStatus: No Modifications
+553-RETORNO SERVIDOR VerificarVez: No Modifications
+556-RETORNO SERVIDOR ListarJogadores: No Modifications
+562-RETORNO SERVIDOR VerificarStatus: No Modifications
+569-RETORNO SERVIDOR VerificarVez: No Modifications
+572-RETORNO SERVIDOR ListarJogadores: No Modifications
+578-RETORNO SERVIDOR VerificarStatus: No Modifications
+585-RETORNO SERVIDOR VerificarVez: No Modifications
+588-RETORNO SERVIDOR ListarJogadores: No Modifications
+594-RETORNO SERVIDOR VerificarStatus: No Modifications
+601-RETORNO SERVIDOR VerificarVez: No Modifications
+604-RETORNO SERVIDOR ListarJogadores: No Modifications
+610-RETORNO SERVIDOR VerificarStatus: No Modifications
+617-RETORNO SERVIDOR VerificarVez: No Modifications
+620-RETORNO SERVIDOR ListarJogadores: No Modifications
+626-RETORNO SERVIDOR VerificarStatus: No Modifications
+633-RETORNO SERVIDOR VerificarVez: No Modifications
+636-RETORNO SERVIDOR ListarJogadores: No Modifications
+642-RETORNO SERVIDOR VerificarStatus: No Modifications
+649-RETORNO SERVIDOR VerificarVez: No Modifications
+652-RETORNO SERVIDOR ListarJogadores: No Modifications
+658-RETORNO SERVIDOR VerificarStatus: No Modifications
+665-RETORNO SERVIDOR VerificarVez: No Modifications
+668-RETORNO SERVIDOR ListarJogadores: No Modifications
+674-RETORNO SERVIDOR VerificarStatus: No Modifications
+681-RETORNO SERVIDOR VerificarVez: No Modifications
+684-RETORNO SERVIDOR ListarJogadores: No Modifications
+690-RETORNO SERVIDOR VerificarStatus: No Modifications
+697-RETORNO SERVIDOR VerificarVez: No Modifications
+700-RETORNO SERVIDOR ListarJogadores: No Modifications
+706-RETORNO SERVIDOR VerificarStatus: No Modifications
+713-RETORNO SERVIDOR VerificarVez: No Modifications
+716-RETORNO SERVIDOR ListarJogadores: No Modifications
+722-RETORNO SERVIDOR VerificarStatus: No Modifications
+729-RETORNO SERVIDOR VerificarVez: No Modifications
+732-RETORNO SERVIDOR ListarJogadores: No Modifications
+738-RETORNO SERVIDOR VerificarStatus: No Modifications
+745-RETORNO SERVIDOR VerificarVez: No Modifications
+748-RETORNO SERVIDOR ListarJogadores: No Modifications
+754-RETORNO SERVIDOR VerificarStatus: No Modifications
+761-RETORNO SERVIDOR VerificarVez: No Modifications
+764-RETORNO SERVIDOR ListarJogadores: No Modifications
+770-RETORNO SERVIDOR VerificarStatus: No Modifications
+777-RETORNO SERVIDOR VerificarVez: No Modifications
+780-RETORNO SERVIDOR ListarJogadores: No Modifications
+786-RETORNO SERVIDOR VerificarStatus: No Modifications
+793-RETORNO SERVIDOR VerificarVez: No Modifications
+796-RETORNO SERVIDOR ListarJogadores: No Modifications
+802-RETORNO SERVIDOR VerificarStatus: No Modifications
+809-RETORNO SERVIDOR VerificarVez: No Modifications
+812-RETORNO SERVIDOR ListarJogadores: No Modifications
+818-RETORNO SERVIDOR VerificarStatus: No Modifications
+825-RETORNO SERVIDOR VerificarVez: No Modifications
+828-RETORNO SERVIDOR ListarJogadores: No Modifications
+834-RETORNO SERVIDOR VerificarStatus: No Modifications
+841-RETORNO SERVIDOR VerificarVez: No Modifications
+844-RETORNO SERVIDOR ListarJogadores: No Modifications
+850-RETORNO SERVIDOR VerificarStatus: No Modifications
+857-RETORNO SERVIDOR VerificarVez: No Modifications
+860-RETORNO SERVIDOR ListarJogadores: No Modifications
+866-RETORNO SERVIDOR VerificarStatus: No Modifications
+873-RETORNO SERVIDOR VerificarVez: No Modifications
+876-RETORNO SERVIDOR ListarJogadores: No Modifications
+882-RETORNO SERVIDOR VerificarStatus: No Modifications
+889-RETORNO SERVIDOR VerificarVez: No Modifications
+892-RETORNO SERVIDOR ListarJogadores: No Modifications
+898-RETORNO SERVIDOR VerificarStatus: No Modifications
+905-RETORNO SERVIDOR VerificarVez: No Modifications
+908-RETORNO SERVIDOR ListarJogadores: No Modifications
+914-RETORNO SERVIDOR VerificarStatus: No Modifications
+921-RETORNO SERVIDOR VerificarVez: No Modifications
+924-RETORNO SERVIDOR ListarJogadores: No Modifications
+930-RETORNO SERVIDOR VerificarStatus: No Modifications
+937-RETORNO SERVIDOR VerificarVez: No Modifications
+940-RETORNO SERVIDOR ListarJogadores: No Modifications
+946-RETORNO SERVIDOR VerificarStatus: No Modifications
+953-RETORNO SERVIDOR VerificarVez: No Modifications
+956-RETORNO SERVIDOR ListarJogadores: No Modifications
+962-RETORNO SERVIDOR VerificarStatus: No Modifications
+969-RETORNO SERVIDOR VerificarVez: No Modifications
+972-RETORNO SERVIDOR ListarJogadores: No Modifications
+978-RETORNO SERVIDOR VerificarStatus: No Modifications
+985-RETORNO SERVIDOR VerificarVez: No Modifications
+988-RETORNO SERVIDOR ListarJogadores: No Modifications
+994-RETORNO SERVIDOR VerificarStatus: No Modifications
+1001-RETORNO SERVIDOR VerificarVez: No Modifications
+1004-RETORNO SERVIDOR ListarJogadores: No Modifications
+1010-RETORNO SERVIDOR VerificarStatus: No Modifications
+1017-RETORNO SERVIDOR VerificarVez: No Modifications
+1020-RETORNO SERVIDOR ListarJogadores: No Modifications
+1026-RETORNO SERVIDOR VerificarStatus: No Modifications
+1033-RETORNO SERVIDOR VerificarVez: No Modifications
+1036-RETORNO SERVIDOR ListarJogadores: No Modifications
+1042-RETORNO SERVIDOR VerificarStatus: No Modifications
+1049-RETORNO SERVIDOR VerificarVez: No Modifications
+1052-RETORNO SERVIDOR ListarJogadores: No Modifications
+1058-RETORNO SERVIDOR VerificarStatus: No Modifications
+1065-RETORNO SERVIDOR VerificarVez: No Modifications
+1068-RETORNO SERVIDOR ListarJogadores: No Modifications
+1074-RETORNO SERVIDOR VerificarStatus: No Modifications
+1081-RETORNO SERVIDOR VerificarVez: No Modifications
+1084-RETORNO SERVIDOR ListarJogadores: No Modifications
+1090-RETORNO SERVIDOR VerificarStatus: No Modifications
+1097-RETORNO SERVIDOR VerificarVez: No Modifications
+1100-RETORNO SERVIDOR ListarJogadores: No Modifications
+1106-RETORNO SERVIDOR VerificarStatus: No Modifications
+1113-RETORNO SERVIDOR VerificarVez: No Modifications
+1116-RETORNO SERVIDOR ListarJogadores: No Modifications
+1122-RETORNO SERVIDOR VerificarStatus: No Modifications
+1129-RETORNO SERVIDOR VerificarVez: No Modifications
+1132-RETORNO SERVIDOR ListarJogadores: No Modifications
+1138-RETORNO SERVIDOR VerificarStatus: No Modifications
+1145-RETORNO SERVIDOR VerificarVez: No Modifications
+1148-RETORNO SERVIDOR ListarJogadores: No Modifications
+1154-RETORNO SERVIDOR VerificarStatus: No Modifications
+1161-RETORNO SERVIDOR VerificarVez: No Modifications
+1164-RETORNO SERVIDOR ListarJogadores: No Modifications
+1170-RETORNO SERVIDOR VerificarStatus: No Modifications
+1177-RETORNO SERVIDOR VerificarVez: No Modifications
+1180-RETORNO SERVIDOR ListarJogadores: No Modifications
+1186-RETORNO SERVIDOR VerificarStatus: No Modifications
+1193-RETORNO SERVIDOR VerificarVez: No Modifications
+1196-RETORNO SERVIDOR ListarJogadores: No Modifications
+1202-RETORNO SERVIDOR VerificarStatus: No Modifications
+1209-RETORNO SERVIDOR VerificarVez: No Modifications
+1212-RETORNO SERVIDOR ListarJogadores: No Modifications
+1218-RETORNO SERVIDOR VerificarStatus: No Modifications
+1225-RETORNO SERVIDOR VerificarVez: No Modifications
+1228-RETORNO SERVIDOR ListarJogadores: No Modifications
+1234-RETORNO SERVIDOR VerificarStatus: No Modifications
+1241-RETORNO SERVIDOR VerificarVez: No Modifications
+1244-RETORNO SERVIDOR ListarJogadores: No Modifications
+1250-RETORNO SERVIDOR VerificarStatus: No Modifications
+1257-RETORNO SERVIDOR VerificarVez: No Modifications
+1260-RETORNO SERVIDOR ListarJogadores: No Modifications
+1266-RETORNO SERVIDOR VerificarStatus: No Modifications
+1273-RETORNO SERVIDOR VerificarVez: No Modifications
+1276-RETORNO SERVIDOR ListarJogadores: No Modifications
+1282-RETORNO SERVIDOR VerificarStatus: No Modifications
+1289-RETORNO SERVIDOR VerificarVez: No Modifications
+1292-RETORNO SERVIDOR ListarJogadores: No Modifications
+1298-RETORNO SERVIDOR VerificarStatus: No Modifications
+1305-RETORNO SERVIDOR VerificarVez: No Modifications
+1308-RETORNO SERVIDOR ListarJogadores: No Modifications

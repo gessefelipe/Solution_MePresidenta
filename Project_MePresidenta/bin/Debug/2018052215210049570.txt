@@ -1,0 +1,234 @@
+5-NUMERO DA PARTIDA CRIADA = 257
+9-ENTRAR PARTIDA = 513  576F1
+12-analisarStatus()
+15-analisarStatus()=Aberta
+19-analisarStatus()
+22-analisarStatus()=Aberta
+26-analisarStatus()
+29-analisarStatus()=Aberta
+33-analisarStatus()
+36-analisarStatus()=Aberta
+40-analisarStatus()
+43-analisarStatus()=Aberta
+47-analisarStatus()
+50-analisarStatus()=Aberta
+54-analisarStatus()
+57-analisarStatus()=Aberta
+61-analisarStatus()
+64-analisarStatus()=Aberta
+68-analisarStatus()
+71-analisarStatus()=Aberta
+75-analisarStatus()
+78-analisarStatus()=Aberta
+82-analisarStatus()
+85-analisarStatus()=Aberta
+89-analisarStatus()
+92-analisarStatus()=Aberta
+96-analisarStatus()
+99-analisarStatus()=Aberta
+103-analisarStatus()
+106-analisarStatus()=Aberta
+110-analisarStatus()
+113-analisarStatus()=Aberta
+117-analisarStatus()
+120-analisarStatus()=Aberta
+124-analisarStatus()
+127-analisarStatus()=Aberta
+131-analisarStatus()
+134-analisarStatus()=Aberta
+138-analisarStatus()
+141-analisarStatus()=Aberta
+145-analisarStatus()
+148-analisarStatus()=Aberta
+152-analisarStatus()
+155-analisarStatus()=Aberta
+159-analisarStatus()
+162-analisarStatus()=Aberta
+166-analisarStatus()
+169-analisarStatus()=Aberta
+173-analisarStatus()
+176-analisarStatus()=Aberta
+180-analisarStatus()
+183-analisarStatus()=Aberta
+187-analisarStatus()
+190-analisarStatus()=Aberta
+194-analisarStatus()
+197-analisarStatus()=Aberta
+201-analisarStatus()
+204-analisarStatus()=Aberta
+208-analisarStatus()
+211-analisarStatus()=Aberta
+215-analisarStatus()
+218-analisarStatus()=Aberta
+222-analisarStatus()
+225-analisarStatus()=Aberta
+229-analisarStatus()
+232-analisarStatus()=Aberta
+236-analisarStatus()
+239-analisarStatus()=Aberta
+243-analisarStatus()
+246-analisarStatus()=Aberta
+250-analisarStatus()
+253-analisarStatus()=Aberta
+257-analisarStatus()
+260-analisarStatus()=Aberta
+264-analisarStatus()
+267-analisarStatus()=Aberta
+271-analisarStatus()
+274-analisarStatus()=Aberta
+278-analisarStatus()
+281-analisarStatus()=Aberta
+285-analisarStatus()
+288-analisarStatus()=Aberta
+292-analisarStatus()
+295-analisarStatus()=Aberta
+299-analisarStatus()
+302-analisarStatus()=Aberta
+306-analisarStatus()
+309-analisarStatus()=Aberta
+313-analisarStatus()
+316-analisarStatus()=Aberta
+320-analisarStatus()
+323-analisarStatus()=Aberta
+327-analisarStatus()
+330-analisarStatus()=Aberta
+334-analisarStatus()
+337-analisarStatus()=Aberta
+341-analisarStatus()
+344-analisarStatus()=Aberta
+348-analisarStatus()
+351-analisarStatus()=Aberta
+355-analisarStatus()
+358-analisarStatus()=Aberta
+362-analisarStatus()
+365-analisarStatus()=Aberta
+369-analisarStatus()
+372-analisarStatus()=Aberta
+376-analisarStatus()
+379-analisarStatus()=Aberta
+383-analisarStatus()
+386-analisarStatus()=Aberta
+390-analisarStatus()
+393-analisarStatus()=Aberta
+397-analisarStatus()
+400-analisarStatus()=Aberta
+404-analisarStatus()
+407-analisarStatus()=Aberta
+411-analisarStatus()
+414-analisarStatus()=Aberta
+418-analisarStatus()
+421-analisarStatus()=Aberta
+425-analisarStatus()
+428-analisarStatus()=Aberta
+432-analisarStatus()
+435-analisarStatus()=Aberta
+439-analisarStatus()
+442-analisarStatus()=Aberta
+446-analisarStatus()
+449-analisarStatus()=Aberta
+453-analisarStatus()
+456-analisarStatus()=Aberta
+460-analisarStatus()
+463-analisarStatus()=Aberta
+467-analisarStatus()
+470-analisarStatus()=Aberta
+474-analisarStatus()
+477-analisarStatus()=Aberta
+481-analisarStatus()
+484-analisarStatus()=Aberta
+488-analisarStatus()
+491-analisarStatus()=Aberta
+495-analisarStatus()
+498-analisarStatus()=Aberta
+502-analisarStatus()
+505-analisarStatus()=Aberta
+509-analisarStatus()
+512-analisarStatus()=Aberta
+516-analisarStatus()
+519-analisarStatus()=Aberta
+523-analisarStatus()
+526-analisarStatus()=Aberta
+530-analisarStatus()
+533-analisarStatus()=Aberta
+537-analisarStatus()
+540-analisarStatus()=Aberta
+544-analisarStatus()
+547-analisarStatus()=Aberta
+551-analisarStatus()
+554-analisarStatus()=Aberta
+558-analisarStatus()
+561-analisarStatus()=Aberta
+566-analisarStatus()
+569-analisarStatus()=Em jogo
+571-analisarStatus()=Posicionar
+574-novaRodada
+578-verificarVez
+581-jogadordaVez = 512 - JogadorDoi
+584-MINHA VEZ=FALSE
+587-analisarStatus()
+590-analisarStatus()=Em jogo
+592-analisarStatus()=Posicionar
+594-verificarVez
+597-jogadordaVez = 512 - JogadorDoi
+600-MINHA VEZ=FALSE
+603-analisarStatus()
+606-analisarStatus()=Em jogo
+608-analisarStatus()=Posicionar
+610-verificarVez
+613-jogadordaVez = 512 - JogadorDoi
+616-MINHA VEZ=FALSE
+619-analisarStatus()
+622-analisarStatus()=Em jogo
+624-analisarStatus()=Posicionar
+626-verificarVez
+629-jogadordaVez = 512 - JogadorDoi
+632-MINHA VEZ=FALSE
+635-analisarStatus()
+638-analisarStatus()=Em jogo
+640-analisarStatus()=Posicionar
+642-verificarVez
+645-jogadordaVez = 512 - JogadorDoi
+648-MINHA VEZ=FALSE
+651-analisarStatus()
+654-analisarStatus()=Em jogo
+656-analisarStatus()=Posicionar
+658-verificarVez
+661-jogadordaVez = 512 - JogadorDoi
+664-MINHA VEZ=FALSE
+667-analisarStatus()
+670-analisarStatus()=Em jogo
+672-analisarStatus()=Posicionar
+674-verificarVez
+677-jogadordaVez = 512 - JogadorDoi
+680-MINHA VEZ=FALSE
+683-analisarStatus()
+686-analisarStatus()=Em jogo
+688-analisarStatus()=Posicionar
+690-verificarVez
+693-jogadordaVez = 512 - JogadorDoi
+696-MINHA VEZ=FALSE
+699-analisarStatus()
+702-analisarStatus()=Em jogo
+704-analisarStatus()=Posicionar
+706-verificarVez
+709-jogadordaVez = 512 - JogadorDoi
+712-MINHA VEZ=FALSE
+715-analisarStatus()
+718-analisarStatus()=Em jogo
+720-analisarStatus()=Posicionar
+722-verificarVez
+725-jogadordaVez = 512 - JogadorDoi
+728-MINHA VEZ=FALSE
+731-analisarStatus()
+734-analisarStatus()=Em jogo
+736-analisarStatus()=Posicionar
+738-verificarVez
+741-jogadordaVez = 512 - JogadorDoi
+744-MINHA VEZ=FALSE
+747-analisarStatus()
+750-analisarStatus()=Em jogo
+752-analisarStatus()=Posicionar
+754-verificarVez
+757-jogadordaVez = 512 - JogadorDoi
+760-MINHA VEZ=FALSE
+763-analisarStatus()

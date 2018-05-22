@@ -1,0 +1,2340 @@
+2-
+
+************PrintVariaveisGlobais[1] - FormLoad****************************
+_myId=0
+_mySenha=
+_partidaId=0
+_partidaSenha=
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=0
+_nJogadores=1
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+17-
+
+************PrintVariaveisGlobais[16] - Rotina****************************
+_myId=409
+_mySenha=F708F
+_partidaId=204
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=0
+_nJogadores=1
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+409	iPad	0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+24-
+
+************PrintVariaveisGlobais[23] - Rotina****************************
+_myId=409
+_mySenha=F708F
+_partidaId=204
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=0
+_nJogadores=1
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+409	iPad	0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+31-
+
+************PrintVariaveisGlobais[30] - Rotina****************************
+_myId=409
+_mySenha=F708F
+_partidaId=204
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=0
+_nJogadores=1
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+409	iPad	0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+38-
+
+************PrintVariaveisGlobais[37] - Rotina****************************
+_myId=409
+_mySenha=F708F
+_partidaId=204
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=0
+_nJogadores=1
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+409	iPad	0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+45-
+
+************PrintVariaveisGlobais[44] - Rotina****************************
+_myId=409
+_mySenha=F708F
+_partidaId=204
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=0
+_nJogadores=1
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+409	iPad	0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+52-
+
+************PrintVariaveisGlobais[51] - Rotina****************************
+_myId=409
+_mySenha=F708F
+_partidaId=204
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=0
+_nJogadores=1
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+409	iPad	0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+59-
+
+************PrintVariaveisGlobais[58] - Rotina****************************
+_myId=409
+_mySenha=F708F
+_partidaId=204
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=0
+_nJogadores=1
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+409	iPad	0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+66-
+
+************PrintVariaveisGlobais[65] - Rotina****************************
+_myId=409
+_mySenha=F708F
+_partidaId=204
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=0
+_nJogadores=1
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+409	iPad	0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+73-
+
+************PrintVariaveisGlobais[72] - Rotina****************************
+_myId=409
+_mySenha=F708F
+_partidaId=204
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=0
+_nJogadores=1
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+409	iPad	0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+80-
+
+************PrintVariaveisGlobais[79] - Rotina****************************
+_myId=409
+_mySenha=F708F
+_partidaId=204
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=0
+_nJogadores=1
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+409	iPad	0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+87-
+
+************PrintVariaveisGlobais[86] - Rotina****************************
+_myId=409
+_mySenha=F708F
+_partidaId=204
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=0
+_nJogadores=1
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+409	iPad	0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+94-
+
+************PrintVariaveisGlobais[93] - Rotina****************************
+_myId=409
+_mySenha=F708F
+_partidaId=204
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=0
+_nJogadores=1
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+409	iPad	0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+101-
+
+************PrintVariaveisGlobais[100] - Rotina****************************
+_myId=409
+_mySenha=F708F
+_partidaId=204
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=0
+_nJogadores=1
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+409	iPad	0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+108-
+
+************PrintVariaveisGlobais[107] - Rotina****************************
+_myId=409
+_mySenha=F708F
+_partidaId=204
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=0
+_nJogadores=1
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+409	iPad	0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+115-
+
+************PrintVariaveisGlobais[114] - Rotina****************************
+_myId=409
+_mySenha=F708F
+_partidaId=204
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=0
+_nJogadores=1
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+409	iPad	0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+122-
+
+************PrintVariaveisGlobais[121] - Rotina****************************
+_myId=409
+_mySenha=F708F
+_partidaId=204
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=0
+_nJogadores=1
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+409	iPad	0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+129-
+
+************PrintVariaveisGlobais[128] - Rotina****************************
+_myId=409
+_mySenha=F708F
+_partidaId=204
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=0
+_nJogadores=1
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+409	iPad	0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+136-
+
+************PrintVariaveisGlobais[135] - Rotina****************************
+_myId=409
+_mySenha=F708F
+_partidaId=204
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=0
+_nJogadores=1
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+409	iPad	0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+143-
+
+************PrintVariaveisGlobais[142] - Rotina****************************
+_myId=409
+_mySenha=F708F
+_partidaId=204
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=0
+_nJogadores=1
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+409	iPad	0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+150-
+
+************PrintVariaveisGlobais[149] - Rotina****************************
+_myId=409
+_mySenha=F708F
+_partidaId=204
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=0
+_nJogadores=1
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+409	iPad	0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+157-
+
+************PrintVariaveisGlobais[156] - Rotina****************************
+_myId=409
+_mySenha=F708F
+_partidaId=204
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=0
+_nJogadores=1
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+409	iPad	0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+164-
+
+************PrintVariaveisGlobais[163] - Rotina****************************
+_myId=409
+_mySenha=F708F
+_partidaId=204
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=0
+_nJogadores=1
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+409	iPad	0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+171-
+
+************PrintVariaveisGlobais[170] - Rotina****************************
+_myId=409
+_mySenha=F708F
+_partidaId=204
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=0
+_nJogadores=1
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+409	iPad	0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+178-
+
+************PrintVariaveisGlobais[177] - Rotina****************************
+_myId=409
+_mySenha=F708F
+_partidaId=204
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=0
+_nJogadores=1
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+409	iPad	0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+185-
+
+************PrintVariaveisGlobais[184] - Rotina****************************
+_myId=409
+_mySenha=F708F
+_partidaId=204
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=0
+_nJogadores=1
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+409	iPad	0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+192-
+
+************PrintVariaveisGlobais[191] - Rotina****************************
+_myId=409
+_mySenha=F708F
+_partidaId=204
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=0
+_nJogadores=1
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+409	iPad	0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+199-
+
+************PrintVariaveisGlobais[198] - Rotina****************************
+_myId=409
+_mySenha=F708F
+_partidaId=204
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=0
+_nJogadores=1
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+409	iPad	0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+206-
+
+************PrintVariaveisGlobais[205] - Rotina****************************
+_myId=409
+_mySenha=F708F
+_partidaId=204
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=0
+_nJogadores=1
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+409	iPad	0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+213-
+
+************PrintVariaveisGlobais[212] - Rotina****************************
+_myId=409
+_mySenha=F708F
+_partidaId=204
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=0
+_nJogadores=1
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+409	iPad	0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+220-
+
+************PrintVariaveisGlobais[219] - Rotina****************************
+_myId=409
+_mySenha=F708F
+_partidaId=204
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=0
+_nJogadores=2
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+409	iPad	0	0			0	
+410	iPhone	0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+227-
+
+************PrintVariaveisGlobais[226] - Rotina****************************
+_myId=409
+_mySenha=F708F
+_partidaId=204
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=0
+_nJogadores=2
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+409	iPad	0	0			0	
+410	iPhone	0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+234-
+
+************PrintVariaveisGlobais[233] - Rotina****************************
+_myId=409
+_mySenha=F708F
+_partidaId=204
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=0
+_nJogadores=2
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+409	iPad	0	0			0	
+410	iPhone	0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+241-
+
+************PrintVariaveisGlobais[240] - Rotina****************************
+_myId=409
+_mySenha=F708F
+_partidaId=204
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=0
+_nJogadores=2
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+409	iPad	0	0			0	
+410	iPhone	0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+262-
+
+************PrintVariaveisGlobais[261] - Rotina****************************
+_myId=409
+_mySenha=F708F
+_partidaId=204
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=True
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=0
+_nJogadores=2
+_nCartasNaoMax=4
+Jogadores[id pontos cartasNAO HistoricoVotos]
+409	iPad	0	4			0	
+410	iPhone	0	4			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=13
+Personagens [id Status Meu Codinome]= 
+0	-1	True	A	
+1	-1	False	B	
+2	-1	True	C	
+3	-1	False	D	
+4	-1	True	E	
+5	-1	True	F	
+6	-1	False	G	
+7	-1	False	I	
+8	-1	False	L	
+9	-1	False	M	
+10	-1	True	N	
+11	-1	True	O	
+12	-1	False	P	
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+278-
+
+************PrintVariaveisGlobais[277] - Rotina****************************
+_myId=409
+_mySenha=F708F
+_partidaId=204
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=True
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=0
+_nJogadores=2
+_nCartasNaoMax=4
+Jogadores[id pontos cartasNAO HistoricoVotos]
+409	iPad	0	4			0	
+410	iPhone	0	4			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=13
+Personagens [id Status Meu Codinome]= 
+0	-1	True	A	
+1	-1	False	B	
+2	-1	True	C	
+3	-1	False	D	
+4	-1	True	E	
+5	-1	True	F	
+6	-1	False	G	
+7	-1	False	I	
+8	-1	False	L	
+9	-1	False	M	
+10	-1	True	N	
+11	-1	True	O	
+12	-1	False	P	
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+

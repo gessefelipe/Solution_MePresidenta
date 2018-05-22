@@ -1,0 +1,847 @@
+5-ENTRAR PARTIDA = 232  F8D53
+7-analisarStatus()
+9-analisarStatus()=Aberta
+12-analisarStatus()
+14-analisarStatus()=Aberta
+17-analisarStatus()
+19-analisarStatus()=Aberta
+22-analisarStatus()
+24-analisarStatus()=Aberta
+27-analisarStatus()
+29-analisarStatus()=Aberta
+32-analisarStatus()
+34-analisarStatus()=Aberta
+37-analisarStatus()
+39-analisarStatus()=Aberta
+42-analisarStatus()
+44-analisarStatus()=Aberta
+47-analisarStatus()
+49-analisarStatus()=Aberta
+52-analisarStatus()
+54-analisarStatus()=Aberta
+57-analisarStatus()
+59-analisarStatus()=Aberta
+62-analisarStatus()
+64-analisarStatus()=Aberta
+67-analisarStatus()
+69-analisarStatus()=Aberta
+72-analisarStatus()
+74-analisarStatus()=Aberta
+77-analisarStatus()
+79-analisarStatus()=Aberta
+82-analisarStatus()
+84-analisarStatus()=Aberta
+87-analisarStatus()
+89-analisarStatus()=Aberta
+92-analisarStatus()
+94-analisarStatus()=Em jogo
+95-analisarStatus()=Posicionar
+97-novaRodada
+100-verificarVez
+102-jogadordaVez = 232 - admin
+104-MINHA VEZ=TRUE
+106-analisarStatus()
+108-analisarStatus()=Em jogo
+109-analisarStatus()=Posicionar
+110-verificarVez
+112-jogadordaVez = 232 - admin
+114-MINHA VEZ=TRUE
+116-analisarStatus()
+118-analisarStatus()=Em jogo
+119-analisarStatus()=Posicionar
+120-verificarVez
+122-jogadordaVez = 232 - admin
+124-MINHA VEZ=TRUE
+126-analisarStatus()
+128-analisarStatus()=Em jogo
+129-analisarStatus()=Posicionar
+130-verificarVez
+132-jogadordaVez = 232 - admin
+134-MINHA VEZ=TRUE
+136-analisarStatus()
+138-analisarStatus()=Em jogo
+139-analisarStatus()=Posicionar
+140-verificarVez
+142-jogadordaVez = 232 - admin
+144-MINHA VEZ=TRUE
+146-analisarStatus()
+148-analisarStatus()=Em jogo
+149-analisarStatus()=Posicionar
+150-verificarVez
+152-jogadordaVez = 232 - admin
+154-MINHA VEZ=TRUE
+156-analisarStatus()
+158-analisarStatus()=Em jogo
+159-analisarStatus()=Posicionar
+160-verificarVez
+162-jogadordaVez = 232 - admin
+164-MINHA VEZ=TRUE
+166-analisarStatus()
+168-analisarStatus()=Em jogo
+169-analisarStatus()=Posicionar
+170-verificarVez
+172-jogadordaVez = 232 - admin
+174-MINHA VEZ=TRUE
+176-analisarStatus()
+178-analisarStatus()=Em jogo
+179-analisarStatus()=Posicionar
+180-verificarVez
+182-jogadordaVez = 232 - admin
+184-MINHA VEZ=TRUE
+186-analisarStatus()
+188-analisarStatus()=Em jogo
+189-analisarStatus()=Posicionar
+190-verificarVez
+192-jogadordaVez = 232 - admin
+194-MINHA VEZ=TRUE
+197-POSICIONAR PERSONAGEM OK
+198-analisarStatus()
+200-analisarStatus()=Em jogo
+201-analisarStatus()=Posicionar
+202-verificarVez
+204-jogadordaVez = 233 - aaaa
+206-ULTIMA JOGADA = admin,S,A,3
+
+207-calculoMinhaPontuacaoAtual
+208-MINHA VEZ=FALSE
+210-analisarStatus()
+212-analisarStatus()=Em jogo
+213-analisarStatus()=Posicionar
+214-verificarVez
+216-jogadordaVez = 233 - aaaa
+218-ULTIMA JOGADA = admin,S,A,3
+
+219-calculoMinhaPontuacaoAtual
+220-MINHA VEZ=FALSE
+222-analisarStatus()
+224-analisarStatus()=Em jogo
+225-analisarStatus()=Posicionar
+226-verificarVez
+228-jogadordaVez = 233 - aaaa
+230-ULTIMA JOGADA = admin,S,A,3
+
+231-calculoMinhaPontuacaoAtual
+232-MINHA VEZ=FALSE
+234-analisarStatus()
+236-analisarStatus()=Em jogo
+237-analisarStatus()=Posicionar
+238-verificarVez
+240-jogadordaVez = 233 - aaaa
+242-ULTIMA JOGADA = admin,S,A,3
+
+243-calculoMinhaPontuacaoAtual
+244-MINHA VEZ=FALSE
+246-analisarStatus()
+248-analisarStatus()=Em jogo
+249-analisarStatus()=Posicionar
+250-verificarVez
+252-jogadordaVez = 233 - aaaa
+254-ULTIMA JOGADA = admin,S,A,3
+
+255-calculoMinhaPontuacaoAtual
+256-MINHA VEZ=FALSE
+258-analisarStatus()
+260-analisarStatus()=Em jogo
+261-analisarStatus()=Posicionar
+262-verificarVez
+264-jogadordaVez = 233 - aaaa
+266-ULTIMA JOGADA = admin,S,A,3
+
+267-calculoMinhaPontuacaoAtual
+268-MINHA VEZ=FALSE
+270-analisarStatus()
+272-analisarStatus()=Em jogo
+273-analisarStatus()=Posicionar
+274-verificarVez
+276-jogadordaVez = 233 - aaaa
+278-ULTIMA JOGADA = admin,S,A,3
+
+279-calculoMinhaPontuacaoAtual
+280-MINHA VEZ=FALSE
+282-analisarStatus()
+284-analisarStatus()=Em jogo
+285-analisarStatus()=Posicionar
+286-verificarVez
+288-jogadordaVez = 233 - aaaa
+290-ULTIMA JOGADA = admin,S,A,3
+
+291-calculoMinhaPontuacaoAtual
+292-MINHA VEZ=FALSE
+294-analisarStatus()
+296-analisarStatus()=Em jogo
+297-analisarStatus()=Posicionar
+298-verificarVez
+300-jogadordaVez = 233 - aaaa
+302-ULTIMA JOGADA = admin,S,A,3
+
+303-calculoMinhaPontuacaoAtual
+304-MINHA VEZ=FALSE
+306-analisarStatus()
+308-analisarStatus()=Em jogo
+309-analisarStatus()=Posicionar
+310-verificarVez
+312-jogadordaVez = 233 - aaaa
+314-ULTIMA JOGADA = admin,S,A,3
+
+315-calculoMinhaPontuacaoAtual
+316-MINHA VEZ=FALSE
+318-analisarStatus()
+320-analisarStatus()=Em jogo
+321-analisarStatus()=Posicionar
+322-verificarVez
+324-jogadordaVez = 232 - admin
+326-ULTIMA JOGADA = aaaa,S,B,4
+admin,S,A,3
+
+327-calculoMinhaPontuacaoAtual
+328-MINHA VEZ=TRUE
+330-analisarStatus()
+332-analisarStatus()=Em jogo
+333-analisarStatus()=Posicionar
+334-verificarVez
+336-jogadordaVez = 232 - admin
+338-ULTIMA JOGADA = aaaa,S,B,4
+admin,S,A,3
+
+339-calculoMinhaPontuacaoAtual
+340-MINHA VEZ=TRUE
+342-analisarStatus()
+344-analisarStatus()=Em jogo
+345-analisarStatus()=Posicionar
+346-verificarVez
+348-jogadordaVez = 232 - admin
+350-ULTIMA JOGADA = aaaa,S,B,4
+admin,S,A,3
+
+351-calculoMinhaPontuacaoAtual
+352-MINHA VEZ=TRUE
+354-analisarStatus()
+356-analisarStatus()=Em jogo
+357-analisarStatus()=Posicionar
+358-verificarVez
+360-jogadordaVez = 232 - admin
+362-ULTIMA JOGADA = aaaa,S,B,4
+admin,S,A,3
+
+363-calculoMinhaPontuacaoAtual
+364-MINHA VEZ=TRUE
+366-analisarStatus()
+368-analisarStatus()=Em jogo
+369-analisarStatus()=Posicionar
+370-verificarVez
+372-jogadordaVez = 232 - admin
+374-ULTIMA JOGADA = aaaa,S,B,4
+admin,S,A,3
+
+375-calculoMinhaPontuacaoAtual
+376-MINHA VEZ=TRUE
+378-analisarStatus()
+380-analisarStatus()=Em jogo
+381-analisarStatus()=Posicionar
+382-verificarVez
+384-jogadordaVez = 232 - admin
+386-ULTIMA JOGADA = aaaa,S,B,4
+admin,S,A,3
+
+387-calculoMinhaPontuacaoAtual
+388-MINHA VEZ=TRUE
+390-analisarStatus()
+392-analisarStatus()=Em jogo
+393-analisarStatus()=Posicionar
+394-verificarVez
+396-jogadordaVez = 232 - admin
+398-ULTIMA JOGADA = aaaa,S,B,4
+admin,S,A,3
+
+399-calculoMinhaPontuacaoAtual
+400-MINHA VEZ=TRUE
+402-analisarStatus()
+404-analisarStatus()=Em jogo
+405-analisarStatus()=Posicionar
+406-verificarVez
+408-jogadordaVez = 232 - admin
+410-ULTIMA JOGADA = aaaa,S,B,4
+admin,S,A,3
+
+411-calculoMinhaPontuacaoAtual
+412-MINHA VEZ=TRUE
+414-analisarStatus()
+416-analisarStatus()=Em jogo
+417-analisarStatus()=Posicionar
+418-verificarVez
+420-jogadordaVez = 232 - admin
+422-ULTIMA JOGADA = aaaa,S,B,4
+admin,S,A,3
+
+423-calculoMinhaPontuacaoAtual
+424-MINHA VEZ=TRUE
+426-analisarStatus()
+428-analisarStatus()=Em jogo
+429-analisarStatus()=Posicionar
+430-verificarVez
+432-jogadordaVez = 232 - admin
+434-ULTIMA JOGADA = aaaa,S,B,4
+admin,S,A,3
+
+435-calculoMinhaPontuacaoAtual
+436-MINHA VEZ=TRUE
+438-analisarStatus()
+440-analisarStatus()=Em jogo
+441-analisarStatus()=Posicionar
+442-verificarVez
+444-jogadordaVez = 232 - admin
+446-ULTIMA JOGADA = aaaa,S,B,4
+admin,S,A,3
+
+447-calculoMinhaPontuacaoAtual
+448-MINHA VEZ=TRUE
+450-analisarStatus()
+452-analisarStatus()=Em jogo
+453-analisarStatus()=Posicionar
+454-verificarVez
+456-jogadordaVez = 232 - admin
+458-ULTIMA JOGADA = aaaa,S,B,4
+admin,S,A,3
+
+459-calculoMinhaPontuacaoAtual
+460-MINHA VEZ=TRUE
+462-analisarStatus()
+464-analisarStatus()=Em jogo
+465-analisarStatus()=Posicionar
+466-verificarVez
+468-jogadordaVez = 232 - admin
+470-ULTIMA JOGADA = aaaa,S,B,4
+admin,S,A,3
+
+471-calculoMinhaPontuacaoAtual
+472-MINHA VEZ=TRUE
+474-analisarStatus()
+476-analisarStatus()=Em jogo
+477-analisarStatus()=Posicionar
+478-verificarVez
+480-jogadordaVez = 232 - admin
+482-ULTIMA JOGADA = aaaa,S,B,4
+admin,S,A,3
+
+483-calculoMinhaPontuacaoAtual
+484-MINHA VEZ=TRUE
+486-analisarStatus()
+488-analisarStatus()=Em jogo
+489-analisarStatus()=Posicionar
+490-verificarVez
+492-jogadordaVez = 232 - admin
+494-ULTIMA JOGADA = aaaa,S,B,4
+admin,S,A,3
+
+495-calculoMinhaPontuacaoAtual
+496-MINHA VEZ=TRUE
+498-analisarStatus()
+500-analisarStatus()=Em jogo
+501-analisarStatus()=Posicionar
+502-verificarVez
+504-jogadordaVez = 232 - admin
+506-ULTIMA JOGADA = aaaa,S,B,4
+admin,S,A,3
+
+507-calculoMinhaPontuacaoAtual
+508-MINHA VEZ=TRUE
+510-analisarStatus()
+512-analisarStatus()=Em jogo
+513-analisarStatus()=Posicionar
+514-verificarVez
+516-jogadordaVez = 232 - admin
+518-ULTIMA JOGADA = aaaa,S,B,4
+admin,S,A,3
+
+519-calculoMinhaPontuacaoAtual
+520-MINHA VEZ=TRUE
+522-analisarStatus()
+524-analisarStatus()=Em jogo
+525-analisarStatus()=Posicionar
+526-verificarVez
+528-jogadordaVez = 232 - admin
+530-ULTIMA JOGADA = aaaa,S,B,4
+admin,S,A,3
+
+531-calculoMinhaPontuacaoAtual
+532-MINHA VEZ=TRUE
+534-analisarStatus()
+536-analisarStatus()=Em jogo
+537-analisarStatus()=Posicionar
+538-verificarVez
+540-jogadordaVez = 232 - admin
+542-ULTIMA JOGADA = aaaa,S,B,4
+admin,S,A,3
+
+543-calculoMinhaPontuacaoAtual
+544-MINHA VEZ=TRUE
+547-POSICIONAR PERSONAGEM OK
+548-analisarStatus()
+550-analisarStatus()=Em jogo
+551-analisarStatus()=Posicionar
+552-verificarVez
+554-jogadordaVez = 233 - aaaa
+556-ULTIMA JOGADA = aaaa,S,D,4
+admin,S,C,3
+
+557-calculoMinhaPontuacaoAtual
+558-MINHA VEZ=FALSE
+560-analisarStatus()
+562-analisarStatus()=Em jogo
+563-analisarStatus()=Posicionar
+564-verificarVez
+566-jogadordaVez = 232 - admin
+568-ULTIMA JOGADA = aaaa,S,D,4
+admin,S,C,3
+
+569-calculoMinhaPontuacaoAtual
+570-MINHA VEZ=TRUE
+572-analisarStatus()
+574-analisarStatus()=Em jogo
+575-analisarStatus()=Posicionar
+576-verificarVez
+578-jogadordaVez = 232 - admin
+580-ULTIMA JOGADA = aaaa,S,D,4
+admin,S,C,3
+
+581-calculoMinhaPontuacaoAtual
+582-MINHA VEZ=TRUE
+584-analisarStatus()
+586-analisarStatus()=Em jogo
+587-analisarStatus()=Posicionar
+588-verificarVez
+590-jogadordaVez = 232 - admin
+592-ULTIMA JOGADA = aaaa,S,D,4
+admin,S,C,3
+
+593-calculoMinhaPontuacaoAtual
+594-MINHA VEZ=TRUE
+596-analisarStatus()
+598-analisarStatus()=Em jogo
+599-analisarStatus()=Posicionar
+600-verificarVez
+602-jogadordaVez = 232 - admin
+604-ULTIMA JOGADA = aaaa,S,D,4
+admin,S,C,3
+
+605-calculoMinhaPontuacaoAtual
+606-MINHA VEZ=TRUE
+608-analisarStatus()
+610-analisarStatus()=Em jogo
+611-analisarStatus()=Posicionar
+612-verificarVez
+614-jogadordaVez = 232 - admin
+616-ULTIMA JOGADA = aaaa,S,D,4
+admin,S,C,3
+
+617-calculoMinhaPontuacaoAtual
+618-MINHA VEZ=TRUE
+619-autoposicionar
+620-calculoNumeroPersonagensDesempregados=9
+621-algoritmoPosicionarPadrao
+622-algoritmoPosicionarPadrao - Tentar posicionar 4(E)
+624-algoritmoPosicionarPadrao - personagemPosicionar()=false
+625-algoritmoPosicionarPadrao - Tentar posicionar 4(E)
+627-algoritmoPosicionarPadrao - personagemPosicionar()=false
+628-algoritmoPosicionarPadrao - Tentar posicionar 4(E)
+630-algoritmoPosicionarPadrao - personagemPosicionar()=false
+631-algoritmoPosicionarPadrao - Tentar posicionar 4(E)
+633-algoritmoPosicionarPadrao - personagemPosicionar()=false
+634-ERRO: algoritmo padrao nao funcionou
+635-ERRO AO AUTOPOSICIONAR
+637-analisarStatus()
+639-analisarStatus()=Em jogo
+640-analisarStatus()=Posicionar
+641-verificarVez
+643-jogadordaVez = 232 - admin
+645-ULTIMA JOGADA = aaaa,S,D,4
+admin,S,C,3
+
+646-calculoMinhaPontuacaoAtual
+647-MINHA VEZ=TRUE
+648-autoposicionar
+649-calculoNumeroPersonagensDesempregados=9
+650-algoritmoPosicionarPadrao
+651-algoritmoPosicionarPadrao - Tentar posicionar 4(E)
+653-algoritmoPosicionarPadrao - personagemPosicionar()=false
+654-algoritmoPosicionarPadrao - Tentar posicionar 4(E)
+656-algoritmoPosicionarPadrao - personagemPosicionar()=false
+657-algoritmoPosicionarPadrao - Tentar posicionar 4(E)
+659-algoritmoPosicionarPadrao - personagemPosicionar()=false
+660-algoritmoPosicionarPadrao - Tentar posicionar 4(E)
+662-algoritmoPosicionarPadrao - personagemPosicionar()=false
+663-ERRO: algoritmo padrao nao funcionou
+664-ERRO AO AUTOPOSICIONAR
+666-analisarStatus()
+668-analisarStatus()=Em jogo
+669-analisarStatus()=Posicionar
+670-verificarVez
+672-jogadordaVez = 232 - admin
+674-ULTIMA JOGADA = aaaa,S,D,4
+admin,S,C,3
+
+675-calculoMinhaPontuacaoAtual
+676-MINHA VEZ=TRUE
+677-autoposicionar
+678-calculoNumeroPersonagensDesempregados=9
+679-algoritmoPosicionarPadrao
+680-algoritmoPosicionarPadrao - Tentar posicionar 4(E)
+682-algoritmoPosicionarPadrao - personagemPosicionar()=false
+683-algoritmoPosicionarPadrao - Tentar posicionar 4(E)
+685-algoritmoPosicionarPadrao - personagemPosicionar()=false
+686-algoritmoPosicionarPadrao - Tentar posicionar 4(E)
+688-algoritmoPosicionarPadrao - personagemPosicionar()=false
+689-algoritmoPosicionarPadrao - Tentar posicionar 4(E)
+691-algoritmoPosicionarPadrao - personagemPosicionar()=false
+692-ERRO: algoritmo padrao nao funcionou
+693-ERRO AO AUTOPOSICIONAR
+695-analisarStatus()
+697-analisarStatus()=Em jogo
+698-analisarStatus()=Posicionar
+699-verificarVez
+701-jogadordaVez = 232 - admin
+703-ULTIMA JOGADA = aaaa,S,D,4
+admin,S,C,3
+
+704-calculoMinhaPontuacaoAtual
+705-MINHA VEZ=TRUE
+706-autoposicionar
+707-calculoNumeroPersonagensDesempregados=9
+708-algoritmoPosicionarPadrao
+709-algoritmoPosicionarPadrao - Tentar posicionar 4(E)
+711-algoritmoPosicionarPadrao - personagemPosicionar()=false
+712-algoritmoPosicionarPadrao - Tentar posicionar 4(E)
+714-algoritmoPosicionarPadrao - personagemPosicionar()=false
+715-algoritmoPosicionarPadrao - Tentar posicionar 4(E)
+717-algoritmoPosicionarPadrao - personagemPosicionar()=false
+718-algoritmoPosicionarPadrao - Tentar posicionar 4(E)
+720-algoritmoPosicionarPadrao - personagemPosicionar()=false
+721-ERRO: algoritmo padrao nao funcionou
+722-ERRO AO AUTOPOSICIONAR
+724-analisarStatus()
+726-analisarStatus()=Em jogo
+727-analisarStatus()=Posicionar
+728-verificarVez
+730-jogadordaVez = 232 - admin
+732-ULTIMA JOGADA = aaaa,S,D,4
+admin,S,C,3
+
+733-calculoMinhaPontuacaoAtual
+734-MINHA VEZ=TRUE
+735-autoposicionar
+736-calculoNumeroPersonagensDesempregados=9
+737-algoritmoPosicionarPadrao
+738-algoritmoPosicionarPadrao - Tentar posicionar 4(E)
+740-algoritmoPosicionarPadrao - personagemPosicionar()=false
+741-algoritmoPosicionarPadrao - Tentar posicionar 4(E)
+743-algoritmoPosicionarPadrao - personagemPosicionar()=false
+744-algoritmoPosicionarPadrao - Tentar posicionar 4(E)
+746-algoritmoPosicionarPadrao - personagemPosicionar()=false
+747-algoritmoPosicionarPadrao - Tentar posicionar 4(E)
+749-algoritmoPosicionarPadrao - personagemPosicionar()=false
+750-ERRO: algoritmo padrao nao funcionou
+751-ERRO AO AUTOPOSICIONAR
+753-analisarStatus()
+755-analisarStatus()=Em jogo
+756-analisarStatus()=Posicionar
+757-verificarVez
+759-jogadordaVez = 232 - admin
+761-ULTIMA JOGADA = aaaa,S,D,4
+admin,S,C,3
+
+762-calculoMinhaPontuacaoAtual
+763-MINHA VEZ=TRUE
+764-autoposicionar
+765-calculoNumeroPersonagensDesempregados=9
+766-algoritmoPosicionarPadrao
+767-algoritmoPosicionarPadrao - Tentar posicionar 4(E)
+769-algoritmoPosicionarPadrao - personagemPosicionar()=false
+770-algoritmoPosicionarPadrao - Tentar posicionar 4(E)
+772-algoritmoPosicionarPadrao - personagemPosicionar()=false
+773-algoritmoPosicionarPadrao - Tentar posicionar 4(E)
+775-algoritmoPosicionarPadrao - personagemPosicionar()=false
+776-algoritmoPosicionarPadrao - Tentar posicionar 4(E)
+778-algoritmoPosicionarPadrao - personagemPosicionar()=false
+779-ERRO: algoritmo padrao nao funcionou
+780-ERRO AO AUTOPOSICIONAR
+782-analisarStatus()
+784-analisarStatus()=Em jogo
+785-analisarStatus()=Posicionar
+786-verificarVez
+788-jogadordaVez = 232 - admin
+790-ULTIMA JOGADA = aaaa,S,D,4
+admin,S,C,3
+
+791-calculoMinhaPontuacaoAtual
+792-MINHA VEZ=TRUE
+793-autoposicionar
+794-calculoNumeroPersonagensDesempregados=9
+795-algoritmoPosicionarPadrao
+796-algoritmoPosicionarPadrao - Tentar posicionar 4(E)
+798-algoritmoPosicionarPadrao - personagemPosicionar()=false
+799-algoritmoPosicionarPadrao - Tentar posicionar 4(E)
+801-algoritmoPosicionarPadrao - personagemPosicionar()=false
+802-algoritmoPosicionarPadrao - Tentar posicionar 4(E)
+804-algoritmoPosicionarPadrao - personagemPosicionar()=false
+805-algoritmoPosicionarPadrao - Tentar posicionar 4(E)
+807-algoritmoPosicionarPadrao - personagemPosicionar()=false
+808-ERRO: algoritmo padrao nao funcionou
+809-ERRO AO AUTOPOSICIONAR
+811-analisarStatus()
+813-analisarStatus()=Em jogo
+814-analisarStatus()=Posicionar
+815-verificarVez
+817-jogadordaVez = 232 - admin
+819-ULTIMA JOGADA = aaaa,S,D,4
+admin,S,C,3
+
+820-calculoMinhaPontuacaoAtual
+821-MINHA VEZ=TRUE
+822-autoposicionar
+823-calculoNumeroPersonagensDesempregados=9
+824-algoritmoPosicionamentoEquilibrado
+825-calculoQtdMeusPersonagensNoNivel
+827-calculoQtdMeusPersonagensNoNivel
+829-calculoQtdMeusPersonagensNoNivel
+831-calculoQtdMeusPersonagensNoNivel
+833-calculoQtdMeusPersonagensNoNivel
+835-calculoQtdMeusPersonagensNoNivel
+837-calculoQtdMeusPersonagensNoNivel
+839-calculoQtdMeusPersonagensNoNivel
+841-calculoQtdMeusPersonagensNoNivel
+843-calculoQtdMeusPersonagensNoNivel
+845-calculoQtdMeusPersonagensNoNivel
+847-calculoQtdMeusPersonagensNoNivel
+849-calculoQtdMeusPersonagensNoNivel
+851-calculoQtdMeusPersonagensNoNivel
+853-calculoQtdMeusPersonagensNoNivel
+855-calculoQtdMeusPersonagensNoNivel
+857-ERRO: algoritmo posicionamento equilibrado nao funcionou
+858-autoposicionar
+859-calculoNumeroPersonagensDesempregados=9
+860-algoritmoPosicionarPadrao
+861-algoritmoPosicionarPadrao - Tentar posicionar 4(E)
+863-algoritmoPosicionarPadrao - personagemPosicionar()=false
+864-algoritmoPosicionarPadrao - Tentar posicionar 4(E)
+866-algoritmoPosicionarPadrao - personagemPosicionar()=false
+867-algoritmoPosicionarPadrao - Tentar posicionar 4(E)
+869-algoritmoPosicionarPadrao - personagemPosicionar()=false
+870-algoritmoPosicionarPadrao - Tentar posicionar 4(E)
+872-algoritmoPosicionarPadrao - personagemPosicionar()=false
+873-ERRO: algoritmo padrao nao funcionou
+874-ERRO AO AUTOPOSICIONAR
+876-analisarStatus()
+878-analisarStatus()=Em jogo
+879-analisarStatus()=Posicionar
+880-verificarVez
+882-jogadordaVez = 232 - admin
+884-ULTIMA JOGADA = aaaa,S,D,4
+admin,S,C,3
+
+885-calculoMinhaPontuacaoAtual
+886-MINHA VEZ=TRUE
+887-autoposicionar
+888-calculoNumeroPersonagensDesempregados=9
+889-algoritmoPosicionamentoEquilibrado
+890-calculoQtdMeusPersonagensNoNivel
+892-calculoQtdMeusPersonagensNoNivel
+894-calculoQtdMeusPersonagensNoNivel
+896-calculoQtdMeusPersonagensNoNivel
+898-calculoQtdMeusPersonagensNoNivel
+900-calculoQtdMeusPersonagensNoNivel
+902-calculoQtdMeusPersonagensNoNivel
+904-calculoQtdMeusPersonagensNoNivel
+906-calculoQtdMeusPersonagensNoNivel
+908-calculoQtdMeusPersonagensNoNivel
+910-calculoQtdMeusPersonagensNoNivel
+912-calculoQtdMeusPersonagensNoNivel
+914-calculoQtdMeusPersonagensNoNivel
+916-calculoQtdMeusPersonagensNoNivel
+918-calculoQtdMeusPersonagensNoNivel
+920-calculoQtdMeusPersonagensNoNivel
+922-ERRO: algoritmo posicionamento equilibrado nao funcionou
+923-autoposicionar
+924-calculoNumeroPersonagensDesempregados=9
+925-algoritmoPosicionarPadrao
+926-algoritmoPosicionarPadrao - Tentar posicionar 4(E)
+928-algoritmoPosicionarPadrao - personagemPosicionar()=false
+929-algoritmoPosicionarPadrao - Tentar posicionar 4(E)
+931-algoritmoPosicionarPadrao - personagemPosicionar()=false
+932-algoritmoPosicionarPadrao - Tentar posicionar 4(E)
+934-algoritmoPosicionarPadrao - personagemPosicionar()=false
+935-algoritmoPosicionarPadrao - Tentar posicionar 4(E)
+937-algoritmoPosicionarPadrao - personagemPosicionar()=false
+938-ERRO: algoritmo padrao nao funcionou
+939-ERRO AO AUTOPOSICIONAR
+941-analisarStatus()
+943-analisarStatus()=Em jogo
+944-analisarStatus()=Posicionar
+945-verificarVez
+947-jogadordaVez = 232 - admin
+949-ULTIMA JOGADA = aaaa,S,D,4
+admin,S,C,3
+
+950-calculoMinhaPontuacaoAtual
+951-MINHA VEZ=TRUE
+952-autoposicionar
+953-calculoNumeroPersonagensDesempregados=9
+954-algoritmoPosicionamentoEquilibrado
+955-calculoQtdMeusPersonagensNoNivel
+957-calculoQtdMeusPersonagensNoNivel
+959-calculoQtdMeusPersonagensNoNivel
+961-calculoQtdMeusPersonagensNoNivel
+963-calculoQtdMeusPersonagensNoNivel
+965-calculoQtdMeusPersonagensNoNivel
+967-calculoQtdMeusPersonagensNoNivel
+969-calculoQtdMeusPersonagensNoNivel
+971-calculoQtdMeusPersonagensNoNivel
+973-calculoQtdMeusPersonagensNoNivel
+975-calculoQtdMeusPersonagensNoNivel
+977-calculoQtdMeusPersonagensNoNivel
+979-calculoQtdMeusPersonagensNoNivel
+981-calculoQtdMeusPersonagensNoNivel
+983-calculoQtdMeusPersonagensNoNivel
+985-calculoQtdMeusPersonagensNoNivel
+987-ERRO: algoritmo posicionamento equilibrado nao funcionou
+988-autoposicionar
+989-calculoNumeroPersonagensDesempregados=9
+990-algoritmoPosicionarPadrao
+991-algoritmoPosicionarPadrao - Tentar posicionar 4(E)
+993-algoritmoPosicionarPadrao - personagemPosicionar()=false
+994-algoritmoPosicionarPadrao - Tentar posicionar 4(E)
+996-algoritmoPosicionarPadrao - personagemPosicionar()=false
+997-algoritmoPosicionarPadrao - Tentar posicionar 4(E)
+999-algoritmoPosicionarPadrao - personagemPosicionar()=false
+1000-algoritmoPosicionarPadrao - Tentar posicionar 4(E)
+1002-algoritmoPosicionarPadrao - personagemPosicionar()=false
+1003-ERRO: algoritmo padrao nao funcionou
+1004-ERRO AO AUTOPOSICIONAR
+1006-analisarStatus()
+1008-analisarStatus()=Em jogo
+1009-analisarStatus()=Posicionar
+1010-verificarVez
+1012-jogadordaVez = 232 - admin
+1014-ULTIMA JOGADA = aaaa,S,D,4
+admin,S,C,3
+
+1015-calculoMinhaPontuacaoAtual
+1016-MINHA VEZ=TRUE
+1017-autoposicionar
+1018-calculoNumeroPersonagensDesempregados=9
+1019-algoritmoPosicionamentoEquilibrado
+1020-calculoQtdMeusPersonagensNoNivel
+1022-calculoQtdMeusPersonagensNoNivel
+1024-calculoQtdMeusPersonagensNoNivel
+1026-calculoQtdMeusPersonagensNoNivel
+1028-calculoQtdMeusPersonagensNoNivel
+1030-calculoQtdMeusPersonagensNoNivel
+1032-calculoQtdMeusPersonagensNoNivel
+1034-calculoQtdMeusPersonagensNoNivel
+1036-calculoQtdMeusPersonagensNoNivel
+1038-calculoQtdMeusPersonagensNoNivel
+1040-calculoQtdMeusPersonagensNoNivel
+1042-calculoQtdMeusPersonagensNoNivel
+1044-calculoQtdMeusPersonagensNoNivel
+1046-calculoQtdMeusPersonagensNoNivel
+1048-calculoQtdMeusPersonagensNoNivel
+1050-calculoQtdMeusPersonagensNoNivel
+1052-ERRO: algoritmo posicionamento equilibrado nao funcionou
+1053-autoposicionar
+1054-calculoNumeroPersonagensDesempregados=9
+1055-algoritmoPosicionarPadrao
+1056-algoritmoPosicionarPadrao - Tentar posicionar 4(E)
+1058-algoritmoPosicionarPadrao - personagemPosicionar()=false
+1059-algoritmoPosicionarPadrao - Tentar posicionar 4(E)
+1061-algoritmoPosicionarPadrao - personagemPosicionar()=false
+1062-algoritmoPosicionarPadrao - Tentar posicionar 4(E)
+1064-algoritmoPosicionarPadrao - personagemPosicionar()=false
+1065-algoritmoPosicionarPadrao - Tentar posicionar 4(E)
+1067-algoritmoPosicionarPadrao - personagemPosicionar()=false
+1068-ERRO: algoritmo padrao nao funcionou
+1069-ERRO AO AUTOPOSICIONAR
+1071-analisarStatus()
+1073-analisarStatus()=Em jogo
+1074-analisarStatus()=Posicionar
+1075-verificarVez
+1077-jogadordaVez = 232 - admin
+1079-ULTIMA JOGADA = aaaa,S,D,4
+admin,S,C,3
+
+1080-calculoMinhaPontuacaoAtual
+1081-MINHA VEZ=TRUE
+1082-autoposicionar
+1083-calculoNumeroPersonagensDesempregados=9
+1084-algoritmoPosicionamentoEquilibrado
+1085-calculoQtdMeusPersonagensNoNivel
+1087-calculoQtdMeusPersonagensNoNivel
+1089-calculoQtdMeusPersonagensNoNivel
+1091-calculoQtdMeusPersonagensNoNivel
+1093-calculoQtdMeusPersonagensNoNivel
+1095-calculoQtdMeusPersonagensNoNivel
+1097-calculoQtdMeusPersonagensNoNivel
+1099-calculoQtdMeusPersonagensNoNivel
+1101-calculoQtdMeusPersonagensNoNivel
+1103-calculoQtdMeusPersonagensNoNivel
+1105-calculoQtdMeusPersonagensNoNivel
+1107-calculoQtdMeusPersonagensNoNivel
+1109-calculoQtdMeusPersonagensNoNivel
+1111-calculoQtdMeusPersonagensNoNivel
+1113-calculoQtdMeusPersonagensNoNivel
+1115-calculoQtdMeusPersonagensNoNivel
+1117-ERRO: algoritmo posicionamento equilibrado nao funcionou
+1118-autoposicionar
+1119-calculoNumeroPersonagensDesempregados=9
+1120-algoritmoPosicionarPadrao
+1121-algoritmoPosicionarPadrao - Tentar posicionar 4(E)
+1123-algoritmoPosicionarPadrao - personagemPosicionar()=false
+1124-algoritmoPosicionarPadrao - Tentar posicionar 4(E)
+1126-algoritmoPosicionarPadrao - personagemPosicionar()=false
+1127-algoritmoPosicionarPadrao - Tentar posicionar 4(E)
+1129-algoritmoPosicionarPadrao - personagemPosicionar()=false
+1130-algoritmoPosicionarPadrao - Tentar posicionar 4(E)
+1132-algoritmoPosicionarPadrao - personagemPosicionar()=false
+1133-ERRO: algoritmo padrao nao funcionou
+1134-ERRO AO AUTOPOSICIONAR
+1136-analisarStatus()
+1138-analisarStatus()=Em jogo
+1139-analisarStatus()=Posicionar
+1140-verificarVez
+1142-jogadordaVez = 232 - admin
+1144-ULTIMA JOGADA = aaaa,S,D,4
+admin,S,C,3
+
+1145-calculoMinhaPontuacaoAtual
+1146-MINHA VEZ=TRUE
+1147-autoposicionar
+1148-calculoNumeroPersonagensDesempregados=9
+1149-algoritmoPosicionamentoEquilibrado
+1150-calculoQtdMeusPersonagensNoNivel
+1152-calculoQtdMeusPersonagensNoNivel
+1154-calculoQtdMeusPersonagensNoNivel
+1156-calculoQtdMeusPersonagensNoNivel
+1158-calculoQtdMeusPersonagensNoNivel
+1160-calculoQtdMeusPersonagensNoNivel
+1162-calculoQtdMeusPersonagensNoNivel
+1164-calculoQtdMeusPersonagensNoNivel
+1166-calculoQtdMeusPersonagensNoNivel
+1168-calculoQtdMeusPersonagensNoNivel
+1170-calculoQtdMeusPersonagensNoNivel
+1172-calculoQtdMeusPersonagensNoNivel
+1174-calculoQtdMeusPersonagensNoNivel
+1176-calculoQtdMeusPersonagensNoNivel
+1178-calculoQtdMeusPersonagensNoNivel
+1180-calculoQtdMeusPersonagensNoNivel
+1182-ERRO: algoritmo posicionamento equilibrado nao funcionou
+1183-autoposicionar
+1184-calculoNumeroPersonagensDesempregados=9
+1185-algoritmoPosicionarPadrao
+1186-algoritmoPosicionarPadrao - Tentar posicionar 4(E)
+1188-algoritmoPosicionarPadrao - personagemPosicionar()=false
+1189-algoritmoPosicionarPadrao - Tentar posicionar 4(E)
+1191-algoritmoPosicionarPadrao - personagemPosicionar()=false
+1192-algoritmoPosicionarPadrao - Tentar posicionar 4(E)
+1194-algoritmoPosicionarPadrao - personagemPosicionar()=false
+1195-algoritmoPosicionarPadrao - Tentar posicionar 4(E)
+1197-algoritmoPosicionarPadrao - personagemPosicionar()=false
+1198-ERRO: algoritmo padrao nao funcionou
+1199-ERRO AO AUTOPOSICIONAR

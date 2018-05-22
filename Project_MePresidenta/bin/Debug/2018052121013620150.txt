@@ -1,0 +1,640 @@
+5-NUMERO DA PARTIDA CRIADA = 200
+9-ENTRAR PARTIDA = 401  45C8F
+12-analisarStatus()
+15-analisarStatus()=Aberta
+19-analisarStatus()
+22-analisarStatus()=Aberta
+26-analisarStatus()
+29-analisarStatus()=Aberta
+33-analisarStatus()
+36-analisarStatus()=Aberta
+40-analisarStatus()
+43-analisarStatus()=Aberta
+47-analisarStatus()
+50-analisarStatus()=Aberta
+54-analisarStatus()
+57-analisarStatus()=Aberta
+61-analisarStatus()
+64-analisarStatus()=Aberta
+68-analisarStatus()
+71-analisarStatus()=Aberta
+75-analisarStatus()
+78-analisarStatus()=Aberta
+82-analisarStatus()
+85-analisarStatus()=Aberta
+89-analisarStatus()
+92-analisarStatus()=Aberta
+96-analisarStatus()
+99-analisarStatus()=Aberta
+103-analisarStatus()
+106-analisarStatus()=Aberta
+110-analisarStatus()
+113-analisarStatus()=Aberta
+117-analisarStatus()
+120-analisarStatus()=Aberta
+124-analisarStatus()
+127-analisarStatus()=Aberta
+131-analisarStatus()
+134-analisarStatus()=Aberta
+138-analisarStatus()
+141-analisarStatus()=Aberta
+145-analisarStatus()
+148-analisarStatus()=Aberta
+152-analisarStatus()
+155-analisarStatus()=Aberta
+159-analisarStatus()
+162-analisarStatus()=Aberta
+166-analisarStatus()
+169-analisarStatus()=Aberta
+173-analisarStatus()
+176-analisarStatus()=Aberta
+180-analisarStatus()
+183-analisarStatus()=Aberta
+187-analisarStatus()
+190-analisarStatus()=Aberta
+194-analisarStatus()
+197-analisarStatus()=Aberta
+201-analisarStatus()
+204-analisarStatus()=Aberta
+208-analisarStatus()
+211-analisarStatus()=Aberta
+215-analisarStatus()
+218-analisarStatus()=Aberta
+222-analisarStatus()
+225-analisarStatus()=Aberta
+229-analisarStatus()
+232-analisarStatus()=Aberta
+236-analisarStatus()
+239-analisarStatus()=Aberta
+243-analisarStatus()
+246-analisarStatus()=Aberta
+250-analisarStatus()
+253-analisarStatus()=Aberta
+257-analisarStatus()
+260-analisarStatus()=Aberta
+264-analisarStatus()
+267-analisarStatus()=Aberta
+271-analisarStatus()
+274-analisarStatus()=Aberta
+278-analisarStatus()
+281-analisarStatus()=Aberta
+285-analisarStatus()
+288-analisarStatus()=Aberta
+292-analisarStatus()
+295-analisarStatus()=Aberta
+299-analisarStatus()
+302-analisarStatus()=Aberta
+306-analisarStatus()
+309-analisarStatus()=Aberta
+313-analisarStatus()
+316-analisarStatus()=Aberta
+320-analisarStatus()
+323-analisarStatus()=Aberta
+327-analisarStatus()
+330-analisarStatus()=Aberta
+334-analisarStatus()
+337-analisarStatus()=Aberta
+341-analisarStatus()
+344-analisarStatus()=Aberta
+348-analisarStatus()
+351-analisarStatus()=Aberta
+355-analisarStatus()
+358-analisarStatus()=Aberta
+362-analisarStatus()
+365-analisarStatus()=Aberta
+369-analisarStatus()
+372-analisarStatus()=Aberta
+376-analisarStatus()
+379-analisarStatus()=Aberta
+383-analisarStatus()
+386-analisarStatus()=Aberta
+390-analisarStatus()
+393-analisarStatus()=Aberta
+397-analisarStatus()
+400-analisarStatus()=Aberta
+404-analisarStatus()
+407-analisarStatus()=Aberta
+411-analisarStatus()
+414-analisarStatus()=Aberta
+418-analisarStatus()
+421-analisarStatus()=Aberta
+425-analisarStatus()
+428-analisarStatus()=Aberta
+432-analisarStatus()
+435-analisarStatus()=Aberta
+439-analisarStatus()
+442-analisarStatus()=Aberta
+446-analisarStatus()
+449-analisarStatus()=Aberta
+453-analisarStatus()
+456-analisarStatus()=Aberta
+460-analisarStatus()
+463-analisarStatus()=Aberta
+467-analisarStatus()
+470-analisarStatus()=Aberta
+474-analisarStatus()
+477-analisarStatus()=Aberta
+481-analisarStatus()
+484-analisarStatus()=Aberta
+488-analisarStatus()
+491-analisarStatus()=Aberta
+495-analisarStatus()
+498-analisarStatus()=Aberta
+502-analisarStatus()
+505-analisarStatus()=Aberta
+509-analisarStatus()
+512-analisarStatus()=Aberta
+516-analisarStatus()
+519-analisarStatus()=Aberta
+523-analisarStatus()
+526-analisarStatus()=Aberta
+530-analisarStatus()
+533-analisarStatus()=Aberta
+537-analisarStatus()
+540-analisarStatus()=Aberta
+544-analisarStatus()
+547-analisarStatus()=Aberta
+551-analisarStatus()
+554-analisarStatus()=Aberta
+558-analisarStatus()
+561-analisarStatus()=Aberta
+565-analisarStatus()
+568-analisarStatus()=Aberta
+572-analisarStatus()
+575-analisarStatus()=Aberta
+579-analisarStatus()
+582-analisarStatus()=Aberta
+586-analisarStatus()
+589-analisarStatus()=Aberta
+593-analisarStatus()
+596-analisarStatus()=Aberta
+600-analisarStatus()
+603-analisarStatus()=Aberta
+607-analisarStatus()
+610-analisarStatus()=Aberta
+614-analisarStatus()
+617-analisarStatus()=Aberta
+621-analisarStatus()
+624-analisarStatus()=Aberta
+628-analisarStatus()
+631-analisarStatus()=Aberta
+635-analisarStatus()
+638-analisarStatus()=Aberta
+642-analisarStatus()
+645-analisarStatus()=Aberta
+649-analisarStatus()
+652-analisarStatus()=Aberta
+656-analisarStatus()
+659-analisarStatus()=Aberta
+663-analisarStatus()
+666-analisarStatus()=Aberta
+670-analisarStatus()
+673-analisarStatus()=Aberta
+677-analisarStatus()
+680-analisarStatus()=Aberta
+684-analisarStatus()
+687-analisarStatus()=Aberta
+691-analisarStatus()
+694-analisarStatus()=Aberta
+698-analisarStatus()
+701-analisarStatus()=Aberta
+705-analisarStatus()
+708-analisarStatus()=Aberta
+712-analisarStatus()
+715-analisarStatus()=Aberta
+719-analisarStatus()
+722-analisarStatus()=Aberta
+726-analisarStatus()
+729-analisarStatus()=Aberta
+733-analisarStatus()
+736-analisarStatus()=Aberta
+740-analisarStatus()
+743-analisarStatus()=Aberta
+747-analisarStatus()
+750-analisarStatus()=Aberta
+754-analisarStatus()
+757-analisarStatus()=Aberta
+761-analisarStatus()
+764-analisarStatus()=Aberta
+768-analisarStatus()
+771-analisarStatus()=Aberta
+775-analisarStatus()
+778-analisarStatus()=Aberta
+782-analisarStatus()
+785-analisarStatus()=Aberta
+789-analisarStatus()
+792-analisarStatus()=Aberta
+796-analisarStatus()
+799-analisarStatus()=Aberta
+803-analisarStatus()
+806-analisarStatus()=Aberta
+810-analisarStatus()
+813-analisarStatus()=Aberta
+817-analisarStatus()
+820-analisarStatus()=Em jogo
+822-analisarStatus()=Posicionar
+825-novaRodada
+829-verificarVez
+832-jogadordaVez = 401 - JogadorUm
+835-MINHA VEZ=TRUE
+838-analisarStatus()
+841-analisarStatus()=Em jogo
+843-analisarStatus()=Posicionar
+845-verificarVez
+848-jogadordaVez = 401 - JogadorUm
+851-MINHA VEZ=TRUE
+854-analisarStatus()
+857-analisarStatus()=Em jogo
+859-analisarStatus()=Posicionar
+861-verificarVez
+864-jogadordaVez = 401 - JogadorUm
+867-MINHA VEZ=TRUE
+870-analisarStatus()
+873-analisarStatus()=Em jogo
+875-analisarStatus()=Posicionar
+877-verificarVez
+880-jogadordaVez = 401 - JogadorUm
+883-MINHA VEZ=TRUE
+886-analisarStatus()
+889-analisarStatus()=Em jogo
+891-analisarStatus()=Posicionar
+893-verificarVez
+896-jogadordaVez = 401 - JogadorUm
+899-MINHA VEZ=TRUE
+902-analisarStatus()
+905-analisarStatus()=Em jogo
+907-analisarStatus()=Posicionar
+909-verificarVez
+912-jogadordaVez = 401 - JogadorUm
+915-MINHA VEZ=TRUE
+918-analisarStatus()
+921-analisarStatus()=Em jogo
+923-analisarStatus()=Posicionar
+925-verificarVez
+928-jogadordaVez = 401 - JogadorUm
+931-MINHA VEZ=TRUE
+934-analisarStatus()
+937-analisarStatus()=Em jogo
+939-analisarStatus()=Posicionar
+941-verificarVez
+944-jogadordaVez = 401 - JogadorUm
+947-MINHA VEZ=TRUE
+950-analisarStatus()
+953-analisarStatus()=Em jogo
+955-analisarStatus()=Posicionar
+957-verificarVez
+960-jogadordaVez = 401 - JogadorUm
+963-MINHA VEZ=TRUE
+966-analisarStatus()
+969-analisarStatus()=Em jogo
+971-analisarStatus()=Posicionar
+973-verificarVez
+976-jogadordaVez = 401 - JogadorUm
+979-MINHA VEZ=TRUE
+982-analisarStatus()
+985-analisarStatus()=Em jogo
+987-analisarStatus()=Posicionar
+989-verificarVez
+992-jogadordaVez = 401 - JogadorUm
+995-MINHA VEZ=TRUE
+998-analisarStatus()
+1001-analisarStatus()=Em jogo
+1003-analisarStatus()=Posicionar
+1005-verificarVez
+1008-jogadordaVez = 401 - JogadorUm
+1011-MINHA VEZ=TRUE
+1014-analisarStatus()
+1017-analisarStatus()=Em jogo
+1019-analisarStatus()=Posicionar
+1021-verificarVez
+1024-jogadordaVez = 401 - JogadorUm
+1027-MINHA VEZ=TRUE
+1030-analisarStatus()
+1033-analisarStatus()=Em jogo
+1035-analisarStatus()=Posicionar
+1037-verificarVez
+1040-jogadordaVez = 401 - JogadorUm
+1043-MINHA VEZ=TRUE
+1046-analisarStatus()
+1049-analisarStatus()=Em jogo
+1051-analisarStatus()=Posicionar
+1053-verificarVez
+1056-jogadordaVez = 401 - JogadorUm
+1059-MINHA VEZ=TRUE
+1062-analisarStatus()
+1065-analisarStatus()=Em jogo
+1067-analisarStatus()=Posicionar
+1069-verificarVez
+1072-jogadordaVez = 401 - JogadorUm
+1075-MINHA VEZ=TRUE
+1078-analisarStatus()
+1081-analisarStatus()=Em jogo
+1083-analisarStatus()=Posicionar
+1085-verificarVez
+1088-jogadordaVez = 401 - JogadorUm
+1091-MINHA VEZ=TRUE
+1094-analisarStatus()
+1097-analisarStatus()=Em jogo
+1099-analisarStatus()=Posicionar
+1101-verificarVez
+1104-jogadordaVez = 401 - JogadorUm
+1107-MINHA VEZ=TRUE
+1110-analisarStatus()
+1113-analisarStatus()=Em jogo
+1115-analisarStatus()=Posicionar
+1117-verificarVez
+1120-jogadordaVez = 401 - JogadorUm
+1123-MINHA VEZ=TRUE
+1126-analisarStatus()
+1129-analisarStatus()=Em jogo
+1131-analisarStatus()=Posicionar
+1133-verificarVez
+1136-jogadordaVez = 401 - JogadorUm
+1139-MINHA VEZ=TRUE
+1142-analisarStatus()
+1145-analisarStatus()=Em jogo
+1147-analisarStatus()=Posicionar
+1149-verificarVez
+1152-jogadordaVez = 401 - JogadorUm
+1155-MINHA VEZ=TRUE
+1158-analisarStatus()
+1161-analisarStatus()=Em jogo
+1163-analisarStatus()=Posicionar
+1165-verificarVez
+1168-jogadordaVez = 401 - JogadorUm
+1171-MINHA VEZ=TRUE
+1174-analisarStatus()
+1177-analisarStatus()=Em jogo
+1179-analisarStatus()=Posicionar
+1181-verificarVez
+1184-jogadordaVez = 401 - JogadorUm
+1187-MINHA VEZ=TRUE
+1190-analisarStatus()
+1193-analisarStatus()=Em jogo
+1195-analisarStatus()=Posicionar
+1197-verificarVez
+1200-jogadordaVez = 401 - JogadorUm
+1203-MINHA VEZ=TRUE
+1206-analisarStatus()
+1209-analisarStatus()=Em jogo
+1211-analisarStatus()=Posicionar
+1213-verificarVez
+1216-jogadordaVez = 401 - JogadorUm
+1219-MINHA VEZ=TRUE
+1222-analisarStatus()
+1225-analisarStatus()=Em jogo
+1227-analisarStatus()=Posicionar
+1229-verificarVez
+1232-jogadordaVez = 401 - JogadorUm
+1235-MINHA VEZ=TRUE
+1238-analisarStatus()
+1241-analisarStatus()=Em jogo
+1243-analisarStatus()=Posicionar
+1245-verificarVez
+1248-jogadordaVez = 401 - JogadorUm
+1251-MINHA VEZ=TRUE
+1254-analisarStatus()
+1257-analisarStatus()=Em jogo
+1259-analisarStatus()=Posicionar
+1261-verificarVez
+1264-jogadordaVez = 401 - JogadorUm
+1267-MINHA VEZ=TRUE
+1270-analisarStatus()
+1273-analisarStatus()=Em jogo
+1275-analisarStatus()=Posicionar
+1277-verificarVez
+1280-jogadordaVez = 401 - JogadorUm
+1283-MINHA VEZ=TRUE
+1286-analisarStatus()
+1289-analisarStatus()=Em jogo
+1291-analisarStatus()=Posicionar
+1293-verificarVez
+1296-jogadordaVez = 401 - JogadorUm
+1299-MINHA VEZ=TRUE
+1302-analisarStatus()
+1305-analisarStatus()=Em jogo
+1307-analisarStatus()=Posicionar
+1309-verificarVez
+1312-jogadordaVez = 401 - JogadorUm
+1315-MINHA VEZ=TRUE
+1318-analisarStatus()
+1321-analisarStatus()=Em jogo
+1323-analisarStatus()=Posicionar
+1325-verificarVez
+1328-jogadordaVez = 401 - JogadorUm
+1331-MINHA VEZ=TRUE
+1334-analisarStatus()
+1337-analisarStatus()=Em jogo
+1339-analisarStatus()=Posicionar
+1341-verificarVez
+1344-jogadordaVez = 401 - JogadorUm
+1347-MINHA VEZ=TRUE
+1350-analisarStatus()
+1353-analisarStatus()=Em jogo
+1355-analisarStatus()=Posicionar
+1357-verificarVez
+1360-jogadordaVez = 401 - JogadorUm
+1363-MINHA VEZ=TRUE
+1366-analisarStatus()
+1369-analisarStatus()=Em jogo
+1371-analisarStatus()=Posicionar
+1373-verificarVez
+1376-jogadordaVez = 401 - JogadorUm
+1379-MINHA VEZ=TRUE
+1382-analisarStatus()
+1385-analisarStatus()=Em jogo
+1387-analisarStatus()=Posicionar
+1389-verificarVez
+1392-jogadordaVez = 401 - JogadorUm
+1395-MINHA VEZ=TRUE
+1398-analisarStatus()
+1401-analisarStatus()=Em jogo
+1403-analisarStatus()=Posicionar
+1405-verificarVez
+1408-jogadordaVez = 401 - JogadorUm
+1411-MINHA VEZ=TRUE
+1414-analisarStatus()
+1417-analisarStatus()=Em jogo
+1419-analisarStatus()=Posicionar
+1421-verificarVez
+1424-jogadordaVez = 401 - JogadorUm
+1427-MINHA VEZ=TRUE
+1430-analisarStatus()
+1433-analisarStatus()=Em jogo
+1435-analisarStatus()=Posicionar
+1437-verificarVez
+1440-jogadordaVez = 401 - JogadorUm
+1443-MINHA VEZ=TRUE
+1446-analisarStatus()
+1449-analisarStatus()=Em jogo
+1451-analisarStatus()=Posicionar
+1453-verificarVez
+1456-jogadordaVez = 401 - JogadorUm
+1459-MINHA VEZ=TRUE
+1462-analisarStatus()
+1465-analisarStatus()=Em jogo
+1467-analisarStatus()=Posicionar
+1469-verificarVez
+1472-jogadordaVez = 401 - JogadorUm
+1475-MINHA VEZ=TRUE
+1478-analisarStatus()
+1481-analisarStatus()=Em jogo
+1483-analisarStatus()=Posicionar
+1485-verificarVez
+1488-jogadordaVez = 401 - JogadorUm
+1491-MINHA VEZ=TRUE
+1494-analisarStatus()
+1497-analisarStatus()=Em jogo
+1499-analisarStatus()=Posicionar
+1501-verificarVez
+1504-jogadordaVez = 401 - JogadorUm
+1507-MINHA VEZ=TRUE
+1510-analisarStatus()
+1513-analisarStatus()=Em jogo
+1515-analisarStatus()=Posicionar
+1517-verificarVez
+1520-jogadordaVez = 401 - JogadorUm
+1523-MINHA VEZ=TRUE
+1526-analisarStatus()
+1529-analisarStatus()=Em jogo
+1531-analisarStatus()=Posicionar
+1533-verificarVez
+1536-jogadordaVez = 401 - JogadorUm
+1539-MINHA VEZ=TRUE
+1542-analisarStatus()
+1545-analisarStatus()=Em jogo
+1547-analisarStatus()=Posicionar
+1549-verificarVez
+1552-jogadordaVez = 401 - JogadorUm
+1555-MINHA VEZ=TRUE
+1558-analisarStatus()
+1561-analisarStatus()=Em jogo
+1563-analisarStatus()=Posicionar
+1565-verificarVez
+1568-jogadordaVez = 401 - JogadorUm
+1571-MINHA VEZ=TRUE
+1574-analisarStatus()
+1577-analisarStatus()=Em jogo
+1579-analisarStatus()=Posicionar
+1581-verificarVez
+1584-jogadordaVez = 401 - JogadorUm
+1587-MINHA VEZ=TRUE
+1590-analisarStatus()
+1593-analisarStatus()=Em jogo
+1595-analisarStatus()=Posicionar
+1597-verificarVez
+1600-jogadordaVez = 401 - JogadorUm
+1603-MINHA VEZ=TRUE
+1606-analisarStatus()
+1609-analisarStatus()=Em jogo
+1611-analisarStatus()=Posicionar
+1613-verificarVez
+1616-jogadordaVez = 401 - JogadorUm
+1619-MINHA VEZ=TRUE
+1622-analisarStatus()
+1625-analisarStatus()=Em jogo
+1627-analisarStatus()=Posicionar
+1629-verificarVez
+1632-jogadordaVez = 401 - JogadorUm
+1635-MINHA VEZ=TRUE
+1638-analisarStatus()
+1641-analisarStatus()=Em jogo
+1643-analisarStatus()=Posicionar
+1645-verificarVez
+1648-jogadordaVez = 401 - JogadorUm
+1651-MINHA VEZ=TRUE
+1654-analisarStatus()
+1657-analisarStatus()=Em jogo
+1659-analisarStatus()=Posicionar
+1661-verificarVez
+1664-jogadordaVez = 401 - JogadorUm
+1667-MINHA VEZ=TRUE
+1670-analisarStatus()
+1673-analisarStatus()=Em jogo
+1675-analisarStatus()=Posicionar
+1677-verificarVez
+1680-jogadordaVez = 401 - JogadorUm
+1683-MINHA VEZ=TRUE
+1686-analisarStatus()
+1689-analisarStatus()=Em jogo
+1691-analisarStatus()=Posicionar
+1693-verificarVez
+1696-jogadordaVez = 401 - JogadorUm
+1699-MINHA VEZ=TRUE
+1702-analisarStatus()
+1705-analisarStatus()=Em jogo
+1707-analisarStatus()=Posicionar
+1709-verificarVez
+1712-jogadordaVez = 401 - JogadorUm
+1715-MINHA VEZ=TRUE
+1718-analisarStatus()
+1721-analisarStatus()=Em jogo
+1723-analisarStatus()=Posicionar
+1725-verificarVez
+1728-jogadordaVez = 401 - JogadorUm
+1731-MINHA VEZ=TRUE
+1734-analisarStatus()
+1737-analisarStatus()=Em jogo
+1739-analisarStatus()=Posicionar
+1741-verificarVez
+1744-jogadordaVez = 401 - JogadorUm
+1747-MINHA VEZ=TRUE
+1750-analisarStatus()
+1753-analisarStatus()=Em jogo
+1755-analisarStatus()=Posicionar
+1757-verificarVez
+1760-jogadordaVez = 401 - JogadorUm
+1763-MINHA VEZ=TRUE
+1766-analisarStatus()
+1769-analisarStatus()=Em jogo
+1771-analisarStatus()=Posicionar
+1773-verificarVez
+1776-jogadordaVez = 401 - JogadorUm
+1779-MINHA VEZ=TRUE
+1782-analisarStatus()
+1785-analisarStatus()=Em jogo
+1787-analisarStatus()=Posicionar
+1789-verificarVez
+1792-jogadordaVez = 401 - JogadorUm
+1795-MINHA VEZ=TRUE
+1798-analisarStatus()
+1801-analisarStatus()=Em jogo
+1803-analisarStatus()=Posicionar
+1805-verificarVez
+1808-jogadordaVez = 401 - JogadorUm
+1811-MINHA VEZ=TRUE
+1814-analisarStatus()
+1817-analisarStatus()=Em jogo
+1819-analisarStatus()=Posicionar
+1821-verificarVez
+1824-jogadordaVez = 401 - JogadorUm
+1827-MINHA VEZ=TRUE
+1830-analisarStatus()
+1833-analisarStatus()=Em jogo
+1835-analisarStatus()=Posicionar
+1837-verificarVez
+1840-jogadordaVez = 401 - JogadorUm
+1843-MINHA VEZ=TRUE
+1846-analisarStatus()
+1849-analisarStatus()=Em jogo
+1851-analisarStatus()=Posicionar
+1853-verificarVez
+1856-jogadordaVez = 401 - JogadorUm
+1859-MINHA VEZ=TRUE
+1862-analisarStatus()
+1865-analisarStatus()=Em jogo
+1867-analisarStatus()=Posicionar
+1869-verificarVez
+1872-jogadordaVez = 401 - JogadorUm
+1875-MINHA VEZ=TRUE
+1879-POSICIONAR PERSONAGEM OK
+1882-analisarStatus()
+1885-analisarStatus()=Em jogo
+1887-analisarStatus()=Posicionar
+1889-verificarVez
+1892-jogadordaVez = 401 - JogadorUm
+1895-ULTIMA JOGADA = JogadorDoi,S,C,1
+JogadorUm,S,A,1
+
+1897-calculoMinhaPontuacaoAtual
+1899-MINHA VEZ=TRUE

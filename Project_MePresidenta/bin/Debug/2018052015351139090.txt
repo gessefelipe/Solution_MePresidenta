@@ -1,0 +1,34 @@
+5-NUMERO DA PARTIDA CRIADA = 117
+8-ENTRAR PARTIDA = 227  64147
+10-analisarStatus()
+12-analisarStatus()=Aberta
+15-analisarStatus()
+17-analisarStatus()=Aberta
+20-analisarStatus()
+22-analisarStatus()=Aberta
+25-analisarStatus()
+27-analisarStatus()=Aberta
+30-analisarStatus()
+32-analisarStatus()=Aberta
+35-analisarStatus()
+37-analisarStatus()=Aberta
+40-analisarStatus()
+42-analisarStatus()=Aberta
+45-analisarStatus()
+47-analisarStatus()=Aberta
+50-analisarStatus()
+52-analisarStatus()=Aberta
+55-analisarStatus()
+57-analisarStatus()=Aberta
+61-analisarStatus()
+63-analisarStatus()=Aberta
+66-analisarStatus()
+68-analisarStatus()=Aberta
+71-analisarStatus()
+73-analisarStatus()=Aberta
+76-analisarStatus()
+78-analisarStatus()=Aberta
+81-analisarStatus()
+83-analisarStatus()=Aberta
+86-analisarStatus()
+88-analisarStatus()=Aberta

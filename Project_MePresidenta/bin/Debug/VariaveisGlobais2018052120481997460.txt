@@ -1,0 +1,6370 @@
+2-
+
+************PrintVariaveisGlobais[1] - FormLoad****************************
+_myId=0
+_mySenha=
+_partidaId=0
+_partidaSenha=
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=0
+_nJogadores=1
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+13-
+
+************PrintVariaveisGlobais[12] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=4
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+20-
+
+************PrintVariaveisGlobais[19] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=4
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+27-
+
+************PrintVariaveisGlobais[26] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=4
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+34-
+
+************PrintVariaveisGlobais[33] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=4
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+41-
+
+************PrintVariaveisGlobais[40] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=4
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+48-
+
+************PrintVariaveisGlobais[47] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=4
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+55-
+
+************PrintVariaveisGlobais[54] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=4
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+62-
+
+************PrintVariaveisGlobais[61] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=4
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+69-
+
+************PrintVariaveisGlobais[68] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=4
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+76-
+
+************PrintVariaveisGlobais[75] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=4
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+83-
+
+************PrintVariaveisGlobais[82] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=4
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+90-
+
+************PrintVariaveisGlobais[89] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=4
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+97-
+
+************PrintVariaveisGlobais[96] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=4
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+104-
+
+************PrintVariaveisGlobais[103] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=4
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+111-
+
+************PrintVariaveisGlobais[110] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=4
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+118-
+
+************PrintVariaveisGlobais[117] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=4
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+125-
+
+************PrintVariaveisGlobais[124] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=4
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+132-
+
+************PrintVariaveisGlobais[131] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=4
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+139-
+
+************PrintVariaveisGlobais[138] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=4
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+146-
+
+************PrintVariaveisGlobais[145] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=4
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+153-
+
+************PrintVariaveisGlobais[152] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=4
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+160-
+
+************PrintVariaveisGlobais[159] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=4
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+167-
+
+************PrintVariaveisGlobais[166] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=4
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+174-
+
+************PrintVariaveisGlobais[173] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=4
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+181-
+
+************PrintVariaveisGlobais[180] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=4
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+188-
+
+************PrintVariaveisGlobais[187] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=4
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+195-
+
+************PrintVariaveisGlobais[194] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=4
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+202-
+
+************PrintVariaveisGlobais[201] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=4
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+209-
+
+************PrintVariaveisGlobais[208] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=4
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+216-
+
+************PrintVariaveisGlobais[215] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=4
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+223-
+
+************PrintVariaveisGlobais[222] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=4
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+230-
+
+************PrintVariaveisGlobais[229] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=4
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+237-
+
+************PrintVariaveisGlobais[236] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=4
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+244-
+
+************PrintVariaveisGlobais[243] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=4
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+251-
+
+************PrintVariaveisGlobais[250] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=4
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+258-
+
+************PrintVariaveisGlobais[257] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=4
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+265-
+
+************PrintVariaveisGlobais[264] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=4
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+272-
+
+************PrintVariaveisGlobais[271] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=4
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+279-
+
+************PrintVariaveisGlobais[278] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=4
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+286-
+
+************PrintVariaveisGlobais[285] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=4
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+293-
+
+************PrintVariaveisGlobais[292] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=4
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+300-
+
+************PrintVariaveisGlobais[299] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=4
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+307-
+
+************PrintVariaveisGlobais[306] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=4
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+314-
+
+************PrintVariaveisGlobais[313] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=4
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+321-
+
+************PrintVariaveisGlobais[320] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=4
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+328-
+
+************PrintVariaveisGlobais[327] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=4
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+335-
+
+************PrintVariaveisGlobais[334] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=4
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+342-
+
+************PrintVariaveisGlobais[341] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=4
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+349-
+
+************PrintVariaveisGlobais[348] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=4
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+356-
+
+************PrintVariaveisGlobais[355] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=4
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+363-
+
+************PrintVariaveisGlobais[362] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=4
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+370-
+
+************PrintVariaveisGlobais[369] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=4
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+377-
+
+************PrintVariaveisGlobais[376] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=4
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+384-
+
+************PrintVariaveisGlobais[383] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=4
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+391-
+
+************PrintVariaveisGlobais[390] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=4
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+0		0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+398-
+
+************PrintVariaveisGlobais[397] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=5
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+395	JogadorQui	0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+405-
+
+************PrintVariaveisGlobais[404] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=5
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+395	JogadorQui	0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+412-
+
+************PrintVariaveisGlobais[411] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=5
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+395	JogadorQui	0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+419-
+
+************PrintVariaveisGlobais[418] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=5
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+395	JogadorQui	0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+426-
+
+************PrintVariaveisGlobais[425] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=5
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+395	JogadorQui	0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+433-
+
+************PrintVariaveisGlobais[432] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=5
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+395	JogadorQui	0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+440-
+
+************PrintVariaveisGlobais[439] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=5
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+395	JogadorQui	0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+447-
+
+************PrintVariaveisGlobais[446] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=5
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+395	JogadorQui	0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+454-
+
+************PrintVariaveisGlobais[453] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=5
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+395	JogadorQui	0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+461-
+
+************PrintVariaveisGlobais[460] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=5
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+395	JogadorQui	0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+468-
+
+************PrintVariaveisGlobais[467] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=5
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+395	JogadorQui	0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+475-
+
+************PrintVariaveisGlobais[474] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=5
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+395	JogadorQui	0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+482-
+
+************PrintVariaveisGlobais[481] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=5
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+395	JogadorQui	0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+489-
+
+************PrintVariaveisGlobais[488] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=5
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+395	JogadorQui	0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+496-
+
+************PrintVariaveisGlobais[495] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=5
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+395	JogadorQui	0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+503-
+
+************PrintVariaveisGlobais[502] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=5
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+395	JogadorQui	0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+510-
+
+************PrintVariaveisGlobais[509] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=5
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+395	JogadorQui	0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+517-
+
+************PrintVariaveisGlobais[516] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=5
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+395	JogadorQui	0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+524-
+
+************PrintVariaveisGlobais[523] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=5
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+395	JogadorQui	0	0			0	
+0		0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+531-
+
+************PrintVariaveisGlobais[530] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=6
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+395	JogadorQui	0	0			0	
+396	JogadorSex	0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+538-
+
+************PrintVariaveisGlobais[537] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=6
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+395	JogadorQui	0	0			0	
+396	JogadorSex	0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+545-
+
+************PrintVariaveisGlobais[544] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=6
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+395	JogadorQui	0	0			0	
+396	JogadorSex	0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+552-
+
+************PrintVariaveisGlobais[551] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=6
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+395	JogadorQui	0	0			0	
+396	JogadorSex	0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+559-
+
+************PrintVariaveisGlobais[558] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=6
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+395	JogadorQui	0	0			0	
+396	JogadorSex	0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+566-
+
+************PrintVariaveisGlobais[565] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=6
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+395	JogadorQui	0	0			0	
+396	JogadorSex	0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+573-
+
+************PrintVariaveisGlobais[572] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=6
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+395	JogadorQui	0	0			0	
+396	JogadorSex	0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+580-
+
+************PrintVariaveisGlobais[579] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=6
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+395	JogadorQui	0	0			0	
+396	JogadorSex	0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+587-
+
+************PrintVariaveisGlobais[586] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=6
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+395	JogadorQui	0	0			0	
+396	JogadorSex	0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+594-
+
+************PrintVariaveisGlobais[593] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=6
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+395	JogadorQui	0	0			0	
+396	JogadorSex	0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+601-
+
+************PrintVariaveisGlobais[600] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=6
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+395	JogadorQui	0	0			0	
+396	JogadorSex	0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+608-
+
+************PrintVariaveisGlobais[607] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=6
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+395	JogadorQui	0	0			0	
+396	JogadorSex	0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+615-
+
+************PrintVariaveisGlobais[614] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=6
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+395	JogadorQui	0	0			0	
+396	JogadorSex	0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+622-
+
+************PrintVariaveisGlobais[621] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=6
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+395	JogadorQui	0	0			0	
+396	JogadorSex	0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+629-
+
+************PrintVariaveisGlobais[628] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=6
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+395	JogadorQui	0	0			0	
+396	JogadorSex	0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+636-
+
+************PrintVariaveisGlobais[635] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=6
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+395	JogadorQui	0	0			0	
+396	JogadorSex	0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+643-
+
+************PrintVariaveisGlobais[642] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=6
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+395	JogadorQui	0	0			0	
+396	JogadorSex	0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+650-
+
+************PrintVariaveisGlobais[649] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=6
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+395	JogadorQui	0	0			0	
+396	JogadorSex	0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+657-
+
+************PrintVariaveisGlobais[656] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=6
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+395	JogadorQui	0	0			0	
+396	JogadorSex	0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+664-
+
+************PrintVariaveisGlobais[663] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=6
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+395	JogadorQui	0	0			0	
+396	JogadorSex	0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+671-
+
+************PrintVariaveisGlobais[670] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=6
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+395	JogadorQui	0	0			0	
+396	JogadorSex	0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+678-
+
+************PrintVariaveisGlobais[677] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=6
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+395	JogadorQui	0	0			0	
+396	JogadorSex	0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+
+685-
+
+************PrintVariaveisGlobais[684] - Rotina****************************
+_myId=394
+_mySenha=C64F5
+_partidaId=197
+_partidaSenha=123
+
+_partidaStatus=0
+_rotinaPartidaIniciada=False
+_autojogo=False
+_nrodadaAtual=0
+_primeirajogadarealizada=False
+_candidato=-1
+
+_pontuacaoAtual=0
+_pontuacaoAtual=0
+
+_meuCodigoJogador=3
+_nJogadores=6
+_nCartasNaoMax=0
+Jogadores[id pontos cartasNAO HistoricoVotos]
+391	JogadorUm	0	0			0	
+392	JogadorDoi	0	0			0	
+393	JogadorTre	0	0			0	
+394	JogadorQua	0	0			0	
+395	JogadorQui	0	0			0	
+396	JogadorSex	0	0			0	
+
+_nPersonagens=0
+Personagens [id Status Meu Codinome]= 
+0	0	False		
+1	0	False		
+2	0	False		
+3	0	False		
+4	0	False		
+5	0	False		
+6	0	False		
+7	0	False		
+8	0	False		
+9	0	False		
+10	0	False		
+11	0	False		
+12	0	False		
+NivelqtdPersonagens = 
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+JogadoresCartas /Contadopromocoes= 
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	
+
+

@@ -1,0 +1,2053 @@
+5-NUMERO DA PARTIDA CRIADA = 205
+9-ENTRAR PARTIDA = 411  C111E
+12-analisarStatus()
+15-analisarStatus()=Aberta
+19-analisarStatus()
+22-analisarStatus()=Aberta
+26-analisarStatus()
+29-analisarStatus()=Aberta
+33-analisarStatus()
+36-analisarStatus()=Aberta
+40-analisarStatus()
+43-analisarStatus()=Aberta
+47-analisarStatus()
+50-analisarStatus()=Aberta
+54-analisarStatus()
+57-analisarStatus()=Aberta
+61-analisarStatus()
+64-analisarStatus()=Aberta
+68-analisarStatus()
+71-analisarStatus()=Aberta
+75-analisarStatus()
+78-analisarStatus()=Aberta
+82-analisarStatus()
+85-analisarStatus()=Aberta
+89-analisarStatus()
+92-analisarStatus()=Aberta
+96-analisarStatus()
+99-analisarStatus()=Aberta
+103-analisarStatus()
+106-analisarStatus()=Aberta
+110-analisarStatus()
+113-analisarStatus()=Aberta
+117-analisarStatus()
+120-analisarStatus()=Aberta
+124-analisarStatus()
+127-analisarStatus()=Aberta
+131-analisarStatus()
+134-analisarStatus()=Aberta
+138-analisarStatus()
+141-analisarStatus()=Aberta
+145-analisarStatus()
+148-analisarStatus()=Aberta
+152-analisarStatus()
+155-analisarStatus()=Aberta
+159-analisarStatus()
+162-analisarStatus()=Aberta
+166-analisarStatus()
+169-analisarStatus()=Aberta
+173-analisarStatus()
+176-analisarStatus()=Aberta
+180-analisarStatus()
+183-analisarStatus()=Aberta
+187-analisarStatus()
+190-analisarStatus()=Aberta
+194-analisarStatus()
+197-analisarStatus()=Aberta
+201-analisarStatus()
+204-analisarStatus()=Aberta
+208-analisarStatus()
+211-analisarStatus()=Aberta
+215-analisarStatus()
+218-analisarStatus()=Aberta
+222-analisarStatus()
+225-analisarStatus()=Aberta
+229-analisarStatus()
+232-analisarStatus()=Aberta
+236-analisarStatus()
+239-analisarStatus()=Aberta
+243-analisarStatus()
+246-analisarStatus()=Aberta
+250-analisarStatus()
+253-analisarStatus()=Aberta
+258-analisarStatus()
+261-analisarStatus()=Em jogo
+263-analisarStatus()=Posicionar
+266-novaRodada
+270-verificarVez
+273-jogadordaVez = 411 - iPad
+276-MINHA VEZ=TRUE
+279-analisarStatus()
+282-analisarStatus()=Em jogo
+284-analisarStatus()=Posicionar
+286-verificarVez
+289-jogadordaVez = 411 - iPad
+292-MINHA VEZ=TRUE
+295-analisarStatus()
+298-analisarStatus()=Em jogo
+300-analisarStatus()=Posicionar
+302-verificarVez
+305-jogadordaVez = 411 - iPad
+308-MINHA VEZ=TRUE
+311-analisarStatus()
+314-analisarStatus()=Em jogo
+316-analisarStatus()=Posicionar
+318-verificarVez
+321-jogadordaVez = 411 - iPad
+324-MINHA VEZ=TRUE
+327-analisarStatus()
+330-analisarStatus()=Em jogo
+332-analisarStatus()=Posicionar
+334-verificarVez
+337-jogadordaVez = 411 - iPad
+340-MINHA VEZ=TRUE
+343-analisarStatus()
+346-analisarStatus()=Em jogo
+348-analisarStatus()=Posicionar
+350-verificarVez
+353-jogadordaVez = 411 - iPad
+356-MINHA VEZ=TRUE
+359-analisarStatus()
+362-analisarStatus()=Em jogo
+364-analisarStatus()=Posicionar
+366-verificarVez
+369-jogadordaVez = 411 - iPad
+372-MINHA VEZ=TRUE
+375-analisarStatus()
+378-analisarStatus()=Em jogo
+380-analisarStatus()=Posicionar
+382-verificarVez
+385-jogadordaVez = 411 - iPad
+388-MINHA VEZ=TRUE
+391-analisarStatus()
+394-analisarStatus()=Em jogo
+396-analisarStatus()=Posicionar
+398-verificarVez
+401-jogadordaVez = 411 - iPad
+404-MINHA VEZ=TRUE
+406-autoposicionar
+408-calculoNumeroPersonagensDesempregados=13
+410-algoritmoPosicionamentoEquilibrado
+412-calculoQtdMeusPersonagensNoNivel
+415-POSICIONAR PERSONAGEM OK
+418-analisarStatus()
+421-analisarStatus()=Em jogo
+423-analisarStatus()=Posicionar
+425-verificarVez
+428-jogadordaVez = 412 - iPhone
+431-ULTIMA JOGADA = iPad,S,D,4
+
+433-calculoMinhaPontuacaoAtual
+435-MINHA VEZ=FALSE
+438-analisarStatus()
+441-analisarStatus()=Em jogo
+443-analisarStatus()=Posicionar
+445-verificarVez
+448-jogadordaVez = 412 - iPhone
+451-ULTIMA JOGADA = iPad,S,D,4
+
+453-calculoMinhaPontuacaoAtual
+455-MINHA VEZ=FALSE
+458-analisarStatus()
+461-analisarStatus()=Em jogo
+463-analisarStatus()=Posicionar
+465-verificarVez
+468-jogadordaVez = 412 - iPhone
+471-ULTIMA JOGADA = iPad,S,D,4
+
+473-calculoMinhaPontuacaoAtual
+475-MINHA VEZ=FALSE
+478-analisarStatus()
+481-analisarStatus()=Em jogo
+483-analisarStatus()=Posicionar
+485-verificarVez
+488-jogadordaVez = 412 - iPhone
+491-ULTIMA JOGADA = iPad,S,D,4
+
+493-calculoMinhaPontuacaoAtual
+495-MINHA VEZ=FALSE
+498-analisarStatus()
+501-analisarStatus()=Em jogo
+503-analisarStatus()=Posicionar
+505-verificarVez
+508-jogadordaVez = 412 - iPhone
+511-ULTIMA JOGADA = iPad,S,D,4
+
+513-calculoMinhaPontuacaoAtual
+515-MINHA VEZ=FALSE
+518-analisarStatus()
+521-analisarStatus()=Em jogo
+523-analisarStatus()=Posicionar
+525-verificarVez
+528-jogadordaVez = 412 - iPhone
+531-ULTIMA JOGADA = iPad,S,D,4
+
+533-calculoMinhaPontuacaoAtual
+535-MINHA VEZ=FALSE
+538-analisarStatus()
+541-analisarStatus()=Em jogo
+543-analisarStatus()=Posicionar
+545-verificarVez
+548-jogadordaVez = 412 - iPhone
+551-ULTIMA JOGADA = iPad,S,D,4
+
+553-calculoMinhaPontuacaoAtual
+555-MINHA VEZ=FALSE
+558-analisarStatus()
+561-analisarStatus()=Em jogo
+563-analisarStatus()=Posicionar
+565-verificarVez
+568-jogadordaVez = 412 - iPhone
+571-ULTIMA JOGADA = iPad,S,D,4
+
+573-calculoMinhaPontuacaoAtual
+575-MINHA VEZ=FALSE
+578-analisarStatus()
+581-analisarStatus()=Em jogo
+583-analisarStatus()=Posicionar
+585-verificarVez
+588-jogadordaVez = 412 - iPhone
+591-ULTIMA JOGADA = iPad,S,D,4
+
+593-calculoMinhaPontuacaoAtual
+595-MINHA VEZ=FALSE
+598-analisarStatus()
+601-analisarStatus()=Em jogo
+603-analisarStatus()=Posicionar
+605-verificarVez
+608-jogadordaVez = 412 - iPhone
+611-ULTIMA JOGADA = iPad,S,D,4
+
+613-calculoMinhaPontuacaoAtual
+615-MINHA VEZ=FALSE
+618-analisarStatus()
+621-analisarStatus()=Em jogo
+623-analisarStatus()=Posicionar
+625-verificarVez
+628-jogadordaVez = 412 - iPhone
+631-ULTIMA JOGADA = iPad,S,D,4
+
+633-calculoMinhaPontuacaoAtual
+635-MINHA VEZ=FALSE
+638-analisarStatus()
+641-analisarStatus()=Em jogo
+643-analisarStatus()=Posicionar
+645-verificarVez
+648-jogadordaVez = 411 - iPad
+651-ULTIMA JOGADA = iPhone,S,P,1
+iPad,S,D,4
+
+653-calculoMinhaPontuacaoAtual
+655-MINHA VEZ=TRUE
+657-autoposicionar
+659-calculoNumeroPersonagensDesempregados=11
+661-algoritmoPosicionamentoEquilibrado
+663-calculoQtdMeusPersonagensNoNivel
+666-POSICIONAR PERSONAGEM OK
+669-analisarStatus()
+672-analisarStatus()=Em jogo
+674-analisarStatus()=Posicionar
+676-verificarVez
+679-jogadordaVez = 412 - iPhone
+682-ULTIMA JOGADA = iPad,S,G,4
+iPhone,S,P,1
+
+684-calculoMinhaPontuacaoAtual
+686-MINHA VEZ=FALSE
+689-analisarStatus()
+692-analisarStatus()=Em jogo
+694-analisarStatus()=Posicionar
+696-verificarVez
+699-jogadordaVez = 411 - iPad
+702-ULTIMA JOGADA = iPhone,S,A,4
+iPad,S,G,4
+
+704-calculoMinhaPontuacaoAtual
+706-MINHA VEZ=TRUE
+708-autoposicionar
+710-calculoNumeroPersonagensDesempregados=9
+712-algoritmoPosicionamentoEquilibrado
+714-calculoQtdMeusPersonagensNoNivel
+716-calculoQtdMeusPersonagensNoNivel
+719-POSICIONAR PERSONAGEM OK
+722-analisarStatus()
+725-analisarStatus()=Em jogo
+727-analisarStatus()=Posicionar
+729-verificarVez
+732-jogadordaVez = 412 - iPhone
+735-ULTIMA JOGADA = iPad,S,I,3
+iPhone,S,A,4
+
+737-calculoMinhaPontuacaoAtual
+739-MINHA VEZ=FALSE
+742-analisarStatus()
+745-analisarStatus()=Em jogo
+747-analisarStatus()=Posicionar
+749-verificarVez
+752-jogadordaVez = 411 - iPad
+755-ULTIMA JOGADA = iPhone,S,B,4
+iPad,S,I,3
+
+757-calculoMinhaPontuacaoAtual
+759-MINHA VEZ=TRUE
+761-autoposicionar
+763-calculoNumeroPersonagensDesempregados=7
+765-algoritmoPosicionamentoEquilibrado
+767-calculoQtdMeusPersonagensNoNivel
+769-calculoQtdMeusPersonagensNoNivel
+772-POSICIONAR PERSONAGEM OK
+775-analisarStatus()
+778-analisarStatus()=Em jogo
+780-analisarStatus()=Posicionar
+782-verificarVez
+785-jogadordaVez = 412 - iPhone
+788-ULTIMA JOGADA = iPad,S,L,3
+iPhone,S,B,4
+
+790-calculoMinhaPontuacaoAtual
+792-MINHA VEZ=FALSE
+795-analisarStatus()
+798-analisarStatus()=Em jogo
+800-analisarStatus()=Posicionar
+802-verificarVez
+805-jogadordaVez = 411 - iPad
+808-ULTIMA JOGADA = iPhone,S,C,3
+iPad,S,L,3
+
+810-calculoMinhaPontuacaoAtual
+812-MINHA VEZ=TRUE
+814-autoposicionar
+816-calculoNumeroPersonagensDesempregados=5
+818-algoritmoPosicionamentoEquilibrado
+820-calculoQtdMeusPersonagensNoNivel
+822-calculoQtdMeusPersonagensNoNivel
+824-calculoQtdMeusPersonagensNoNivel
+827-POSICIONAR PERSONAGEM OK
+830-analisarStatus()
+833-analisarStatus()=Em jogo
+835-analisarStatus()=Posicionar
+837-verificarVez
+840-jogadordaVez = 412 - iPhone
+843-ULTIMA JOGADA = iPad,S,M,2
+iPhone,S,C,3
+
+845-calculoMinhaPontuacaoAtual
+847-MINHA VEZ=FALSE
+850-analisarStatus()
+853-analisarStatus()=Em jogo
+855-analisarStatus()=Posicionar
+857-verificarVez
+860-jogadordaVez = 412 - iPhone
+863-ULTIMA JOGADA = iPhone,S,E,3
+iPad,S,M,2
+
+865-calculoMinhaPontuacaoAtual
+867-MINHA VEZ=FALSE
+870-analisarStatus()
+873-analisarStatus()=Em jogo
+875-analisarStatus()=Posicionar
+877-verificarVez
+880-jogadordaVez = 411 - iPad
+883-ULTIMA JOGADA = iPhone,S,E,3
+iPad,S,M,2
+
+885-calculoMinhaPontuacaoAtual
+887-MINHA VEZ=TRUE
+889-autoposicionar
+891-calculoNumeroPersonagensDesempregados=3
+893-algoritmoPosicionamentoEquilibrado
+895-ERRO: algoritmo posicionamento equilibrado nao funcionou
+897-autoposicionar
+899-calculoNumeroPersonagensDesempregados=3
+901-algoritmoPosicionarPadrao
+903-algoritmoPosicionarPadrao - Tentar posicionar 5(F)
+906-POSICIONAR PERSONAGEM OK
+909-analisarStatus()
+912-analisarStatus()=Em jogo
+914-analisarStatus()=Posicionar
+916-verificarVez
+919-jogadordaVez = 412 - iPhone
+922-ULTIMA JOGADA = iPad,S,F,2
+iPhone,S,E,3
+
+924-calculoMinhaPontuacaoAtual
+926-MINHA VEZ=FALSE
+929-analisarStatus()
+932-analisarStatus()=Em jogo
+934-analisarStatus()=Posicionar
+936-verificarVez
+939-jogadordaVez = 411 - iPad
+942-ULTIMA JOGADA = iPhone,S,N,2
+iPad,S,F,2
+
+944-calculoMinhaPontuacaoAtual
+946-MINHA VEZ=TRUE
+948-autoposicionar
+950-calculoNumeroPersonagensDesempregados=0
+952-ERRO ALGORITMO: chamou posicionamento ao inves de promocao
+954-ERRO AO AUTOPOSICIONAR
+957-analisarStatus()
+960-analisarStatus()=Em jogo
+962-analisarStatus()=Promover
+964-verificarVez
+967-jogadordaVez = 411 - iPad
+970-ULTIMA JOGADA = iPhone,S,N,2
+iPad,S,F,2
+
+972-calculoMinhaPontuacaoAtual
+974-MINHA VEZ=TRUE
+976-autopromover
+978-calculoNumeroPersonagensDesempregados=0
+980-calculoQtdCartasNaoQueNaoSaoMinhas=4
+982-algoritmoPromocaoMeudeMenorNivel
+985-PROMOCAO PERSONAGEM OK
+988-analisarStatus()
+991-analisarStatus()=Em jogo
+993-analisarStatus()=Promover
+995-verificarVez
+998-jogadordaVez = 412 - iPhone
+1001-ULTIMA JOGADA = iPad,J,P,2
+iPhone,S,N,2
+
+1003-calculoMinhaPontuacaoAtual
+1005-MINHA VEZ=FALSE
+1008-analisarStatus()
+1011-analisarStatus()=Em jogo
+1013-analisarStatus()=Promover
+1015-verificarVez
+1018-jogadordaVez = 411 - iPad
+1021-ULTIMA JOGADA = iPhone,J,A,5
+iPad,J,P,2
+
+1023-calculoMinhaPontuacaoAtual
+1025-MINHA VEZ=TRUE
+1027-autopromover
+1029-calculoNumeroPersonagensDesempregados=0
+1031-calculoQtdCartasNaoQueNaoSaoMinhas=4
+1033-algoritmoPromocaoMeudeMenorNivel
+1036-PROMOCAO PERSONAGEM OK
+1039-analisarStatus()
+1042-analisarStatus()=Em jogo
+1044-analisarStatus()=Promover
+1046-verificarVez
+1049-jogadordaVez = 412 - iPhone
+1052-ULTIMA JOGADA = iPad,J,L,4
+iPhone,J,A,5
+
+1054-calculoMinhaPontuacaoAtual
+1056-MINHA VEZ=FALSE
+1059-analisarStatus()
+1062-analisarStatus()=Em jogo
+1064-analisarStatus()=Votar
+1066-verificarVez
+1069-jogadordaVez = 411 - iPad
+1072-ULTIMA JOGADA = iPhone,J,A,10
+iPad,J,L,4
+
+1074-calculoMinhaPontuacaoAtual
+1076-MINHA VEZ=TRUE
+1078-autovotar
+1080-algoritmoVotacaoTenhoPontosSuficientes
+1082-calculoMinhaPontuacaoAtual
+1084-calculoMaiorPontuacaoTotalAtualPossivel
+1086-calculoMaiorPontuacaoPossivelAtual
+1088-calculoMaiorPontuacaoTotalAtualPossivel/[1]029
+1090-ERRO ALGORTMO - algortimovotacaoTenhospontossuficientes retornou falso
+1092-autovotar
+1094-algoritmoVotacaoPadrao
+1096-MEU VOTO NAO
+1099-VOTACAO OK
+1102-analisarStatus()
+1105-analisarStatus()=Em jogo
+1107-analisarStatus()=Votar
+1109-verificarVez
+1112-jogadordaVez = 412 - iPhone
+1115-ULTIMA JOGADA = iPhone,J,A,10
+iPad,J,L,4
+
+1117-calculoMinhaPontuacaoAtual
+1119-MINHA VEZ=FALSE
+1122-analisarStatus()
+1125-analisarStatus()=Em jogo
+1127-analisarStatus()=Promover
+1129-verificarVez
+1132-jogadordaVez = 411 - iPad
+1135-ULTIMA JOGADA = iPhone,J,A,10
+iPad,J,L,4
+
+1137-calculoMinhaPontuacaoAtual
+1139-analisarUltimaVotacao
+1142-calculoQtdTotalAtualCartasNaoNoJogo=7
+1144-calculoQtdTotalAtualCartasNaoNoJogo=7
+1146-calculoNumeroPersonagensEliminados=0
+1148-MINHA VEZ=TRUE
+1150-autopromover
+1152-calculoNumeroPersonagensDesempregados=0
+1154-calculoQtdCartasNaoQueNaoSaoMinhas=4
+1156-algoritmoPromocaoMeudeMenorNivel
+1159-PROMOCAO PERSONAGEM OK
+1162-analisarStatus()
+1165-analisarStatus()=Em jogo
+1167-analisarStatus()=Promover
+1169-verificarVez
+1172-jogadordaVez = 412 - iPhone
+1175-ULTIMA JOGADA = iPad,J,P,3
+iPhone,J,A,10
+
+1177-calculoMinhaPontuacaoAtual
+1179-MINHA VEZ=FALSE
+1182-analisarStatus()
+1185-analisarStatus()=Em jogo
+1187-analisarStatus()=Promover
+1189-verificarVez
+1192-jogadordaVez = 411 - iPad
+1195-ULTIMA JOGADA = iPhone,J,B,5
+iPad,J,P,3
+
+1197-calculoMinhaPontuacaoAtual
+1199-MINHA VEZ=TRUE
+1201-autopromover
+1203-calculoNumeroPersonagensDesempregados=0
+1205-calculoQtdCartasNaoQueNaoSaoMinhas=4
+1207-algoritmoPromocaoMeudeMenorNivel
+1210-PROMOCAO PERSONAGEM OK
+1213-analisarStatus()
+1216-analisarStatus()=Em jogo
+1218-analisarStatus()=Promover
+1220-verificarVez
+1223-jogadordaVez = 412 - iPhone
+1226-ULTIMA JOGADA = iPad,J,P,4
+iPhone,J,B,5
+
+1228-calculoMinhaPontuacaoAtual
+1230-MINHA VEZ=FALSE
+1233-analisarStatus()
+1236-analisarStatus()=Em jogo
+1238-analisarStatus()=Votar
+1240-verificarVez
+1243-jogadordaVez = 411 - iPad
+1246-ULTIMA JOGADA = iPhone,J,B,10
+iPad,J,P,4
+
+1248-calculoMinhaPontuacaoAtual
+1250-MINHA VEZ=TRUE
+1252-autovotar
+1254-algoritmoVotacaoTenhoPontosSuficientes
+1256-calculoMinhaPontuacaoAtual
+1258-calculoMaiorPontuacaoTotalAtualPossivel
+1260-calculoMaiorPontuacaoPossivelAtual
+1262-calculoMaiorPontuacaoTotalAtualPossivel/[1]022
+1264-ERRO ALGORTMO - algortimovotacaoTenhospontossuficientes retornou falso
+1266-autovotar
+1268-algoritmoVotacaoPadrao
+1270-MEU VOTO NAO
+1273-VOTACAO OK
+1276-analisarStatus()
+1279-analisarStatus()=Em jogo
+1281-analisarStatus()=Votar
+1283-verificarVez
+1286-jogadordaVez = 412 - iPhone
+1289-ULTIMA JOGADA = iPhone,J,B,10
+iPad,J,P,4
+
+1291-calculoMinhaPontuacaoAtual
+1293-MINHA VEZ=FALSE
+1296-analisarStatus()
+1299-analisarStatus()=Em jogo
+1301-analisarStatus()=Promover
+1303-verificarVez
+1306-jogadordaVez = 411 - iPad
+1309-ULTIMA JOGADA = iPhone,J,B,10
+iPad,J,P,4
+
+1311-calculoMinhaPontuacaoAtual
+1313-analisarUltimaVotacao
+1316-MINHA VEZ=TRUE
+1318-autopromover
+1320-calculoNumeroPersonagensDesempregados=0
+1322-calculoQtdCartasNaoQueNaoSaoMinhas=3
+1324-algoritmoPromocaoMeudeMenorNivel
+1327-PROMOCAO PERSONAGEM OK
+1330-analisarStatus()
+1333-analisarStatus()=Em jogo
+1335-analisarStatus()=Promover
+1337-verificarVez
+1340-jogadordaVez = 412 - iPhone
+1343-ULTIMA JOGADA = iPad,J,P,5
+iPhone,J,B,10
+
+1345-calculoMinhaPontuacaoAtual
+1347-MINHA VEZ=FALSE
+1350-analisarStatus()
+1353-analisarStatus()=Em jogo
+1355-analisarStatus()=Promover
+1357-verificarVez
+1360-jogadordaVez = 411 - iPad
+1363-ULTIMA JOGADA = iPhone,J,C,4
+iPad,J,P,5
+
+1365-calculoMinhaPontuacaoAtual
+1367-MINHA VEZ=TRUE
+1369-autopromover
+1371-calculoNumeroPersonagensDesempregados=0
+1373-calculoQtdCartasNaoQueNaoSaoMinhas=3
+1375-algoritmoPromocaoMeudeMenorNivel
+1378-PROMOCAO PERSONAGEM OK
+1381-analisarStatus()
+1384-analisarStatus()=Em jogo
+1386-analisarStatus()=Votar
+1388-verificarVez
+1391-jogadordaVez = 412 - iPhone
+1394-ULTIMA JOGADA = iPad,J,P,10
+iPhone,J,C,4
+
+1396-calculoMinhaPontuacaoAtual
+1398-MINHA VEZ=FALSE
+1401-analisarStatus()
+1404-analisarStatus()=Em jogo
+1406-analisarStatus()=Votar
+1408-verificarVez
+1411-jogadordaVez = 411 - iPad
+1414-ULTIMA JOGADA = iPad,J,P,10
+iPhone,J,C,4
+
+1416-calculoMinhaPontuacaoAtual
+1418-MINHA VEZ=TRUE
+1420-autovotar
+1422-algoritmoVotacaoTenhoPontosSuficientes
+1424-calculoMinhaPontuacaoAtual
+1426-calculoMaiorPontuacaoTotalAtualPossivel
+1428-calculoMaiorPontuacaoPossivelAtual
+1430-calculoMaiorPontuacaoTotalAtualPossivel/[1]022
+1432-MEU VOTO SIM
+1435-VOTACAO OK
+1438-analisarStatus()
+1441-analisarStatus()=Em jogo
+1443-analisarStatus()=Promover
+1445-verificarVez
+1448-jogadordaVez = 412 - iPhone
+1451-ULTIMA JOGADA = iPad,J,P,10
+iPhone,J,C,4
+
+1453-calculoMinhaPontuacaoAtual
+1455-analisarUltimaVotacao
+1458-calculoQtdTotalAtualCartasNaoNoJogo=5
+1460-calculoQtdTotalAtualCartasNaoNoJogo=5
+1462-calculoNumeroPersonagensEliminados=2
+1464-MINHA VEZ=FALSE
+1467-analisarStatus()
+1470-analisarStatus()=Em jogo
+1472-analisarStatus()=Promover
+1474-verificarVez
+1477-jogadordaVez = 411 - iPad
+1480-ULTIMA JOGADA = iPhone,J,C,5
+iPad,J,P,10
+
+1482-calculoMinhaPontuacaoAtual
+1484-MINHA VEZ=TRUE
+1486-autopromover
+1488-calculoNumeroPersonagensDesempregados=0
+1490-calculoQtdCartasNaoQueNaoSaoMinhas=2
+1492-algoritmoPromocaoMeudeMenorNivel
+1495-PROMOCAO PERSONAGEM OK
+1498-analisarStatus()
+1501-analisarStatus()=Em jogo
+1503-analisarStatus()=Promover
+1505-verificarVez
+1508-jogadordaVez = 412 - iPhone
+1511-ULTIMA JOGADA = iPad,J,M,3
+iPhone,J,C,5
+
+1513-calculoMinhaPontuacaoAtual
+1515-MINHA VEZ=FALSE
+1518-analisarStatus()
+1521-analisarStatus()=Em jogo
+1523-analisarStatus()=Votar
+1525-verificarVez
+1528-jogadordaVez = 411 - iPad
+1531-ULTIMA JOGADA = iPhone,J,C,10
+iPad,J,M,3
+
+1533-calculoMinhaPontuacaoAtual
+1535-MINHA VEZ=TRUE
+1537-autovotar
+1539-algoritmoVotacaoTenhoPontosSuficientes
+1541-calculoMinhaPontuacaoAtual
+1543-calculoMaiorPontuacaoTotalAtualPossivel
+1545-calculoMaiorPontuacaoPossivelAtual
+1547-calculoMaiorPontuacaoTotalAtualPossivel/[1]022
+1549-ERRO ALGORTMO - algortimovotacaoTenhospontossuficientes retornou falso
+1551-autovotar
+1553-algoritmoVotacaoPadrao
+1555-MEU VOTO NAO
+1558-VOTACAO OK
+1561-analisarStatus()
+1564-analisarStatus()=Em jogo
+1566-analisarStatus()=Votar
+1568-verificarVez
+1571-jogadordaVez = 412 - iPhone
+1574-ULTIMA JOGADA = iPhone,J,C,10
+iPad,J,M,3
+
+1576-calculoMinhaPontuacaoAtual
+1578-MINHA VEZ=FALSE
+1581-analisarStatus()
+1584-analisarStatus()=Em jogo
+1586-analisarStatus()=Promover
+1588-verificarVez
+1591-jogadordaVez = 411 - iPad
+1594-ULTIMA JOGADA = iPhone,J,C,10
+iPad,J,M,3
+
+1596-calculoMinhaPontuacaoAtual
+1598-analisarUltimaVotacao
+1601-MINHA VEZ=TRUE
+1603-autopromover
+1605-calculoNumeroPersonagensDesempregados=0
+1607-calculoQtdCartasNaoQueNaoSaoMinhas=1
+1609-algoritmoPromocaoMeudeMenorNivel
+1612-PROMOCAO PERSONAGEM OK
+1615-analisarStatus()
+1618-analisarStatus()=Em jogo
+1620-analisarStatus()=Promover
+1622-verificarVez
+1625-jogadordaVez = 412 - iPhone
+1628-ULTIMA JOGADA = iPad,J,M,4
+iPhone,J,C,10
+
+1630-calculoMinhaPontuacaoAtual
+1632-MINHA VEZ=FALSE
+1635-analisarStatus()
+1638-analisarStatus()=Em jogo
+1640-analisarStatus()=Promover
+1642-verificarVez
+1645-jogadordaVez = 411 - iPad
+1648-ULTIMA JOGADA = iPhone,J,D,5
+iPad,J,M,4
+
+1650-calculoMinhaPontuacaoAtual
+1652-MINHA VEZ=TRUE
+1654-autopromover
+1656-calculoNumeroPersonagensDesempregados=0
+1658-calculoQtdCartasNaoQueNaoSaoMinhas=1
+1660-algoritmoPromocaoMeudeMenorNivel
+1663-PROMOCAO PERSONAGEM OK
+1666-analisarStatus()
+1669-analisarStatus()=Em jogo
+1671-analisarStatus()=Promover
+1673-verificarVez
+1676-jogadordaVez = 412 - iPhone
+1679-ULTIMA JOGADA = iPad,J,M,5
+iPhone,J,D,5
+
+1681-calculoMinhaPontuacaoAtual
+1683-MINHA VEZ=FALSE
+1686-analisarStatus()
+1689-analisarStatus()=Em jogo
+1691-analisarStatus()=Votar
+1693-verificarVez
+1696-jogadordaVez = 411 - iPad
+1699-ULTIMA JOGADA = iPhone,J,D,10
+iPad,J,M,5
+
+1701-calculoMinhaPontuacaoAtual
+1703-MINHA VEZ=TRUE
+1705-autovotar
+1707-algoritmoVotacaoTenhoPontosSuficientes
+1709-calculoMinhaPontuacaoAtual
+1711-calculoMaiorPontuacaoTotalAtualPossivel
+1713-calculoMaiorPontuacaoPossivelAtual
+1715-calculoMaiorPontuacaoTotalAtualPossivel/[1]023
+1717-MEU VOTO SIM
+1720-VOTACAO OK
+1723-analisarStatus()
+1726-analisarStatus()=Em jogo
+1728-analisarStatus()=Votar
+1730-verificarVez
+1733-jogadordaVez = 412 - iPhone
+1736-ULTIMA JOGADA = iPhone,J,D,10
+iPad,J,M,5
+
+1738-calculoMinhaPontuacaoAtual
+1740-MINHA VEZ=FALSE
+1743-analisarStatus()
+1746-analisarStatus()=Em jogo
+1748-analisarStatus()=Promover
+1750-verificarVez
+1753-jogadordaVez = 411 - iPad
+1756-ULTIMA JOGADA = iPhone,J,D,10
+iPad,J,M,5
+
+1758-calculoMinhaPontuacaoAtual
+1760-analisarUltimaVotacao
+1763-calculoQtdTotalAtualCartasNaoNoJogo=2
+1765-calculoQtdTotalAtualCartasNaoNoJogo=2
+1767-MINHA VEZ=TRUE
+1769-autopromover
+1771-calculoNumeroPersonagensDesempregados=0
+1773-calculoQtdCartasNaoQueNaoSaoMinhas=0
+1775-calculoPersonagemMeudeMaiorNivel
+1777-calculoPersonagemMeudeMaiorNivel=9(M)
+1779-algoritmoPromocaoPadrao
+1782-PROMOCAO PERSONAGEM OK
+1785-analisarStatus()
+1788-analisarStatus()=Em jogo
+1790-analisarStatus()=Votar
+1792-verificarVez
+1795-jogadordaVez = 412 - iPhone
+1798-ULTIMA JOGADA = iPad,J,M,10
+iPhone,J,D,10
+
+1800-calculoMinhaPontuacaoAtual
+1802-MINHA VEZ=FALSE
+1805-analisarStatus()
+1808-analisarStatus()=Em jogo
+1810-analisarStatus()=Votar
+1812-verificarVez
+1815-jogadordaVez = 411 - iPad
+1818-ULTIMA JOGADA = iPad,J,M,10
+iPhone,J,D,10
+
+1820-calculoMinhaPontuacaoAtual
+1822-MINHA VEZ=TRUE
+1824-autovotar
+1826-algoritmoVotacaoTenhoPontosSuficientes
+1828-calculoMinhaPontuacaoAtual
+1830-calculoMaiorPontuacaoTotalAtualPossivel
+1832-calculoMaiorPontuacaoPossivelAtual
+1834-calculoMaiorPontuacaoTotalAtualPossivel/[1]028
+1836-ERRO ALGORTMO - algortimovotacaoTenhospontossuficientes retornou falso
+1838-autovotar
+1840-algoritmoVotacaoPadrao
+1842-MEU VOTO SIM
+1845-ERRO ALGORTMO - algortimovotacaopadrao retornou falso
+1847-ERRO AO AUTOVOTAR
+1850-analisarStatus()
+1853-analisarStatus()=Em jogo
+1855-analisarStatus()=Posicionar
+1857-verificarVez
+1860-jogadordaVez = 412 - iPhone
+1862-novaRodada
+1867-MINHA VEZ=FALSE
+1870-analisarStatus()
+1873-analisarStatus()=Em jogo
+1875-analisarStatus()=Posicionar
+1877-verificarVez
+1880-jogadordaVez = 411 - iPad
+1883-ULTIMA JOGADA = iPhone,S,A,4
+
+1885-calculoMinhaPontuacaoAtual
+1887-MINHA VEZ=TRUE
+1889-autoposicionar
+1891-calculoNumeroPersonagensDesempregados=12
+1893-algoritmoPosicionamentoEquilibrado
+1895-calculoQtdMeusPersonagensNoNivel
+1898-POSICIONAR PERSONAGEM OK
+1901-analisarStatus()
+1904-analisarStatus()=Em jogo
+1906-analisarStatus()=Posicionar
+1908-verificarVez
+1911-jogadordaVez = 412 - iPhone
+1914-ULTIMA JOGADA = iPad,S,C,4
+iPhone,S,A,4
+
+1916-calculoMinhaPontuacaoAtual
+1918-MINHA VEZ=FALSE
+1921-analisarStatus()
+1924-analisarStatus()=Em jogo
+1926-analisarStatus()=Posicionar
+1928-verificarVez
+1931-jogadordaVez = 411 - iPad
+1934-ULTIMA JOGADA = iPhone,S,B,4
+iPad,S,C,4
+
+1936-calculoMinhaPontuacaoAtual
+1938-MINHA VEZ=TRUE
+1940-autoposicionar
+1942-calculoNumeroPersonagensDesempregados=10
+1944-algoritmoPosicionamentoEquilibrado
+1946-calculoQtdMeusPersonagensNoNivel
+1948-calculoQtdMeusPersonagensNoNivel
+1951-POSICIONAR PERSONAGEM OK
+1954-analisarStatus()
+1957-analisarStatus()=Em jogo
+1959-analisarStatus()=Posicionar
+1961-verificarVez
+1964-jogadordaVez = 412 - iPhone
+1967-ULTIMA JOGADA = iPad,S,D,3
+iPhone,S,B,4
+
+1969-calculoMinhaPontuacaoAtual
+1971-MINHA VEZ=FALSE
+1974-analisarStatus()
+1977-analisarStatus()=Em jogo
+1979-analisarStatus()=Posicionar
+1981-verificarVez
+1984-jogadordaVez = 411 - iPad
+1987-ULTIMA JOGADA = iPhone,S,E,4
+iPad,S,D,3
+
+1989-calculoMinhaPontuacaoAtual
+1991-MINHA VEZ=TRUE
+1993-autoposicionar
+1995-calculoNumeroPersonagensDesempregados=8
+1997-algoritmoPosicionamentoEquilibrado
+1999-calculoQtdMeusPersonagensNoNivel
+2001-calculoQtdMeusPersonagensNoNivel
+2004-POSICIONAR PERSONAGEM OK
+2007-analisarStatus()
+2010-analisarStatus()=Em jogo
+2012-analisarStatus()=Posicionar
+2014-verificarVez
+2017-jogadordaVez = 412 - iPhone
+2020-ULTIMA JOGADA = iPad,S,L,3
+iPhone,S,E,4
+
+2022-calculoMinhaPontuacaoAtual
+2024-MINHA VEZ=FALSE
+2027-analisarStatus()
+2030-analisarStatus()=Em jogo
+2032-analisarStatus()=Posicionar
+2034-verificarVez
+2037-jogadordaVez = 411 - iPad
+2040-ULTIMA JOGADA = iPhone,S,F,3
+iPad,S,L,3
+
+2042-calculoMinhaPontuacaoAtual
+2044-MINHA VEZ=TRUE
+2046-autoposicionar
+2048-calculoNumeroPersonagensDesempregados=6
+2050-algoritmoPosicionamentoEquilibrado
+2052-calculoQtdMeusPersonagensNoNivel
+2054-calculoQtdMeusPersonagensNoNivel
+2056-calculoQtdMeusPersonagensNoNivel
+2059-POSICIONAR PERSONAGEM OK
+2062-analisarStatus()
+2065-analisarStatus()=Em jogo
+2067-analisarStatus()=Posicionar
+2069-verificarVez
+2072-jogadordaVez = 412 - iPhone
+2075-ULTIMA JOGADA = iPad,S,M,2
+iPhone,S,F,3
+
+2077-calculoMinhaPontuacaoAtual
+2079-MINHA VEZ=FALSE
+2082-analisarStatus()
+2085-analisarStatus()=Em jogo
+2087-analisarStatus()=Posicionar
+2089-verificarVez
+2092-jogadordaVez = 412 - iPhone
+2095-ULTIMA JOGADA = iPhone,S,G,3
+iPad,S,M,2
+
+2097-calculoMinhaPontuacaoAtual
+2099-MINHA VEZ=FALSE
+2102-analisarStatus()
+2105-analisarStatus()=Em jogo
+2107-analisarStatus()=Posicionar
+2109-verificarVez
+2112-jogadordaVez = 411 - iPad
+2115-ULTIMA JOGADA = iPhone,S,G,3
+iPad,S,M,2
+
+2117-calculoMinhaPontuacaoAtual
+2119-MINHA VEZ=TRUE
+2121-autoposicionar
+2123-calculoNumeroPersonagensDesempregados=4
+2125-algoritmoPosicionamentoEquilibrado
+2127-calculoQtdMeusPersonagensNoNivel
+2129-calculoQtdMeusPersonagensNoNivel
+2131-calculoQtdMeusPersonagensNoNivel
+2134-POSICIONAR PERSONAGEM OK
+2137-analisarStatus()
+2140-analisarStatus()=Em jogo
+2142-analisarStatus()=Posicionar
+2144-verificarVez
+2147-jogadordaVez = 412 - iPhone
+2150-ULTIMA JOGADA = iPad,S,O,2
+iPhone,S,G,3
+
+2152-calculoMinhaPontuacaoAtual
+2154-MINHA VEZ=FALSE
+2157-analisarStatus()
+2160-analisarStatus()=Em jogo
+2162-analisarStatus()=Posicionar
+2164-verificarVez
+2167-jogadordaVez = 412 - iPhone
+2170-ULTIMA JOGADA = iPhone,S,I,2
+iPad,S,O,2
+
+2172-calculoMinhaPontuacaoAtual
+2174-MINHA VEZ=FALSE
+2177-analisarStatus()
+2180-analisarStatus()=Em jogo
+2182-analisarStatus()=Posicionar
+2184-verificarVez
+2187-jogadordaVez = 411 - iPad
+2190-ULTIMA JOGADA = iPhone,S,I,2
+iPad,S,O,2
+
+2192-calculoMinhaPontuacaoAtual
+2194-MINHA VEZ=TRUE
+2196-autoposicionar
+2198-calculoNumeroPersonagensDesempregados=2
+2200-algoritmoPosicionamentoEquilibrado
+2202-ERRO: algoritmo posicionamento equilibrado nao funcionou
+2204-autoposicionar
+2206-calculoNumeroPersonagensDesempregados=2
+2208-algoritmoPosicionarPadrao
+2210-algoritmoPosicionarPadrao - Tentar posicionar 10(N)
+2213-POSICIONAR PERSONAGEM OK
+2216-analisarStatus()
+2219-analisarStatus()=Em jogo
+2221-analisarStatus()=Promover
+2223-verificarVez
+2226-jogadordaVez = 412 - iPhone
+2229-ULTIMA JOGADA = iPad,S,N,2
+iPhone,S,I,2
+
+2231-calculoMinhaPontuacaoAtual
+2233-MINHA VEZ=FALSE
+2236-analisarStatus()
+2239-analisarStatus()=Em jogo
+2241-analisarStatus()=Promover
+2243-verificarVez
+2246-jogadordaVez = 411 - iPad
+2249-ULTIMA JOGADA = iPhone,J,A,5
+iPad,S,N,2
+
+2251-calculoMinhaPontuacaoAtual
+2253-MINHA VEZ=TRUE
+2255-autopromover
+2257-calculoNumeroPersonagensDesempregados=0
+2259-calculoQtdCartasNaoQueNaoSaoMinhas=4
+2261-algoritmoPromocaoMeudeMenorNivel
+2264-PROMOCAO PERSONAGEM OK
+2267-analisarStatus()
+2270-analisarStatus()=Em jogo
+2272-analisarStatus()=Promover
+2274-verificarVez
+2277-jogadordaVez = 412 - iPhone
+2280-ULTIMA JOGADA = iPad,J,L,4
+iPhone,J,A,5
+
+2282-calculoMinhaPontuacaoAtual
+2284-MINHA VEZ=FALSE
+2287-analisarStatus()
+2290-analisarStatus()=Em jogo
+2292-analisarStatus()=Promover
+2294-verificarVez
+2297-jogadordaVez = 411 - iPad
+2300-ULTIMA JOGADA = iPhone,J,A,10
+iPad,J,L,4
+
+2302-calculoMinhaPontuacaoAtual
+2304-MINHA VEZ=TRUE
+2306-autopromover
+2308-ERRO ALGORITMO: chamou promocao ao inves de votacao
+2310-ERRO AO AUTOPROMOVER
+2313-analisarStatus()
+2316-analisarStatus()=Em jogo
+2318-analisarStatus()=Votar
+2320-verificarVez
+2323-jogadordaVez = 411 - iPad
+2326-ULTIMA JOGADA = iPhone,J,A,10
+iPad,J,L,4
+
+2328-calculoMinhaPontuacaoAtual
+2330-MINHA VEZ=TRUE
+2332-autovotar
+2334-algoritmoVotacaoTenhoPontosSuficientes
+2336-calculoMinhaPontuacaoAtual
+2338-calculoMaiorPontuacaoTotalAtualPossivel
+2340-calculoMaiorPontuacaoPossivelAtual
+2342-calculoMaiorPontuacaoTotalAtualPossivel/[1]2229
+2344-ERRO ALGORTMO - algortimovotacaoTenhospontossuficientes retornou falso
+2346-autovotar
+2348-algoritmoVotacaoPadrao
+2350-MEU VOTO SIM
+2353-VOTACAO OK
+2356-analisarStatus()
+2359-analisarStatus()=Em jogo
+2361-analisarStatus()=Votar
+2363-verificarVez
+2366-jogadordaVez = 412 - iPhone
+2369-ULTIMA JOGADA = iPhone,J,A,10
+iPad,J,L,4
+
+2371-calculoMinhaPontuacaoAtual
+2373-MINHA VEZ=FALSE
+2376-analisarStatus()
+2379-analisarStatus()=Em jogo
+2381-analisarStatus()=Votar
+2383-verificarVez
+2386-jogadordaVez = 411 - iPad
+2389-ULTIMA JOGADA = iPhone,J,A,10
+iPad,J,L,4
+
+2391-calculoMinhaPontuacaoAtual
+2393-analisarUltimaVotacao
+2396-calculoQtdTotalAtualCartasNaoNoJogo=8
+2398-calculoQtdTotalAtualCartasNaoNoJogo=8
+2400-calculoNumeroPersonagensEliminados=0
+2402-MINHA VEZ=TRUE
+2404-autovotar
+2406-ERRO ALGORITMO: Não ha candidato para autovotar
+2408-ERRO AO AUTOVOTAR
+2411-analisarStatus()
+2414-analisarStatus()=Em jogo
+2416-analisarStatus()=Promover
+2418-verificarVez
+2421-jogadordaVez = 411 - iPad
+2424-ULTIMA JOGADA = iPhone,J,A,10
+iPad,J,L,4
+
+2426-calculoMinhaPontuacaoAtual
+2428-MINHA VEZ=TRUE
+2430-autopromover
+2432-calculoNumeroPersonagensDesempregados=0
+2434-calculoQtdCartasNaoQueNaoSaoMinhas=3
+2436-algoritmoPromocaoMeudeMenorNivel
+2439-PROMOCAO PERSONAGEM OK
+2442-analisarStatus()
+2445-analisarStatus()=Em jogo
+2447-analisarStatus()=Promover
+2449-verificarVez
+2452-jogadordaVez = 412 - iPhone
+2455-ULTIMA JOGADA = iPad,J,O,3
+iPhone,J,A,10
+
+2457-calculoMinhaPontuacaoAtual
+2459-MINHA VEZ=FALSE
+2462-analisarStatus()
+2465-analisarStatus()=Em jogo
+2467-analisarStatus()=Promover
+2469-verificarVez
+2472-jogadordaVez = 411 - iPad
+2475-ULTIMA JOGADA = iPhone,J,B,5
+iPad,J,O,3
+
+2477-calculoMinhaPontuacaoAtual
+2479-MINHA VEZ=TRUE
+2481-autopromover
+2483-calculoNumeroPersonagensDesempregados=0
+2485-calculoQtdCartasNaoQueNaoSaoMinhas=3
+2487-algoritmoPromocaoMeudeMenorNivel
+2490-PROMOCAO PERSONAGEM OK
+2493-analisarStatus()
+2496-analisarStatus()=Em jogo
+2498-analisarStatus()=Promover
+2500-verificarVez
+2503-jogadordaVez = 412 - iPhone
+2506-ULTIMA JOGADA = iPad,J,O,4
+iPhone,J,B,5
+
+2508-calculoMinhaPontuacaoAtual
+2510-MINHA VEZ=FALSE
+2513-analisarStatus()
+2516-analisarStatus()=Em jogo
+2518-analisarStatus()=Promover
+2520-verificarVez
+2523-jogadordaVez = 412 - iPhone
+2526-ULTIMA JOGADA = iPhone,J,B,10
+iPad,J,O,4
+
+2528-calculoMinhaPontuacaoAtual
+2530-MINHA VEZ=FALSE
+2533-analisarStatus()
+2536-analisarStatus()=Em jogo
+2538-analisarStatus()=Votar
+2540-verificarVez
+2543-jogadordaVez = 411 - iPad
+2546-ULTIMA JOGADA = iPhone,J,B,10
+iPad,J,O,4
+
+2548-calculoMinhaPontuacaoAtual
+2550-MINHA VEZ=TRUE
+2552-autovotar
+2554-algoritmoVotacaoTenhoPontosSuficientes
+2556-calculoMinhaPontuacaoAtual
+2558-calculoMaiorPontuacaoTotalAtualPossivel
+2560-calculoMaiorPontuacaoPossivelAtual
+2562-calculoMaiorPontuacaoTotalAtualPossivel/[1]2229
+2564-ERRO ALGORTMO - algortimovotacaoTenhospontossuficientes retornou falso
+2566-autovotar
+2568-algoritmoVotacaoPadrao
+2570-MEU VOTO NAO
+2573-VOTACAO OK
+2576-analisarStatus()
+2579-analisarStatus()=Em jogo
+2581-analisarStatus()=Votar
+2583-verificarVez
+2586-jogadordaVez = 412 - iPhone
+2589-ULTIMA JOGADA = iPhone,J,B,10
+iPad,J,O,4
+
+2591-calculoMinhaPontuacaoAtual
+2593-MINHA VEZ=FALSE
+2596-analisarStatus()
+2599-analisarStatus()=Em jogo
+2601-analisarStatus()=Votar
+2603-verificarVez
+2606-jogadordaVez = 412 - iPhone
+2609-ULTIMA JOGADA = iPhone,J,B,10
+iPad,J,O,4
+
+2611-calculoMinhaPontuacaoAtual
+2613-MINHA VEZ=FALSE
+2616-analisarStatus()
+2619-analisarStatus()=Em jogo
+2621-analisarStatus()=Promover
+2623-verificarVez
+2626-jogadordaVez = 411 - iPad
+2629-ULTIMA JOGADA = iPhone,J,B,10
+iPad,J,O,4
+
+2631-calculoMinhaPontuacaoAtual
+2633-analisarUltimaVotacao
+2636-calculoQtdTotalAtualCartasNaoNoJogo=6
+2638-calculoQtdTotalAtualCartasNaoNoJogo=6
+2640-calculoNumeroPersonagensEliminados=1
+2642-MINHA VEZ=TRUE
+2644-autopromover
+2646-calculoNumeroPersonagensDesempregados=0
+2648-calculoQtdCartasNaoQueNaoSaoMinhas=3
+2650-algoritmoPromocaoMeudeMenorNivel
+2653-PROMOCAO PERSONAGEM OK
+2656-analisarStatus()
+2659-analisarStatus()=Em jogo
+2661-analisarStatus()=Promover
+2663-verificarVez
+2666-jogadordaVez = 412 - iPhone
+2669-ULTIMA JOGADA = iPad,J,O,5
+iPhone,J,B,10
+
+2671-calculoMinhaPontuacaoAtual
+2673-MINHA VEZ=FALSE
+2676-analisarStatus()
+2679-analisarStatus()=Em jogo
+2681-analisarStatus()=Promover
+2683-verificarVez
+2686-jogadordaVez = 412 - iPhone
+2689-ULTIMA JOGADA = iPhone,J,C,5
+iPad,J,O,5
+
+2691-calculoMinhaPontuacaoAtual
+2693-MINHA VEZ=FALSE
+2696-analisarStatus()
+2699-analisarStatus()=Em jogo
+2701-analisarStatus()=Promover
+2703-verificarVez
+2706-jogadordaVez = 411 - iPad
+2709-ULTIMA JOGADA = iPhone,J,C,5
+iPad,J,O,5
+
+2711-calculoMinhaPontuacaoAtual
+2713-MINHA VEZ=TRUE
+2715-autopromover
+2717-calculoNumeroPersonagensDesempregados=0
+2719-calculoQtdCartasNaoQueNaoSaoMinhas=3
+2721-algoritmoPromocaoMeudeMenorNivel
+2724-PROMOCAO PERSONAGEM OK
+2727-analisarStatus()
+2730-analisarStatus()=Em jogo
+2732-analisarStatus()=Votar
+2734-verificarVez
+2737-jogadordaVez = 412 - iPhone
+2740-ULTIMA JOGADA = iPad,J,O,10
+iPhone,J,C,5
+
+2742-calculoMinhaPontuacaoAtual
+2744-MINHA VEZ=FALSE
+2747-analisarStatus()
+2750-analisarStatus()=Em jogo
+2752-analisarStatus()=Votar
+2754-verificarVez
+2757-jogadordaVez = 412 - iPhone
+2760-ULTIMA JOGADA = iPad,J,O,10
+iPhone,J,C,5
+
+2762-calculoMinhaPontuacaoAtual
+2764-MINHA VEZ=FALSE
+2767-analisarStatus()
+2770-analisarStatus()=Em jogo
+2772-analisarStatus()=Votar
+2774-verificarVez
+2777-jogadordaVez = 411 - iPad
+2780-ULTIMA JOGADA = iPad,J,O,10
+iPhone,J,C,5
+
+2782-calculoMinhaPontuacaoAtual
+2784-MINHA VEZ=TRUE
+2786-autovotar
+2788-algoritmoVotacaoTenhoPontosSuficientes
+2790-calculoMinhaPontuacaoAtual
+2792-calculoMaiorPontuacaoTotalAtualPossivel
+2794-calculoMaiorPontuacaoPossivelAtual
+2796-calculoMaiorPontuacaoTotalAtualPossivel/[1]2223
+2798-ERRO ALGORTMO - algortimovotacaoTenhospontossuficientes retornou falso
+2800-autovotar
+2802-algoritmoVotacaoPadrao
+2804-MEU VOTO SIM
+2807-VOTACAO OK
+2810-analisarStatus()
+2813-analisarStatus()=Em jogo
+2815-analisarStatus()=Promover
+2817-verificarVez
+2820-jogadordaVez = 412 - iPhone
+2823-ULTIMA JOGADA = iPad,J,O,10
+iPhone,J,C,5
+
+2825-calculoMinhaPontuacaoAtual
+2827-analisarUltimaVotacao
+2830-calculoQtdTotalAtualCartasNaoNoJogo=6
+2832-calculoQtdTotalAtualCartasNaoNoJogo=6
+2834-calculoNumeroPersonagensEliminados=2
+2836-MINHA VEZ=FALSE
+2839-analisarStatus()
+2842-analisarStatus()=Em jogo
+2844-analisarStatus()=Promover
+2846-verificarVez
+2849-jogadordaVez = 412 - iPhone
+2852-ULTIMA JOGADA = iPhone,J,C,10
+iPad,J,O,10
+
+2854-calculoMinhaPontuacaoAtual
+2856-MINHA VEZ=FALSE
+2859-analisarStatus()
+2862-analisarStatus()=Em jogo
+2864-analisarStatus()=Votar
+2866-verificarVez
+2869-jogadordaVez = 411 - iPad
+2872-ULTIMA JOGADA = iPhone,J,C,10
+iPad,J,O,10
+
+2874-calculoMinhaPontuacaoAtual
+2876-MINHA VEZ=TRUE
+2878-autovotar
+2880-algoritmoVotacaoTenhoPontosSuficientes
+2882-calculoMinhaPontuacaoAtual
+2884-calculoMaiorPontuacaoTotalAtualPossivel
+2886-calculoMaiorPontuacaoPossivelAtual
+2888-calculoMaiorPontuacaoTotalAtualPossivel/[1]2233
+2890-ERRO ALGORTMO - algortimovotacaoTenhospontossuficientes retornou falso
+2892-autovotar
+2894-algoritmoVotacaoPadrao
+2896-MEU VOTO SIM
+2899-VOTACAO OK
+2902-analisarStatus()
+2905-analisarStatus()=Em jogo
+2907-analisarStatus()=Votar
+2909-verificarVez
+2912-jogadordaVez = 412 - iPhone
+2915-ULTIMA JOGADA = iPhone,J,C,10
+iPad,J,O,10
+
+2917-calculoMinhaPontuacaoAtual
+2919-MINHA VEZ=FALSE
+2922-analisarStatus()
+2925-analisarStatus()=Em jogo
+2927-analisarStatus()=Votar
+2929-verificarVez
+2932-jogadordaVez = 411 - iPad
+2935-ULTIMA JOGADA = iPhone,J,C,10
+iPad,J,O,10
+
+2937-calculoMinhaPontuacaoAtual
+2939-analisarUltimaVotacao
+2942-calculoQtdTotalAtualCartasNaoNoJogo=5
+2944-calculoQtdTotalAtualCartasNaoNoJogo=5
+2946-calculoNumeroPersonagensEliminados=3
+2948-MINHA VEZ=TRUE
+2950-autovotar
+2952-ERRO ALGORITMO: Não ha candidato para autovotar
+2954-ERRO AO AUTOVOTAR
+2957-analisarStatus()
+2960-analisarStatus()=Em jogo
+2962-analisarStatus()=Promover
+2964-verificarVez
+2967-jogadordaVez = 411 - iPad
+2970-ULTIMA JOGADA = iPhone,J,C,10
+iPad,J,O,10
+
+2972-calculoMinhaPontuacaoAtual
+2974-MINHA VEZ=TRUE
+2976-autopromover
+2978-calculoNumeroPersonagensDesempregados=0
+2980-calculoQtdCartasNaoQueNaoSaoMinhas=1
+2982-algoritmoPromocaoMeudeMenorNivel
+2985-PROMOCAO PERSONAGEM OK
+2988-analisarStatus()
+2991-analisarStatus()=Em jogo
+2993-analisarStatus()=Promover
+2995-verificarVez
+2998-jogadordaVez = 412 - iPhone
+3001-ULTIMA JOGADA = iPad,J,M,3
+iPhone,J,C,10
+
+3003-calculoMinhaPontuacaoAtual
+3005-MINHA VEZ=FALSE
+3008-analisarStatus()
+3011-analisarStatus()=Em jogo
+3013-analisarStatus()=Promover
+3015-verificarVez
+3018-jogadordaVez = 411 - iPad
+3021-ULTIMA JOGADA = iPhone,J,D,4
+iPad,J,M,3
+
+3023-calculoMinhaPontuacaoAtual
+3025-MINHA VEZ=TRUE
+3027-autopromover
+3029-calculoNumeroPersonagensDesempregados=0
+3031-calculoQtdCartasNaoQueNaoSaoMinhas=1
+3033-algoritmoPromocaoMeudeMenorNivel
+3036-PROMOCAO PERSONAGEM OK
+3039-analisarStatus()
+3042-analisarStatus()=Em jogo
+3044-analisarStatus()=Promover
+3046-verificarVez
+3049-jogadordaVez = 412 - iPhone
+3052-ULTIMA JOGADA = iPad,J,M,4
+iPhone,J,D,4
+
+3054-calculoMinhaPontuacaoAtual
+3056-MINHA VEZ=FALSE
+3059-analisarStatus()
+3062-analisarStatus()=Em jogo
+3064-analisarStatus()=Promover
+3066-verificarVez
+3069-jogadordaVez = 412 - iPhone
+3072-ULTIMA JOGADA = iPhone,J,D,5
+iPad,J,M,4
+
+3074-calculoMinhaPontuacaoAtual
+3076-MINHA VEZ=FALSE
+3079-analisarStatus()
+3082-analisarStatus()=Em jogo
+3084-analisarStatus()=Promover
+3086-verificarVez
+3089-jogadordaVez = 411 - iPad
+3092-ULTIMA JOGADA = iPhone,J,D,5
+iPad,J,M,4
+
+3094-calculoMinhaPontuacaoAtual
+3096-MINHA VEZ=TRUE
+3098-autopromover
+3100-calculoNumeroPersonagensDesempregados=0
+3102-calculoQtdCartasNaoQueNaoSaoMinhas=1
+3104-algoritmoPromocaoMeudeMenorNivel
+3107-PROMOCAO PERSONAGEM OK
+3110-analisarStatus()
+3113-analisarStatus()=Em jogo
+3115-analisarStatus()=Promover
+3117-verificarVez
+3120-jogadordaVez = 412 - iPhone
+3123-ULTIMA JOGADA = iPad,J,M,5
+iPhone,J,D,5
+
+3125-calculoMinhaPontuacaoAtual
+3127-MINHA VEZ=FALSE
+3130-analisarStatus()
+3133-analisarStatus()=Em jogo
+3135-analisarStatus()=Promover
+3137-verificarVez
+3140-jogadordaVez = 412 - iPhone
+3143-ULTIMA JOGADA = iPhone,J,D,10
+iPad,J,M,5
+
+3145-calculoMinhaPontuacaoAtual
+3147-MINHA VEZ=FALSE
+3150-analisarStatus()
+3153-analisarStatus()=Em jogo
+3155-analisarStatus()=Votar
+3157-verificarVez
+3160-jogadordaVez = 411 - iPad
+3163-ULTIMA JOGADA = iPhone,J,D,10
+iPad,J,M,5
+
+3165-calculoMinhaPontuacaoAtual
+3167-MINHA VEZ=TRUE
+3169-autovotar
+3171-algoritmoVotacaoTenhoPontosSuficientes
+3173-calculoMinhaPontuacaoAtual
+3175-calculoMaiorPontuacaoTotalAtualPossivel
+3177-calculoMaiorPontuacaoPossivelAtual
+3179-calculoMaiorPontuacaoTotalAtualPossivel/[1]2223
+3181-ERRO ALGORTMO - algortimovotacaoTenhospontossuficientes retornou falso
+3183-autovotar
+3185-algoritmoVotacaoPadrao
+3187-MEU VOTO SIM
+3190-VOTACAO OK
+3193-analisarStatus()
+3196-analisarStatus()=Em jogo
+3198-analisarStatus()=Votar
+3200-verificarVez
+3203-jogadordaVez = 412 - iPhone
+3206-ULTIMA JOGADA = iPhone,J,D,10
+iPad,J,M,5
+
+3208-calculoMinhaPontuacaoAtual
+3210-MINHA VEZ=FALSE
+3213-analisarStatus()
+3216-analisarStatus()=Em jogo
+3218-analisarStatus()=Votar
+3220-verificarVez
+3223-jogadordaVez = 411 - iPad
+3226-ULTIMA JOGADA = iPhone,J,D,10
+iPad,J,M,5
+
+3228-calculoMinhaPontuacaoAtual
+3230-analisarUltimaVotacao
+3233-calculoQtdTotalAtualCartasNaoNoJogo=4
+3235-calculoQtdTotalAtualCartasNaoNoJogo=4
+3237-calculoNumeroPersonagensEliminados=4
+3239-MINHA VEZ=TRUE
+3241-autovotar
+3243-ERRO ALGORITMO: Não ha candidato para autovotar
+3245-ERRO AO AUTOVOTAR
+3248-analisarStatus()
+3251-analisarStatus()=Em jogo
+3253-analisarStatus()=Promover
+3255-verificarVez
+3258-jogadordaVez = 411 - iPad
+3261-ULTIMA JOGADA = iPhone,J,D,10
+iPad,J,M,5
+
+3263-calculoMinhaPontuacaoAtual
+3265-MINHA VEZ=TRUE
+3267-autopromover
+3269-calculoNumeroPersonagensDesempregados=0
+3271-calculoQtdCartasNaoQueNaoSaoMinhas=0
+3273-calculoPersonagemMeudeMaiorNivel
+3275-calculoPersonagemMeudeMaiorNivel=9(M)
+3277-algoritmoPromocaoPadrao
+3280-PROMOCAO PERSONAGEM OK
+3283-analisarStatus()
+3286-analisarStatus()=Em jogo
+3288-analisarStatus()=Votar
+3290-verificarVez
+3293-jogadordaVez = 412 - iPhone
+3296-ULTIMA JOGADA = iPad,J,M,10
+iPhone,J,D,10
+
+3298-calculoMinhaPontuacaoAtual
+3300-MINHA VEZ=FALSE
+3303-analisarStatus()
+3306-analisarStatus()=Em jogo
+3308-analisarStatus()=Votar
+3310-verificarVez
+3313-jogadordaVez = 411 - iPad
+3316-ULTIMA JOGADA = iPad,J,M,10
+iPhone,J,D,10
+
+3318-calculoMinhaPontuacaoAtual
+3320-MINHA VEZ=TRUE
+3322-autovotar
+3324-algoritmoVotacaoTenhoPontosSuficientes
+3326-calculoMinhaPontuacaoAtual
+3328-calculoMaiorPontuacaoTotalAtualPossivel
+3330-calculoMaiorPontuacaoPossivelAtual
+3332-calculoMaiorPontuacaoTotalAtualPossivel/[1]2228
+3334-ERRO ALGORTMO - algortimovotacaoTenhospontossuficientes retornou falso
+3336-autovotar
+3338-algoritmoVotacaoPadrao
+3340-MEU VOTO SIM
+3343-ERRO ALGORTMO - algortimovotacaopadrao retornou falso
+3345-ERRO AO AUTOVOTAR
+3348-analisarStatus()
+3351-analisarStatus()=Em jogo
+3353-analisarStatus()=Posicionar
+3355-verificarVez
+3358-jogadordaVez = 412 - iPhone
+3360-novaRodada
+3365-MINHA VEZ=FALSE
+3368-analisarStatus()
+3371-analisarStatus()=Em jogo
+3373-analisarStatus()=Posicionar
+3375-verificarVez
+3378-jogadordaVez = 412 - iPhone
+3381-MINHA VEZ=FALSE
+3384-analisarStatus()
+3387-analisarStatus()=Em jogo
+3389-analisarStatus()=Posicionar
+3391-verificarVez
+3394-jogadordaVez = 411 - iPad
+3397-ULTIMA JOGADA = iPhone,S,A,4
+
+3399-calculoMinhaPontuacaoAtual
+3401-MINHA VEZ=TRUE
+3403-autoposicionar
+3405-calculoNumeroPersonagensDesempregados=12
+3407-algoritmoPosicionamentoEquilibrado
+3409-calculoQtdMeusPersonagensNoNivel
+3412-POSICIONAR PERSONAGEM OK
+3415-analisarStatus()
+3418-analisarStatus()=Em jogo
+3420-analisarStatus()=Posicionar
+3422-verificarVez
+3425-jogadordaVez = 412 - iPhone
+3428-ULTIMA JOGADA = iPhone,S,C,4
+iPad,S,B,4
+
+3430-calculoMinhaPontuacaoAtual
+3432-MINHA VEZ=FALSE
+3435-analisarStatus()
+3438-analisarStatus()=Em jogo
+3440-analisarStatus()=Posicionar
+3442-verificarVez
+3445-jogadordaVez = 411 - iPad
+3448-ULTIMA JOGADA = iPhone,S,C,4
+iPad,S,B,4
+
+3450-calculoMinhaPontuacaoAtual
+3452-MINHA VEZ=TRUE
+3454-autoposicionar
+3456-calculoNumeroPersonagensDesempregados=10
+3458-algoritmoPosicionamentoEquilibrado
+3460-calculoQtdMeusPersonagensNoNivel
+3462-calculoQtdMeusPersonagensNoNivel
+3465-POSICIONAR PERSONAGEM OK
+3468-analisarStatus()
+3471-analisarStatus()=Em jogo
+3473-analisarStatus()=Posicionar
+3475-verificarVez
+3478-jogadordaVez = 412 - iPhone
+3481-ULTIMA JOGADA = iPhone,S,D,4
+iPad,S,F,3
+
+3483-calculoMinhaPontuacaoAtual
+3485-MINHA VEZ=FALSE
+3488-analisarStatus()
+3491-analisarStatus()=Em jogo
+3493-analisarStatus()=Posicionar
+3495-verificarVez
+3498-jogadordaVez = 411 - iPad
+3501-ULTIMA JOGADA = iPhone,S,D,4
+iPad,S,F,3
+
+3503-calculoMinhaPontuacaoAtual
+3505-MINHA VEZ=TRUE
+3507-autoposicionar
+3509-calculoNumeroPersonagensDesempregados=8
+3511-algoritmoPosicionamentoEquilibrado
+3513-calculoQtdMeusPersonagensNoNivel
+3515-calculoQtdMeusPersonagensNoNivel
+3518-POSICIONAR PERSONAGEM OK
+3521-analisarStatus()
+3524-analisarStatus()=Em jogo
+3526-analisarStatus()=Posicionar
+3528-verificarVez
+3531-jogadordaVez = 412 - iPhone
+3534-ULTIMA JOGADA = iPad,S,M,3
+iPhone,S,D,4
+
+3536-calculoMinhaPontuacaoAtual
+3538-MINHA VEZ=FALSE
+3541-analisarStatus()
+3544-analisarStatus()=Em jogo
+3546-analisarStatus()=Posicionar
+3548-verificarVez
+3551-jogadordaVez = 411 - iPad
+3554-ULTIMA JOGADA = iPhone,S,E,3
+iPad,S,M,3
+
+3556-calculoMinhaPontuacaoAtual
+3558-MINHA VEZ=TRUE
+3560-autoposicionar
+3562-calculoNumeroPersonagensDesempregados=6
+3564-algoritmoPosicionamentoEquilibrado
+3566-calculoQtdMeusPersonagensNoNivel
+3568-calculoQtdMeusPersonagensNoNivel
+3570-calculoQtdMeusPersonagensNoNivel
+3573-POSICIONAR PERSONAGEM OK
+3576-analisarStatus()
+3579-analisarStatus()=Em jogo
+3581-analisarStatus()=Posicionar
+3583-verificarVez
+3586-jogadordaVez = 412 - iPhone
+3589-ULTIMA JOGADA = iPad,S,P,2
+iPhone,S,E,3
+
+3591-calculoMinhaPontuacaoAtual
+3593-MINHA VEZ=FALSE
+3596-analisarStatus()
+3599-analisarStatus()=Em jogo
+3601-analisarStatus()=Posicionar
+3603-verificarVez
+3606-jogadordaVez = 411 - iPad
+3609-ULTIMA JOGADA = iPhone,S,G,3
+iPad,S,P,2
+
+3611-calculoMinhaPontuacaoAtual
+3613-MINHA VEZ=TRUE
+3615-autoposicionar
+3617-calculoNumeroPersonagensDesempregados=4
+3619-algoritmoPosicionamentoEquilibrado
+3621-ERRO: algoritmo posicionamento equilibrado nao funcionou
+3623-autoposicionar
+3625-calculoNumeroPersonagensDesempregados=4
+3627-algoritmoPosicionarPadrao
+3629-algoritmoPosicionarPadrao - Tentar posicionar 7(I)
+3632-POSICIONAR PERSONAGEM OK
+3635-analisarStatus()
+3638-analisarStatus()=Em jogo
+3640-analisarStatus()=Posicionar
+3642-verificarVez
+3645-jogadordaVez = 412 - iPhone
+3648-ULTIMA JOGADA = iPad,S,I,2
+iPhone,S,G,3
+
+3650-calculoMinhaPontuacaoAtual
+3652-MINHA VEZ=FALSE
+3655-analisarStatus()
+3658-analisarStatus()=Em jogo
+3660-analisarStatus()=Posicionar
+3662-verificarVez
+3665-jogadordaVez = 411 - iPad
+3668-ULTIMA JOGADA = iPhone,S,L,2
+iPad,S,I,2
+
+3670-calculoMinhaPontuacaoAtual
+3672-MINHA VEZ=TRUE
+3674-autoposicionar
+3676-calculoNumeroPersonagensDesempregados=2
+3678-algoritmoPosicionamentoEquilibrado
+3680-ERRO: algoritmo posicionamento equilibrado nao funcionou
+3682-autoposicionar
+3684-calculoNumeroPersonagensDesempregados=2
+3686-algoritmoPosicionarPadrao
+3688-algoritmoPosicionarPadrao - Tentar posicionar 10(N)
+3691-POSICIONAR PERSONAGEM OK
+3694-analisarStatus()
+3697-analisarStatus()=Em jogo
+3699-analisarStatus()=Promover
+3701-verificarVez
+3704-jogadordaVez = 412 - iPhone
+3707-ULTIMA JOGADA = iPhone,J,A,5
+iPad,S,N,2
+
+3709-calculoMinhaPontuacaoAtual
+3711-MINHA VEZ=FALSE
+3714-analisarStatus()
+3717-analisarStatus()=Em jogo
+3719-analisarStatus()=Promover
+3721-verificarVez
+3724-jogadordaVez = 411 - iPad
+3727-ULTIMA JOGADA = iPhone,J,A,5
+iPad,S,N,2
+
+3729-calculoMinhaPontuacaoAtual
+3731-MINHA VEZ=TRUE
+3733-autopromover
+3735-calculoNumeroPersonagensDesempregados=0
+3737-calculoQtdCartasNaoQueNaoSaoMinhas=4
+3739-algoritmoPromocaoMeudeMenorNivel
+3742-PROMOCAO PERSONAGEM OK
+3745-analisarStatus()
+3748-analisarStatus()=Em jogo
+3750-analisarStatus()=Promover
+3752-verificarVez
+3755-jogadordaVez = 412 - iPhone
+3758-ULTIMA JOGADA = iPad,J,M,4
+iPhone,J,A,5
+
+3760-calculoMinhaPontuacaoAtual
+3762-MINHA VEZ=FALSE
+3765-analisarStatus()
+3768-analisarStatus()=Em jogo
+3770-analisarStatus()=Votar
+3772-verificarVez
+3775-jogadordaVez = 411 - iPad
+3778-ULTIMA JOGADA = iPhone,J,A,10
+iPad,J,M,4
+
+3780-calculoMinhaPontuacaoAtual
+3782-MINHA VEZ=TRUE
+3784-autovotar
+3786-algoritmoVotacaoTenhoPontosSuficientes
+3788-calculoMinhaPontuacaoAtual
+3790-calculoMaiorPontuacaoTotalAtualPossivel
+3792-calculoMaiorPontuacaoPossivelAtual
+3794-calculoMaiorPontuacaoTotalAtualPossivel/[1]3629
+3796-ERRO ALGORTMO - algortimovotacaoTenhospontossuficientes retornou falso
+3798-autovotar
+3800-algoritmoVotacaoPadrao
+3802-MEU VOTO SIM
+3805-VOTACAO OK
+3808-analisarStatus()
+3811-analisarStatus()=Em jogo
+3813-analisarStatus()=Votar
+3815-verificarVez
+3818-jogadordaVez = 412 - iPhone
+3821-calculoMinhaPontuacaoAtual
+3823-MINHA VEZ=FALSE
+3826-analisarStatus()
+3829-analisarStatus()=Encerrada
+3833-analisarStatus()
+3836-analisarStatus()=Encerrada
+3840-analisarStatus()
+3843-analisarStatus()=Encerrada
+3847-analisarStatus()
+3850-analisarStatus()=Encerrada
+3854-analisarStatus()
+3857-analisarStatus()=Encerrada
+3861-analisarStatus()
+3864-analisarStatus()=Encerrada
+3868-analisarStatus()
+3871-analisarStatus()=Encerrada
+3875-analisarStatus()
+3878-analisarStatus()=Encerrada
+3882-analisarStatus()
+3885-analisarStatus()=Encerrada
+3889-analisarStatus()
+3892-analisarStatus()=Encerrada
+3896-analisarStatus()
+3899-analisarStatus()=Encerrada
+3903-analisarStatus()
+3906-analisarStatus()=Encerrada
+3910-analisarStatus()
+3913-analisarStatus()=Encerrada
+3917-analisarStatus()
+3920-analisarStatus()=Encerrada
+3924-analisarStatus()
+3927-analisarStatus()=Encerrada
+3931-analisarStatus()
+3934-analisarStatus()=Encerrada
+3938-analisarStatus()
+3941-analisarStatus()=Encerrada
+3945-analisarStatus()
+3948-analisarStatus()=Encerrada
+3952-analisarStatus()
+3955-analisarStatus()=Encerrada
+3959-analisarStatus()
+3962-analisarStatus()=Encerrada
+3966-analisarStatus()
+3969-analisarStatus()=Encerrada
+3973-analisarStatus()
+3976-analisarStatus()=Encerrada
+3980-analisarStatus()
+3983-analisarStatus()=Encerrada
+3987-analisarStatus()
+3990-analisarStatus()=Encerrada
+3994-analisarStatus()
+3997-analisarStatus()=Encerrada
+4001-analisarStatus()
+4004-analisarStatus()=Encerrada
+4008-analisarStatus()
+4011-analisarStatus()=Encerrada
+4015-analisarStatus()
+4018-analisarStatus()=Encerrada
+4022-analisarStatus()
+4025-analisarStatus()=Encerrada
+4029-analisarStatus()
+4032-analisarStatus()=Encerrada
+4036-analisarStatus()
+4039-analisarStatus()=Encerrada
+4043-analisarStatus()
+4046-analisarStatus()=Encerrada
+4050-analisarStatus()
+4053-analisarStatus()=Encerrada
+4057-analisarStatus()
+4060-analisarStatus()=Encerrada
+4064-analisarStatus()
+4067-analisarStatus()=Encerrada
+4071-analisarStatus()
+4074-analisarStatus()=Encerrada
+4078-analisarStatus()
+4081-analisarStatus()=Encerrada
+4085-analisarStatus()
+4088-analisarStatus()=Encerrada
+4092-analisarStatus()
+4095-analisarStatus()=Encerrada
+4099-analisarStatus()
+4102-analisarStatus()=Encerrada
+4106-analisarStatus()
+4109-analisarStatus()=Encerrada
+4113-analisarStatus()
+4116-analisarStatus()=Encerrada
+4120-analisarStatus()
+4123-analisarStatus()=Encerrada
+4127-analisarStatus()
+4130-analisarStatus()=Encerrada
+4134-analisarStatus()
+4137-analisarStatus()=Encerrada
+4141-analisarStatus()
+4144-analisarStatus()=Encerrada
+4148-analisarStatus()
+4151-analisarStatus()=Encerrada
+4155-analisarStatus()
+4158-analisarStatus()=Encerrada
+4162-analisarStatus()
+4165-analisarStatus()=Encerrada
+4169-analisarStatus()
+4172-analisarStatus()=Encerrada
+4176-analisarStatus()
+4179-analisarStatus()=Encerrada
+4183-analisarStatus()
+4186-analisarStatus()=Encerrada
+4190-analisarStatus()
+4193-analisarStatus()=Encerrada
+4197-analisarStatus()
+4200-analisarStatus()=Encerrada
+4204-analisarStatus()
+4207-analisarStatus()=Encerrada
+4211-analisarStatus()
+4214-analisarStatus()=Encerrada
+4218-analisarStatus()
+4221-analisarStatus()=Encerrada
+4225-analisarStatus()
+4228-analisarStatus()=Encerrada
+4232-analisarStatus()
+4235-analisarStatus()=Encerrada
+4239-analisarStatus()
+4242-analisarStatus()=Encerrada
+4246-analisarStatus()
+4249-analisarStatus()=Encerrada
+4253-analisarStatus()
+4256-analisarStatus()=Encerrada
+4260-analisarStatus()
+4263-analisarStatus()=Encerrada
+4267-analisarStatus()
+4270-analisarStatus()=Encerrada
+4274-analisarStatus()
+4277-analisarStatus()=Encerrada
+4281-analisarStatus()
+4284-analisarStatus()=Encerrada
+4288-analisarStatus()
+4291-analisarStatus()=Encerrada
+4295-analisarStatus()
+4298-analisarStatus()=Encerrada
+4302-analisarStatus()
+4305-analisarStatus()=Encerrada
+4309-analisarStatus()
+4312-analisarStatus()=Encerrada
+4316-analisarStatus()
+4319-analisarStatus()=Encerrada
+4323-analisarStatus()
+4326-analisarStatus()=Encerrada
+4330-analisarStatus()
+4333-analisarStatus()=Encerrada
+4337-analisarStatus()
+4340-analisarStatus()=Encerrada
+4344-analisarStatus()
+4347-analisarStatus()=Encerrada
+4351-analisarStatus()
+4354-analisarStatus()=Encerrada
+4358-analisarStatus()
+4361-analisarStatus()=Encerrada
+4365-analisarStatus()
+4368-analisarStatus()=Encerrada
+4372-analisarStatus()
+4375-analisarStatus()=Encerrada
+4379-analisarStatus()
+4382-analisarStatus()=Encerrada
+4386-analisarStatus()
+4389-analisarStatus()=Encerrada
+4393-analisarStatus()
+4396-analisarStatus()=Encerrada
+4400-analisarStatus()
+4403-analisarStatus()=Encerrada
+4407-analisarStatus()
+4410-analisarStatus()=Encerrada
+4414-analisarStatus()
+4417-analisarStatus()=Encerrada
+4421-analisarStatus()
+4424-analisarStatus()=Encerrada
+4428-analisarStatus()
+4431-analisarStatus()=Encerrada
+4435-analisarStatus()
+4438-analisarStatus()=Encerrada
+4442-analisarStatus()
+4445-analisarStatus()=Encerrada
+4449-analisarStatus()
+4452-analisarStatus()=Encerrada
+4456-analisarStatus()
+4459-analisarStatus()=Encerrada
+4463-analisarStatus()
+4466-analisarStatus()=Encerrada
+4470-analisarStatus()
+4473-analisarStatus()=Encerrada
+4477-analisarStatus()
+4480-analisarStatus()=Encerrada
+4484-analisarStatus()
+4487-analisarStatus()=Encerrada
+4491-analisarStatus()
+4494-analisarStatus()=Encerrada
+4498-analisarStatus()
+4501-analisarStatus()=Encerrada
+4505-analisarStatus()
+4508-analisarStatus()=Encerrada
+4512-analisarStatus()
+4515-analisarStatus()=Encerrada
+4519-analisarStatus()
+4522-analisarStatus()=Encerrada
+4526-analisarStatus()
+4529-analisarStatus()=Encerrada
+4533-analisarStatus()
+4536-analisarStatus()=Encerrada
+4540-analisarStatus()
+4543-analisarStatus()=Encerrada
+4547-analisarStatus()
+4550-analisarStatus()=Encerrada
+4554-analisarStatus()
+4557-analisarStatus()=Encerrada
+4561-analisarStatus()
+4564-analisarStatus()=Encerrada
+4568-analisarStatus()
+4571-analisarStatus()=Encerrada
+4575-analisarStatus()
+4578-analisarStatus()=Encerrada
+4582-analisarStatus()
+4585-analisarStatus()=Encerrada
+4589-analisarStatus()
+4592-analisarStatus()=Encerrada
+4596-analisarStatus()
+4599-analisarStatus()=Encerrada
+4603-analisarStatus()
+4606-analisarStatus()=Encerrada
+4610-analisarStatus()
+4613-analisarStatus()=Encerrada
+4617-analisarStatus()
+4620-analisarStatus()=Encerrada
+4624-analisarStatus()
+4627-analisarStatus()=Encerrada
+4631-analisarStatus()
+4634-analisarStatus()=Encerrada
+4638-analisarStatus()
+4641-analisarStatus()=Encerrada
+4645-analisarStatus()
+4648-analisarStatus()=Encerrada
+4652-analisarStatus()
+4655-analisarStatus()=Encerrada
+4659-analisarStatus()
+4662-analisarStatus()=Encerrada
+4666-analisarStatus()
+4669-analisarStatus()=Encerrada
+4673-analisarStatus()
+4676-analisarStatus()=Encerrada
+4680-analisarStatus()
+4683-analisarStatus()=Encerrada
+4687-analisarStatus()
+4690-analisarStatus()=Encerrada
+4694-analisarStatus()
+4697-analisarStatus()=Encerrada
+4701-analisarStatus()
+4704-analisarStatus()=Encerrada
+4708-analisarStatus()
+4711-analisarStatus()=Encerrada
+4715-analisarStatus()
+4718-analisarStatus()=Encerrada
+4722-analisarStatus()
+4725-analisarStatus()=Encerrada
+4729-analisarStatus()
+4732-analisarStatus()=Encerrada
+4736-analisarStatus()
+4739-analisarStatus()=Encerrada
+4743-analisarStatus()
+4746-analisarStatus()=Encerrada
+4750-analisarStatus()
+4753-analisarStatus()=Encerrada
+4757-analisarStatus()
+4760-analisarStatus()=Encerrada
+4764-analisarStatus()
+4767-analisarStatus()=Encerrada

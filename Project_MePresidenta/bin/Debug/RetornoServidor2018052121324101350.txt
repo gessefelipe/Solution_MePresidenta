@@ -1,0 +1,2611 @@
+1-RETORNO SERVIDOR ListarPartidas: A,2,17/05/2018,testee
+A,4,17/05/2018,test
+A,5,17/05/2018,test
+J,6,17/05/2018,agrfoi
+J,7,17/05/2018,fdah
+J,8,17/05/2018,fon
+J,9,17/05/2018,fon
+J,10,17/05/2018,agr
+J,11,17/05/2018,dale
+J,12,17/05/2018,foi
+J,14,17/05/2018,fon
+J,15,17/05/2018,fon
+J,16,17/05/2018,tres
+J,18,18/05/2018,apple
+J,19,18/05/2018,teste
+J,20,18/05/2018,tetses
+J,21,18/05/2018,tetse
+J,22,18/05/2018,nmnasjas
+A,24,18/05/2018,romm
+J,25,18/05/2018,jhjaq
+J,26,18/05/2018,diok
+J,27,18/05/2018,floripa
+J,28,18/05/2018,floripa
+J,29,18/05/2018,Floriup
+J,30,18/05/2018,floripa
+J,31,18/05/2018,hshjs
+J,33,18/05/2018,jshasj
+J,34,18/05/2018,jhsahj
+J,35,18/05/2018,sahjQ
+J,36,18/05/2018,Londres
+A,39,19/05/2018,Londres
+J,42,19/05/2018,floripa
+J,43,19/05/2018,jasjjsa
+J,44,19/05/2018,ffff
+J,45,19/05/2018,sdsdsz
+J,46,19/05/2018,hwww
+J,47,19/05/2018,HHGHGH
+J,48,19/05/2018,nhfcnhfx
+J,49,19/05/2018,ufgff
+J,50,19/05/2018,jogo
+J,51,19/05/2018,mano
+J,52,19/05/2018,partida
+J,53,19/05/2018,humild
+J,54,19/05/2018,agrfoi
+J,55,19/05/2018,forninho
+J,56,19/05/2018,sdg
+J,57,19/05/2018,new
+J,58,19/05/2018,new
+J,59,19/05/2018,vamooo
+A,60,19/05/2018,sansiasa
+J,61,19/05/2018,TESTE
+A,62,19/05/2018,apple
+A,63,19/05/2018,apple
+A,64,19/05/2018,apple
+A,65,19/05/2018,apple
+A,66,19/05/2018,apple
+J,67,19/05/2018,teste
+A,68,19/05/2018,teste2
+J,69,19/05/2018,apple
+J,70,19/05/2018,tetse2
+J,71,19/05/2018,bcc
+J,72,19/05/2018,apple
+J,73,19/05/2018,apple
+A,74,19/05/2018,Londres
+J,75,19/05/2018,apple
+A,77,19/05/2018,bcc
+J,78,19/05/2018,Londres
+J,79,19/05/2018,apple
+J,80,19/05/2018,Londres
+A,81,19/05/2018,Londres
+A,83,19/05/2018,bcc
+A,84,19/05/2018,bccc
+A,85,19/05/2018,teste
+A,86,19/05/2018,bccc
+A,87,19/05/2018,bvr
+A,88,19/05/2018,bcc
+A,89,19/05/2018,floripa
+A,90,19/05/2018,bcctes
+A,91,19/05/2018,TESTEE
+A,92,19/05/2018,bccc
+A,93,19/05/2018,teste
+A,94,19/05/2018,florpia
+J,95,20/05/2018,teste
+J,96,20/05/2018,teste
+J,97,20/05/2018,FDFH
+J,98,20/05/2018,HGGVBH
+J,99,20/05/2018,jkfk
+J,100,20/05/2018,fgj
+J,101,20/05/2018,gjkfd
+J,102,20/05/2018,gjkh
+J,103,20/05/2018,JHGF
+J,104,20/05/2018,hsdha
+J,105,20/05/2018,sgv
+J,106,20/05/2018,sjsnsn
+J,107,20/05/2018,floripa
+J,108,20/05/2018,Floripa
+A,109,20/05/2018,apple
+J,111,20/05/2018,apple
+J,112,20/05/2018,scteste
+A,113,20/05/2018,Londres
+A,114,20/05/2018,Londres
+A,115,20/05/2018,apple
+A,116,20/05/2018,Londres
+A,117,20/05/2018,Londres
+J,118,20/05/2018,Londres
+J,119,20/05/2018,Londres
+J,120,20/05/2018,apple
+J,121,20/05/2018,scteste
+A,122,20/05/2018,apple
+A,123,20/05/2018,apple
+J,124,20/05/2018,scteste
+A,125,20/05/2018,apple
+J,126,20/05/2018,scteste
+J,127,20/05/2018,scteste
+J,128,20/05/2018,scteste
+J,129,20/05/2018,apple
+J,130,20/05/2018,apple
+J,131,20/05/2018,apple
+J,132,20/05/2018,apple
+J,133,20/05/2018,apple
+J,135,20/05/2018,apple
+J,136,20/05/2018,apple
+J,137,20/05/2018,apple
+J,139,20/05/2018,mario
+J,140,20/05/2018,SCTESTE
+J,141,20/05/2018,scteste
+J,143,20/05/2018,apple
+J,144,20/05/2018,sera?
+J,145,20/05/2018,apple
+J,146,20/05/2018,agr
+J,147,20/05/2018,fon
+J,148,20/05/2018,guerrApple
+J,149,20/05/2018,dale
+J,150,20/05/2018,foi
+J,152,20/05/2018,fomos
+J,153,20/05/2018,Norton
+J,154,20/05/2018,preda
+J,155,20/05/2018,ctz
+A,156,20/05/2018,biri
+A,157,20/05/2018,senha
+J,158,20/05/2018,asdf
+J,159,20/05/2018,apple
+J,160,20/05/2018,real
+J,162,20/05/2018,fora
+J,163,20/05/2018,fooi
+J,164,20/05/2018,ctrl
+A,165,20/05/2018,as2
+J,166,20/05/2018,as2
+J,167,21/05/2018,thay
+J,168,21/05/2018,WAR
+J,169,21/05/2018,DALE
+J,170,21/05/2018,blogrinha
+J,171,21/05/2018,combat
+J,172,21/05/2018,clark
+J,173,21/05/2018,dale
+J,174,21/05/2018,Foi
+J,175,21/05/2018,caiu
+J,176,21/05/2018,dahora
+J,177,21/05/2018,cri
+A,178,21/05/2018,arabella
+J,179,21/05/2018,dale
+A,181,21/05/2018,apple
+A,182,21/05/2018,apple
+A,183,21/05/2018,apple
+A,184,21/05/2018,apple
+A,185,21/05/2018,TESTE
+A,186,21/05/2018,scteste
+J,187,21/05/2018,scteste
+J,188,21/05/2018,scteste
+J,189,21/05/2018,scteste
+J,190,21/05/2018,scteste
+J,191,21/05/2018,Londres
+J,192,21/05/2018,Londres
+J,193,21/05/2018,scteste
+J,194,21/05/2018,scteste
+J,195,21/05/2018,Londres
+J,196,21/05/2018,dcwe
+A,197,21/05/2018,Londres
+J,198,21/05/2018,Londres
+J,199,21/05/2018,Londres
+J,200,22/05/2018,Londres
+J,201,22/05/2018,Londres
+J,202,22/05/2018,Londres
+J,203,22/05/2018,Londres
+J,204,22/05/2018,Londres
+A,205,22/05/2018,Londres
+
+3-RETORNO SERVIDOR Entrar: 412,E466E
+6-RETORNO SERVIDOR ListarJogadores: 411,iPad,0
+412,iPhone,0
+
+9-RETORNO SERVIDOR VerificarStatus: ERRO: Não foi possível identificar o status destas rodadas
+12-RETORNO SERVIDOR ListarJogadores: No Modifications
+16-RETORNO SERVIDOR VerificarStatus: No Modifications
+19-RETORNO SERVIDOR ListarJogadores: No Modifications
+23-RETORNO SERVIDOR VerificarStatus: No Modifications
+26-RETORNO SERVIDOR ListarJogadores: No Modifications
+30-RETORNO SERVIDOR VerificarStatus: No Modifications
+33-RETORNO SERVIDOR ListarJogadores: No Modifications
+37-RETORNO SERVIDOR VerificarStatus: No Modifications
+40-RETORNO SERVIDOR ListarJogadores: No Modifications
+44-RETORNO SERVIDOR VerificarStatus: No Modifications
+47-RETORNO SERVIDOR ListarJogadores: No Modifications
+51-RETORNO SERVIDOR VerificarStatus: No Modifications
+54-RETORNO SERVIDOR ListarJogadores: No Modifications
+58-RETORNO SERVIDOR VerificarStatus: No Modifications
+61-RETORNO SERVIDOR ListarJogadores: No Modifications
+65-RETORNO SERVIDOR VerificarStatus: No Modifications
+68-RETORNO SERVIDOR ListarJogadores: No Modifications
+72-RETORNO SERVIDOR VerificarStatus: No Modifications
+75-RETORNO SERVIDOR ListarJogadores: No Modifications
+79-RETORNO SERVIDOR VerificarStatus: No Modifications
+82-RETORNO SERVIDOR ListarJogadores: No Modifications
+86-RETORNO SERVIDOR VerificarStatus: No Modifications
+89-RETORNO SERVIDOR ListarJogadores: No Modifications
+93-RETORNO SERVIDOR VerificarStatus: No Modifications
+96-RETORNO SERVIDOR ListarJogadores: No Modifications
+100-RETORNO SERVIDOR VerificarStatus: No Modifications
+103-RETORNO SERVIDOR ListarJogadores: No Modifications
+107-RETORNO SERVIDOR VerificarStatus: No Modifications
+110-RETORNO SERVIDOR ListarJogadores: No Modifications
+114-RETORNO SERVIDOR VerificarStatus: No Modifications
+117-RETORNO SERVIDOR ListarJogadores: No Modifications
+121-RETORNO SERVIDOR VerificarStatus: No Modifications
+124-RETORNO SERVIDOR ListarJogadores: No Modifications
+128-RETORNO SERVIDOR VerificarStatus: J,S
+133-RETORNO SERVIDOR ListarJogadores: No Modifications
+136-RETORNO SERVIDOR ListarPersonagens: Alckmin
+Bolsonaro
+Collor
+Dilma
+Enéas
+FHC
+Garotinho
+Itamar
+Luciano Huck
+Marina Silva
+Neymar
+Orestes Quércia
+Paulo Maluf
+
+137-RETORNO SERVIDOR ListarCartas: AEILMN
+
+140-RETORNO SERVIDOR VerificarVez: 411
+
+143-RETORNO SERVIDOR ListarJogadores: No Modifications
+149-RETORNO SERVIDOR VerificarStatus: No Modifications
+156-RETORNO SERVIDOR VerificarVez: No Modifications
+159-RETORNO SERVIDOR ListarJogadores: No Modifications
+165-RETORNO SERVIDOR VerificarStatus: No Modifications
+172-RETORNO SERVIDOR VerificarVez: No Modifications
+175-RETORNO SERVIDOR ListarJogadores: No Modifications
+181-RETORNO SERVIDOR VerificarStatus: No Modifications
+188-RETORNO SERVIDOR VerificarVez: No Modifications
+191-RETORNO SERVIDOR ListarJogadores: No Modifications
+197-RETORNO SERVIDOR VerificarStatus: No Modifications
+204-RETORNO SERVIDOR VerificarVez: No Modifications
+207-RETORNO SERVIDOR ListarJogadores: No Modifications
+213-RETORNO SERVIDOR VerificarStatus: No Modifications
+220-RETORNO SERVIDOR VerificarVez: No Modifications
+223-RETORNO SERVIDOR ListarJogadores: No Modifications
+229-RETORNO SERVIDOR VerificarStatus: No Modifications
+236-RETORNO SERVIDOR VerificarVez: No Modifications
+239-RETORNO SERVIDOR ListarJogadores: No Modifications
+245-RETORNO SERVIDOR VerificarStatus: No Modifications
+252-RETORNO SERVIDOR VerificarVez: No Modifications
+255-RETORNO SERVIDOR ListarJogadores: No Modifications
+261-RETORNO SERVIDOR VerificarStatus: No Modifications
+268-RETORNO SERVIDOR VerificarVez: No Modifications
+271-RETORNO SERVIDOR ListarJogadores: No Modifications
+277-RETORNO SERVIDOR VerificarStatus: No Modifications
+284-RETORNO SERVIDOR VerificarVez: 412
+4,D
+
+287-RETORNO SERVIDOR ConsultarHistorico: iPad,S,D,4
+
+297-RETORNO SERVIDOR VerificarStatus: No Modifications
+304-RETORNO SERVIDOR VerificarVez: No Modifications
+307-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+317-RETORNO SERVIDOR VerificarStatus: No Modifications
+324-RETORNO SERVIDOR VerificarVez: No Modifications
+327-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+337-RETORNO SERVIDOR VerificarStatus: No Modifications
+344-RETORNO SERVIDOR VerificarVez: No Modifications
+347-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+357-RETORNO SERVIDOR VerificarStatus: No Modifications
+364-RETORNO SERVIDOR VerificarVez: No Modifications
+367-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+377-RETORNO SERVIDOR VerificarStatus: No Modifications
+384-RETORNO SERVIDOR VerificarVez: No Modifications
+387-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+397-RETORNO SERVIDOR VerificarStatus: No Modifications
+404-RETORNO SERVIDOR VerificarVez: No Modifications
+407-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+417-RETORNO SERVIDOR VerificarStatus: No Modifications
+424-RETORNO SERVIDOR VerificarVez: No Modifications
+427-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+437-RETORNO SERVIDOR VerificarStatus: No Modifications
+444-RETORNO SERVIDOR VerificarVez: No Modifications
+447-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+457-RETORNO SERVIDOR VerificarStatus: No Modifications
+464-RETORNO SERVIDOR VerificarVez: No Modifications
+467-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+477-RETORNO SERVIDOR VerificarStatus: No Modifications
+484-RETORNO SERVIDOR VerificarVez: No Modifications
+487-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+495-RETORNO SERVIDOR ColocarPersonagem: 1,P
+4,D
+
+500-RETORNO SERVIDOR VerificarStatus: No Modifications
+507-RETORNO SERVIDOR VerificarVez: 411
+1,P
+4,D
+
+510-RETORNO SERVIDOR ConsultarHistorico: iPad,S,G,4
+iPhone,S,P,1
+
+520-RETORNO SERVIDOR VerificarStatus: No Modifications
+527-RETORNO SERVIDOR VerificarVez: 412
+1,P
+4,D
+4,G
+
+530-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+545-RETORNO SERVIDOR ColocarPersonagem: 1,P
+4,A
+4,D
+4,G
+
+551-RETORNO SERVIDOR VerificarStatus: No Modifications
+558-RETORNO SERVIDOR VerificarVez: 411
+1,P
+4,A
+4,D
+4,G
+
+561-RETORNO SERVIDOR ConsultarHistorico: iPad,S,I,3
+iPhone,S,A,4
+
+571-RETORNO SERVIDOR VerificarStatus: No Modifications
+578-RETORNO SERVIDOR VerificarVez: 412
+1,P
+3,I
+4,A
+4,D
+4,G
+
+581-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+596-RETORNO SERVIDOR ColocarPersonagem: 1,P
+3,I
+4,A
+4,B
+4,D
+4,G
+
+602-RETORNO SERVIDOR VerificarStatus: No Modifications
+609-RETORNO SERVIDOR VerificarVez: 411
+1,P
+3,I
+4,A
+4,B
+4,D
+4,G
+
+612-RETORNO SERVIDOR ConsultarHistorico: iPad,S,L,3
+iPhone,S,B,4
+
+622-RETORNO SERVIDOR VerificarStatus: No Modifications
+629-RETORNO SERVIDOR VerificarVez: 412
+1,P
+3,I
+3,L
+4,A
+4,B
+4,D
+4,G
+
+632-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+647-RETORNO SERVIDOR ColocarPersonagem: 1,P
+3,C
+3,I
+3,L
+4,A
+4,B
+4,D
+4,G
+
+653-RETORNO SERVIDOR VerificarStatus: No Modifications
+660-RETORNO SERVIDOR VerificarVez: 411
+1,P
+3,C
+3,I
+3,L
+4,A
+4,B
+4,D
+4,G
+
+663-RETORNO SERVIDOR ConsultarHistorico: iPad,S,M,2
+iPhone,S,C,3
+
+673-RETORNO SERVIDOR VerificarStatus: No Modifications
+680-RETORNO SERVIDOR VerificarVez: 412
+1,P
+2,M
+3,C
+3,I
+3,L
+4,A
+4,B
+4,D
+4,G
+
+683-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+698-RETORNO SERVIDOR ColocarPersonagem: 1,P
+2,M
+3,C
+3,E
+3,I
+3,L
+4,A
+4,B
+4,D
+4,G
+
+704-RETORNO SERVIDOR VerificarStatus: No Modifications
+711-RETORNO SERVIDOR VerificarVez: 411
+1,P
+2,M
+3,C
+3,E
+3,I
+3,L
+4,A
+4,B
+4,D
+4,G
+
+714-RETORNO SERVIDOR ConsultarHistorico: iPhone,S,E,3
+iPad,S,M,2
+
+724-RETORNO SERVIDOR VerificarStatus: No Modifications
+731-RETORNO SERVIDOR VerificarVez: No Modifications
+734-RETORNO SERVIDOR ConsultarHistorico: iPad,S,F,2
+iPhone,S,E,3
+
+744-RETORNO SERVIDOR VerificarStatus: No Modifications
+751-RETORNO SERVIDOR VerificarVez: 412
+1,P
+2,F
+2,M
+3,C
+3,E
+3,I
+3,L
+4,A
+4,B
+4,D
+4,G
+
+754-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+769-RETORNO SERVIDOR ColocarPersonagem: 0,O
+1,P
+2,F
+2,M
+2,N
+3,C
+3,E
+3,I
+3,L
+4,A
+4,B
+4,D
+4,G
+
+775-RETORNO SERVIDOR VerificarStatus: J,J
+782-RETORNO SERVIDOR VerificarVez: 411
+0,O
+1,P
+2,F
+2,M
+2,N
+3,C
+3,E
+3,I
+3,L
+4,A
+4,B
+4,D
+4,G
+
+785-RETORNO SERVIDOR ConsultarHistorico: iPhone,S,N,2
+iPad,S,F,2
+
+795-RETORNO SERVIDOR VerificarStatus: No Modifications
+802-RETORNO SERVIDOR VerificarVez: No Modifications
+805-RETORNO SERVIDOR ConsultarHistorico: iPad,J,P,2
+iPhone,S,N,2
+
+815-RETORNO SERVIDOR VerificarStatus: No Modifications
+822-RETORNO SERVIDOR VerificarVez: 412
+0,O
+2,F
+2,M
+2,N
+2,P
+3,C
+3,E
+3,I
+3,L
+4,A
+4,B
+4,D
+4,G
+
+825-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+838-RETORNO SERVIDOR Promover: 0,O
+2,F
+2,M
+2,N
+2,P
+3,C
+3,E
+3,I
+3,L
+4,B
+4,D
+4,G
+5,A
+
+844-RETORNO SERVIDOR VerificarStatus: No Modifications
+851-RETORNO SERVIDOR VerificarVez: 411
+0,O
+2,F
+2,M
+2,N
+2,P
+3,C
+3,E
+3,I
+3,L
+4,B
+4,D
+4,G
+5,A
+
+854-RETORNO SERVIDOR ConsultarHistorico: iPad,J,L,4
+iPhone,J,A,5
+
+864-RETORNO SERVIDOR VerificarStatus: No Modifications
+871-RETORNO SERVIDOR VerificarVez: 412
+0,O
+2,F
+2,M
+2,N
+2,P
+3,C
+3,E
+3,I
+4,B
+4,D
+4,G
+4,L
+5,A
+
+874-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+887-RETORNO SERVIDOR Promover: 0,O
+2,F
+2,M
+2,N
+2,P
+3,C
+3,E
+3,I
+4,B
+4,D
+4,G
+4,L
+10,A
+
+893-RETORNO SERVIDOR VerificarStatus: J,V
+900-RETORNO SERVIDOR VerificarVez: 411
+0,O
+2,F
+2,M
+2,N
+2,P
+3,C
+3,E
+3,I
+4,B
+4,D
+4,G
+4,L
+10,A
+
+903-RETORNO SERVIDOR ConsultarHistorico: iPhone,J,A,10
+iPad,J,L,4
+
+913-RETORNO SERVIDOR VerificarStatus: No Modifications
+920-RETORNO SERVIDOR VerificarVez: 412
+0,O
+2,F
+2,M
+2,N
+2,P
+3,C
+3,E
+3,I
+4,B
+4,D
+4,G
+4,L
+10,A
+
+923-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+936-RETORNO SERVIDOR Votar: 0,O
+2,F
+2,M
+2,N
+2,P
+3,C
+3,E
+3,I
+4,B
+4,D
+4,G
+4,L
+
+942-RETORNO SERVIDOR VerificarStatus: J,J
+949-RETORNO SERVIDOR VerificarVez: 411
+0,O
+2,F
+2,M
+2,N
+2,P
+3,C
+3,E
+3,I
+4,B
+4,D
+4,G
+4,L
+
+952-RETORNO SERVIDOR ConsultarHistorico: iPad,J,P,3
+iPhone,J,A,10
+
+959-RETORNO SERVIDOR ExibirUltimaVotacao: 411,N
+412,S
+
+971-RETORNO SERVIDOR VerificarStatus: No Modifications
+978-RETORNO SERVIDOR VerificarVez: 412
+0,O
+2,F
+2,M
+2,N
+3,C
+3,E
+3,I
+3,P
+4,B
+4,D
+4,G
+4,L
+
+981-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+994-RETORNO SERVIDOR Promover: 0,O
+2,F
+2,M
+2,N
+3,C
+3,E
+3,I
+3,P
+4,D
+4,G
+4,L
+5,B
+
+1000-RETORNO SERVIDOR VerificarStatus: No Modifications
+1007-RETORNO SERVIDOR VerificarVez: 411
+0,O
+2,F
+2,M
+2,N
+3,C
+3,E
+3,I
+3,P
+4,D
+4,G
+4,L
+5,B
+
+1010-RETORNO SERVIDOR ConsultarHistorico: iPad,J,P,4
+iPhone,J,B,5
+
+1020-RETORNO SERVIDOR VerificarStatus: No Modifications
+1027-RETORNO SERVIDOR VerificarVez: 412
+0,O
+2,F
+2,M
+2,N
+3,C
+3,E
+3,I
+4,D
+4,G
+4,L
+4,P
+5,B
+
+1030-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+1043-RETORNO SERVIDOR Promover: 0,O
+2,F
+2,M
+2,N
+3,C
+3,E
+3,I
+4,D
+4,G
+4,L
+4,P
+10,B
+
+1049-RETORNO SERVIDOR VerificarStatus: J,V
+1056-RETORNO SERVIDOR VerificarVez: 411
+0,O
+2,F
+2,M
+2,N
+3,C
+3,E
+3,I
+4,D
+4,G
+4,L
+4,P
+10,B
+
+1059-RETORNO SERVIDOR ConsultarHistorico: iPhone,J,B,10
+iPad,J,P,4
+
+1069-RETORNO SERVIDOR VerificarStatus: No Modifications
+1076-RETORNO SERVIDOR VerificarVez: 412
+0,O
+2,F
+2,M
+2,N
+3,C
+3,E
+3,I
+4,D
+4,G
+4,L
+4,P
+10,B
+
+1079-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+1092-RETORNO SERVIDOR Votar: 0,O
+2,F
+2,M
+2,N
+3,C
+3,E
+3,I
+4,D
+4,G
+4,L
+4,P
+
+1098-RETORNO SERVIDOR VerificarStatus: J,J
+1105-RETORNO SERVIDOR VerificarVez: 411
+0,O
+2,F
+2,M
+2,N
+3,C
+3,E
+3,I
+4,D
+4,G
+4,L
+4,P
+
+1108-RETORNO SERVIDOR ConsultarHistorico: iPad,J,P,5
+iPhone,J,B,10
+
+1115-RETORNO SERVIDOR ExibirUltimaVotacao: 411,N
+412,N
+
+1121-RETORNO SERVIDOR VerificarStatus: No Modifications
+1128-RETORNO SERVIDOR VerificarVez: 412
+0,O
+2,F
+2,M
+2,N
+3,C
+3,E
+3,I
+4,D
+4,G
+4,L
+5,P
+
+1131-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+1144-RETORNO SERVIDOR Promover: 0,O
+2,F
+2,M
+2,N
+3,E
+3,I
+4,C
+4,D
+4,G
+4,L
+5,P
+
+1150-RETORNO SERVIDOR VerificarStatus: No Modifications
+1157-RETORNO SERVIDOR VerificarVez: 411
+0,O
+2,F
+2,M
+2,N
+3,E
+3,I
+4,C
+4,D
+4,G
+4,L
+5,P
+
+1160-RETORNO SERVIDOR ConsultarHistorico: iPad,J,P,10
+iPhone,J,C,4
+
+1170-RETORNO SERVIDOR VerificarStatus: J,V
+1177-RETORNO SERVIDOR VerificarVez: 412
+0,O
+2,F
+2,M
+2,N
+3,E
+3,I
+4,C
+4,D
+4,G
+4,L
+10,P
+
+1180-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+1193-RETORNO SERVIDOR Votar: 0,O
+2,F
+2,M
+2,N
+3,E
+3,I
+4,C
+4,D
+4,G
+4,L
+10,P
+
+1199-RETORNO SERVIDOR VerificarStatus: No Modifications
+1206-RETORNO SERVIDOR VerificarVez: 411
+0,O
+2,F
+2,M
+2,N
+3,E
+3,I
+4,C
+4,D
+4,G
+4,L
+10,P
+
+1209-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+1219-RETORNO SERVIDOR VerificarStatus: J,J
+1226-RETORNO SERVIDOR VerificarVez: 412
+0,O
+2,F
+2,M
+2,N
+3,E
+3,I
+4,C
+4,D
+4,G
+4,L
+
+1229-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+1236-RETORNO SERVIDOR ExibirUltimaVotacao: 411,S
+412,N
+
+1251-RETORNO SERVIDOR Promover: 0,O
+2,F
+2,M
+2,N
+3,E
+3,I
+4,D
+4,G
+4,L
+5,C
+
+1257-RETORNO SERVIDOR VerificarStatus: No Modifications
+1264-RETORNO SERVIDOR VerificarVez: 411
+0,O
+2,F
+2,M
+2,N
+3,E
+3,I
+4,D
+4,G
+4,L
+5,C
+
+1267-RETORNO SERVIDOR ConsultarHistorico: iPad,J,M,3
+iPhone,J,C,5
+
+1277-RETORNO SERVIDOR VerificarStatus: No Modifications
+1284-RETORNO SERVIDOR VerificarVez: 412
+0,O
+2,F
+2,N
+3,E
+3,I
+3,M
+4,D
+4,G
+4,L
+5,C
+
+1287-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+1300-RETORNO SERVIDOR Promover: 0,O
+2,F
+2,N
+3,E
+3,I
+3,M
+4,D
+4,G
+4,L
+10,C
+
+1306-RETORNO SERVIDOR VerificarStatus: J,V
+1313-RETORNO SERVIDOR VerificarVez: 411
+0,O
+2,F
+2,N
+3,E
+3,I
+3,M
+4,D
+4,G
+4,L
+10,C
+
+1316-RETORNO SERVIDOR ConsultarHistorico: iPhone,J,C,10
+iPad,J,M,3
+
+1326-RETORNO SERVIDOR VerificarStatus: No Modifications
+1333-RETORNO SERVIDOR VerificarVez: 412
+0,O
+2,F
+2,N
+3,E
+3,I
+3,M
+4,D
+4,G
+4,L
+10,C
+
+1336-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+1349-RETORNO SERVIDOR Votar: 0,O
+2,F
+2,N
+3,E
+3,I
+3,M
+4,D
+4,G
+4,L
+
+1355-RETORNO SERVIDOR VerificarStatus: J,J
+1362-RETORNO SERVIDOR VerificarVez: 411
+0,O
+2,F
+2,N
+3,E
+3,I
+3,M
+4,D
+4,G
+4,L
+
+1365-RETORNO SERVIDOR ConsultarHistorico: iPad,J,M,4
+iPhone,J,C,10
+
+1372-RETORNO SERVIDOR ExibirUltimaVotacao: 411,N
+412,N
+
+1378-RETORNO SERVIDOR VerificarStatus: No Modifications
+1385-RETORNO SERVIDOR VerificarVez: 412
+0,O
+2,F
+2,N
+3,E
+3,I
+4,D
+4,G
+4,L
+4,M
+
+1388-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+1401-RETORNO SERVIDOR Promover: 0,O
+2,F
+2,N
+3,E
+3,I
+4,G
+4,L
+4,M
+5,D
+
+1407-RETORNO SERVIDOR VerificarStatus: No Modifications
+1414-RETORNO SERVIDOR VerificarVez: 411
+0,O
+2,F
+2,N
+3,E
+3,I
+4,G
+4,L
+4,M
+5,D
+
+1417-RETORNO SERVIDOR ConsultarHistorico: iPad,J,M,5
+iPhone,J,D,5
+
+1427-RETORNO SERVIDOR VerificarStatus: No Modifications
+1434-RETORNO SERVIDOR VerificarVez: 412
+0,O
+2,F
+2,N
+3,E
+3,I
+4,G
+4,L
+5,D
+5,M
+
+1437-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+1450-RETORNO SERVIDOR Promover: 0,O
+2,F
+2,N
+3,E
+3,I
+4,G
+4,L
+5,M
+10,D
+
+1456-RETORNO SERVIDOR VerificarStatus: J,V
+1463-RETORNO SERVIDOR VerificarVez: 411
+0,O
+2,F
+2,N
+3,E
+3,I
+4,G
+4,L
+5,M
+10,D
+
+1466-RETORNO SERVIDOR ConsultarHistorico: iPhone,J,D,10
+iPad,J,M,5
+
+1476-RETORNO SERVIDOR VerificarStatus: No Modifications
+1483-RETORNO SERVIDOR VerificarVez: 412
+0,O
+2,F
+2,N
+3,E
+3,I
+4,G
+4,L
+5,M
+10,D
+
+1486-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+1499-RETORNO SERVIDOR Votar: 0,O
+2,F
+2,N
+3,E
+3,I
+4,G
+4,L
+5,M
+
+1505-RETORNO SERVIDOR VerificarStatus: J,J
+1512-RETORNO SERVIDOR VerificarVez: 411
+0,O
+2,F
+2,N
+3,E
+3,I
+4,G
+4,L
+5,M
+
+1515-RETORNO SERVIDOR ConsultarHistorico: iPad,J,M,10
+iPhone,J,D,10
+
+1522-RETORNO SERVIDOR ExibirUltimaVotacao: 411,S
+412,N
+
+1532-RETORNO SERVIDOR VerificarStatus: J,V
+1539-RETORNO SERVIDOR VerificarVez: 412
+0,O
+2,F
+2,N
+3,E
+3,I
+4,G
+4,L
+10,M
+
+1542-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+1553-RETORNO SERVIDOR Votar: 0,O
+2,F
+2,N
+3,E
+3,I
+4,G
+4,L
+10,M
+
+1559-RETORNO SERVIDOR VerificarStatus: No Modifications
+1566-RETORNO SERVIDOR VerificarVez: 411
+0,O
+2,F
+2,N
+3,E
+3,I
+4,G
+4,L
+10,M
+
+1569-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+1579-RETORNO SERVIDOR VerificarStatus: J,S
+1586-RETORNO SERVIDOR VerificarVez: 412
+
+1591-RETORNO SERVIDOR ListarPersonagens: No Modifications
+1592-RETORNO SERVIDOR ListarCartas: BEFGIN
+
+1593-RETORNO SERVIDOR ListarJogadores: 411,iPad,21
+412,iPhone,22
+
+1596-RETORNO SERVIDOR ExibirUltimaVotacao: 411,S
+412,S
+
+1619-RETORNO SERVIDOR ColocarPersonagem: 4,A
+
+1625-RETORNO SERVIDOR VerificarStatus: No Modifications
+1632-RETORNO SERVIDOR VerificarVez: 411
+4,A
+
+1635-RETORNO SERVIDOR ConsultarHistorico: iPad,S,C,4
+iPhone,S,A,4
+
+1645-RETORNO SERVIDOR VerificarStatus: No Modifications
+1652-RETORNO SERVIDOR VerificarVez: 412
+4,A
+4,C
+
+1655-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+1670-RETORNO SERVIDOR ColocarPersonagem: 4,A
+4,B
+4,C
+
+1676-RETORNO SERVIDOR VerificarStatus: No Modifications
+1683-RETORNO SERVIDOR VerificarVez: 411
+4,A
+4,B
+4,C
+
+1686-RETORNO SERVIDOR ConsultarHistorico: iPad,S,D,3
+iPhone,S,B,4
+
+1696-RETORNO SERVIDOR VerificarStatus: No Modifications
+1703-RETORNO SERVIDOR VerificarVez: 412
+3,D
+4,A
+4,B
+4,C
+
+1706-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+1721-RETORNO SERVIDOR ColocarPersonagem: 3,D
+4,A
+4,B
+4,C
+4,E
+
+1727-RETORNO SERVIDOR VerificarStatus: No Modifications
+1734-RETORNO SERVIDOR VerificarVez: 411
+3,D
+4,A
+4,B
+4,C
+4,E
+
+1737-RETORNO SERVIDOR ConsultarHistorico: iPad,S,L,3
+iPhone,S,E,4
+
+1747-RETORNO SERVIDOR VerificarStatus: No Modifications
+1754-RETORNO SERVIDOR VerificarVez: 412
+3,D
+3,L
+4,A
+4,B
+4,C
+4,E
+
+1757-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+1772-RETORNO SERVIDOR ColocarPersonagem: 3,D
+3,F
+3,L
+4,A
+4,B
+4,C
+4,E
+
+1778-RETORNO SERVIDOR VerificarStatus: No Modifications
+1785-RETORNO SERVIDOR VerificarVez: 411
+3,D
+3,F
+3,L
+4,A
+4,B
+4,C
+4,E
+
+1788-RETORNO SERVIDOR ConsultarHistorico: iPad,S,M,2
+iPhone,S,F,3
+
+1798-RETORNO SERVIDOR VerificarStatus: No Modifications
+1805-RETORNO SERVIDOR VerificarVez: 412
+2,M
+3,D
+3,F
+3,L
+4,A
+4,B
+4,C
+4,E
+
+1808-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+1823-RETORNO SERVIDOR ColocarPersonagem: 2,M
+3,D
+3,F
+3,G
+3,L
+4,A
+4,B
+4,C
+4,E
+
+1829-RETORNO SERVIDOR VerificarStatus: No Modifications
+1836-RETORNO SERVIDOR VerificarVez: 411
+2,M
+3,D
+3,F
+3,G
+3,L
+4,A
+4,B
+4,C
+4,E
+
+1839-RETORNO SERVIDOR ConsultarHistorico: iPhone,S,G,3
+iPad,S,M,2
+
+1849-RETORNO SERVIDOR VerificarStatus: No Modifications
+1856-RETORNO SERVIDOR VerificarVez: No Modifications
+1859-RETORNO SERVIDOR ConsultarHistorico: iPad,S,O,2
+iPhone,S,G,3
+
+1869-RETORNO SERVIDOR VerificarStatus: No Modifications
+1876-RETORNO SERVIDOR VerificarVez: 412
+2,M
+2,O
+3,D
+3,F
+3,G
+3,L
+4,A
+4,B
+4,C
+4,E
+
+1879-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+1894-RETORNO SERVIDOR ColocarPersonagem: 2,I
+2,M
+2,O
+3,D
+3,F
+3,G
+3,L
+4,A
+4,B
+4,C
+4,E
+
+1900-RETORNO SERVIDOR VerificarStatus: No Modifications
+1907-RETORNO SERVIDOR VerificarVez: 411
+2,I
+2,M
+2,O
+3,D
+3,F
+3,G
+3,L
+4,A
+4,B
+4,C
+4,E
+
+1910-RETORNO SERVIDOR ConsultarHistorico: iPhone,S,I,2
+iPad,S,O,2
+
+1920-RETORNO SERVIDOR VerificarStatus: No Modifications
+1927-RETORNO SERVIDOR VerificarVez: No Modifications
+1930-RETORNO SERVIDOR ConsultarHistorico: iPad,S,N,2
+iPhone,S,I,2
+
+1940-RETORNO SERVIDOR VerificarStatus: J,J
+1947-RETORNO SERVIDOR VerificarVez: 412
+0,P
+2,I
+2,M
+2,N
+2,O
+3,D
+3,F
+3,G
+3,L
+4,A
+4,B
+4,C
+4,E
+
+1950-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+1963-RETORNO SERVIDOR Promover: 0,P
+2,I
+2,M
+2,N
+2,O
+3,D
+3,F
+3,G
+3,L
+4,B
+4,C
+4,E
+5,A
+
+1969-RETORNO SERVIDOR VerificarStatus: No Modifications
+1976-RETORNO SERVIDOR VerificarVez: 411
+0,P
+2,I
+2,M
+2,N
+2,O
+3,D
+3,F
+3,G
+3,L
+4,B
+4,C
+4,E
+5,A
+
+1979-RETORNO SERVIDOR ConsultarHistorico: iPad,J,L,4
+iPhone,J,A,5
+
+1989-RETORNO SERVIDOR VerificarStatus: No Modifications
+1996-RETORNO SERVIDOR VerificarVez: 412
+0,P
+2,I
+2,M
+2,N
+2,O
+3,D
+3,F
+3,G
+4,B
+4,C
+4,E
+4,L
+5,A
+
+1999-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+2012-RETORNO SERVIDOR Promover: 0,P
+2,I
+2,M
+2,N
+2,O
+3,D
+3,F
+3,G
+4,B
+4,C
+4,E
+4,L
+10,A
+
+2018-RETORNO SERVIDOR VerificarStatus: J,V
+2025-RETORNO SERVIDOR VerificarVez: 411
+0,P
+2,I
+2,M
+2,N
+2,O
+3,D
+3,F
+3,G
+4,B
+4,C
+4,E
+4,L
+10,A
+
+2028-RETORNO SERVIDOR ConsultarHistorico: iPhone,J,A,10
+iPad,J,L,4
+
+2038-RETORNO SERVIDOR VerificarStatus: No Modifications
+2045-RETORNO SERVIDOR VerificarVez: No Modifications
+2048-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+2058-RETORNO SERVIDOR VerificarStatus: No Modifications
+2065-RETORNO SERVIDOR VerificarVez: 412
+0,P
+2,I
+2,M
+2,N
+2,O
+3,D
+3,F
+3,G
+4,B
+4,C
+4,E
+4,L
+10,A
+
+2068-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+2081-RETORNO SERVIDOR Votar: 0,P
+2,I
+2,M
+2,N
+2,O
+3,D
+3,F
+3,G
+4,B
+4,C
+4,E
+4,L
+
+2087-RETORNO SERVIDOR VerificarStatus: J,J
+2094-RETORNO SERVIDOR VerificarVez: 411
+0,P
+2,I
+2,M
+2,N
+2,O
+3,D
+3,F
+3,G
+4,B
+4,C
+4,E
+4,L
+
+2097-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+2104-RETORNO SERVIDOR ExibirUltimaVotacao: 411,S
+412,N
+
+2116-RETORNO SERVIDOR VerificarStatus: No Modifications
+2123-RETORNO SERVIDOR VerificarVez: No Modifications
+2126-RETORNO SERVIDOR ConsultarHistorico: iPad,J,O,3
+iPhone,J,A,10
+
+2136-RETORNO SERVIDOR VerificarStatus: No Modifications
+2143-RETORNO SERVIDOR VerificarVez: 412
+0,P
+2,I
+2,M
+2,N
+3,D
+3,F
+3,G
+3,O
+4,B
+4,C
+4,E
+4,L
+
+2146-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+2159-RETORNO SERVIDOR Promover: 0,P
+2,I
+2,M
+2,N
+3,D
+3,F
+3,G
+3,O
+4,C
+4,E
+4,L
+5,B
+
+2165-RETORNO SERVIDOR VerificarStatus: No Modifications
+2172-RETORNO SERVIDOR VerificarVez: 411
+0,P
+2,I
+2,M
+2,N
+3,D
+3,F
+3,G
+3,O
+4,C
+4,E
+4,L
+5,B
+
+2175-RETORNO SERVIDOR ConsultarHistorico: iPad,J,O,4
+iPhone,J,B,5
+
+2185-RETORNO SERVIDOR VerificarStatus: No Modifications
+2192-RETORNO SERVIDOR VerificarVez: 412
+0,P
+2,I
+2,M
+2,N
+3,D
+3,F
+3,G
+4,C
+4,E
+4,L
+4,O
+5,B
+
+2195-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+2208-RETORNO SERVIDOR Promover: 0,P
+2,I
+2,M
+2,N
+3,D
+3,F
+3,G
+4,C
+4,E
+4,L
+4,O
+10,B
+
+2214-RETORNO SERVIDOR VerificarStatus: J,V
+2221-RETORNO SERVIDOR VerificarVez: 411
+0,P
+2,I
+2,M
+2,N
+3,D
+3,F
+3,G
+4,C
+4,E
+4,L
+4,O
+10,B
+
+2224-RETORNO SERVIDOR ConsultarHistorico: iPhone,J,B,10
+iPad,J,O,4
+
+2234-RETORNO SERVIDOR VerificarStatus: No Modifications
+2241-RETORNO SERVIDOR VerificarVez: No Modifications
+2244-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+2254-RETORNO SERVIDOR VerificarStatus: No Modifications
+2261-RETORNO SERVIDOR VerificarVez: 412
+0,P
+2,I
+2,M
+2,N
+3,D
+3,F
+3,G
+4,C
+4,E
+4,L
+4,O
+10,B
+
+2264-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+2277-RETORNO SERVIDOR Votar: 0,P
+2,I
+2,M
+2,N
+3,D
+3,F
+3,G
+4,C
+4,E
+4,L
+4,O
+
+2283-RETORNO SERVIDOR VerificarStatus: J,J
+2290-RETORNO SERVIDOR VerificarVez: 411
+0,P
+2,I
+2,M
+2,N
+3,D
+3,F
+3,G
+4,C
+4,E
+4,L
+4,O
+
+2293-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+2300-RETORNO SERVIDOR ExibirUltimaVotacao: 411,N
+412,S
+
+2312-RETORNO SERVIDOR VerificarStatus: No Modifications
+2319-RETORNO SERVIDOR VerificarVez: No Modifications
+2322-RETORNO SERVIDOR ConsultarHistorico: iPad,J,O,5
+iPhone,J,B,10
+
+2332-RETORNO SERVIDOR VerificarStatus: No Modifications
+2339-RETORNO SERVIDOR VerificarVez: 412
+0,P
+2,I
+2,M
+2,N
+3,D
+3,F
+3,G
+4,C
+4,E
+4,L
+5,O
+
+2342-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+2355-RETORNO SERVIDOR Promover: 0,P
+2,I
+2,M
+2,N
+3,D
+3,F
+3,G
+4,E
+4,L
+5,C
+5,O
+
+2361-RETORNO SERVIDOR VerificarStatus: No Modifications
+2368-RETORNO SERVIDOR VerificarVez: 411
+0,P
+2,I
+2,M
+2,N
+3,D
+3,F
+3,G
+4,E
+4,L
+5,C
+5,O
+
+2371-RETORNO SERVIDOR ConsultarHistorico: iPhone,J,C,5
+iPad,J,O,5
+
+2381-RETORNO SERVIDOR VerificarStatus: No Modifications
+2388-RETORNO SERVIDOR VerificarVez: No Modifications
+2391-RETORNO SERVIDOR ConsultarHistorico: iPad,J,O,10
+iPhone,J,C,5
+
+2401-RETORNO SERVIDOR VerificarStatus: J,V
+2408-RETORNO SERVIDOR VerificarVez: 412
+0,P
+2,I
+2,M
+2,N
+3,D
+3,F
+3,G
+4,E
+4,L
+5,C
+10,O
+
+2411-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+2424-RETORNO SERVIDOR Votar: 0,P
+2,I
+2,M
+2,N
+3,D
+3,F
+3,G
+4,E
+4,L
+5,C
+10,O
+
+2430-RETORNO SERVIDOR VerificarStatus: No Modifications
+2437-RETORNO SERVIDOR VerificarVez: 411
+0,P
+2,I
+2,M
+2,N
+3,D
+3,F
+3,G
+4,E
+4,L
+5,C
+10,O
+
+2440-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+2450-RETORNO SERVIDOR VerificarStatus: No Modifications
+2457-RETORNO SERVIDOR VerificarVez: No Modifications
+2460-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+2470-RETORNO SERVIDOR VerificarStatus: J,J
+2477-RETORNO SERVIDOR VerificarVez: 412
+0,P
+2,I
+2,M
+2,N
+3,D
+3,F
+3,G
+4,E
+4,L
+5,C
+
+2480-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+2487-RETORNO SERVIDOR ExibirUltimaVotacao: 411,S
+412,N
+
+2502-RETORNO SERVIDOR Promover: 0,P
+2,I
+2,M
+2,N
+3,D
+3,F
+3,G
+4,E
+4,L
+10,C
+
+2508-RETORNO SERVIDOR VerificarStatus: J,V
+2515-RETORNO SERVIDOR VerificarVez: 411
+0,P
+2,I
+2,M
+2,N
+3,D
+3,F
+3,G
+4,E
+4,L
+10,C
+
+2518-RETORNO SERVIDOR ConsultarHistorico: iPhone,J,C,10
+iPad,J,O,10
+
+2528-RETORNO SERVIDOR VerificarStatus: No Modifications
+2535-RETORNO SERVIDOR VerificarVez: No Modifications
+2538-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+2548-RETORNO SERVIDOR VerificarStatus: No Modifications
+2555-RETORNO SERVIDOR VerificarVez: 412
+0,P
+2,I
+2,M
+2,N
+3,D
+3,F
+3,G
+4,E
+4,L
+10,C
+
+2558-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+2571-RETORNO SERVIDOR Votar: 0,P
+2,I
+2,M
+2,N
+3,D
+3,F
+3,G
+4,E
+4,L
+
+2577-RETORNO SERVIDOR VerificarStatus: J,J
+2584-RETORNO SERVIDOR VerificarVez: 411
+0,P
+2,I
+2,M
+2,N
+3,D
+3,F
+3,G
+4,E
+4,L
+
+2587-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+2594-RETORNO SERVIDOR ExibirUltimaVotacao: No Modifications
+2606-RETORNO SERVIDOR VerificarStatus: No Modifications
+2613-RETORNO SERVIDOR VerificarVez: No Modifications
+2616-RETORNO SERVIDOR ConsultarHistorico: iPad,J,M,3
+iPhone,J,C,10
+
+2626-RETORNO SERVIDOR VerificarStatus: No Modifications
+2633-RETORNO SERVIDOR VerificarVez: 412
+0,P
+2,I
+2,N
+3,D
+3,F
+3,G
+3,M
+4,E
+4,L
+
+2636-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+2649-RETORNO SERVIDOR Promover: 0,P
+2,I
+2,N
+3,F
+3,G
+3,M
+4,D
+4,E
+4,L
+
+2655-RETORNO SERVIDOR VerificarStatus: No Modifications
+2662-RETORNO SERVIDOR VerificarVez: 411
+0,P
+2,I
+2,N
+3,F
+3,G
+3,M
+4,D
+4,E
+4,L
+
+2665-RETORNO SERVIDOR ConsultarHistorico: iPad,J,M,4
+iPhone,J,D,4
+
+2675-RETORNO SERVIDOR VerificarStatus: No Modifications
+2682-RETORNO SERVIDOR VerificarVez: 412
+0,P
+2,I
+2,N
+3,F
+3,G
+4,D
+4,E
+4,L
+4,M
+
+2685-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+2698-RETORNO SERVIDOR Promover: 0,P
+2,I
+2,N
+3,F
+3,G
+4,E
+4,L
+4,M
+5,D
+
+2704-RETORNO SERVIDOR VerificarStatus: No Modifications
+2711-RETORNO SERVIDOR VerificarVez: 411
+0,P
+2,I
+2,N
+3,F
+3,G
+4,E
+4,L
+4,M
+5,D
+
+2714-RETORNO SERVIDOR ConsultarHistorico: iPhone,J,D,5
+iPad,J,M,4
+
+2724-RETORNO SERVIDOR VerificarStatus: No Modifications
+2731-RETORNO SERVIDOR VerificarVez: No Modifications
+2734-RETORNO SERVIDOR ConsultarHistorico: iPad,J,M,5
+iPhone,J,D,5
+
+2744-RETORNO SERVIDOR VerificarStatus: No Modifications
+2751-RETORNO SERVIDOR VerificarVez: 412
+0,P
+2,I
+2,N
+3,F
+3,G
+4,E
+4,L
+5,D
+5,M
+
+2754-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+2767-RETORNO SERVIDOR Promover: 0,P
+2,I
+2,N
+3,F
+3,G
+4,E
+4,L
+5,M
+10,D
+
+2773-RETORNO SERVIDOR VerificarStatus: J,V
+2780-RETORNO SERVIDOR VerificarVez: 411
+0,P
+2,I
+2,N
+3,F
+3,G
+4,E
+4,L
+5,M
+10,D
+
+2783-RETORNO SERVIDOR ConsultarHistorico: iPhone,J,D,10
+iPad,J,M,5
+
+2793-RETORNO SERVIDOR VerificarStatus: No Modifications
+2800-RETORNO SERVIDOR VerificarVez: No Modifications
+2803-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+2813-RETORNO SERVIDOR VerificarStatus: No Modifications
+2820-RETORNO SERVIDOR VerificarVez: 412
+0,P
+2,I
+2,N
+3,F
+3,G
+4,E
+4,L
+5,M
+10,D
+
+2823-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+2836-RETORNO SERVIDOR Votar: 0,P
+2,I
+2,N
+3,F
+3,G
+4,E
+4,L
+5,M
+
+2842-RETORNO SERVIDOR VerificarStatus: J,J
+2849-RETORNO SERVIDOR VerificarVez: 411
+0,P
+2,I
+2,N
+3,F
+3,G
+4,E
+4,L
+5,M
+
+2852-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+2859-RETORNO SERVIDOR ExibirUltimaVotacao: No Modifications
+2871-RETORNO SERVIDOR VerificarStatus: No Modifications
+2878-RETORNO SERVIDOR VerificarVez: No Modifications
+2881-RETORNO SERVIDOR ConsultarHistorico: iPad,J,M,10
+iPhone,J,D,10
+
+2891-RETORNO SERVIDOR VerificarStatus: J,V
+2898-RETORNO SERVIDOR VerificarVez: 412
+0,P
+2,I
+2,N
+3,F
+3,G
+4,E
+4,L
+10,M
+
+2901-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+2912-RETORNO SERVIDOR Votar: 0,P
+2,I
+2,N
+3,F
+3,G
+4,E
+4,L
+10,M
+
+2918-RETORNO SERVIDOR VerificarStatus: No Modifications
+2925-RETORNO SERVIDOR VerificarVez: 411
+0,P
+2,I
+2,N
+3,F
+3,G
+4,E
+4,L
+10,M
+
+2928-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+2938-RETORNO SERVIDOR VerificarStatus: J,S
+2945-RETORNO SERVIDOR VerificarVez: 412
+
+2950-RETORNO SERVIDOR ListarPersonagens: No Modifications
+2951-RETORNO SERVIDOR ListarCartas: ABDFIL
+
+2952-RETORNO SERVIDOR ListarJogadores: 411,iPad,35
+412,iPhone,36
+
+2955-RETORNO SERVIDOR ExibirUltimaVotacao: 411,S
+412,S
+
+2978-RETORNO SERVIDOR ColocarPersonagem: 4,A
+
+2984-RETORNO SERVIDOR VerificarStatus: No Modifications
+2991-RETORNO SERVIDOR VerificarVez: 411
+4,A
+
+2994-RETORNO SERVIDOR ConsultarHistorico: iPhone,S,A,4
+
+3004-RETORNO SERVIDOR VerificarStatus: No Modifications
+3011-RETORNO SERVIDOR VerificarVez: 412
+4,A
+4,B
+
+3014-RETORNO SERVIDOR ConsultarHistorico: iPad,S,B,4
+iPhone,S,A,4
+
+3029-RETORNO SERVIDOR ColocarPersonagem: 4,A
+4,B
+4,C
+
+3035-RETORNO SERVIDOR VerificarStatus: No Modifications
+3042-RETORNO SERVIDOR VerificarVez: 411
+4,A
+4,B
+4,C
+
+3045-RETORNO SERVIDOR ConsultarHistorico: iPhone,S,C,4
+iPad,S,B,4
+
+3055-RETORNO SERVIDOR VerificarStatus: No Modifications
+3062-RETORNO SERVIDOR VerificarVez: 412
+3,F
+4,A
+4,B
+4,C
+
+3065-RETORNO SERVIDOR ConsultarHistorico: iPad,S,F,3
+iPhone,S,C,4
+
+3080-RETORNO SERVIDOR ColocarPersonagem: 3,F
+4,A
+4,B
+4,C
+4,D
+
+3086-RETORNO SERVIDOR VerificarStatus: No Modifications
+3093-RETORNO SERVIDOR VerificarVez: 411
+3,F
+4,A
+4,B
+4,C
+4,D
+
+3096-RETORNO SERVIDOR ConsultarHistorico: iPhone,S,D,4
+iPad,S,F,3
+
+3106-RETORNO SERVIDOR VerificarStatus: No Modifications
+3113-RETORNO SERVIDOR VerificarVez: 412
+3,F
+3,M
+4,A
+4,B
+4,C
+4,D
+
+3116-RETORNO SERVIDOR ConsultarHistorico: iPad,S,M,3
+iPhone,S,D,4
+
+3131-RETORNO SERVIDOR ColocarPersonagem: 3,E
+3,F
+3,M
+4,A
+4,B
+4,C
+4,D
+
+3137-RETORNO SERVIDOR VerificarStatus: No Modifications
+3144-RETORNO SERVIDOR VerificarVez: 411
+3,E
+3,F
+3,M
+4,A
+4,B
+4,C
+4,D
+
+3147-RETORNO SERVIDOR ConsultarHistorico: iPhone,S,E,3
+iPad,S,M,3
+
+3157-RETORNO SERVIDOR VerificarStatus: No Modifications
+3164-RETORNO SERVIDOR VerificarVez: 412
+2,P
+3,E
+3,F
+3,M
+4,A
+4,B
+4,C
+4,D
+
+3167-RETORNO SERVIDOR ConsultarHistorico: iPad,S,P,2
+iPhone,S,E,3
+
+3182-RETORNO SERVIDOR ColocarPersonagem: 2,P
+3,E
+3,F
+3,G
+3,M
+4,A
+4,B
+4,C
+4,D
+
+3188-RETORNO SERVIDOR VerificarStatus: No Modifications
+3195-RETORNO SERVIDOR VerificarVez: 411
+2,P
+3,E
+3,F
+3,G
+3,M
+4,A
+4,B
+4,C
+4,D
+
+3198-RETORNO SERVIDOR ConsultarHistorico: iPhone,S,G,3
+iPad,S,P,2
+
+3208-RETORNO SERVIDOR VerificarStatus: No Modifications
+3215-RETORNO SERVIDOR VerificarVez: 412
+2,I
+2,P
+3,E
+3,F
+3,G
+3,M
+4,A
+4,B
+4,C
+4,D
+
+3218-RETORNO SERVIDOR ConsultarHistorico: iPad,S,I,2
+iPhone,S,G,3
+
+3233-RETORNO SERVIDOR ColocarPersonagem: 2,I
+2,L
+2,P
+3,E
+3,F
+3,G
+3,M
+4,A
+4,B
+4,C
+4,D
+
+3239-RETORNO SERVIDOR VerificarStatus: No Modifications
+3246-RETORNO SERVIDOR VerificarVez: 411
+2,I
+2,L
+2,P
+3,E
+3,F
+3,G
+3,M
+4,A
+4,B
+4,C
+4,D
+
+3249-RETORNO SERVIDOR ConsultarHistorico: iPhone,S,L,2
+iPad,S,I,2
+
+3259-RETORNO SERVIDOR VerificarStatus: J,J
+3266-RETORNO SERVIDOR VerificarVez: 412
+0,O
+2,I
+2,L
+2,N
+2,P
+3,E
+3,F
+3,G
+3,M
+4,A
+4,B
+4,C
+4,D
+
+3269-RETORNO SERVIDOR ConsultarHistorico: iPad,S,N,2
+iPhone,S,L,2
+
+3282-RETORNO SERVIDOR Promover: 0,O
+2,I
+2,L
+2,N
+2,P
+3,E
+3,F
+3,G
+3,M
+4,B
+4,C
+4,D
+5,A
+
+3288-RETORNO SERVIDOR VerificarStatus: No Modifications
+3295-RETORNO SERVIDOR VerificarVez: 411
+0,O
+2,I
+2,L
+2,N
+2,P
+3,E
+3,F
+3,G
+3,M
+4,B
+4,C
+4,D
+5,A
+
+3298-RETORNO SERVIDOR ConsultarHistorico: iPhone,J,A,5
+iPad,S,N,2
+
+3308-RETORNO SERVIDOR VerificarStatus: No Modifications
+3315-RETORNO SERVIDOR VerificarVez: 412
+0,O
+2,I
+2,L
+2,N
+2,P
+3,E
+3,F
+3,G
+4,B
+4,C
+4,D
+4,M
+5,A
+
+3318-RETORNO SERVIDOR ConsultarHistorico: iPad,J,M,4
+iPhone,J,A,5
+
+3331-RETORNO SERVIDOR Promover: 0,O
+2,I
+2,L
+2,N
+2,P
+3,E
+3,F
+3,G
+4,B
+4,C
+4,D
+4,M
+10,A
+
+3337-RETORNO SERVIDOR VerificarStatus: J,V
+3344-RETORNO SERVIDOR VerificarVez: 411
+0,O
+2,I
+2,L
+2,N
+2,P
+3,E
+3,F
+3,G
+4,B
+4,C
+4,D
+4,M
+10,A
+
+3347-RETORNO SERVIDOR ConsultarHistorico: iPhone,J,A,10
+iPad,J,M,4
+
+3357-RETORNO SERVIDOR VerificarStatus: No Modifications
+3364-RETORNO SERVIDOR VerificarVez: 412
+0,O
+2,I
+2,L
+2,N
+2,P
+3,E
+3,F
+3,G
+4,B
+4,C
+4,D
+4,M
+10,A
+
+3367-RETORNO SERVIDOR ConsultarHistorico: No Modifications
+3380-RETORNO SERVIDOR Votar: 0,O
+2,I
+2,L
+2,N
+2,P
+3,E
+3,F
+3,G
+4,B
+4,C
+4,D
+4,M
+10,A
+
+3386-RETORNO SERVIDOR VerificarStatus: E,E
+3389-RETORNO SERVIDOR ListarJogadores: 411,iPad,62
+412,iPhone,61
+
+3393-RETORNO SERVIDOR VerificarStatus: No Modifications
+3396-RETORNO SERVIDOR ListarJogadores: No Modifications
+3400-RETORNO SERVIDOR VerificarStatus: No Modifications
+3403-RETORNO SERVIDOR ListarJogadores: No Modifications
+3407-RETORNO SERVIDOR VerificarStatus: No Modifications
+3410-RETORNO SERVIDOR ListarJogadores: No Modifications
+3414-RETORNO SERVIDOR VerificarStatus: No Modifications
+3417-RETORNO SERVIDOR ListarJogadores: No Modifications
+3421-RETORNO SERVIDOR VerificarStatus: No Modifications
+3424-RETORNO SERVIDOR ListarJogadores: No Modifications
+3428-RETORNO SERVIDOR VerificarStatus: No Modifications
+3431-RETORNO SERVIDOR ListarJogadores: No Modifications
+3435-RETORNO SERVIDOR VerificarStatus: No Modifications
+3438-RETORNO SERVIDOR ListarJogadores: No Modifications
+3442-RETORNO SERVIDOR VerificarStatus: No Modifications
+3445-RETORNO SERVIDOR ListarJogadores: No Modifications
+3449-RETORNO SERVIDOR VerificarStatus: No Modifications
+3452-RETORNO SERVIDOR ListarJogadores: No Modifications
+3456-RETORNO SERVIDOR VerificarStatus: No Modifications
+3459-RETORNO SERVIDOR ListarJogadores: No Modifications
+3463-RETORNO SERVIDOR VerificarStatus: No Modifications
+3466-RETORNO SERVIDOR ListarJogadores: No Modifications
+3470-RETORNO SERVIDOR VerificarStatus: No Modifications
+3473-RETORNO SERVIDOR ListarJogadores: No Modifications
+3477-RETORNO SERVIDOR VerificarStatus: No Modifications
+3480-RETORNO SERVIDOR ListarJogadores: No Modifications
+3484-RETORNO SERVIDOR VerificarStatus: No Modifications
+3487-RETORNO SERVIDOR ListarJogadores: No Modifications
+3491-RETORNO SERVIDOR VerificarStatus: No Modifications
+3494-RETORNO SERVIDOR ListarJogadores: No Modifications
+3498-RETORNO SERVIDOR VerificarStatus: No Modifications
+3501-RETORNO SERVIDOR ListarJogadores: No Modifications
+3505-RETORNO SERVIDOR VerificarStatus: No Modifications
+3508-RETORNO SERVIDOR ListarJogadores: No Modifications
+3512-RETORNO SERVIDOR VerificarStatus: No Modifications
+3515-RETORNO SERVIDOR ListarJogadores: No Modifications
+3519-RETORNO SERVIDOR VerificarStatus: No Modifications
+3522-RETORNO SERVIDOR ListarJogadores: No Modifications
+3526-RETORNO SERVIDOR VerificarStatus: No Modifications
+3529-RETORNO SERVIDOR ListarJogadores: No Modifications
+3533-RETORNO SERVIDOR VerificarStatus: No Modifications
+3536-RETORNO SERVIDOR ListarJogadores: No Modifications
+3540-RETORNO SERVIDOR VerificarStatus: No Modifications
+3543-RETORNO SERVIDOR ListarJogadores: No Modifications
+3547-RETORNO SERVIDOR VerificarStatus: No Modifications
+3550-RETORNO SERVIDOR ListarJogadores: No Modifications
+3554-RETORNO SERVIDOR VerificarStatus: No Modifications
+3557-RETORNO SERVIDOR ListarJogadores: No Modifications
+3561-RETORNO SERVIDOR VerificarStatus: No Modifications
+3564-RETORNO SERVIDOR ListarJogadores: No Modifications
+3568-RETORNO SERVIDOR VerificarStatus: No Modifications
+3571-RETORNO SERVIDOR ListarJogadores: No Modifications
+3575-RETORNO SERVIDOR VerificarStatus: No Modifications
+3578-RETORNO SERVIDOR ListarJogadores: No Modifications
+3582-RETORNO SERVIDOR VerificarStatus: No Modifications
+3585-RETORNO SERVIDOR ListarJogadores: No Modifications
+3589-RETORNO SERVIDOR VerificarStatus: No Modifications
+3592-RETORNO SERVIDOR ListarJogadores: No Modifications
+3596-RETORNO SERVIDOR VerificarStatus: No Modifications
+3599-RETORNO SERVIDOR ListarJogadores: No Modifications
+3603-RETORNO SERVIDOR VerificarStatus: No Modifications
+3606-RETORNO SERVIDOR ListarJogadores: No Modifications
+3610-RETORNO SERVIDOR VerificarStatus: No Modifications
+3613-RETORNO SERVIDOR ListarJogadores: No Modifications
+3617-RETORNO SERVIDOR VerificarStatus: No Modifications
+3620-RETORNO SERVIDOR ListarJogadores: No Modifications
+3624-RETORNO SERVIDOR VerificarStatus: No Modifications
+3627-RETORNO SERVIDOR ListarJogadores: No Modifications
+3631-RETORNO SERVIDOR VerificarStatus: No Modifications
+3634-RETORNO SERVIDOR ListarJogadores: No Modifications
+3638-RETORNO SERVIDOR VerificarStatus: No Modifications
+3641-RETORNO SERVIDOR ListarJogadores: No Modifications
+3645-RETORNO SERVIDOR VerificarStatus: No Modifications
+3648-RETORNO SERVIDOR ListarJogadores: No Modifications
+3652-RETORNO SERVIDOR VerificarStatus: No Modifications
+3655-RETORNO SERVIDOR ListarJogadores: No Modifications
+3659-RETORNO SERVIDOR VerificarStatus: No Modifications
+3662-RETORNO SERVIDOR ListarJogadores: No Modifications
+3666-RETORNO SERVIDOR VerificarStatus: No Modifications
+3669-RETORNO SERVIDOR ListarJogadores: No Modifications
+3673-RETORNO SERVIDOR VerificarStatus: No Modifications
+3676-RETORNO SERVIDOR ListarJogadores: No Modifications
+3680-RETORNO SERVIDOR VerificarStatus: No Modifications
+3683-RETORNO SERVIDOR ListarJogadores: No Modifications
+3687-RETORNO SERVIDOR VerificarStatus: No Modifications
+3690-RETORNO SERVIDOR ListarJogadores: No Modifications
+3694-RETORNO SERVIDOR VerificarStatus: No Modifications
+3697-RETORNO SERVIDOR ListarJogadores: No Modifications
+3701-RETORNO SERVIDOR VerificarStatus: No Modifications
+3704-RETORNO SERVIDOR ListarJogadores: No Modifications
+3708-RETORNO SERVIDOR VerificarStatus: No Modifications
+3711-RETORNO SERVIDOR ListarJogadores: No Modifications
+3715-RETORNO SERVIDOR VerificarStatus: No Modifications
+3718-RETORNO SERVIDOR ListarJogadores: No Modifications
+3722-RETORNO SERVIDOR VerificarStatus: No Modifications
+3725-RETORNO SERVIDOR ListarJogadores: No Modifications
+3729-RETORNO SERVIDOR VerificarStatus: No Modifications
+3732-RETORNO SERVIDOR ListarJogadores: No Modifications
+3736-RETORNO SERVIDOR VerificarStatus: No Modifications
+3739-RETORNO SERVIDOR ListarJogadores: No Modifications
+3743-RETORNO SERVIDOR VerificarStatus: No Modifications
+3746-RETORNO SERVIDOR ListarJogadores: No Modifications
+3750-RETORNO SERVIDOR VerificarStatus: No Modifications
+3753-RETORNO SERVIDOR ListarJogadores: No Modifications
+3757-RETORNO SERVIDOR VerificarStatus: No Modifications
+3760-RETORNO SERVIDOR ListarJogadores: No Modifications
+3764-RETORNO SERVIDOR VerificarStatus: No Modifications
+3767-RETORNO SERVIDOR ListarJogadores: No Modifications
+3771-RETORNO SERVIDOR VerificarStatus: No Modifications
+3774-RETORNO SERVIDOR ListarJogadores: No Modifications
+3778-RETORNO SERVIDOR VerificarStatus: No Modifications
+3781-RETORNO SERVIDOR ListarJogadores: No Modifications
+3785-RETORNO SERVIDOR VerificarStatus: No Modifications
+3788-RETORNO SERVIDOR ListarJogadores: No Modifications
+3792-RETORNO SERVIDOR VerificarStatus: No Modifications
+3795-RETORNO SERVIDOR ListarJogadores: No Modifications
+3799-RETORNO SERVIDOR VerificarStatus: No Modifications
+3802-RETORNO SERVIDOR ListarJogadores: No Modifications
+3806-RETORNO SERVIDOR VerificarStatus: No Modifications
+3809-RETORNO SERVIDOR ListarJogadores: No Modifications
+3813-RETORNO SERVIDOR VerificarStatus: No Modifications
+3816-RETORNO SERVIDOR ListarJogadores: No Modifications
+3820-RETORNO SERVIDOR VerificarStatus: No Modifications
+3823-RETORNO SERVIDOR ListarJogadores: No Modifications
+3827-RETORNO SERVIDOR VerificarStatus: No Modifications
+3830-RETORNO SERVIDOR ListarJogadores: No Modifications
+3834-RETORNO SERVIDOR VerificarStatus: No Modifications
+3837-RETORNO SERVIDOR ListarJogadores: No Modifications
+3841-RETORNO SERVIDOR VerificarStatus: No Modifications
+3844-RETORNO SERVIDOR ListarJogadores: No Modifications
+3848-RETORNO SERVIDOR VerificarStatus: No Modifications
+3851-RETORNO SERVIDOR ListarJogadores: No Modifications
+3855-RETORNO SERVIDOR VerificarStatus: No Modifications
+3858-RETORNO SERVIDOR ListarJogadores: No Modifications
+3862-RETORNO SERVIDOR VerificarStatus: No Modifications
+3865-RETORNO SERVIDOR ListarJogadores: No Modifications
+3869-RETORNO SERVIDOR VerificarStatus: No Modifications
+3872-RETORNO SERVIDOR ListarJogadores: No Modifications
+3876-RETORNO SERVIDOR VerificarStatus: No Modifications
+3879-RETORNO SERVIDOR ListarJogadores: No Modifications
+3883-RETORNO SERVIDOR VerificarStatus: No Modifications
+3886-RETORNO SERVIDOR ListarJogadores: No Modifications
+3890-RETORNO SERVIDOR VerificarStatus: No Modifications
+3893-RETORNO SERVIDOR ListarJogadores: No Modifications
+3897-RETORNO SERVIDOR VerificarStatus: No Modifications
+3900-RETORNO SERVIDOR ListarJogadores: No Modifications
+3904-RETORNO SERVIDOR VerificarStatus: No Modifications
+3907-RETORNO SERVIDOR ListarJogadores: No Modifications
+3911-RETORNO SERVIDOR VerificarStatus: No Modifications
+3914-RETORNO SERVIDOR ListarJogadores: No Modifications
+3918-RETORNO SERVIDOR VerificarStatus: No Modifications
+3921-RETORNO SERVIDOR ListarJogadores: No Modifications
+3925-RETORNO SERVIDOR VerificarStatus: No Modifications
+3928-RETORNO SERVIDOR ListarJogadores: No Modifications
+3932-RETORNO SERVIDOR VerificarStatus: No Modifications
+3935-RETORNO SERVIDOR ListarJogadores: No Modifications
+3939-RETORNO SERVIDOR VerificarStatus: No Modifications
+3942-RETORNO SERVIDOR ListarJogadores: No Modifications
+3946-RETORNO SERVIDOR VerificarStatus: No Modifications
+3949-RETORNO SERVIDOR ListarJogadores: No Modifications
+3953-RETORNO SERVIDOR VerificarStatus: No Modifications
+3956-RETORNO SERVIDOR ListarJogadores: No Modifications
+3960-RETORNO SERVIDOR VerificarStatus: No Modifications
+3963-RETORNO SERVIDOR ListarJogadores: No Modifications
+3967-RETORNO SERVIDOR VerificarStatus: No Modifications
+3970-RETORNO SERVIDOR ListarJogadores: No Modifications
+3974-RETORNO SERVIDOR VerificarStatus: No Modifications
+3977-RETORNO SERVIDOR ListarJogadores: No Modifications
+3981-RETORNO SERVIDOR VerificarStatus: No Modifications
+3984-RETORNO SERVIDOR ListarJogadores: No Modifications
+3988-RETORNO SERVIDOR VerificarStatus: No Modifications
+3991-RETORNO SERVIDOR ListarJogadores: No Modifications
+3995-RETORNO SERVIDOR VerificarStatus: No Modifications
+3998-RETORNO SERVIDOR ListarJogadores: No Modifications
+4002-RETORNO SERVIDOR VerificarStatus: No Modifications
+4005-RETORNO SERVIDOR ListarJogadores: No Modifications
+4009-RETORNO SERVIDOR VerificarStatus: No Modifications
+4012-RETORNO SERVIDOR ListarJogadores: No Modifications
+4016-RETORNO SERVIDOR VerificarStatus: No Modifications
+4019-RETORNO SERVIDOR ListarJogadores: No Modifications
+4023-RETORNO SERVIDOR VerificarStatus: No Modifications
+4026-RETORNO SERVIDOR ListarJogadores: No Modifications
+4030-RETORNO SERVIDOR VerificarStatus: No Modifications
+4033-RETORNO SERVIDOR ListarJogadores: No Modifications
+4037-RETORNO SERVIDOR VerificarStatus: No Modifications
+4040-RETORNO SERVIDOR ListarJogadores: No Modifications
+4044-RETORNO SERVIDOR VerificarStatus: No Modifications
+4047-RETORNO SERVIDOR ListarJogadores: No Modifications
+4051-RETORNO SERVIDOR VerificarStatus: No Modifications
+4054-RETORNO SERVIDOR ListarJogadores: No Modifications
+4058-RETORNO SERVIDOR VerificarStatus: No Modifications
+4061-RETORNO SERVIDOR ListarJogadores: No Modifications
+4065-RETORNO SERVIDOR VerificarStatus: No Modifications
+4068-RETORNO SERVIDOR ListarJogadores: No Modifications
+4072-RETORNO SERVIDOR VerificarStatus: No Modifications
+4075-RETORNO SERVIDOR ListarJogadores: No Modifications
+4079-RETORNO SERVIDOR VerificarStatus: No Modifications
+4082-RETORNO SERVIDOR ListarJogadores: No Modifications
+4086-RETORNO SERVIDOR VerificarStatus: No Modifications
+4089-RETORNO SERVIDOR ListarJogadores: No Modifications
+4093-RETORNO SERVIDOR VerificarStatus: No Modifications
+4096-RETORNO SERVIDOR ListarJogadores: No Modifications
+4100-RETORNO SERVIDOR VerificarStatus: No Modifications
+4103-RETORNO SERVIDOR ListarJogadores: No Modifications
+4107-RETORNO SERVIDOR VerificarStatus: No Modifications
+4110-RETORNO SERVIDOR ListarJogadores: No Modifications
+4114-RETORNO SERVIDOR VerificarStatus: No Modifications
+4117-RETORNO SERVIDOR ListarJogadores: No Modifications
+4121-RETORNO SERVIDOR VerificarStatus: No Modifications
+4124-RETORNO SERVIDOR ListarJogadores: No Modifications
+4128-RETORNO SERVIDOR VerificarStatus: No Modifications
+4131-RETORNO SERVIDOR ListarJogadores: No Modifications
+4135-RETORNO SERVIDOR VerificarStatus: No Modifications
+4138-RETORNO SERVIDOR ListarJogadores: No Modifications
+4142-RETORNO SERVIDOR VerificarStatus: No Modifications
+4145-RETORNO SERVIDOR ListarJogadores: No Modifications
+4149-RETORNO SERVIDOR VerificarStatus: No Modifications
+4152-RETORNO SERVIDOR ListarJogadores: No Modifications
+4156-RETORNO SERVIDOR VerificarStatus: No Modifications
+4159-RETORNO SERVIDOR ListarJogadores: No Modifications
+4163-RETORNO SERVIDOR VerificarStatus: No Modifications
+4166-RETORNO SERVIDOR ListarJogadores: No Modifications
+4170-RETORNO SERVIDOR VerificarStatus: No Modifications
+4173-RETORNO SERVIDOR ListarJogadores: No Modifications
+4177-RETORNO SERVIDOR VerificarStatus: No Modifications
+4180-RETORNO SERVIDOR ListarJogadores: No Modifications
+4184-RETORNO SERVIDOR VerificarStatus: No Modifications
+4187-RETORNO SERVIDOR ListarJogadores: No Modifications
+4191-RETORNO SERVIDOR VerificarStatus: No Modifications
+4194-RETORNO SERVIDOR ListarJogadores: No Modifications
+4198-RETORNO SERVIDOR VerificarStatus: No Modifications
+4201-RETORNO SERVIDOR ListarJogadores: No Modifications
+4205-RETORNO SERVIDOR VerificarStatus: No Modifications
+4208-RETORNO SERVIDOR ListarJogadores: No Modifications
+4212-RETORNO SERVIDOR VerificarStatus: No Modifications
+4215-RETORNO SERVIDOR ListarJogadores: No Modifications
+4219-RETORNO SERVIDOR VerificarStatus: No Modifications
+4222-RETORNO SERVIDOR ListarJogadores: No Modifications
+4226-RETORNO SERVIDOR VerificarStatus: No Modifications
+4229-RETORNO SERVIDOR ListarJogadores: No Modifications
+4233-RETORNO SERVIDOR VerificarStatus: No Modifications
+4236-RETORNO SERVIDOR ListarJogadores: No Modifications
+4240-RETORNO SERVIDOR VerificarStatus: No Modifications
+4243-RETORNO SERVIDOR ListarJogadores: No Modifications
+4247-RETORNO SERVIDOR VerificarStatus: No Modifications
+4250-RETORNO SERVIDOR ListarJogadores: No Modifications
+4254-RETORNO SERVIDOR VerificarStatus: No Modifications
+4257-RETORNO SERVIDOR ListarJogadores: No Modifications
+4261-RETORNO SERVIDOR VerificarStatus: No Modifications
+4264-RETORNO SERVIDOR ListarJogadores: No Modifications
+4268-RETORNO SERVIDOR VerificarStatus: No Modifications
+4271-RETORNO SERVIDOR ListarJogadores: No Modifications
+4275-RETORNO SERVIDOR VerificarStatus: No Modifications
+4278-RETORNO SERVIDOR ListarJogadores: No Modifications
+4282-RETORNO SERVIDOR VerificarStatus: No Modifications
+4285-RETORNO SERVIDOR ListarJogadores: No Modifications
+4289-RETORNO SERVIDOR VerificarStatus: No Modifications
+4292-RETORNO SERVIDOR ListarJogadores: No Modifications
+4296-RETORNO SERVIDOR VerificarStatus: No Modifications
+4299-RETORNO SERVIDOR ListarJogadores: No Modifications
+4303-RETORNO SERVIDOR VerificarStatus: No Modifications
+4306-RETORNO SERVIDOR ListarJogadores: No Modifications
+4310-RETORNO SERVIDOR VerificarStatus: No Modifications
+4313-RETORNO SERVIDOR ListarJogadores: No Modifications

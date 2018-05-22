@@ -1,0 +1,5737 @@
+5-ENTRAR PARTIDA = 522  85DB1
+8-analisarStatus()
+11-analisarStatus()=Aberta
+15-analisarStatus()
+18-analisarStatus()=Aberta
+22-analisarStatus()
+25-analisarStatus()=Aberta
+29-analisarStatus()
+32-analisarStatus()=Aberta
+36-analisarStatus()
+39-analisarStatus()=Aberta
+43-analisarStatus()
+46-analisarStatus()=Aberta
+50-analisarStatus()
+53-analisarStatus()=Aberta
+57-analisarStatus()
+60-analisarStatus()=Aberta
+64-analisarStatus()
+67-analisarStatus()=Aberta
+71-analisarStatus()
+74-analisarStatus()=Aberta
+78-analisarStatus()
+81-analisarStatus()=Aberta
+85-analisarStatus()
+88-analisarStatus()=Aberta
+92-analisarStatus()
+95-analisarStatus()=Em jogo
+97-analisarStatus()=Posicionar
+100-novaRodada
+104-verificarVez
+107-jogadordaVez = 518 - JogadorUm
+110-MINHA VEZ=FALSE
+113-analisarStatus()
+116-analisarStatus()=Em jogo
+118-analisarStatus()=Posicionar
+120-verificarVez
+123-jogadordaVez = 518 - JogadorUm
+126-MINHA VEZ=FALSE
+129-analisarStatus()
+132-analisarStatus()=Em jogo
+134-analisarStatus()=Posicionar
+136-verificarVez
+139-jogadordaVez = 518 - JogadorUm
+142-MINHA VEZ=FALSE
+145-analisarStatus()
+148-analisarStatus()=Em jogo
+150-analisarStatus()=Posicionar
+152-verificarVez
+155-jogadordaVez = 518 - JogadorUm
+158-MINHA VEZ=FALSE
+161-analisarStatus()
+164-analisarStatus()=Em jogo
+166-analisarStatus()=Posicionar
+168-verificarVez
+171-jogadordaVez = 518 - JogadorUm
+174-MINHA VEZ=FALSE
+177-analisarStatus()
+180-analisarStatus()=Em jogo
+182-analisarStatus()=Posicionar
+184-verificarVez
+187-jogadordaVez = 518 - JogadorUm
+190-MINHA VEZ=FALSE
+193-analisarStatus()
+196-analisarStatus()=Em jogo
+198-analisarStatus()=Posicionar
+200-verificarVez
+203-jogadordaVez = 518 - JogadorUm
+206-MINHA VEZ=FALSE
+209-analisarStatus()
+212-analisarStatus()=Em jogo
+214-analisarStatus()=Posicionar
+216-verificarVez
+219-jogadordaVez = 518 - JogadorUm
+222-MINHA VEZ=FALSE
+225-analisarStatus()
+228-analisarStatus()=Em jogo
+230-analisarStatus()=Posicionar
+232-verificarVez
+235-jogadordaVez = 518 - JogadorUm
+238-MINHA VEZ=FALSE
+241-analisarStatus()
+244-analisarStatus()=Em jogo
+246-analisarStatus()=Posicionar
+248-verificarVez
+251-jogadordaVez = 518 - JogadorUm
+254-MINHA VEZ=FALSE
+257-analisarStatus()
+260-analisarStatus()=Em jogo
+262-analisarStatus()=Posicionar
+264-verificarVez
+267-jogadordaVez = 518 - JogadorUm
+270-MINHA VEZ=FALSE
+273-analisarStatus()
+276-analisarStatus()=Em jogo
+278-analisarStatus()=Posicionar
+280-verificarVez
+283-jogadordaVez = 518 - JogadorUm
+286-MINHA VEZ=FALSE
+289-analisarStatus()
+292-analisarStatus()=Em jogo
+294-analisarStatus()=Posicionar
+296-verificarVez
+299-jogadordaVez = 518 - JogadorUm
+302-MINHA VEZ=FALSE
+305-analisarStatus()
+308-analisarStatus()=Em jogo
+310-analisarStatus()=Posicionar
+312-verificarVez
+315-jogadordaVez = 518 - JogadorUm
+318-MINHA VEZ=FALSE
+321-analisarStatus()
+324-analisarStatus()=Em jogo
+326-analisarStatus()=Posicionar
+328-verificarVez
+331-jogadordaVez = 518 - JogadorUm
+334-MINHA VEZ=FALSE
+337-analisarStatus()
+340-analisarStatus()=Em jogo
+342-analisarStatus()=Posicionar
+344-verificarVez
+347-jogadordaVez = 518 - JogadorUm
+350-MINHA VEZ=FALSE
+353-analisarStatus()
+356-analisarStatus()=Em jogo
+358-analisarStatus()=Posicionar
+360-verificarVez
+363-jogadordaVez = 518 - JogadorUm
+366-MINHA VEZ=FALSE
+369-analisarStatus()
+372-analisarStatus()=Em jogo
+374-analisarStatus()=Posicionar
+376-verificarVez
+379-jogadordaVez = 518 - JogadorUm
+382-MINHA VEZ=FALSE
+385-analisarStatus()
+388-analisarStatus()=Em jogo
+390-analisarStatus()=Posicionar
+392-verificarVez
+395-jogadordaVez = 518 - JogadorUm
+398-MINHA VEZ=FALSE
+401-analisarStatus()
+404-analisarStatus()=Em jogo
+406-analisarStatus()=Posicionar
+408-verificarVez
+411-jogadordaVez = 518 - JogadorUm
+414-MINHA VEZ=FALSE
+417-analisarStatus()
+420-analisarStatus()=Em jogo
+422-analisarStatus()=Posicionar
+424-verificarVez
+427-jogadordaVez = 518 - JogadorUm
+430-MINHA VEZ=FALSE
+433-analisarStatus()
+436-analisarStatus()=Em jogo
+438-analisarStatus()=Posicionar
+440-verificarVez
+443-jogadordaVez = 518 - JogadorUm
+446-MINHA VEZ=FALSE
+449-analisarStatus()
+452-analisarStatus()=Em jogo
+454-analisarStatus()=Posicionar
+456-verificarVez
+459-jogadordaVez = 518 - JogadorUm
+462-MINHA VEZ=FALSE
+465-analisarStatus()
+468-analisarStatus()=Em jogo
+470-analisarStatus()=Posicionar
+472-verificarVez
+475-jogadordaVez = 518 - JogadorUm
+478-MINHA VEZ=FALSE
+481-analisarStatus()
+484-analisarStatus()=Em jogo
+486-analisarStatus()=Posicionar
+488-verificarVez
+491-jogadordaVez = 518 - JogadorUm
+494-MINHA VEZ=FALSE
+497-analisarStatus()
+500-analisarStatus()=Em jogo
+502-analisarStatus()=Posicionar
+504-verificarVez
+507-jogadordaVez = 518 - JogadorUm
+510-MINHA VEZ=FALSE
+513-analisarStatus()
+516-analisarStatus()=Em jogo
+518-analisarStatus()=Posicionar
+520-verificarVez
+523-jogadordaVez = 518 - JogadorUm
+526-MINHA VEZ=FALSE
+529-analisarStatus()
+532-analisarStatus()=Em jogo
+534-analisarStatus()=Posicionar
+536-verificarVez
+539-jogadordaVez = 518 - JogadorUm
+542-MINHA VEZ=FALSE
+545-analisarStatus()
+548-analisarStatus()=Em jogo
+550-analisarStatus()=Posicionar
+552-verificarVez
+555-jogadordaVez = 518 - JogadorUm
+558-MINHA VEZ=FALSE
+561-analisarStatus()
+564-analisarStatus()=Em jogo
+566-analisarStatus()=Posicionar
+568-verificarVez
+571-jogadordaVez = 518 - JogadorUm
+574-MINHA VEZ=FALSE
+577-analisarStatus()
+580-analisarStatus()=Em jogo
+582-analisarStatus()=Posicionar
+584-verificarVez
+587-jogadordaVez = 518 - JogadorUm
+590-MINHA VEZ=FALSE
+593-analisarStatus()
+596-analisarStatus()=Em jogo
+598-analisarStatus()=Posicionar
+600-verificarVez
+603-jogadordaVez = 518 - JogadorUm
+606-MINHA VEZ=FALSE
+609-analisarStatus()
+612-analisarStatus()=Em jogo
+614-analisarStatus()=Posicionar
+616-verificarVez
+619-jogadordaVez = 518 - JogadorUm
+622-MINHA VEZ=FALSE
+625-analisarStatus()
+628-analisarStatus()=Em jogo
+630-analisarStatus()=Posicionar
+632-verificarVez
+635-jogadordaVez = 518 - JogadorUm
+638-MINHA VEZ=FALSE
+641-analisarStatus()
+644-analisarStatus()=Em jogo
+646-analisarStatus()=Posicionar
+648-verificarVez
+651-jogadordaVez = 518 - JogadorUm
+654-MINHA VEZ=FALSE
+657-analisarStatus()
+660-analisarStatus()=Em jogo
+662-analisarStatus()=Posicionar
+664-verificarVez
+667-jogadordaVez = 518 - JogadorUm
+670-MINHA VEZ=FALSE
+673-analisarStatus()
+676-analisarStatus()=Em jogo
+678-analisarStatus()=Posicionar
+680-verificarVez
+683-jogadordaVez = 518 - JogadorUm
+686-MINHA VEZ=FALSE
+689-analisarStatus()
+692-analisarStatus()=Em jogo
+694-analisarStatus()=Posicionar
+696-verificarVez
+699-jogadordaVez = 518 - JogadorUm
+702-MINHA VEZ=FALSE
+705-analisarStatus()
+708-analisarStatus()=Em jogo
+710-analisarStatus()=Posicionar
+712-verificarVez
+715-jogadordaVez = 518 - JogadorUm
+718-MINHA VEZ=FALSE
+721-analisarStatus()
+724-analisarStatus()=Em jogo
+726-analisarStatus()=Posicionar
+728-verificarVez
+731-jogadordaVez = 518 - JogadorUm
+734-MINHA VEZ=FALSE
+737-analisarStatus()
+740-analisarStatus()=Em jogo
+742-analisarStatus()=Posicionar
+744-verificarVez
+747-jogadordaVez = 518 - JogadorUm
+750-MINHA VEZ=FALSE
+753-analisarStatus()
+756-analisarStatus()=Em jogo
+758-analisarStatus()=Posicionar
+760-verificarVez
+763-jogadordaVez = 518 - JogadorUm
+766-MINHA VEZ=FALSE
+769-analisarStatus()
+772-analisarStatus()=Em jogo
+774-analisarStatus()=Posicionar
+776-verificarVez
+779-jogadordaVez = 518 - JogadorUm
+782-MINHA VEZ=FALSE
+785-analisarStatus()
+788-analisarStatus()=Em jogo
+790-analisarStatus()=Posicionar
+792-verificarVez
+795-jogadordaVez = 518 - JogadorUm
+798-MINHA VEZ=FALSE
+801-analisarStatus()
+804-analisarStatus()=Em jogo
+806-analisarStatus()=Posicionar
+808-verificarVez
+811-jogadordaVez = 518 - JogadorUm
+814-MINHA VEZ=FALSE
+817-analisarStatus()
+820-analisarStatus()=Em jogo
+822-analisarStatus()=Posicionar
+824-verificarVez
+827-jogadordaVez = 518 - JogadorUm
+830-MINHA VEZ=FALSE
+833-analisarStatus()
+836-analisarStatus()=Em jogo
+838-analisarStatus()=Posicionar
+840-verificarVez
+843-jogadordaVez = 518 - JogadorUm
+846-MINHA VEZ=FALSE
+849-analisarStatus()
+852-analisarStatus()=Em jogo
+854-analisarStatus()=Posicionar
+856-verificarVez
+859-jogadordaVez = 518 - JogadorUm
+862-MINHA VEZ=FALSE
+865-analisarStatus()
+868-analisarStatus()=Em jogo
+870-analisarStatus()=Posicionar
+872-verificarVez
+875-jogadordaVez = 518 - JogadorUm
+878-MINHA VEZ=FALSE
+881-analisarStatus()
+884-analisarStatus()=Em jogo
+886-analisarStatus()=Posicionar
+888-verificarVez
+891-jogadordaVez = 518 - JogadorUm
+894-MINHA VEZ=FALSE
+897-analisarStatus()
+900-analisarStatus()=Em jogo
+902-analisarStatus()=Posicionar
+904-verificarVez
+907-jogadordaVez = 518 - JogadorUm
+910-MINHA VEZ=FALSE
+913-analisarStatus()
+916-analisarStatus()=Em jogo
+918-analisarStatus()=Posicionar
+920-verificarVez
+923-jogadordaVez = 518 - JogadorUm
+926-MINHA VEZ=FALSE
+929-analisarStatus()
+932-analisarStatus()=Em jogo
+934-analisarStatus()=Posicionar
+936-verificarVez
+939-jogadordaVez = 518 - JogadorUm
+942-MINHA VEZ=FALSE
+945-analisarStatus()
+948-analisarStatus()=Em jogo
+950-analisarStatus()=Posicionar
+952-verificarVez
+955-jogadordaVez = 518 - JogadorUm
+958-MINHA VEZ=FALSE
+961-analisarStatus()
+964-analisarStatus()=Em jogo
+966-analisarStatus()=Posicionar
+968-verificarVez
+971-jogadordaVez = 518 - JogadorUm
+974-MINHA VEZ=FALSE
+977-analisarStatus()
+980-analisarStatus()=Em jogo
+982-analisarStatus()=Posicionar
+984-verificarVez
+987-jogadordaVez = 518 - JogadorUm
+990-MINHA VEZ=FALSE
+993-analisarStatus()
+996-analisarStatus()=Em jogo
+998-analisarStatus()=Posicionar
+1000-verificarVez
+1003-jogadordaVez = 518 - JogadorUm
+1006-MINHA VEZ=FALSE
+1009-analisarStatus()
+1012-analisarStatus()=Em jogo
+1014-analisarStatus()=Posicionar
+1016-verificarVez
+1019-jogadordaVez = 518 - JogadorUm
+1022-MINHA VEZ=FALSE
+1025-analisarStatus()
+1028-analisarStatus()=Em jogo
+1030-analisarStatus()=Posicionar
+1032-verificarVez
+1035-jogadordaVez = 518 - JogadorUm
+1038-MINHA VEZ=FALSE
+1041-analisarStatus()
+1044-analisarStatus()=Em jogo
+1046-analisarStatus()=Posicionar
+1048-verificarVez
+1051-jogadordaVez = 518 - JogadorUm
+1054-MINHA VEZ=FALSE
+1057-analisarStatus()
+1060-analisarStatus()=Em jogo
+1062-analisarStatus()=Posicionar
+1064-verificarVez
+1067-jogadordaVez = 518 - JogadorUm
+1070-MINHA VEZ=FALSE
+1073-analisarStatus()
+1076-analisarStatus()=Em jogo
+1078-analisarStatus()=Posicionar
+1080-verificarVez
+1083-jogadordaVez = 518 - JogadorUm
+1086-MINHA VEZ=FALSE
+1089-analisarStatus()
+1092-analisarStatus()=Em jogo
+1094-analisarStatus()=Posicionar
+1096-verificarVez
+1099-jogadordaVez = 518 - JogadorUm
+1102-MINHA VEZ=FALSE
+1105-analisarStatus()
+1108-analisarStatus()=Em jogo
+1110-analisarStatus()=Posicionar
+1112-verificarVez
+1115-jogadordaVez = 518 - JogadorUm
+1118-MINHA VEZ=FALSE
+1121-analisarStatus()
+1124-analisarStatus()=Em jogo
+1126-analisarStatus()=Posicionar
+1128-verificarVez
+1131-jogadordaVez = 518 - JogadorUm
+1134-MINHA VEZ=FALSE
+1137-analisarStatus()
+1140-analisarStatus()=Em jogo
+1142-analisarStatus()=Posicionar
+1144-verificarVez
+1147-jogadordaVez = 518 - JogadorUm
+1150-MINHA VEZ=FALSE
+1153-analisarStatus()
+1156-analisarStatus()=Em jogo
+1158-analisarStatus()=Posicionar
+1160-verificarVez
+1163-jogadordaVez = 518 - JogadorUm
+1166-MINHA VEZ=FALSE
+1169-analisarStatus()
+1172-analisarStatus()=Em jogo
+1174-analisarStatus()=Posicionar
+1176-verificarVez
+1179-jogadordaVez = 518 - JogadorUm
+1182-MINHA VEZ=FALSE
+1185-analisarStatus()
+1188-analisarStatus()=Em jogo
+1190-analisarStatus()=Posicionar
+1192-verificarVez
+1195-jogadordaVez = 518 - JogadorUm
+1198-MINHA VEZ=FALSE
+1201-analisarStatus()
+1204-analisarStatus()=Em jogo
+1206-analisarStatus()=Posicionar
+1208-verificarVez
+1211-jogadordaVez = 518 - JogadorUm
+1214-MINHA VEZ=FALSE
+1217-analisarStatus()
+1220-analisarStatus()=Em jogo
+1222-analisarStatus()=Posicionar
+1224-verificarVez
+1227-jogadordaVez = 518 - JogadorUm
+1230-MINHA VEZ=FALSE
+1233-analisarStatus()
+1236-analisarStatus()=Em jogo
+1238-analisarStatus()=Posicionar
+1240-verificarVez
+1243-jogadordaVez = 518 - JogadorUm
+1246-MINHA VEZ=FALSE
+1249-analisarStatus()
+1252-analisarStatus()=Em jogo
+1254-analisarStatus()=Posicionar
+1256-verificarVez
+1259-jogadordaVez = 518 - JogadorUm
+1262-MINHA VEZ=FALSE
+1265-analisarStatus()
+1268-analisarStatus()=Em jogo
+1270-analisarStatus()=Posicionar
+1272-verificarVez
+1275-jogadordaVez = 518 - JogadorUm
+1278-MINHA VEZ=FALSE
+1281-analisarStatus()
+1284-analisarStatus()=Em jogo
+1286-analisarStatus()=Posicionar
+1288-verificarVez
+1291-jogadordaVez = 518 - JogadorUm
+1294-MINHA VEZ=FALSE
+1297-analisarStatus()
+1300-analisarStatus()=Em jogo
+1302-analisarStatus()=Posicionar
+1304-verificarVez
+1307-jogadordaVez = 518 - JogadorUm
+1310-MINHA VEZ=FALSE
+1313-analisarStatus()
+1316-analisarStatus()=Em jogo
+1318-analisarStatus()=Posicionar
+1320-verificarVez
+1323-jogadordaVez = 518 - JogadorUm
+1326-MINHA VEZ=FALSE
+1329-analisarStatus()
+1332-analisarStatus()=Em jogo
+1334-analisarStatus()=Posicionar
+1336-verificarVez
+1339-jogadordaVez = 518 - JogadorUm
+1342-MINHA VEZ=FALSE
+1345-analisarStatus()
+1348-analisarStatus()=Em jogo
+1350-analisarStatus()=Posicionar
+1352-verificarVez
+1355-jogadordaVez = 518 - JogadorUm
+1358-MINHA VEZ=FALSE
+1361-analisarStatus()
+1364-analisarStatus()=Em jogo
+1366-analisarStatus()=Posicionar
+1368-verificarVez
+1371-jogadordaVez = 518 - JogadorUm
+1374-MINHA VEZ=FALSE
+1377-analisarStatus()
+1380-analisarStatus()=Em jogo
+1382-analisarStatus()=Posicionar
+1384-verificarVez
+1387-jogadordaVez = 519 - JogadorDoi
+1390-ULTIMA JOGADA = JogadorUm,S,A,4
+
+1392-calculoMinhaPontuacaoAtual
+1394-MINHA VEZ=FALSE
+1397-analisarStatus()
+1400-analisarStatus()=Em jogo
+1402-analisarStatus()=Posicionar
+1404-verificarVez
+1407-jogadordaVez = 519 - JogadorDoi
+1410-ULTIMA JOGADA = JogadorUm,S,A,4
+
+1412-calculoMinhaPontuacaoAtual
+1414-MINHA VEZ=FALSE
+1417-analisarStatus()
+1420-analisarStatus()=Em jogo
+1422-analisarStatus()=Posicionar
+1424-verificarVez
+1427-jogadordaVez = 519 - JogadorDoi
+1430-ULTIMA JOGADA = JogadorUm,S,A,4
+
+1432-calculoMinhaPontuacaoAtual
+1434-MINHA VEZ=FALSE
+1437-analisarStatus()
+1440-analisarStatus()=Em jogo
+1442-analisarStatus()=Posicionar
+1444-verificarVez
+1447-jogadordaVez = 519 - JogadorDoi
+1450-ULTIMA JOGADA = JogadorUm,S,A,4
+
+1452-calculoMinhaPontuacaoAtual
+1454-MINHA VEZ=FALSE
+1457-analisarStatus()
+1460-analisarStatus()=Em jogo
+1462-analisarStatus()=Posicionar
+1464-verificarVez
+1467-jogadordaVez = 519 - JogadorDoi
+1470-ULTIMA JOGADA = JogadorUm,S,A,4
+
+1472-calculoMinhaPontuacaoAtual
+1474-MINHA VEZ=FALSE
+1477-analisarStatus()
+1480-analisarStatus()=Em jogo
+1482-analisarStatus()=Posicionar
+1484-verificarVez
+1487-jogadordaVez = 519 - JogadorDoi
+1490-ULTIMA JOGADA = JogadorUm,S,A,4
+
+1492-calculoMinhaPontuacaoAtual
+1494-MINHA VEZ=FALSE
+1497-analisarStatus()
+1500-analisarStatus()=Em jogo
+1502-analisarStatus()=Posicionar
+1504-verificarVez
+1507-jogadordaVez = 519 - JogadorDoi
+1510-ULTIMA JOGADA = JogadorUm,S,A,4
+
+1512-calculoMinhaPontuacaoAtual
+1514-MINHA VEZ=FALSE
+1517-analisarStatus()
+1520-analisarStatus()=Em jogo
+1522-analisarStatus()=Posicionar
+1524-verificarVez
+1527-jogadordaVez = 520 - JogadorTre
+1530-ULTIMA JOGADA = JogadorDoi,S,B,4
+JogadorUm,S,A,4
+
+1532-calculoMinhaPontuacaoAtual
+1534-MINHA VEZ=FALSE
+1537-analisarStatus()
+1540-analisarStatus()=Em jogo
+1542-analisarStatus()=Posicionar
+1544-verificarVez
+1547-jogadordaVez = 520 - JogadorTre
+1550-ULTIMA JOGADA = JogadorDoi,S,B,4
+JogadorUm,S,A,4
+
+1552-calculoMinhaPontuacaoAtual
+1554-MINHA VEZ=FALSE
+1557-analisarStatus()
+1560-analisarStatus()=Em jogo
+1562-analisarStatus()=Posicionar
+1564-verificarVez
+1567-jogadordaVez = 520 - JogadorTre
+1570-ULTIMA JOGADA = JogadorDoi,S,B,4
+JogadorUm,S,A,4
+
+1572-calculoMinhaPontuacaoAtual
+1574-MINHA VEZ=FALSE
+1577-analisarStatus()
+1580-analisarStatus()=Em jogo
+1582-analisarStatus()=Posicionar
+1584-verificarVez
+1587-jogadordaVez = 520 - JogadorTre
+1590-ULTIMA JOGADA = JogadorDoi,S,B,4
+JogadorUm,S,A,4
+
+1592-calculoMinhaPontuacaoAtual
+1594-MINHA VEZ=FALSE
+1597-analisarStatus()
+1600-analisarStatus()=Em jogo
+1602-analisarStatus()=Posicionar
+1604-verificarVez
+1607-jogadordaVez = 520 - JogadorTre
+1610-ULTIMA JOGADA = JogadorTre,S,C,4
+JogadorDoi,S,B,4
+JogadorUm,S,A,4
+
+1612-calculoMinhaPontuacaoAtual
+1614-MINHA VEZ=FALSE
+1617-analisarStatus()
+1620-analisarStatus()=Em jogo
+1622-analisarStatus()=Posicionar
+1624-verificarVez
+1627-jogadordaVez = 521 - JogadorQua
+1630-ULTIMA JOGADA = JogadorTre,S,C,4
+JogadorDoi,S,B,4
+JogadorUm,S,A,4
+
+1632-calculoMinhaPontuacaoAtual
+1634-MINHA VEZ=FALSE
+1637-analisarStatus()
+1640-analisarStatus()=Em jogo
+1642-analisarStatus()=Posicionar
+1644-verificarVez
+1647-jogadordaVez = 521 - JogadorQua
+1650-ULTIMA JOGADA = JogadorTre,S,C,4
+JogadorDoi,S,B,4
+JogadorUm,S,A,4
+
+1652-calculoMinhaPontuacaoAtual
+1654-MINHA VEZ=FALSE
+1657-analisarStatus()
+1660-analisarStatus()=Em jogo
+1662-analisarStatus()=Posicionar
+1664-verificarVez
+1667-jogadordaVez = 521 - JogadorQua
+1670-ULTIMA JOGADA = JogadorTre,S,C,4
+JogadorDoi,S,B,4
+JogadorUm,S,A,4
+
+1672-calculoMinhaPontuacaoAtual
+1674-MINHA VEZ=FALSE
+1677-analisarStatus()
+1680-analisarStatus()=Em jogo
+1682-analisarStatus()=Posicionar
+1684-verificarVez
+1687-jogadordaVez = 521 - JogadorQua
+1690-ULTIMA JOGADA = JogadorTre,S,C,4
+JogadorDoi,S,B,4
+JogadorUm,S,A,4
+
+1692-calculoMinhaPontuacaoAtual
+1694-MINHA VEZ=FALSE
+1697-analisarStatus()
+1700-analisarStatus()=Em jogo
+1702-analisarStatus()=Posicionar
+1704-verificarVez
+1707-jogadordaVez = 521 - JogadorQua
+1710-ULTIMA JOGADA = JogadorTre,S,C,4
+JogadorDoi,S,B,4
+JogadorUm,S,A,4
+
+1712-calculoMinhaPontuacaoAtual
+1714-MINHA VEZ=FALSE
+1717-analisarStatus()
+1720-analisarStatus()=Em jogo
+1722-analisarStatus()=Posicionar
+1724-verificarVez
+1727-jogadordaVez = 522 - JogadorCin
+1730-ULTIMA JOGADA = JogadorQua,S,D,4
+JogadorTre,S,C,4
+JogadorDoi,S,B,4
+JogadorUm,S,A,4
+
+1732-calculoMinhaPontuacaoAtual
+1734-MINHA VEZ=TRUE
+1737-analisarStatus()
+1740-analisarStatus()=Em jogo
+1742-analisarStatus()=Posicionar
+1744-verificarVez
+1747-jogadordaVez = 522 - JogadorCin
+1750-ULTIMA JOGADA = JogadorQua,S,D,4
+JogadorTre,S,C,4
+JogadorDoi,S,B,4
+JogadorUm,S,A,4
+
+1752-calculoMinhaPontuacaoAtual
+1754-MINHA VEZ=TRUE
+1757-analisarStatus()
+1760-analisarStatus()=Em jogo
+1762-analisarStatus()=Posicionar
+1764-verificarVez
+1767-jogadordaVez = 522 - JogadorCin
+1770-ULTIMA JOGADA = JogadorQua,S,D,4
+JogadorTre,S,C,4
+JogadorDoi,S,B,4
+JogadorUm,S,A,4
+
+1772-calculoMinhaPontuacaoAtual
+1774-MINHA VEZ=TRUE
+1777-analisarStatus()
+1780-analisarStatus()=Em jogo
+1782-analisarStatus()=Posicionar
+1784-verificarVez
+1787-jogadordaVez = 522 - JogadorCin
+1790-ULTIMA JOGADA = JogadorQua,S,D,4
+JogadorTre,S,C,4
+JogadorDoi,S,B,4
+JogadorUm,S,A,4
+
+1792-calculoMinhaPontuacaoAtual
+1794-MINHA VEZ=TRUE
+1797-analisarStatus()
+1800-analisarStatus()=Em jogo
+1802-analisarStatus()=Posicionar
+1804-verificarVez
+1807-jogadordaVez = 522 - JogadorCin
+1810-ULTIMA JOGADA = JogadorQua,S,D,4
+JogadorTre,S,C,4
+JogadorDoi,S,B,4
+JogadorUm,S,A,4
+
+1812-calculoMinhaPontuacaoAtual
+1814-MINHA VEZ=TRUE
+1817-analisarStatus()
+1820-analisarStatus()=Em jogo
+1822-analisarStatus()=Posicionar
+1824-verificarVez
+1827-jogadordaVez = 522 - JogadorCin
+1830-ULTIMA JOGADA = JogadorQua,S,D,4
+JogadorTre,S,C,4
+JogadorDoi,S,B,4
+JogadorUm,S,A,4
+
+1832-calculoMinhaPontuacaoAtual
+1834-MINHA VEZ=TRUE
+1837-analisarStatus()
+1840-analisarStatus()=Em jogo
+1842-analisarStatus()=Posicionar
+1844-verificarVez
+1847-jogadordaVez = 522 - JogadorCin
+1850-ULTIMA JOGADA = JogadorQua,S,D,4
+JogadorTre,S,C,4
+JogadorDoi,S,B,4
+JogadorUm,S,A,4
+
+1852-calculoMinhaPontuacaoAtual
+1854-MINHA VEZ=TRUE
+1856-autoposicionar
+1858-calculoNumeroPersonagensDesempregados=9
+1860-algoritmoPosicionarPadrao
+1862-algoritmoPosicionarPadrao - Tentar posicionar 4(E)
+1865-POSICIONAR PERSONAGEM OK
+1868-analisarStatus()
+1871-analisarStatus()=Em jogo
+1873-analisarStatus()=Posicionar
+1875-verificarVez
+1878-jogadordaVez = 523 - JogadorSei
+1881-ULTIMA JOGADA = JogadorCin,S,E,3
+JogadorQua,S,D,4
+JogadorTre,S,C,4
+JogadorDoi,S,B,4
+JogadorUm,S,A,4
+
+1883-calculoMinhaPontuacaoAtual
+1885-MINHA VEZ=FALSE
+1888-analisarStatus()
+1891-analisarStatus()=Em jogo
+1893-analisarStatus()=Posicionar
+1895-verificarVez
+1898-jogadordaVez = 523 - JogadorSei
+1901-ULTIMA JOGADA = JogadorCin,S,E,3
+JogadorQua,S,D,4
+JogadorTre,S,C,4
+JogadorDoi,S,B,4
+JogadorUm,S,A,4
+
+1903-calculoMinhaPontuacaoAtual
+1905-MINHA VEZ=FALSE
+1908-analisarStatus()
+1911-analisarStatus()=Em jogo
+1913-analisarStatus()=Posicionar
+1915-verificarVez
+1918-jogadordaVez = 523 - JogadorSei
+1921-ULTIMA JOGADA = JogadorCin,S,E,3
+JogadorQua,S,D,4
+JogadorTre,S,C,4
+JogadorDoi,S,B,4
+JogadorUm,S,A,4
+
+1923-calculoMinhaPontuacaoAtual
+1925-MINHA VEZ=FALSE
+1928-analisarStatus()
+1931-analisarStatus()=Em jogo
+1933-analisarStatus()=Posicionar
+1935-verificarVez
+1938-jogadordaVez = 523 - JogadorSei
+1941-ULTIMA JOGADA = JogadorCin,S,E,3
+JogadorQua,S,D,4
+JogadorTre,S,C,4
+JogadorDoi,S,B,4
+JogadorUm,S,A,4
+
+1943-calculoMinhaPontuacaoAtual
+1945-MINHA VEZ=FALSE
+1948-analisarStatus()
+1951-analisarStatus()=Em jogo
+1953-analisarStatus()=Posicionar
+1955-verificarVez
+1958-jogadordaVez = 523 - JogadorSei
+1961-ULTIMA JOGADA = JogadorCin,S,E,3
+JogadorQua,S,D,4
+JogadorTre,S,C,4
+JogadorDoi,S,B,4
+JogadorUm,S,A,4
+
+1963-calculoMinhaPontuacaoAtual
+1965-MINHA VEZ=FALSE
+1968-analisarStatus()
+1971-analisarStatus()=Em jogo
+1973-analisarStatus()=Posicionar
+1975-verificarVez
+1978-jogadordaVez = 523 - JogadorSei
+1981-ULTIMA JOGADA = JogadorCin,S,E,3
+JogadorQua,S,D,4
+JogadorTre,S,C,4
+JogadorDoi,S,B,4
+JogadorUm,S,A,4
+
+1983-calculoMinhaPontuacaoAtual
+1985-MINHA VEZ=FALSE
+1988-analisarStatus()
+1991-analisarStatus()=Em jogo
+1993-analisarStatus()=Posicionar
+1995-verificarVez
+1998-jogadordaVez = 523 - JogadorSei
+2001-ULTIMA JOGADA = JogadorCin,S,E,3
+JogadorQua,S,D,4
+JogadorTre,S,C,4
+JogadorDoi,S,B,4
+JogadorUm,S,A,4
+
+2003-calculoMinhaPontuacaoAtual
+2005-MINHA VEZ=FALSE
+2008-analisarStatus()
+2011-analisarStatus()=Em jogo
+2013-analisarStatus()=Posicionar
+2015-verificarVez
+2018-jogadordaVez = 523 - JogadorSei
+2021-ULTIMA JOGADA = JogadorCin,S,E,3
+JogadorQua,S,D,4
+JogadorTre,S,C,4
+JogadorDoi,S,B,4
+JogadorUm,S,A,4
+
+2023-calculoMinhaPontuacaoAtual
+2025-MINHA VEZ=FALSE
+2028-analisarStatus()
+2031-analisarStatus()=Em jogo
+2033-analisarStatus()=Posicionar
+2035-verificarVez
+2038-jogadordaVez = 523 - JogadorSei
+2041-ULTIMA JOGADA = JogadorCin,S,E,3
+JogadorQua,S,D,4
+JogadorTre,S,C,4
+JogadorDoi,S,B,4
+JogadorUm,S,A,4
+
+2043-calculoMinhaPontuacaoAtual
+2045-MINHA VEZ=FALSE
+2048-analisarStatus()
+2051-analisarStatus()=Em jogo
+2053-analisarStatus()=Posicionar
+2055-verificarVez
+2058-jogadordaVez = 523 - JogadorSei
+2061-ULTIMA JOGADA = JogadorSei,S,L,3
+JogadorCin,S,E,3
+JogadorQua,S,D,4
+JogadorTre,S,C,4
+JogadorDoi,S,B,4
+JogadorUm,S,A,4
+
+2063-calculoMinhaPontuacaoAtual
+2065-MINHA VEZ=FALSE
+2068-analisarStatus()
+2071-analisarStatus()=Em jogo
+2073-analisarStatus()=Posicionar
+2075-verificarVez
+2078-jogadordaVez = 518 - JogadorUm
+2081-ULTIMA JOGADA = JogadorSei,S,L,3
+JogadorCin,S,E,3
+JogadorQua,S,D,4
+JogadorTre,S,C,4
+JogadorDoi,S,B,4
+JogadorUm,S,A,4
+
+2083-calculoMinhaPontuacaoAtual
+2085-MINHA VEZ=FALSE
+2088-analisarStatus()
+2091-analisarStatus()=Em jogo
+2093-analisarStatus()=Posicionar
+2095-verificarVez
+2098-jogadordaVez = 519 - JogadorDoi
+2101-ULTIMA JOGADA = JogadorUm,S,G,3
+JogadorSei,S,L,3
+JogadorCin,S,E,3
+JogadorQua,S,D,4
+JogadorTre,S,C,4
+JogadorDoi,S,B,4
+
+2103-calculoMinhaPontuacaoAtual
+2105-MINHA VEZ=FALSE
+2108-analisarStatus()
+2111-analisarStatus()=Em jogo
+2113-analisarStatus()=Posicionar
+2115-verificarVez
+2118-jogadordaVez = 519 - JogadorDoi
+2121-ULTIMA JOGADA = JogadorDoi,S,F,3
+JogadorUm,S,G,3
+JogadorSei,S,L,3
+JogadorCin,S,E,3
+JogadorQua,S,D,4
+JogadorTre,S,C,4
+
+2123-calculoMinhaPontuacaoAtual
+2125-MINHA VEZ=FALSE
+2128-analisarStatus()
+2131-analisarStatus()=Em jogo
+2133-analisarStatus()=Posicionar
+2135-verificarVez
+2138-jogadordaVez = 520 - JogadorTre
+2141-ULTIMA JOGADA = JogadorDoi,S,F,3
+JogadorUm,S,G,3
+JogadorSei,S,L,3
+JogadorCin,S,E,3
+JogadorQua,S,D,4
+JogadorTre,S,C,4
+
+2143-calculoMinhaPontuacaoAtual
+2145-MINHA VEZ=FALSE
+2148-analisarStatus()
+2151-analisarStatus()=Em jogo
+2153-analisarStatus()=Posicionar
+2155-verificarVez
+2158-jogadordaVez = 521 - JogadorQua
+2161-ULTIMA JOGADA = JogadorQua,S,I,2
+JogadorTre,S,M,2
+JogadorDoi,S,F,3
+JogadorUm,S,G,3
+JogadorSei,S,L,3
+JogadorCin,S,E,3
+
+2163-calculoMinhaPontuacaoAtual
+2165-MINHA VEZ=FALSE
+2168-analisarStatus()
+2171-analisarStatus()=Em jogo
+2173-analisarStatus()=Posicionar
+2175-verificarVez
+2178-jogadordaVez = 522 - JogadorCin
+2181-ULTIMA JOGADA = JogadorQua,S,I,2
+JogadorTre,S,M,2
+JogadorDoi,S,F,3
+JogadorUm,S,G,3
+JogadorSei,S,L,3
+JogadorCin,S,E,3
+
+2183-calculoMinhaPontuacaoAtual
+2185-MINHA VEZ=TRUE
+2187-autoposicionar
+2189-calculoNumeroPersonagensDesempregados=3
+2191-algoritmoPosicionamentoEquilibrado
+2193-calculoQtdMeusPersonagensNoNivel
+2195-calculoQtdMeusPersonagensNoNivel
+2197-calculoQtdMeusPersonagensNoNivel
+2200-POSICIONAR PERSONAGEM OK
+2203-analisarStatus()
+2206-analisarStatus()=Em jogo
+2208-analisarStatus()=Posicionar
+2210-verificarVez
+2213-jogadordaVez = 523 - JogadorSei
+2216-ULTIMA JOGADA = JogadorSei,S,O,2
+JogadorCin,S,N,2
+JogadorQua,S,I,2
+JogadorTre,S,M,2
+JogadorDoi,S,F,3
+JogadorUm,S,G,3
+
+2218-calculoMinhaPontuacaoAtual
+2220-MINHA VEZ=FALSE
+2223-analisarStatus()
+2226-analisarStatus()=Em jogo
+2228-analisarStatus()=Promover
+2230-verificarVez
+2233-jogadordaVez = 518 - JogadorUm
+2236-ULTIMA JOGADA = JogadorSei,S,O,2
+JogadorCin,S,N,2
+JogadorQua,S,I,2
+JogadorTre,S,M,2
+JogadorDoi,S,F,3
+JogadorUm,S,G,3
+
+2238-calculoMinhaPontuacaoAtual
+2240-MINHA VEZ=FALSE
+2243-analisarStatus()
+2246-analisarStatus()=Em jogo
+2248-analisarStatus()=Promover
+2250-verificarVez
+2253-jogadordaVez = 518 - JogadorUm
+2256-ULTIMA JOGADA = JogadorUm,J,D,5
+JogadorSei,S,O,2
+JogadorCin,S,N,2
+JogadorQua,S,I,2
+JogadorTre,S,M,2
+JogadorDoi,S,F,3
+
+2258-calculoMinhaPontuacaoAtual
+2260-MINHA VEZ=FALSE
+2263-analisarStatus()
+2266-analisarStatus()=Em jogo
+2268-analisarStatus()=Promover
+2270-verificarVez
+2273-jogadordaVez = 519 - JogadorDoi
+2276-ULTIMA JOGADA = JogadorDoi,J,A,5
+JogadorUm,J,D,5
+JogadorSei,S,O,2
+JogadorCin,S,N,2
+JogadorQua,S,I,2
+JogadorTre,S,M,2
+
+2278-calculoMinhaPontuacaoAtual
+2280-MINHA VEZ=FALSE
+2283-analisarStatus()
+2286-analisarStatus()=Em jogo
+2288-analisarStatus()=Promover
+2290-verificarVez
+2293-jogadordaVez = 520 - JogadorTre
+2296-ULTIMA JOGADA = JogadorDoi,J,A,5
+JogadorUm,J,D,5
+JogadorSei,S,O,2
+JogadorCin,S,N,2
+JogadorQua,S,I,2
+JogadorTre,S,M,2
+
+2298-calculoMinhaPontuacaoAtual
+2300-MINHA VEZ=FALSE
+2303-analisarStatus()
+2306-analisarStatus()=Em jogo
+2308-analisarStatus()=Votar
+2310-verificarVez
+2313-jogadordaVez = 521 - JogadorQua
+2316-ULTIMA JOGADA = JogadorTre,J,A,10
+JogadorDoi,J,A,5
+JogadorUm,J,D,5
+JogadorSei,S,O,2
+JogadorCin,S,N,2
+JogadorQua,S,I,2
+
+2318-calculoMinhaPontuacaoAtual
+2320-MINHA VEZ=FALSE
+2323-analisarStatus()
+2326-analisarStatus()=Em jogo
+2328-analisarStatus()=Votar
+2330-verificarVez
+2333-jogadordaVez = 522 - JogadorCin
+2336-ULTIMA JOGADA = JogadorTre,J,A,10
+JogadorDoi,J,A,5
+JogadorUm,J,D,5
+JogadorSei,S,O,2
+JogadorCin,S,N,2
+JogadorQua,S,I,2
+
+2338-calculoMinhaPontuacaoAtual
+2340-MINHA VEZ=TRUE
+2342-autovotar
+2344-algoritmoVotacaoTenhoPontosSuficientes
+2346-calculoMinhaPontuacaoAtual
+2348-calculoMaiorPontuacaoTotalAtualPossivel
+2350-calculoMaiorPontuacaoPossivelAtual
+2352-calculoMaiorPontuacaoTotalAtualPossivel/[0]029
+2354-calculoMaiorPontuacaoTotalAtualPossivel/[1]029
+2356-calculoMaiorPontuacaoTotalAtualPossivel/[2]029
+2358-calculoMaiorPontuacaoTotalAtualPossivel/[3]029
+2360-calculoMaiorPontuacaoTotalAtualPossivel/[5]029
+2362-ERRO ALGORTMO - algortimovotacaoTenhospontossuficientes retornou falso
+2364-autovotar
+2366-algoritmoVotacaoPadrao
+2368-MEU VOTO SIM
+2371-VOTACAO OK
+2374-analisarStatus()
+2377-analisarStatus()=Em jogo
+2379-analisarStatus()=Votar
+2381-verificarVez
+2384-jogadordaVez = 523 - JogadorSei
+2387-ULTIMA JOGADA = JogadorTre,J,A,10
+JogadorDoi,J,A,5
+JogadorUm,J,D,5
+JogadorSei,S,O,2
+JogadorCin,S,N,2
+JogadorQua,S,I,2
+
+2389-calculoMinhaPontuacaoAtual
+2391-MINHA VEZ=FALSE
+2394-analisarStatus()
+2397-analisarStatus()=Em jogo
+2399-analisarStatus()=Votar
+2401-verificarVez
+2404-jogadordaVez = 518 - JogadorUm
+2407-ULTIMA JOGADA = JogadorTre,J,A,10
+JogadorDoi,J,A,5
+JogadorUm,J,D,5
+JogadorSei,S,O,2
+JogadorCin,S,N,2
+JogadorQua,S,I,2
+
+2409-calculoMinhaPontuacaoAtual
+2411-MINHA VEZ=FALSE
+2414-analisarStatus()
+2417-analisarStatus()=Em jogo
+2419-analisarStatus()=Votar
+2421-verificarVez
+2424-jogadordaVez = 519 - JogadorDoi
+2427-ULTIMA JOGADA = JogadorTre,J,A,10
+JogadorDoi,J,A,5
+JogadorUm,J,D,5
+JogadorSei,S,O,2
+JogadorCin,S,N,2
+JogadorQua,S,I,2
+
+2429-calculoMinhaPontuacaoAtual
+2431-MINHA VEZ=FALSE
+2434-analisarStatus()
+2437-analisarStatus()=Em jogo
+2439-analisarStatus()=Votar
+2441-verificarVez
+2444-jogadordaVez = 520 - JogadorTre
+2447-ULTIMA JOGADA = JogadorTre,J,A,10
+JogadorDoi,J,A,5
+JogadorUm,J,D,5
+JogadorSei,S,O,2
+JogadorCin,S,N,2
+JogadorQua,S,I,2
+
+2449-calculoMinhaPontuacaoAtual
+2451-MINHA VEZ=FALSE
+2454-analisarStatus()
+2457-analisarStatus()=Em jogo
+2459-analisarStatus()=Votar
+2461-verificarVez
+2464-jogadordaVez = 521 - JogadorQua
+2467-ULTIMA JOGADA = JogadorTre,J,A,10
+JogadorDoi,J,A,5
+JogadorUm,J,D,5
+JogadorSei,S,O,2
+JogadorCin,S,N,2
+JogadorQua,S,I,2
+
+2469-calculoMinhaPontuacaoAtual
+2471-analisarUltimaVotacao
+2474-calculoQtdTotalAtualCartasNaoNoJogo=12
+2476-calculoQtdTotalAtualCartasNaoNoJogo=12
+2478-calculoNumeroPersonagensEliminados=0
+2480-calculoQtdTotalAtualCartasNaoNoJogo=11
+2482-calculoQtdTotalAtualCartasNaoNoJogo=11
+2484-calculoNumeroPersonagensEliminados=0
+2486-calculoQtdTotalAtualCartasNaoNoJogo=11
+2488-calculoQtdTotalAtualCartasNaoNoJogo=11
+2490-calculoNumeroPersonagensEliminados=0
+2492-calculoQtdTotalAtualCartasNaoNoJogo=11
+2494-calculoQtdTotalAtualCartasNaoNoJogo=11
+2496-calculoNumeroPersonagensEliminados=0
+2498-calculoQtdTotalAtualCartasNaoNoJogo=11
+2500-calculoQtdTotalAtualCartasNaoNoJogo=11
+2502-calculoNumeroPersonagensEliminados=0
+2504-MINHA VEZ=FALSE
+2507-analisarStatus()
+2510-analisarStatus()=Em jogo
+2512-analisarStatus()=Promover
+2514-verificarVez
+2517-jogadordaVez = 521 - JogadorQua
+2520-ULTIMA JOGADA = JogadorTre,J,A,10
+JogadorDoi,J,A,5
+JogadorUm,J,D,5
+JogadorSei,S,O,2
+JogadorCin,S,N,2
+JogadorQua,S,I,2
+
+2522-calculoMinhaPontuacaoAtual
+2524-MINHA VEZ=FALSE
+2527-analisarStatus()
+2530-analisarStatus()=Em jogo
+2532-analisarStatus()=Promover
+2534-verificarVez
+2537-jogadordaVez = 522 - JogadorCin
+2540-ULTIMA JOGADA = JogadorQua,J,L,4
+JogadorTre,J,A,10
+JogadorDoi,J,A,5
+JogadorUm,J,D,5
+JogadorSei,S,O,2
+JogadorCin,S,N,2
+
+2542-calculoMinhaPontuacaoAtual
+2544-MINHA VEZ=TRUE
+2546-autopromover
+2548-calculoNumeroPersonagensDesempregados=0
+2550-algoritmoPromocaoQualquerdeMenorNivel
+2553-PROMOCAO PERSONAGEM OK
+2556-analisarStatus()
+2559-analisarStatus()=Em jogo
+2561-analisarStatus()=Promover
+2563-verificarVez
+2566-jogadordaVez = 523 - JogadorSei
+2569-ULTIMA JOGADA = JogadorCin,J,B,5
+JogadorQua,J,L,4
+JogadorTre,J,A,10
+JogadorDoi,J,A,5
+JogadorUm,J,D,5
+JogadorSei,S,O,2
+
+2571-calculoMinhaPontuacaoAtual
+2573-MINHA VEZ=FALSE
+2576-analisarStatus()
+2579-analisarStatus()=Em jogo
+2581-analisarStatus()=Votar
+2583-verificarVez
+2586-jogadordaVez = 518 - JogadorUm
+2589-ULTIMA JOGADA = JogadorSei,J,B,10
+JogadorCin,J,B,5
+JogadorQua,J,L,4
+JogadorTre,J,A,10
+JogadorDoi,J,A,5
+JogadorUm,J,D,5
+
+2591-calculoMinhaPontuacaoAtual
+2593-MINHA VEZ=FALSE
+2596-analisarStatus()
+2599-analisarStatus()=Em jogo
+2601-analisarStatus()=Votar
+2603-verificarVez
+2606-jogadordaVez = 519 - JogadorDoi
+2609-ULTIMA JOGADA = JogadorSei,J,B,10
+JogadorCin,J,B,5
+JogadorQua,J,L,4
+JogadorTre,J,A,10
+JogadorDoi,J,A,5
+JogadorUm,J,D,5
+
+2611-calculoMinhaPontuacaoAtual
+2613-MINHA VEZ=FALSE
+2616-analisarStatus()
+2619-analisarStatus()=Em jogo
+2621-analisarStatus()=Votar
+2623-verificarVez
+2626-jogadordaVez = 520 - JogadorTre
+2629-ULTIMA JOGADA = JogadorSei,J,B,10
+JogadorCin,J,B,5
+JogadorQua,J,L,4
+JogadorTre,J,A,10
+JogadorDoi,J,A,5
+JogadorUm,J,D,5
+
+2631-calculoMinhaPontuacaoAtual
+2633-MINHA VEZ=FALSE
+2636-analisarStatus()
+2639-analisarStatus()=Em jogo
+2641-analisarStatus()=Votar
+2643-verificarVez
+2646-jogadordaVez = 521 - JogadorQua
+2649-ULTIMA JOGADA = JogadorSei,J,B,10
+JogadorCin,J,B,5
+JogadorQua,J,L,4
+JogadorTre,J,A,10
+JogadorDoi,J,A,5
+JogadorUm,J,D,5
+
+2651-calculoMinhaPontuacaoAtual
+2653-MINHA VEZ=FALSE
+2656-analisarStatus()
+2659-analisarStatus()=Em jogo
+2661-analisarStatus()=Votar
+2663-verificarVez
+2666-jogadordaVez = 522 - JogadorCin
+2669-ULTIMA JOGADA = JogadorSei,J,B,10
+JogadorCin,J,B,5
+JogadorQua,J,L,4
+JogadorTre,J,A,10
+JogadorDoi,J,A,5
+JogadorUm,J,D,5
+
+2671-calculoMinhaPontuacaoAtual
+2673-MINHA VEZ=TRUE
+2675-autovotar
+2677-algoritmoVotacaoTenhoPontosSuficientes
+2679-calculoMinhaPontuacaoAtual
+2681-calculoMaiorPontuacaoTotalAtualPossivel
+2683-calculoMaiorPontuacaoPossivelAtual
+2685-calculoMaiorPontuacaoTotalAtualPossivel/[0]029
+2687-calculoMaiorPontuacaoTotalAtualPossivel/[1]029
+2689-calculoMaiorPontuacaoTotalAtualPossivel/[2]029
+2691-calculoMaiorPontuacaoTotalAtualPossivel/[3]029
+2693-calculoMaiorPontuacaoTotalAtualPossivel/[5]029
+2695-ERRO ALGORTMO - algortimovotacaoTenhospontossuficientes retornou falso
+2697-autovotar
+2699-algoritmoVotacaoPadrao
+2701-MEU VOTO NAO
+2704-VOTACAO OK
+2707-analisarStatus()
+2710-analisarStatus()=Em jogo
+2712-analisarStatus()=Votar
+2714-verificarVez
+2717-jogadordaVez = 523 - JogadorSei
+2720-ULTIMA JOGADA = JogadorSei,J,B,10
+JogadorCin,J,B,5
+JogadorQua,J,L,4
+JogadorTre,J,A,10
+JogadorDoi,J,A,5
+JogadorUm,J,D,5
+
+2722-calculoMinhaPontuacaoAtual
+2724-MINHA VEZ=FALSE
+2727-analisarStatus()
+2730-analisarStatus()=Em jogo
+2732-analisarStatus()=Votar
+2734-verificarVez
+2737-jogadordaVez = 523 - JogadorSei
+2740-ULTIMA JOGADA = JogadorSei,J,B,10
+JogadorCin,J,B,5
+JogadorQua,J,L,4
+JogadorTre,J,A,10
+JogadorDoi,J,A,5
+JogadorUm,J,D,5
+
+2742-calculoMinhaPontuacaoAtual
+2744-MINHA VEZ=FALSE
+2747-analisarStatus()
+2750-analisarStatus()=Em jogo
+2752-analisarStatus()=Promover
+2754-verificarVez
+2757-jogadordaVez = 518 - JogadorUm
+2760-ULTIMA JOGADA = JogadorSei,J,B,10
+JogadorCin,J,B,5
+JogadorQua,J,L,4
+JogadorTre,J,A,10
+JogadorDoi,J,A,5
+JogadorUm,J,D,5
+
+2762-calculoMinhaPontuacaoAtual
+2764-analisarUltimaVotacao
+2767-calculoQtdTotalAtualCartasNaoNoJogo=11
+2769-calculoQtdTotalAtualCartasNaoNoJogo=11
+2771-calculoNumeroPersonagensEliminados=1
+2773-calculoQtdTotalAtualCartasNaoNoJogo=10
+2775-calculoQtdTotalAtualCartasNaoNoJogo=10
+2777-calculoNumeroPersonagensEliminados=1
+2779-calculoQtdTotalAtualCartasNaoNoJogo=8
+2781-calculoQtdTotalAtualCartasNaoNoJogo=8
+2783-calculoNumeroPersonagensEliminados=1
+2785-MINHA VEZ=FALSE
+2788-analisarStatus()
+2791-analisarStatus()=Em jogo
+2793-analisarStatus()=Promover
+2795-verificarVez
+2798-jogadordaVez = 520 - JogadorTre
+2801-ULTIMA JOGADA = JogadorDoi,J,C,5
+JogadorUm,J,N,3
+JogadorSei,J,B,10
+JogadorCin,J,B,5
+JogadorQua,J,L,4
+JogadorTre,J,A,10
+
+2803-calculoMinhaPontuacaoAtual
+2805-MINHA VEZ=FALSE
+2808-analisarStatus()
+2811-analisarStatus()=Em jogo
+2813-analisarStatus()=Promover
+2815-verificarVez
+2818-jogadordaVez = 520 - JogadorTre
+2821-ULTIMA JOGADA = JogadorTre,J,C,10
+JogadorDoi,J,C,5
+JogadorUm,J,N,3
+JogadorSei,J,B,10
+JogadorCin,J,B,5
+JogadorQua,J,L,4
+
+2823-calculoMinhaPontuacaoAtual
+2825-MINHA VEZ=FALSE
+2828-analisarStatus()
+2831-analisarStatus()=Em jogo
+2833-analisarStatus()=Votar
+2835-verificarVez
+2838-jogadordaVez = 521 - JogadorQua
+2841-ULTIMA JOGADA = JogadorTre,J,C,10
+JogadorDoi,J,C,5
+JogadorUm,J,N,3
+JogadorSei,J,B,10
+JogadorCin,J,B,5
+JogadorQua,J,L,4
+
+2843-calculoMinhaPontuacaoAtual
+2845-MINHA VEZ=FALSE
+2848-analisarStatus()
+2851-analisarStatus()=Em jogo
+2853-analisarStatus()=Votar
+2855-verificarVez
+2858-jogadordaVez = 522 - JogadorCin
+2861-ULTIMA JOGADA = JogadorTre,J,C,10
+JogadorDoi,J,C,5
+JogadorUm,J,N,3
+JogadorSei,J,B,10
+JogadorCin,J,B,5
+JogadorQua,J,L,4
+
+2863-calculoMinhaPontuacaoAtual
+2865-MINHA VEZ=TRUE
+2867-autovotar
+2869-algoritmoVotacaoTenhoPontosSuficientes
+2871-calculoMinhaPontuacaoAtual
+2873-calculoMaiorPontuacaoTotalAtualPossivel
+2875-calculoMaiorPontuacaoPossivelAtual
+2877-calculoMaiorPontuacaoTotalAtualPossivel/[0]037
+2879-calculoMaiorPontuacaoTotalAtualPossivel/[1]037
+2881-calculoMaiorPontuacaoTotalAtualPossivel/[2]037
+2883-calculoMaiorPontuacaoTotalAtualPossivel/[3]037
+2885-calculoMaiorPontuacaoTotalAtualPossivel/[5]037
+2887-ERRO ALGORTMO - algortimovotacaoTenhospontossuficientes retornou falso
+2889-autovotar
+2891-algoritmoVotacaoPadrao
+2893-MEU VOTO SIM
+2896-VOTACAO OK
+2899-analisarStatus()
+2902-analisarStatus()=Em jogo
+2904-analisarStatus()=Votar
+2906-verificarVez
+2909-jogadordaVez = 523 - JogadorSei
+2912-ULTIMA JOGADA = JogadorTre,J,C,10
+JogadorDoi,J,C,5
+JogadorUm,J,N,3
+JogadorSei,J,B,10
+JogadorCin,J,B,5
+JogadorQua,J,L,4
+
+2914-calculoMinhaPontuacaoAtual
+2916-MINHA VEZ=FALSE
+2919-analisarStatus()
+2922-analisarStatus()=Em jogo
+2924-analisarStatus()=Votar
+2926-verificarVez
+2929-jogadordaVez = 518 - JogadorUm
+2932-ULTIMA JOGADA = JogadorTre,J,C,10
+JogadorDoi,J,C,5
+JogadorUm,J,N,3
+JogadorSei,J,B,10
+JogadorCin,J,B,5
+JogadorQua,J,L,4
+
+2934-calculoMinhaPontuacaoAtual
+2936-MINHA VEZ=FALSE
+2939-analisarStatus()
+2942-analisarStatus()=Em jogo
+2944-analisarStatus()=Votar
+2946-verificarVez
+2949-jogadordaVez = 519 - JogadorDoi
+2952-ULTIMA JOGADA = JogadorTre,J,C,10
+JogadorDoi,J,C,5
+JogadorUm,J,N,3
+JogadorSei,J,B,10
+JogadorCin,J,B,5
+JogadorQua,J,L,4
+
+2954-calculoMinhaPontuacaoAtual
+2956-MINHA VEZ=FALSE
+2959-analisarStatus()
+2962-analisarStatus()=Em jogo
+2964-analisarStatus()=Votar
+2966-verificarVez
+2969-jogadordaVez = 520 - JogadorTre
+2972-ULTIMA JOGADA = JogadorTre,J,C,10
+JogadorDoi,J,C,5
+JogadorUm,J,N,3
+JogadorSei,J,B,10
+JogadorCin,J,B,5
+JogadorQua,J,L,4
+
+2974-calculoMinhaPontuacaoAtual
+2976-MINHA VEZ=FALSE
+2979-analisarStatus()
+2982-analisarStatus()=Em jogo
+2984-analisarStatus()=Promover
+2986-verificarVez
+2989-jogadordaVez = 521 - JogadorQua
+2992-ULTIMA JOGADA = JogadorTre,J,C,10
+JogadorDoi,J,C,5
+JogadorUm,J,N,3
+JogadorSei,J,B,10
+JogadorCin,J,B,5
+JogadorQua,J,L,4
+
+2994-calculoMinhaPontuacaoAtual
+2996-analisarUltimaVotacao
+2999-calculoQtdTotalAtualCartasNaoNoJogo=8
+3001-calculoQtdTotalAtualCartasNaoNoJogo=8
+3003-calculoNumeroPersonagensEliminados=2
+3005-calculoQtdTotalAtualCartasNaoNoJogo=8
+3007-calculoQtdTotalAtualCartasNaoNoJogo=8
+3009-calculoNumeroPersonagensEliminados=2
+3011-calculoQtdTotalAtualCartasNaoNoJogo=8
+3013-calculoQtdTotalAtualCartasNaoNoJogo=8
+3015-calculoNumeroPersonagensEliminados=2
+3017-calculoQtdTotalAtualCartasNaoNoJogo=7
+3019-calculoQtdTotalAtualCartasNaoNoJogo=7
+3021-calculoNumeroPersonagensEliminados=2
+3023-MINHA VEZ=FALSE
+3026-analisarStatus()
+3029-analisarStatus()=Em jogo
+3031-analisarStatus()=Promover
+3033-verificarVez
+3036-jogadordaVez = 521 - JogadorQua
+3039-ULTIMA JOGADA = JogadorTre,J,C,10
+JogadorDoi,J,C,5
+JogadorUm,J,N,3
+JogadorSei,J,B,10
+JogadorCin,J,B,5
+JogadorQua,J,L,4
+
+3041-calculoMinhaPontuacaoAtual
+3043-MINHA VEZ=FALSE
+3046-analisarStatus()
+3049-analisarStatus()=Em jogo
+3051-analisarStatus()=Promover
+3053-verificarVez
+3056-jogadordaVez = 522 - JogadorCin
+3059-ULTIMA JOGADA = JogadorQua,J,N,4
+JogadorTre,J,C,10
+JogadorDoi,J,C,5
+JogadorUm,J,N,3
+JogadorSei,J,B,10
+JogadorCin,J,B,5
+
+3061-calculoMinhaPontuacaoAtual
+3063-MINHA VEZ=TRUE
+3065-autopromover
+3067-calculoNumeroPersonagensDesempregados=0
+3069-algoritmoPromocaoQualquerdeMenorNivel
+3072-PROMOCAO PERSONAGEM OK
+3075-analisarStatus()
+3078-analisarStatus()=Em jogo
+3080-analisarStatus()=Votar
+3082-verificarVez
+3085-jogadordaVez = 523 - JogadorSei
+3088-ULTIMA JOGADA = JogadorCin,J,D,10
+JogadorQua,J,N,4
+JogadorTre,J,C,10
+JogadorDoi,J,C,5
+JogadorUm,J,N,3
+JogadorSei,J,B,10
+
+3090-calculoMinhaPontuacaoAtual
+3092-MINHA VEZ=FALSE
+3095-analisarStatus()
+3098-analisarStatus()=Em jogo
+3100-analisarStatus()=Votar
+3102-verificarVez
+3105-jogadordaVez = 518 - JogadorUm
+3108-ULTIMA JOGADA = JogadorCin,J,D,10
+JogadorQua,J,N,4
+JogadorTre,J,C,10
+JogadorDoi,J,C,5
+JogadorUm,J,N,3
+JogadorSei,J,B,10
+
+3110-calculoMinhaPontuacaoAtual
+3112-MINHA VEZ=FALSE
+3115-analisarStatus()
+3118-analisarStatus()=Em jogo
+3120-analisarStatus()=Votar
+3122-verificarVez
+3125-jogadordaVez = 518 - JogadorUm
+3128-ULTIMA JOGADA = JogadorCin,J,D,10
+JogadorQua,J,N,4
+JogadorTre,J,C,10
+JogadorDoi,J,C,5
+JogadorUm,J,N,3
+JogadorSei,J,B,10
+
+3130-calculoMinhaPontuacaoAtual
+3132-MINHA VEZ=FALSE
+3135-analisarStatus()
+3138-analisarStatus()=Em jogo
+3140-analisarStatus()=Votar
+3142-verificarVez
+3145-jogadordaVez = 520 - JogadorTre
+3148-ULTIMA JOGADA = JogadorCin,J,D,10
+JogadorQua,J,N,4
+JogadorTre,J,C,10
+JogadorDoi,J,C,5
+JogadorUm,J,N,3
+JogadorSei,J,B,10
+
+3150-calculoMinhaPontuacaoAtual
+3152-MINHA VEZ=FALSE
+3155-analisarStatus()
+3158-analisarStatus()=Em jogo
+3160-analisarStatus()=Votar
+3162-verificarVez
+3165-jogadordaVez = 520 - JogadorTre
+3168-ULTIMA JOGADA = JogadorCin,J,D,10
+JogadorQua,J,N,4
+JogadorTre,J,C,10
+JogadorDoi,J,C,5
+JogadorUm,J,N,3
+JogadorSei,J,B,10
+
+3170-calculoMinhaPontuacaoAtual
+3172-MINHA VEZ=FALSE
+3175-analisarStatus()
+3178-analisarStatus()=Em jogo
+3180-analisarStatus()=Votar
+3182-verificarVez
+3185-jogadordaVez = 521 - JogadorQua
+3188-ULTIMA JOGADA = JogadorCin,J,D,10
+JogadorQua,J,N,4
+JogadorTre,J,C,10
+JogadorDoi,J,C,5
+JogadorUm,J,N,3
+JogadorSei,J,B,10
+
+3190-calculoMinhaPontuacaoAtual
+3192-MINHA VEZ=FALSE
+3195-analisarStatus()
+3198-analisarStatus()=Em jogo
+3200-analisarStatus()=Votar
+3202-verificarVez
+3205-jogadordaVez = 522 - JogadorCin
+3208-ULTIMA JOGADA = JogadorCin,J,D,10
+JogadorQua,J,N,4
+JogadorTre,J,C,10
+JogadorDoi,J,C,5
+JogadorUm,J,N,3
+JogadorSei,J,B,10
+
+3210-calculoMinhaPontuacaoAtual
+3212-MINHA VEZ=TRUE
+3214-autovotar
+3216-algoritmoVotacaoTenhoPontosSuficientes
+3218-calculoMinhaPontuacaoAtual
+3220-calculoMaiorPontuacaoTotalAtualPossivel
+3222-calculoMaiorPontuacaoPossivelAtual
+3224-calculoMaiorPontuacaoTotalAtualPossivel/[0]033
+3226-calculoMaiorPontuacaoTotalAtualPossivel/[1]033
+3228-calculoMaiorPontuacaoTotalAtualPossivel/[2]033
+3230-calculoMaiorPontuacaoTotalAtualPossivel/[3]033
+3232-calculoMaiorPontuacaoTotalAtualPossivel/[5]033
+3234-ERRO ALGORTMO - algortimovotacaoTenhospontossuficientes retornou falso
+3236-autovotar
+3238-algoritmoVotacaoPadrao
+3240-MEU VOTO NAO
+3243-VOTACAO OK
+3246-analisarStatus()
+3249-analisarStatus()=Em jogo
+3251-analisarStatus()=Promover
+3253-verificarVez
+3256-jogadordaVez = 523 - JogadorSei
+3259-ULTIMA JOGADA = JogadorCin,J,D,10
+JogadorQua,J,N,4
+JogadorTre,J,C,10
+JogadorDoi,J,C,5
+JogadorUm,J,N,3
+JogadorSei,J,B,10
+
+3261-calculoMinhaPontuacaoAtual
+3263-analisarUltimaVotacao
+3266-calculoQtdTotalAtualCartasNaoNoJogo=6
+3268-calculoQtdTotalAtualCartasNaoNoJogo=6
+3270-calculoNumeroPersonagensEliminados=3
+3272-calculoQtdTotalAtualCartasNaoNoJogo=6
+3274-calculoQtdTotalAtualCartasNaoNoJogo=6
+3276-calculoNumeroPersonagensEliminados=3
+3278-calculoQtdTotalAtualCartasNaoNoJogo=5
+3280-calculoQtdTotalAtualCartasNaoNoJogo=5
+3282-calculoNumeroPersonagensEliminados=3
+3284-MINHA VEZ=FALSE
+3287-analisarStatus()
+3290-analisarStatus()=Em jogo
+3292-analisarStatus()=Promover
+3294-verificarVez
+3297-jogadordaVez = 518 - JogadorUm
+3300-ULTIMA JOGADA = JogadorSei,J,E,4
+JogadorCin,J,D,10
+JogadorQua,J,N,4
+JogadorTre,J,C,10
+JogadorDoi,J,C,5
+JogadorUm,J,N,3
+
+3302-calculoMinhaPontuacaoAtual
+3304-MINHA VEZ=FALSE
+3307-analisarStatus()
+3310-analisarStatus()=Em jogo
+3312-analisarStatus()=Promover
+3314-verificarVez
+3317-jogadordaVez = 519 - JogadorDoi
+3320-ULTIMA JOGADA = JogadorUm,J,N,5
+JogadorSei,J,E,4
+JogadorCin,J,D,10
+JogadorQua,J,N,4
+JogadorTre,J,C,10
+JogadorDoi,J,C,5
+
+3322-calculoMinhaPontuacaoAtual
+3324-MINHA VEZ=FALSE
+3327-analisarStatus()
+3330-analisarStatus()=Em jogo
+3332-analisarStatus()=Promover
+3334-verificarVez
+3337-jogadordaVez = 519 - JogadorDoi
+3340-ULTIMA JOGADA = JogadorUm,J,N,5
+JogadorSei,J,E,4
+JogadorCin,J,D,10
+JogadorQua,J,N,4
+JogadorTre,J,C,10
+JogadorDoi,J,C,5
+
+3342-calculoMinhaPontuacaoAtual
+3344-MINHA VEZ=FALSE
+3347-analisarStatus()
+3350-analisarStatus()=Em jogo
+3352-analisarStatus()=Promover
+3354-verificarVez
+3357-jogadordaVez = 520 - JogadorTre
+3360-ULTIMA JOGADA = JogadorTre,J,E,10
+JogadorDoi,J,E,5
+JogadorUm,J,N,5
+JogadorSei,J,E,4
+JogadorCin,J,D,10
+JogadorQua,J,N,4
+
+3362-calculoMinhaPontuacaoAtual
+3364-MINHA VEZ=FALSE
+3367-analisarStatus()
+3370-analisarStatus()=Em jogo
+3372-analisarStatus()=Votar
+3374-verificarVez
+3377-jogadordaVez = 521 - JogadorQua
+3380-ULTIMA JOGADA = JogadorTre,J,E,10
+JogadorDoi,J,E,5
+JogadorUm,J,N,5
+JogadorSei,J,E,4
+JogadorCin,J,D,10
+JogadorQua,J,N,4
+
+3382-calculoMinhaPontuacaoAtual
+3384-MINHA VEZ=FALSE
+3387-analisarStatus()
+3390-analisarStatus()=Em jogo
+3392-analisarStatus()=Votar
+3394-verificarVez
+3397-jogadordaVez = 522 - JogadorCin
+3400-ULTIMA JOGADA = JogadorTre,J,E,10
+JogadorDoi,J,E,5
+JogadorUm,J,N,5
+JogadorSei,J,E,4
+JogadorCin,J,D,10
+JogadorQua,J,N,4
+
+3402-calculoMinhaPontuacaoAtual
+3404-MINHA VEZ=TRUE
+3406-autovotar
+3408-MEU VOTO SIM
+3411-VOTACAO OK
+3414-analisarStatus()
+3417-analisarStatus()=Em jogo
+3419-analisarStatus()=Votar
+3421-verificarVez
+3424-jogadordaVez = 523 - JogadorSei
+3427-ULTIMA JOGADA = JogadorTre,J,E,10
+JogadorDoi,J,E,5
+JogadorUm,J,N,5
+JogadorSei,J,E,4
+JogadorCin,J,D,10
+JogadorQua,J,N,4
+
+3429-calculoMinhaPontuacaoAtual
+3431-MINHA VEZ=FALSE
+3434-analisarStatus()
+3437-analisarStatus()=Em jogo
+3439-analisarStatus()=Votar
+3441-verificarVez
+3444-jogadordaVez = 518 - JogadorUm
+3447-ULTIMA JOGADA = JogadorTre,J,E,10
+JogadorDoi,J,E,5
+JogadorUm,J,N,5
+JogadorSei,J,E,4
+JogadorCin,J,D,10
+JogadorQua,J,N,4
+
+3449-calculoMinhaPontuacaoAtual
+3451-MINHA VEZ=FALSE
+3454-analisarStatus()
+3457-analisarStatus()=Em jogo
+3459-analisarStatus()=Votar
+3461-verificarVez
+3464-jogadordaVez = 519 - JogadorDoi
+3467-ULTIMA JOGADA = JogadorTre,J,E,10
+JogadorDoi,J,E,5
+JogadorUm,J,N,5
+JogadorSei,J,E,4
+JogadorCin,J,D,10
+JogadorQua,J,N,4
+
+3469-calculoMinhaPontuacaoAtual
+3471-MINHA VEZ=FALSE
+3474-analisarStatus()
+3477-analisarStatus()=Em jogo
+3479-analisarStatus()=Votar
+3481-verificarVez
+3484-jogadordaVez = 520 - JogadorTre
+3487-ULTIMA JOGADA = JogadorTre,J,E,10
+JogadorDoi,J,E,5
+JogadorUm,J,N,5
+JogadorSei,J,E,4
+JogadorCin,J,D,10
+JogadorQua,J,N,4
+
+3489-calculoMinhaPontuacaoAtual
+3491-MINHA VEZ=FALSE
+3494-analisarStatus()
+3497-analisarStatus()=Em jogo
+3499-analisarStatus()=Promover
+3501-verificarVez
+3504-jogadordaVez = 521 - JogadorQua
+3507-ULTIMA JOGADA = JogadorTre,J,E,10
+JogadorDoi,J,E,5
+JogadorUm,J,N,5
+JogadorSei,J,E,4
+JogadorCin,J,D,10
+JogadorQua,J,N,4
+
+3509-calculoMinhaPontuacaoAtual
+3511-analisarUltimaVotacao
+3514-calculoQtdTotalAtualCartasNaoNoJogo=2
+3516-calculoQtdTotalAtualCartasNaoNoJogo=2
+3518-calculoNumeroPersonagensEliminados=4
+3520-calculoQtdTotalAtualCartasNaoNoJogo=1
+3522-calculoQtdTotalAtualCartasNaoNoJogo=1
+3524-calculoQtdTotalAtualCartasNaoNoJogo=1
+3526-calculoQtdTotalAtualCartasNaoNoJogo=1
+3528-calculoQtdTotalAtualCartasNaoNoJogo=1
+3530-calculoQtdTotalAtualCartasNaoNoJogo=1
+3532-MINHA VEZ=FALSE
+3535-analisarStatus()
+3538-analisarStatus()=Em jogo
+3540-analisarStatus()=Promover
+3542-verificarVez
+3545-jogadordaVez = 522 - JogadorCin
+3548-ULTIMA JOGADA = JogadorQua,J,N,10
+JogadorTre,J,E,10
+JogadorDoi,J,E,5
+JogadorUm,J,N,5
+JogadorSei,J,E,4
+JogadorCin,J,D,10
+
+3550-calculoMinhaPontuacaoAtual
+3552-MINHA VEZ=TRUE
+3554-autopromover
+3556-ERRO ALGORITMO: chamou promocao ao inves de votacao
+3558-ERRO AO AUTOPROMOVER
+3561-analisarStatus()
+3564-analisarStatus()=Em jogo
+3566-analisarStatus()=Votar
+3568-verificarVez
+3571-jogadordaVez = 522 - JogadorCin
+3574-ULTIMA JOGADA = JogadorQua,J,N,10
+JogadorTre,J,E,10
+JogadorDoi,J,E,5
+JogadorUm,J,N,5
+JogadorSei,J,E,4
+JogadorCin,J,D,10
+
+3576-calculoMinhaPontuacaoAtual
+3578-MINHA VEZ=TRUE
+3580-autovotar
+3582-MEU VOTO SIM
+3585-VOTACAO OK
+3588-analisarStatus()
+3591-analisarStatus()=Em jogo
+3593-analisarStatus()=Votar
+3595-verificarVez
+3598-jogadordaVez = 523 - JogadorSei
+3601-ULTIMA JOGADA = JogadorQua,J,N,10
+JogadorTre,J,E,10
+JogadorDoi,J,E,5
+JogadorUm,J,N,5
+JogadorSei,J,E,4
+JogadorCin,J,D,10
+
+3603-calculoMinhaPontuacaoAtual
+3605-MINHA VEZ=FALSE
+3608-analisarStatus()
+3611-analisarStatus()=Em jogo
+3613-analisarStatus()=Votar
+3615-verificarVez
+3618-jogadordaVez = 518 - JogadorUm
+3621-ULTIMA JOGADA = JogadorQua,J,N,10
+JogadorTre,J,E,10
+JogadorDoi,J,E,5
+JogadorUm,J,N,5
+JogadorSei,J,E,4
+JogadorCin,J,D,10
+
+3623-calculoMinhaPontuacaoAtual
+3625-MINHA VEZ=FALSE
+3628-analisarStatus()
+3631-analisarStatus()=Em jogo
+3633-analisarStatus()=Votar
+3635-verificarVez
+3638-jogadordaVez = 518 - JogadorUm
+3641-ULTIMA JOGADA = JogadorQua,J,N,10
+JogadorTre,J,E,10
+JogadorDoi,J,E,5
+JogadorUm,J,N,5
+JogadorSei,J,E,4
+JogadorCin,J,D,10
+
+3643-calculoMinhaPontuacaoAtual
+3645-MINHA VEZ=FALSE
+3648-analisarStatus()
+3651-analisarStatus()=Em jogo
+3653-analisarStatus()=Votar
+3655-verificarVez
+3658-jogadordaVez = 520 - JogadorTre
+3661-ULTIMA JOGADA = JogadorQua,J,N,10
+JogadorTre,J,E,10
+JogadorDoi,J,E,5
+JogadorUm,J,N,5
+JogadorSei,J,E,4
+JogadorCin,J,D,10
+
+3663-calculoMinhaPontuacaoAtual
+3665-MINHA VEZ=FALSE
+3668-analisarStatus()
+3671-analisarStatus()=Em jogo
+3673-analisarStatus()=Votar
+3675-verificarVez
+3678-jogadordaVez = 520 - JogadorTre
+3681-ULTIMA JOGADA = JogadorQua,J,N,10
+JogadorTre,J,E,10
+JogadorDoi,J,E,5
+JogadorUm,J,N,5
+JogadorSei,J,E,4
+JogadorCin,J,D,10
+
+3683-calculoMinhaPontuacaoAtual
+3685-MINHA VEZ=FALSE
+3688-analisarStatus()
+3691-analisarStatus()=Em jogo
+3693-analisarStatus()=Votar
+3695-verificarVez
+3698-jogadordaVez = 522 - JogadorCin
+3700-novaRodada
+3705-analisarUltimaVotacao
+3708-calculoQtdTotalAtualCartasNaoNoJogo=12
+3710-calculoQtdTotalAtualCartasNaoNoJogo=12
+3712-calculoNumeroPersonagensEliminados=0
+3714-calculoQtdTotalAtualCartasNaoNoJogo=12
+3716-calculoQtdTotalAtualCartasNaoNoJogo=12
+3718-calculoNumeroPersonagensEliminados=0
+3720-calculoQtdTotalAtualCartasNaoNoJogo=12
+3722-calculoQtdTotalAtualCartasNaoNoJogo=12
+3724-calculoNumeroPersonagensEliminados=0
+3726-calculoQtdTotalAtualCartasNaoNoJogo=12
+3728-calculoQtdTotalAtualCartasNaoNoJogo=12
+3730-calculoNumeroPersonagensEliminados=0
+3732-calculoQtdTotalAtualCartasNaoNoJogo=12
+3734-calculoQtdTotalAtualCartasNaoNoJogo=12
+3736-calculoNumeroPersonagensEliminados=0
+3738-calculoQtdTotalAtualCartasNaoNoJogo=12
+3740-calculoQtdTotalAtualCartasNaoNoJogo=12
+3742-calculoNumeroPersonagensEliminados=0
+3744-MINHA VEZ=TRUE
+3746-autovotar
+3748-ERRO ALGORITMO: Não ha candidato para autovotar
+3750-ERRO AO AUTOVOTAR
+3753-analisarStatus()
+3756-analisarStatus()=Em jogo
+3758-analisarStatus()=Posicionar
+3760-verificarVez
+3763-jogadordaVez = 522 - JogadorCin
+3766-MINHA VEZ=TRUE
+3768-autoposicionar
+3770-calculoNumeroPersonagensDesempregados=13
+3772-algoritmoPosicionamentoEquilibrado
+3774-calculoQtdMeusPersonagensNoNivel
+3777-POSICIONAR PERSONAGEM OK
+3780-analisarStatus()
+3783-analisarStatus()=Em jogo
+3785-analisarStatus()=Posicionar
+3787-verificarVez
+3790-jogadordaVez = 523 - JogadorSei
+3793-ULTIMA JOGADA = JogadorCin,S,D,4
+
+3795-calculoMinhaPontuacaoAtual
+3797-MINHA VEZ=FALSE
+3800-analisarStatus()
+3803-analisarStatus()=Em jogo
+3805-analisarStatus()=Posicionar
+3807-verificarVez
+3810-jogadordaVez = 518 - JogadorUm
+3813-ULTIMA JOGADA = JogadorSei,S,C,4
+JogadorCin,S,D,4
+
+3815-calculoMinhaPontuacaoAtual
+3817-MINHA VEZ=FALSE
+3820-analisarStatus()
+3823-analisarStatus()=Em jogo
+3825-analisarStatus()=Posicionar
+3827-verificarVez
+3830-jogadordaVez = 519 - JogadorDoi
+3833-ULTIMA JOGADA = JogadorUm,S,B,3
+JogadorSei,S,C,4
+JogadorCin,S,D,4
+
+3835-calculoMinhaPontuacaoAtual
+3837-MINHA VEZ=FALSE
+3840-analisarStatus()
+3843-analisarStatus()=Em jogo
+3845-analisarStatus()=Posicionar
+3847-verificarVez
+3850-jogadordaVez = 519 - JogadorDoi
+3853-ULTIMA JOGADA = JogadorDoi,S,A,4
+JogadorUm,S,B,3
+JogadorSei,S,C,4
+JogadorCin,S,D,4
+
+3855-calculoMinhaPontuacaoAtual
+3857-MINHA VEZ=FALSE
+3860-analisarStatus()
+3863-analisarStatus()=Em jogo
+3865-analisarStatus()=Posicionar
+3867-verificarVez
+3870-jogadordaVez = 520 - JogadorTre
+3873-ULTIMA JOGADA = JogadorDoi,S,A,4
+JogadorUm,S,B,3
+JogadorSei,S,C,4
+JogadorCin,S,D,4
+
+3875-calculoMinhaPontuacaoAtual
+3877-MINHA VEZ=FALSE
+3880-analisarStatus()
+3883-analisarStatus()=Em jogo
+3885-analisarStatus()=Posicionar
+3887-verificarVez
+3890-jogadordaVez = 521 - JogadorQua
+3893-ULTIMA JOGADA = JogadorTre,S,F,4
+JogadorDoi,S,A,4
+JogadorUm,S,B,3
+JogadorSei,S,C,4
+JogadorCin,S,D,4
+
+3895-calculoMinhaPontuacaoAtual
+3897-MINHA VEZ=FALSE
+3900-analisarStatus()
+3903-analisarStatus()=Em jogo
+3905-analisarStatus()=Posicionar
+3907-verificarVez
+3910-jogadordaVez = 522 - JogadorCin
+3913-ULTIMA JOGADA = JogadorQua,S,E,3
+JogadorTre,S,F,4
+JogadorDoi,S,A,4
+JogadorUm,S,B,3
+JogadorSei,S,C,4
+JogadorCin,S,D,4
+
+3915-calculoMinhaPontuacaoAtual
+3917-MINHA VEZ=TRUE
+3919-autoposicionar
+3921-calculoNumeroPersonagensDesempregados=7
+3923-algoritmoPosicionamentoEquilibrado
+3925-calculoQtdMeusPersonagensNoNivel
+3927-calculoQtdMeusPersonagensNoNivel
+3930-POSICIONAR PERSONAGEM OK
+3933-analisarStatus()
+3936-analisarStatus()=Em jogo
+3938-analisarStatus()=Posicionar
+3940-verificarVez
+3943-jogadordaVez = 523 - JogadorSei
+3946-ULTIMA JOGADA = JogadorCin,S,G,3
+JogadorQua,S,E,3
+JogadorTre,S,F,4
+JogadorDoi,S,A,4
+JogadorUm,S,B,3
+JogadorSei,S,C,4
+
+3948-calculoMinhaPontuacaoAtual
+3950-MINHA VEZ=FALSE
+3953-analisarStatus()
+3956-analisarStatus()=Em jogo
+3958-analisarStatus()=Posicionar
+3960-verificarVez
+3963-jogadordaVez = 518 - JogadorUm
+3966-ULTIMA JOGADA = JogadorSei,S,I,3
+JogadorCin,S,G,3
+JogadorQua,S,E,3
+JogadorTre,S,F,4
+JogadorDoi,S,A,4
+JogadorUm,S,B,3
+
+3968-calculoMinhaPontuacaoAtual
+3970-MINHA VEZ=FALSE
+3973-analisarStatus()
+3976-analisarStatus()=Em jogo
+3978-analisarStatus()=Posicionar
+3980-verificarVez
+3983-jogadordaVez = 518 - JogadorUm
+3986-ULTIMA JOGADA = JogadorSei,S,I,3
+JogadorCin,S,G,3
+JogadorQua,S,E,3
+JogadorTre,S,F,4
+JogadorDoi,S,A,4
+JogadorUm,S,B,3
+
+3988-calculoMinhaPontuacaoAtual
+3990-MINHA VEZ=FALSE
+3993-analisarStatus()
+3996-analisarStatus()=Em jogo
+3998-analisarStatus()=Posicionar
+4000-verificarVez
+4003-jogadordaVez = 519 - JogadorDoi
+4006-ULTIMA JOGADA = JogadorUm,S,O,2
+JogadorSei,S,I,3
+JogadorCin,S,G,3
+JogadorQua,S,E,3
+JogadorTre,S,F,4
+JogadorDoi,S,A,4
+
+4008-calculoMinhaPontuacaoAtual
+4010-MINHA VEZ=FALSE
+4013-analisarStatus()
+4016-analisarStatus()=Em jogo
+4018-analisarStatus()=Posicionar
+4020-verificarVez
+4023-jogadordaVez = 520 - JogadorTre
+4026-ULTIMA JOGADA = JogadorDoi,S,L,2
+JogadorUm,S,O,2
+JogadorSei,S,I,3
+JogadorCin,S,G,3
+JogadorQua,S,E,3
+JogadorTre,S,F,4
+
+4028-calculoMinhaPontuacaoAtual
+4030-MINHA VEZ=FALSE
+4033-analisarStatus()
+4036-analisarStatus()=Em jogo
+4038-analisarStatus()=Posicionar
+4040-verificarVez
+4043-jogadordaVez = 521 - JogadorQua
+4046-ULTIMA JOGADA = JogadorQua,S,M,2
+JogadorTre,S,N,2
+JogadorDoi,S,L,2
+JogadorUm,S,O,2
+JogadorSei,S,I,3
+JogadorCin,S,G,3
+
+4048-calculoMinhaPontuacaoAtual
+4050-MINHA VEZ=FALSE
+4053-analisarStatus()
+4056-analisarStatus()=Em jogo
+4058-analisarStatus()=Promover
+4060-verificarVez
+4063-jogadordaVez = 522 - JogadorCin
+4066-ULTIMA JOGADA = JogadorQua,S,M,2
+JogadorTre,S,N,2
+JogadorDoi,S,L,2
+JogadorUm,S,O,2
+JogadorSei,S,I,3
+JogadorCin,S,G,3
+
+4068-calculoMinhaPontuacaoAtual
+4070-MINHA VEZ=TRUE
+4072-autopromover
+4074-calculoNumeroPersonagensDesempregados=0
+4076-algoritmoPromocaoQualquerdeMenorNivel
+4079-PROMOCAO PERSONAGEM OK
+4082-analisarStatus()
+4085-analisarStatus()=Em jogo
+4087-analisarStatus()=Promover
+4089-verificarVez
+4092-jogadordaVez = 523 - JogadorSei
+4095-ULTIMA JOGADA = JogadorCin,J,A,5
+JogadorQua,S,M,2
+JogadorTre,S,N,2
+JogadorDoi,S,L,2
+JogadorUm,S,O,2
+JogadorSei,S,I,3
+
+4097-calculoMinhaPontuacaoAtual
+4099-MINHA VEZ=FALSE
+4102-analisarStatus()
+4105-analisarStatus()=Em jogo
+4107-analisarStatus()=Promover
+4109-verificarVez
+4112-jogadordaVez = 518 - JogadorUm
+4115-ULTIMA JOGADA = JogadorSei,J,A,10
+JogadorCin,J,A,5
+JogadorQua,S,M,2
+JogadorTre,S,N,2
+JogadorDoi,S,L,2
+JogadorUm,S,O,2
+
+4117-calculoMinhaPontuacaoAtual
+4119-MINHA VEZ=FALSE
+4122-analisarStatus()
+4125-analisarStatus()=Em jogo
+4127-analisarStatus()=Votar
+4129-verificarVez
+4132-jogadordaVez = 518 - JogadorUm
+4135-ULTIMA JOGADA = JogadorSei,J,A,10
+JogadorCin,J,A,5
+JogadorQua,S,M,2
+JogadorTre,S,N,2
+JogadorDoi,S,L,2
+JogadorUm,S,O,2
+
+4137-calculoMinhaPontuacaoAtual
+4139-MINHA VEZ=FALSE
+4142-analisarStatus()
+4145-analisarStatus()=Em jogo
+4147-analisarStatus()=Votar
+4149-verificarVez
+4152-jogadordaVez = 519 - JogadorDoi
+4155-ULTIMA JOGADA = JogadorSei,J,A,10
+JogadorCin,J,A,5
+JogadorQua,S,M,2
+JogadorTre,S,N,2
+JogadorDoi,S,L,2
+JogadorUm,S,O,2
+
+4157-calculoMinhaPontuacaoAtual
+4159-MINHA VEZ=FALSE
+4162-analisarStatus()
+4165-analisarStatus()=Em jogo
+4167-analisarStatus()=Votar
+4169-verificarVez
+4172-jogadordaVez = 520 - JogadorTre
+4175-ULTIMA JOGADA = JogadorSei,J,A,10
+JogadorCin,J,A,5
+JogadorQua,S,M,2
+JogadorTre,S,N,2
+JogadorDoi,S,L,2
+JogadorUm,S,O,2
+
+4177-calculoMinhaPontuacaoAtual
+4179-MINHA VEZ=FALSE
+4182-analisarStatus()
+4185-analisarStatus()=Em jogo
+4187-analisarStatus()=Votar
+4189-verificarVez
+4192-jogadordaVez = 520 - JogadorTre
+4195-ULTIMA JOGADA = JogadorSei,J,A,10
+JogadorCin,J,A,5
+JogadorQua,S,M,2
+JogadorTre,S,N,2
+JogadorDoi,S,L,2
+JogadorUm,S,O,2
+
+4197-calculoMinhaPontuacaoAtual
+4199-MINHA VEZ=FALSE
+4202-analisarStatus()
+4205-analisarStatus()=Em jogo
+4207-analisarStatus()=Votar
+4209-verificarVez
+4212-jogadordaVez = 521 - JogadorQua
+4215-ULTIMA JOGADA = JogadorSei,J,A,10
+JogadorCin,J,A,5
+JogadorQua,S,M,2
+JogadorTre,S,N,2
+JogadorDoi,S,L,2
+JogadorUm,S,O,2
+
+4217-calculoMinhaPontuacaoAtual
+4219-MINHA VEZ=FALSE
+4222-analisarStatus()
+4225-analisarStatus()=Em jogo
+4227-analisarStatus()=Votar
+4229-verificarVez
+4232-jogadordaVez = 522 - JogadorCin
+4235-ULTIMA JOGADA = JogadorSei,J,A,10
+JogadorCin,J,A,5
+JogadorQua,S,M,2
+JogadorTre,S,N,2
+JogadorDoi,S,L,2
+JogadorUm,S,O,2
+
+4237-calculoMinhaPontuacaoAtual
+4239-MINHA VEZ=TRUE
+4241-autovotar
+4243-algoritmoVotacaoTenhoPontosSuficientes
+4245-calculoMinhaPontuacaoAtual
+4247-calculoMaiorPontuacaoTotalAtualPossivel
+4249-calculoMaiorPontuacaoPossivelAtual
+4251-calculoMaiorPontuacaoTotalAtualPossivel/[0]1328
+4253-calculoMaiorPontuacaoTotalAtualPossivel/[1]928
+4255-calculoMaiorPontuacaoTotalAtualPossivel/[2]528
+4257-calculoMaiorPontuacaoTotalAtualPossivel/[3]1828
+4259-calculoMaiorPontuacaoTotalAtualPossivel/[5]628
+4261-ERRO ALGORTMO - algortimovotacaoTenhospontossuficientes retornou falso
+4263-autovotar
+4265-algoritmoVotacaoPadrao
+4267-MEU VOTO NAO
+4270-VOTACAO OK
+4273-analisarStatus()
+4276-analisarStatus()=Em jogo
+4278-analisarStatus()=Votar
+4280-verificarVez
+4283-jogadordaVez = 523 - JogadorSei
+4286-ULTIMA JOGADA = JogadorSei,J,A,10
+JogadorCin,J,A,5
+JogadorQua,S,M,2
+JogadorTre,S,N,2
+JogadorDoi,S,L,2
+JogadorUm,S,O,2
+
+4288-calculoMinhaPontuacaoAtual
+4290-MINHA VEZ=FALSE
+4293-analisarStatus()
+4296-analisarStatus()=Em jogo
+4298-analisarStatus()=Promover
+4300-verificarVez
+4303-jogadordaVez = 518 - JogadorUm
+4306-ULTIMA JOGADA = JogadorSei,J,A,10
+JogadorCin,J,A,5
+JogadorQua,S,M,2
+JogadorTre,S,N,2
+JogadorDoi,S,L,2
+JogadorUm,S,O,2
+
+4308-calculoMinhaPontuacaoAtual
+4310-analisarUltimaVotacao
+4313-calculoQtdTotalAtualCartasNaoNoJogo=10
+4315-calculoQtdTotalAtualCartasNaoNoJogo=10
+4317-calculoNumeroPersonagensEliminados=0
+4319-MINHA VEZ=FALSE
+4322-analisarStatus()
+4325-analisarStatus()=Em jogo
+4327-analisarStatus()=Promover
+4329-verificarVez
+4332-jogadordaVez = 519 - JogadorDoi
+4335-ULTIMA JOGADA = JogadorUm,J,I,4
+JogadorSei,J,A,10
+JogadorCin,J,A,5
+JogadorQua,S,M,2
+JogadorTre,S,N,2
+JogadorDoi,S,L,2
+
+4337-calculoMinhaPontuacaoAtual
+4339-MINHA VEZ=FALSE
+4342-analisarStatus()
+4345-analisarStatus()=Em jogo
+4347-analisarStatus()=Promover
+4349-verificarVez
+4352-jogadordaVez = 520 - JogadorTre
+4355-ULTIMA JOGADA = JogadorDoi,J,C,5
+JogadorUm,J,I,4
+JogadorSei,J,A,10
+JogadorCin,J,A,5
+JogadorQua,S,M,2
+JogadorTre,S,N,2
+
+4357-calculoMinhaPontuacaoAtual
+4359-MINHA VEZ=FALSE
+4362-analisarStatus()
+4365-analisarStatus()=Em jogo
+4367-analisarStatus()=Promover
+4369-verificarVez
+4372-jogadordaVez = 520 - JogadorTre
+4375-ULTIMA JOGADA = JogadorDoi,J,C,5
+JogadorUm,J,I,4
+JogadorSei,J,A,10
+JogadorCin,J,A,5
+JogadorQua,S,M,2
+JogadorTre,S,N,2
+
+4377-calculoMinhaPontuacaoAtual
+4379-MINHA VEZ=FALSE
+4382-analisarStatus()
+4385-analisarStatus()=Em jogo
+4387-analisarStatus()=Promover
+4389-verificarVez
+4392-jogadordaVez = 521 - JogadorQua
+4395-ULTIMA JOGADA = JogadorTre,J,B,4
+JogadorDoi,J,C,5
+JogadorUm,J,I,4
+JogadorSei,J,A,10
+JogadorCin,J,A,5
+JogadorQua,S,M,2
+
+4397-calculoMinhaPontuacaoAtual
+4399-MINHA VEZ=FALSE
+4402-analisarStatus()
+4405-analisarStatus()=Em jogo
+4407-analisarStatus()=Promover
+4409-verificarVez
+4412-jogadordaVez = 522 - JogadorCin
+4415-ULTIMA JOGADA = JogadorQua,J,M,3
+JogadorTre,J,B,4
+JogadorDoi,J,C,5
+JogadorUm,J,I,4
+JogadorSei,J,A,10
+JogadorCin,J,A,5
+
+4417-calculoMinhaPontuacaoAtual
+4419-MINHA VEZ=TRUE
+4421-autopromover
+4423-calculoNumeroPersonagensDesempregados=0
+4425-algoritmoPromocaoQualquerdeMenorNivel
+4428-PROMOCAO PERSONAGEM OK
+4431-analisarStatus()
+4434-analisarStatus()=Em jogo
+4436-analisarStatus()=Promover
+4438-verificarVez
+4441-jogadordaVez = 523 - JogadorSei
+4444-ULTIMA JOGADA = JogadorCin,J,B,5
+JogadorQua,J,M,3
+JogadorTre,J,B,4
+JogadorDoi,J,C,5
+JogadorUm,J,I,4
+JogadorSei,J,A,10
+
+4446-calculoMinhaPontuacaoAtual
+4448-MINHA VEZ=FALSE
+4451-analisarStatus()
+4454-analisarStatus()=Em jogo
+4456-analisarStatus()=Promover
+4458-verificarVez
+4461-jogadordaVez = 518 - JogadorUm
+4464-ULTIMA JOGADA = JogadorSei,J,B,10
+JogadorCin,J,B,5
+JogadorQua,J,M,3
+JogadorTre,J,B,4
+JogadorDoi,J,C,5
+JogadorUm,J,I,4
+
+4466-calculoMinhaPontuacaoAtual
+4468-MINHA VEZ=FALSE
+4471-analisarStatus()
+4474-analisarStatus()=Em jogo
+4476-analisarStatus()=Votar
+4478-verificarVez
+4481-jogadordaVez = 522 - JogadorCin
+4484-ULTIMA JOGADA = JogadorSei,J,B,10
+JogadorCin,J,B,5
+JogadorQua,J,M,3
+JogadorTre,J,B,4
+JogadorDoi,J,C,5
+JogadorUm,J,I,4
+
+4486-calculoMinhaPontuacaoAtual
+4488-MINHA VEZ=TRUE
+4490-autovotar
+4492-algoritmoVotacaoTenhoPontosSuficientes
+4494-calculoMinhaPontuacaoAtual
+4496-calculoMaiorPontuacaoTotalAtualPossivel
+4498-calculoMaiorPontuacaoPossivelAtual
+4500-calculoMaiorPontuacaoTotalAtualPossivel/[0]1330
+4502-calculoMaiorPontuacaoTotalAtualPossivel/[1]930
+4504-calculoMaiorPontuacaoTotalAtualPossivel/[2]530
+4506-calculoMaiorPontuacaoTotalAtualPossivel/[3]1830
+4508-calculoMaiorPontuacaoTotalAtualPossivel/[5]630
+4510-ERRO ALGORTMO - algortimovotacaoTenhospontossuficientes retornou falso
+4512-autovotar
+4514-algoritmoVotacaoPadrao
+4516-MEU VOTO NAO
+4519-VOTACAO OK
+4522-analisarStatus()
+4525-analisarStatus()=Em jogo
+4527-analisarStatus()=Votar
+4529-verificarVez
+4532-jogadordaVez = 523 - JogadorSei
+4535-ULTIMA JOGADA = JogadorSei,J,B,10
+JogadorCin,J,B,5
+JogadorQua,J,M,3
+JogadorTre,J,B,4
+JogadorDoi,J,C,5
+JogadorUm,J,I,4
+
+4537-calculoMinhaPontuacaoAtual
+4539-MINHA VEZ=FALSE
+4542-analisarStatus()
+4545-analisarStatus()=Em jogo
+4547-analisarStatus()=Promover
+4549-verificarVez
+4552-jogadordaVez = 518 - JogadorUm
+4555-ULTIMA JOGADA = JogadorSei,J,B,10
+JogadorCin,J,B,5
+JogadorQua,J,M,3
+JogadorTre,J,B,4
+JogadorDoi,J,C,5
+JogadorUm,J,I,4
+
+4557-calculoMinhaPontuacaoAtual
+4559-analisarUltimaVotacao
+4562-calculoQtdTotalAtualCartasNaoNoJogo=7
+4564-calculoQtdTotalAtualCartasNaoNoJogo=7
+4566-calculoNumeroPersonagensEliminados=1
+4568-calculoQtdTotalAtualCartasNaoNoJogo=7
+4570-calculoQtdTotalAtualCartasNaoNoJogo=7
+4572-calculoNumeroPersonagensEliminados=1
+4574-calculoQtdTotalAtualCartasNaoNoJogo=6
+4576-calculoQtdTotalAtualCartasNaoNoJogo=6
+4578-calculoNumeroPersonagensEliminados=1
+4580-MINHA VEZ=FALSE
+4583-analisarStatus()
+4586-analisarStatus()=Em jogo
+4588-analisarStatus()=Promover
+4590-verificarVez
+4593-jogadordaVez = 518 - JogadorUm
+4596-ULTIMA JOGADA = JogadorSei,J,B,10
+JogadorCin,J,B,5
+JogadorQua,J,M,3
+JogadorTre,J,B,4
+JogadorDoi,J,C,5
+JogadorUm,J,I,4
+
+4598-calculoMinhaPontuacaoAtual
+4600-MINHA VEZ=FALSE
+4603-analisarStatus()
+4606-analisarStatus()=Em jogo
+4608-analisarStatus()=Promover
+4610-verificarVez
+4613-jogadordaVez = 519 - JogadorDoi
+4616-ULTIMA JOGADA = JogadorUm,J,O,3
+JogadorSei,J,B,10
+JogadorCin,J,B,5
+JogadorQua,J,M,3
+JogadorTre,J,B,4
+JogadorDoi,J,C,5
+
+4618-calculoMinhaPontuacaoAtual
+4620-MINHA VEZ=FALSE
+4623-analisarStatus()
+4626-analisarStatus()=Em jogo
+4628-analisarStatus()=Votar
+4630-verificarVez
+4633-jogadordaVez = 520 - JogadorTre
+4636-ULTIMA JOGADA = JogadorDoi,J,C,10
+JogadorUm,J,O,3
+JogadorSei,J,B,10
+JogadorCin,J,B,5
+JogadorQua,J,M,3
+JogadorTre,J,B,4
+
+4638-calculoMinhaPontuacaoAtual
+4640-MINHA VEZ=FALSE
+4643-analisarStatus()
+4646-analisarStatus()=Em jogo
+4648-analisarStatus()=Votar
+4650-verificarVez
+4653-jogadordaVez = 520 - JogadorTre
+4656-ULTIMA JOGADA = JogadorDoi,J,C,10
+JogadorUm,J,O,3
+JogadorSei,J,B,10
+JogadorCin,J,B,5
+JogadorQua,J,M,3
+JogadorTre,J,B,4
+
+4658-calculoMinhaPontuacaoAtual
+4660-MINHA VEZ=FALSE
+4663-analisarStatus()
+4666-analisarStatus()=Em jogo
+4668-analisarStatus()=Votar
+4670-verificarVez
+4673-jogadordaVez = 520 - JogadorTre
+4676-ULTIMA JOGADA = JogadorDoi,J,C,10
+JogadorUm,J,O,3
+JogadorSei,J,B,10
+JogadorCin,J,B,5
+JogadorQua,J,M,3
+JogadorTre,J,B,4
+
+4678-calculoMinhaPontuacaoAtual
+4680-MINHA VEZ=FALSE
+4683-analisarStatus()
+4686-analisarStatus()=Em jogo
+4688-analisarStatus()=Votar
+4690-verificarVez
+4693-jogadordaVez = 521 - JogadorQua
+4696-ULTIMA JOGADA = JogadorDoi,J,C,10
+JogadorUm,J,O,3
+JogadorSei,J,B,10
+JogadorCin,J,B,5
+JogadorQua,J,M,3
+JogadorTre,J,B,4
+
+4698-calculoMinhaPontuacaoAtual
+4700-MINHA VEZ=FALSE
+4703-analisarStatus()
+4706-analisarStatus()=Em jogo
+4708-analisarStatus()=Votar
+4710-verificarVez
+4713-jogadordaVez = 522 - JogadorCin
+4716-ULTIMA JOGADA = JogadorDoi,J,C,10
+JogadorUm,J,O,3
+JogadorSei,J,B,10
+JogadorCin,J,B,5
+JogadorQua,J,M,3
+JogadorTre,J,B,4
+
+4718-calculoMinhaPontuacaoAtual
+4720-MINHA VEZ=TRUE
+4722-autovotar
+4724-MEU VOTO SIM
+4727-VOTACAO OK
+4730-analisarStatus()
+4733-analisarStatus()=Em jogo
+4735-analisarStatus()=Votar
+4737-verificarVez
+4740-jogadordaVez = 523 - JogadorSei
+4743-ULTIMA JOGADA = JogadorDoi,J,C,10
+JogadorUm,J,O,3
+JogadorSei,J,B,10
+JogadorCin,J,B,5
+JogadorQua,J,M,3
+JogadorTre,J,B,4
+
+4745-calculoMinhaPontuacaoAtual
+4747-MINHA VEZ=FALSE
+4750-analisarStatus()
+4753-analisarStatus()=Em jogo
+4755-analisarStatus()=Votar
+4757-verificarVez
+4760-jogadordaVez = 518 - JogadorUm
+4763-ULTIMA JOGADA = JogadorDoi,J,C,10
+JogadorUm,J,O,3
+JogadorSei,J,B,10
+JogadorCin,J,B,5
+JogadorQua,J,M,3
+JogadorTre,J,B,4
+
+4765-calculoMinhaPontuacaoAtual
+4767-MINHA VEZ=FALSE
+4770-analisarStatus()
+4773-analisarStatus()=Em jogo
+4775-analisarStatus()=Votar
+4777-verificarVez
+4780-jogadordaVez = 518 - JogadorUm
+4783-ULTIMA JOGADA = JogadorDoi,J,C,10
+JogadorUm,J,O,3
+JogadorSei,J,B,10
+JogadorCin,J,B,5
+JogadorQua,J,M,3
+JogadorTre,J,B,4
+
+4785-calculoMinhaPontuacaoAtual
+4787-MINHA VEZ=FALSE
+4790-analisarStatus()
+4793-analisarStatus()=Em jogo
+4795-analisarStatus()=Votar
+4797-verificarVez
+4800-jogadordaVez = 519 - JogadorDoi
+4803-ULTIMA JOGADA = JogadorDoi,J,C,10
+JogadorUm,J,O,3
+JogadorSei,J,B,10
+JogadorCin,J,B,5
+JogadorQua,J,M,3
+JogadorTre,J,B,4
+
+4805-calculoMinhaPontuacaoAtual
+4807-MINHA VEZ=FALSE
+4810-analisarStatus()
+4813-analisarStatus()=Em jogo
+4815-analisarStatus()=Votar
+4817-verificarVez
+4820-jogadordaVez = 520 - JogadorTre
+4823-ULTIMA JOGADA = JogadorDoi,J,C,10
+JogadorUm,J,O,3
+JogadorSei,J,B,10
+JogadorCin,J,B,5
+JogadorQua,J,M,3
+JogadorTre,J,B,4
+
+4825-calculoMinhaPontuacaoAtual
+4827-analisarUltimaVotacao
+4830-calculoQtdTotalAtualCartasNaoNoJogo=4
+4832-calculoQtdTotalAtualCartasNaoNoJogo=4
+4834-calculoNumeroPersonagensEliminados=2
+4836-calculoQtdTotalAtualCartasNaoNoJogo=2
+4838-calculoQtdTotalAtualCartasNaoNoJogo=2
+4840-calculoNumeroPersonagensEliminados=2
+4842-calculoQtdTotalAtualCartasNaoNoJogo=2
+4844-calculoQtdTotalAtualCartasNaoNoJogo=2
+4846-calculoNumeroPersonagensEliminados=2
+4848-calculoQtdTotalAtualCartasNaoNoJogo=2
+4850-calculoQtdTotalAtualCartasNaoNoJogo=2
+4852-calculoNumeroPersonagensEliminados=2
+4854-MINHA VEZ=FALSE
+4857-analisarStatus()
+4860-analisarStatus()=Em jogo
+4862-analisarStatus()=Promover
+4864-verificarVez
+4867-jogadordaVez = 520 - JogadorTre
+4870-ULTIMA JOGADA = JogadorDoi,J,C,10
+JogadorUm,J,O,3
+JogadorSei,J,B,10
+JogadorCin,J,B,5
+JogadorQua,J,M,3
+JogadorTre,J,B,4
+
+4872-calculoMinhaPontuacaoAtual
+4874-MINHA VEZ=FALSE
+4877-analisarStatus()
+4880-analisarStatus()=Em jogo
+4882-analisarStatus()=Promover
+4884-verificarVez
+4887-jogadordaVez = 521 - JogadorQua
+4890-ULTIMA JOGADA = JogadorTre,J,D,5
+JogadorDoi,J,C,10
+JogadorUm,J,O,3
+JogadorSei,J,B,10
+JogadorCin,J,B,5
+JogadorQua,J,M,3
+
+4892-calculoMinhaPontuacaoAtual
+4894-MINHA VEZ=FALSE
+4897-analisarStatus()
+4900-analisarStatus()=Em jogo
+4902-analisarStatus()=Promover
+4904-verificarVez
+4907-jogadordaVez = 522 - JogadorCin
+4910-ULTIMA JOGADA = JogadorQua,J,M,4
+JogadorTre,J,D,5
+JogadorDoi,J,C,10
+JogadorUm,J,O,3
+JogadorSei,J,B,10
+JogadorCin,J,B,5
+
+4912-calculoMinhaPontuacaoAtual
+4914-MINHA VEZ=TRUE
+4916-autopromover
+4918-calculoNumeroPersonagensDesempregados=0
+4920-algoritmoPromocaoQualquerdeMenorNivel
+4923-PROMOCAO PERSONAGEM OK
+4926-analisarStatus()
+4929-analisarStatus()=Em jogo
+4931-analisarStatus()=Votar
+4933-verificarVez
+4936-jogadordaVez = 523 - JogadorSei
+4939-ULTIMA JOGADA = JogadorCin,J,D,10
+JogadorQua,J,M,4
+JogadorTre,J,D,5
+JogadorDoi,J,C,10
+JogadorUm,J,O,3
+JogadorSei,J,B,10
+
+4941-calculoMinhaPontuacaoAtual
+4943-MINHA VEZ=FALSE
+4946-analisarStatus()
+4949-analisarStatus()=Em jogo
+4951-analisarStatus()=Votar
+4953-verificarVez
+4956-jogadordaVez = 518 - JogadorUm
+4959-ULTIMA JOGADA = JogadorCin,J,D,10
+JogadorQua,J,M,4
+JogadorTre,J,D,5
+JogadorDoi,J,C,10
+JogadorUm,J,O,3
+JogadorSei,J,B,10
+
+4961-calculoMinhaPontuacaoAtual
+4963-MINHA VEZ=FALSE
+4966-analisarStatus()
+4969-analisarStatus()=Em jogo
+4971-analisarStatus()=Votar
+4973-verificarVez
+4976-jogadordaVez = 519 - JogadorDoi
+4979-ULTIMA JOGADA = JogadorCin,J,D,10
+JogadorQua,J,M,4
+JogadorTre,J,D,5
+JogadorDoi,J,C,10
+JogadorUm,J,O,3
+JogadorSei,J,B,10
+
+4981-calculoMinhaPontuacaoAtual
+4983-MINHA VEZ=FALSE
+4986-analisarStatus()
+4989-analisarStatus()=Em jogo
+4991-analisarStatus()=Votar
+4993-verificarVez
+4996-jogadordaVez = 520 - JogadorTre
+4999-ULTIMA JOGADA = JogadorCin,J,D,10
+JogadorQua,J,M,4
+JogadorTre,J,D,5
+JogadorDoi,J,C,10
+JogadorUm,J,O,3
+JogadorSei,J,B,10
+
+5001-calculoMinhaPontuacaoAtual
+5003-MINHA VEZ=FALSE
+5006-analisarStatus()
+5009-analisarStatus()=Em jogo
+5011-analisarStatus()=Votar
+5013-verificarVez
+5016-jogadordaVez = 522 - JogadorCin
+5019-ULTIMA JOGADA = JogadorCin,J,D,10
+JogadorQua,J,M,4
+JogadorTre,J,D,5
+JogadorDoi,J,C,10
+JogadorUm,J,O,3
+JogadorSei,J,B,10
+
+5021-calculoMinhaPontuacaoAtual
+5023-MINHA VEZ=TRUE
+5025-autovotar
+5027-MEU VOTO SIM
+5030-VOTACAO OK
+5033-analisarStatus()
+5036-analisarStatus()=Em jogo
+5038-analisarStatus()=Promover
+5040-verificarVez
+5043-jogadordaVez = 523 - JogadorSei
+5046-ULTIMA JOGADA = JogadorCin,J,D,10
+JogadorQua,J,M,4
+JogadorTre,J,D,5
+JogadorDoi,J,C,10
+JogadorUm,J,O,3
+JogadorSei,J,B,10
+
+5048-calculoMinhaPontuacaoAtual
+5050-analisarUltimaVotacao
+5053-calculoQtdTotalAtualCartasNaoNoJogo=2
+5055-calculoQtdTotalAtualCartasNaoNoJogo=2
+5057-calculoNumeroPersonagensEliminados=3
+5059-calculoQtdTotalAtualCartasNaoNoJogo=2
+5061-calculoQtdTotalAtualCartasNaoNoJogo=2
+5063-calculoNumeroPersonagensEliminados=3
+5065-calculoQtdTotalAtualCartasNaoNoJogo=2
+5067-calculoQtdTotalAtualCartasNaoNoJogo=2
+5069-calculoNumeroPersonagensEliminados=3
+5071-calculoQtdTotalAtualCartasNaoNoJogo=1
+5073-calculoQtdTotalAtualCartasNaoNoJogo=1
+5075-calculoQtdTotalAtualCartasNaoNoJogo=1
+5077-calculoQtdTotalAtualCartasNaoNoJogo=1
+5079-MINHA VEZ=FALSE
+5082-analisarStatus()
+5085-analisarStatus()=Em jogo
+5087-analisarStatus()=Promover
+5089-verificarVez
+5092-jogadordaVez = 523 - JogadorSei
+5095-ULTIMA JOGADA = JogadorCin,J,D,10
+JogadorQua,J,M,4
+JogadorTre,J,D,5
+JogadorDoi,J,C,10
+JogadorUm,J,O,3
+JogadorSei,J,B,10
+
+5097-calculoMinhaPontuacaoAtual
+5099-MINHA VEZ=FALSE
+5102-analisarStatus()
+5105-analisarStatus()=Em jogo
+5107-analisarStatus()=Promover
+5109-verificarVez
+5112-jogadordaVez = 523 - JogadorSei
+5115-ULTIMA JOGADA = JogadorSei,J,E,4
+JogadorCin,J,D,10
+JogadorQua,J,M,4
+JogadorTre,J,D,5
+JogadorDoi,J,C,10
+JogadorUm,J,O,3
+
+5117-calculoMinhaPontuacaoAtual
+5119-MINHA VEZ=FALSE
+5122-analisarStatus()
+5125-analisarStatus()=Em jogo
+5127-analisarStatus()=Promover
+5129-verificarVez
+5132-jogadordaVez = 518 - JogadorUm
+5135-ULTIMA JOGADA = JogadorSei,J,E,4
+JogadorCin,J,D,10
+JogadorQua,J,M,4
+JogadorTre,J,D,5
+JogadorDoi,J,C,10
+JogadorUm,J,O,3
+
+5137-calculoMinhaPontuacaoAtual
+5139-MINHA VEZ=FALSE
+5142-analisarStatus()
+5145-analisarStatus()=Em jogo
+5147-analisarStatus()=Promover
+5149-verificarVez
+5152-jogadordaVez = 519 - JogadorDoi
+5155-ULTIMA JOGADA = JogadorUm,J,E,5
+JogadorSei,J,E,4
+JogadorCin,J,D,10
+JogadorQua,J,M,4
+JogadorTre,J,D,5
+JogadorDoi,J,C,10
+
+5157-calculoMinhaPontuacaoAtual
+5159-MINHA VEZ=FALSE
+5162-analisarStatus()
+5165-analisarStatus()=Em jogo
+5167-analisarStatus()=Promover
+5169-verificarVez
+5172-jogadordaVez = 520 - JogadorTre
+5175-ULTIMA JOGADA = JogadorDoi,J,E,10
+JogadorUm,J,E,5
+JogadorSei,J,E,4
+JogadorCin,J,D,10
+JogadorQua,J,M,4
+JogadorTre,J,D,5
+
+5177-calculoMinhaPontuacaoAtual
+5179-MINHA VEZ=FALSE
+5182-analisarStatus()
+5185-analisarStatus()=Em jogo
+5187-analisarStatus()=Votar
+5189-verificarVez
+5192-jogadordaVez = 520 - JogadorTre
+5195-ULTIMA JOGADA = JogadorDoi,J,E,10
+JogadorUm,J,E,5
+JogadorSei,J,E,4
+JogadorCin,J,D,10
+JogadorQua,J,M,4
+JogadorTre,J,D,5
+
+5197-calculoMinhaPontuacaoAtual
+5199-MINHA VEZ=FALSE
+5202-analisarStatus()
+5205-analisarStatus()=Em jogo
+5207-analisarStatus()=Votar
+5209-verificarVez
+5212-jogadordaVez = 521 - JogadorQua
+5215-ULTIMA JOGADA = JogadorDoi,J,E,10
+JogadorUm,J,E,5
+JogadorSei,J,E,4
+JogadorCin,J,D,10
+JogadorQua,J,M,4
+JogadorTre,J,D,5
+
+5217-calculoMinhaPontuacaoAtual
+5219-MINHA VEZ=FALSE
+5222-analisarStatus()
+5225-analisarStatus()=Em jogo
+5227-analisarStatus()=Votar
+5229-verificarVez
+5232-jogadordaVez = 522 - JogadorCin
+5235-ULTIMA JOGADA = JogadorDoi,J,E,10
+JogadorUm,J,E,5
+JogadorSei,J,E,4
+JogadorCin,J,D,10
+JogadorQua,J,M,4
+JogadorTre,J,D,5
+
+5237-calculoMinhaPontuacaoAtual
+5239-MINHA VEZ=TRUE
+5241-autovotar
+5243-MEU VOTO SIM
+5246-VOTACAO OK
+5249-analisarStatus()
+5252-analisarStatus()=Em jogo
+5254-analisarStatus()=Votar
+5256-verificarVez
+5259-jogadordaVez = 523 - JogadorSei
+5262-ULTIMA JOGADA = JogadorDoi,J,E,10
+JogadorUm,J,E,5
+JogadorSei,J,E,4
+JogadorCin,J,D,10
+JogadorQua,J,M,4
+JogadorTre,J,D,5
+
+5264-calculoMinhaPontuacaoAtual
+5266-MINHA VEZ=FALSE
+5269-analisarStatus()
+5272-analisarStatus()=Em jogo
+5274-analisarStatus()=Votar
+5276-verificarVez
+5279-jogadordaVez = 518 - JogadorUm
+5282-ULTIMA JOGADA = JogadorDoi,J,E,10
+JogadorUm,J,E,5
+JogadorSei,J,E,4
+JogadorCin,J,D,10
+JogadorQua,J,M,4
+JogadorTre,J,D,5
+
+5284-calculoMinhaPontuacaoAtual
+5286-MINHA VEZ=FALSE
+5289-analisarStatus()
+5292-analisarStatus()=Em jogo
+5294-analisarStatus()=Votar
+5296-verificarVez
+5299-jogadordaVez = 519 - JogadorDoi
+5302-ULTIMA JOGADA = JogadorDoi,J,E,10
+JogadorUm,J,E,5
+JogadorSei,J,E,4
+JogadorCin,J,D,10
+JogadorQua,J,M,4
+JogadorTre,J,D,5
+
+5304-calculoMinhaPontuacaoAtual
+5306-MINHA VEZ=FALSE
+5309-analisarStatus()
+5312-analisarStatus()=Em jogo
+5314-analisarStatus()=Votar
+5316-verificarVez
+5319-jogadordaVez = 519 - JogadorDoi
+5322-ULTIMA JOGADA = JogadorDoi,J,E,10
+JogadorUm,J,E,5
+JogadorSei,J,E,4
+JogadorCin,J,D,10
+JogadorQua,J,M,4
+JogadorTre,J,D,5
+
+5324-calculoMinhaPontuacaoAtual
+5326-MINHA VEZ=FALSE
+5329-analisarStatus()
+5332-analisarStatus()=Em jogo
+5334-analisarStatus()=Posicionar
+5336-verificarVez
+5339-jogadordaVez = 520 - JogadorTre
+5341-novaRodada
+5346-analisarUltimaVotacao
+5349-calculoQtdTotalAtualCartasNaoNoJogo=12
+5351-calculoQtdTotalAtualCartasNaoNoJogo=12
+5353-calculoNumeroPersonagensEliminados=0
+5355-calculoQtdTotalAtualCartasNaoNoJogo=12
+5357-calculoQtdTotalAtualCartasNaoNoJogo=12
+5359-calculoNumeroPersonagensEliminados=0
+5361-calculoQtdTotalAtualCartasNaoNoJogo=12
+5363-calculoQtdTotalAtualCartasNaoNoJogo=12
+5365-calculoNumeroPersonagensEliminados=0
+5367-calculoQtdTotalAtualCartasNaoNoJogo=12
+5369-calculoQtdTotalAtualCartasNaoNoJogo=12
+5371-calculoNumeroPersonagensEliminados=0
+5373-calculoQtdTotalAtualCartasNaoNoJogo=12
+5375-calculoQtdTotalAtualCartasNaoNoJogo=12
+5377-calculoNumeroPersonagensEliminados=0
+5379-calculoQtdTotalAtualCartasNaoNoJogo=12
+5381-calculoQtdTotalAtualCartasNaoNoJogo=12
+5383-calculoNumeroPersonagensEliminados=0
+5385-MINHA VEZ=FALSE
+5388-analisarStatus()
+5391-analisarStatus()=Em jogo
+5393-analisarStatus()=Posicionar
+5395-verificarVez
+5398-jogadordaVez = 520 - JogadorTre
+5401-MINHA VEZ=FALSE
+5404-analisarStatus()
+5407-analisarStatus()=Em jogo
+5409-analisarStatus()=Posicionar
+5411-verificarVez
+5414-jogadordaVez = 520 - JogadorTre
+5417-MINHA VEZ=FALSE
+5420-analisarStatus()
+5423-analisarStatus()=Em jogo
+5425-analisarStatus()=Posicionar
+5427-verificarVez
+5430-jogadordaVez = 521 - JogadorQua
+5433-ULTIMA JOGADA = JogadorTre,S,A,4
+
+5435-calculoMinhaPontuacaoAtual
+5437-MINHA VEZ=FALSE
+5440-analisarStatus()
+5443-analisarStatus()=Em jogo
+5445-analisarStatus()=Posicionar
+5447-verificarVez
+5450-jogadordaVez = 522 - JogadorCin
+5453-ULTIMA JOGADA = JogadorQua,S,B,4
+JogadorTre,S,A,4
+
+5455-calculoMinhaPontuacaoAtual
+5457-MINHA VEZ=TRUE
+5459-autoposicionar
+5461-calculoNumeroPersonagensDesempregados=11
+5463-algoritmoPosicionamentoEquilibrado
+5465-calculoQtdMeusPersonagensNoNivel
+5467-calculoQtdMeusPersonagensNoNivel
+5470-POSICIONAR PERSONAGEM OK
+5473-analisarStatus()
+5476-analisarStatus()=Em jogo
+5478-analisarStatus()=Posicionar
+5480-verificarVez
+5483-jogadordaVez = 523 - JogadorSei
+5486-ULTIMA JOGADA = JogadorCin,S,D,3
+JogadorQua,S,B,4
+JogadorTre,S,A,4
+
+5488-calculoMinhaPontuacaoAtual
+5490-MINHA VEZ=FALSE
+5493-analisarStatus()
+5496-analisarStatus()=Em jogo
+5498-analisarStatus()=Posicionar
+5500-verificarVez
+5503-jogadordaVez = 518 - JogadorUm
+5506-ULTIMA JOGADA = JogadorSei,S,C,4
+JogadorCin,S,D,3
+JogadorQua,S,B,4
+JogadorTre,S,A,4
+
+5508-calculoMinhaPontuacaoAtual
+5510-MINHA VEZ=FALSE
+5513-analisarStatus()
+5516-analisarStatus()=Em jogo
+5518-analisarStatus()=Posicionar
+5520-verificarVez
+5523-jogadordaVez = 519 - JogadorDoi
+5526-ULTIMA JOGADA = JogadorUm,S,E,4
+JogadorSei,S,C,4
+JogadorCin,S,D,3
+JogadorQua,S,B,4
+JogadorTre,S,A,4
+
+5528-calculoMinhaPontuacaoAtual
+5530-MINHA VEZ=FALSE
+5533-analisarStatus()
+5536-analisarStatus()=Em jogo
+5538-analisarStatus()=Posicionar
+5540-verificarVez
+5543-jogadordaVez = 520 - JogadorTre
+5546-ULTIMA JOGADA = JogadorDoi,S,F,3
+JogadorUm,S,E,4
+JogadorSei,S,C,4
+JogadorCin,S,D,3
+JogadorQua,S,B,4
+JogadorTre,S,A,4
+
+5548-calculoMinhaPontuacaoAtual
+5550-MINHA VEZ=FALSE
+5553-analisarStatus()
+5556-analisarStatus()=Em jogo
+5558-analisarStatus()=Posicionar
+5560-verificarVez
+5563-jogadordaVez = 520 - JogadorTre
+5566-ULTIMA JOGADA = JogadorDoi,S,F,3
+JogadorUm,S,E,4
+JogadorSei,S,C,4
+JogadorCin,S,D,3
+JogadorQua,S,B,4
+JogadorTre,S,A,4
+
+5568-calculoMinhaPontuacaoAtual
+5570-MINHA VEZ=FALSE
+5573-analisarStatus()
+5576-analisarStatus()=Em jogo
+5578-analisarStatus()=Posicionar
+5580-verificarVez
+5583-jogadordaVez = 521 - JogadorQua
+5586-ULTIMA JOGADA = JogadorTre,S,I,3
+JogadorDoi,S,F,3
+JogadorUm,S,E,4
+JogadorSei,S,C,4
+JogadorCin,S,D,3
+JogadorQua,S,B,4
+
+5588-calculoMinhaPontuacaoAtual
+5590-MINHA VEZ=FALSE
+5593-analisarStatus()
+5596-analisarStatus()=Em jogo
+5598-analisarStatus()=Posicionar
+5600-verificarVez
+5603-jogadordaVez = 521 - JogadorQua
+5606-ULTIMA JOGADA = JogadorQua,S,G,3
+JogadorTre,S,I,3
+JogadorDoi,S,F,3
+JogadorUm,S,E,4
+JogadorSei,S,C,4
+JogadorCin,S,D,3
+
+5608-calculoMinhaPontuacaoAtual
+5610-MINHA VEZ=FALSE
+5613-analisarStatus()
+5616-analisarStatus()=Em jogo
+5618-analisarStatus()=Posicionar
+5620-verificarVez
+5623-jogadordaVez = 522 - JogadorCin
+5626-ULTIMA JOGADA = JogadorQua,S,G,3
+JogadorTre,S,I,3
+JogadorDoi,S,F,3
+JogadorUm,S,E,4
+JogadorSei,S,C,4
+JogadorCin,S,D,3
+
+5628-calculoMinhaPontuacaoAtual
+5630-MINHA VEZ=TRUE
+5632-autoposicionar
+5634-calculoNumeroPersonagensDesempregados=5
+5636-algoritmoPosicionamentoEquilibrado
+5638-calculoQtdMeusPersonagensNoNivel
+5640-calculoQtdMeusPersonagensNoNivel
+5642-calculoQtdMeusPersonagensNoNivel
+5645-POSICIONAR PERSONAGEM OK
+5648-analisarStatus()
+5651-analisarStatus()=Em jogo
+5653-analisarStatus()=Posicionar
+5655-verificarVez
+5658-jogadordaVez = 523 - JogadorSei
+5661-ULTIMA JOGADA = JogadorCin,S,L,2
+JogadorQua,S,G,3
+JogadorTre,S,I,3
+JogadorDoi,S,F,3
+JogadorUm,S,E,4
+JogadorSei,S,C,4
+
+5663-calculoMinhaPontuacaoAtual
+5665-MINHA VEZ=FALSE
+5668-analisarStatus()
+5671-analisarStatus()=Em jogo
+5673-analisarStatus()=Posicionar
+5675-verificarVez
+5678-jogadordaVez = 523 - JogadorSei
+5681-ULTIMA JOGADA = JogadorCin,S,L,2
+JogadorQua,S,G,3
+JogadorTre,S,I,3
+JogadorDoi,S,F,3
+JogadorUm,S,E,4
+JogadorSei,S,C,4
+
+5683-calculoMinhaPontuacaoAtual
+5685-MINHA VEZ=FALSE
+5688-analisarStatus()
+5691-analisarStatus()=Em jogo
+5693-analisarStatus()=Posicionar
+5695-verificarVez
+5698-jogadordaVez = 518 - JogadorUm
+5701-ULTIMA JOGADA = JogadorSei,S,P,2
+JogadorCin,S,L,2
+JogadorQua,S,G,3
+JogadorTre,S,I,3
+JogadorDoi,S,F,3
+JogadorUm,S,E,4
+
+5703-calculoMinhaPontuacaoAtual
+5705-MINHA VEZ=FALSE
+5708-analisarStatus()
+5711-analisarStatus()=Em jogo
+5713-analisarStatus()=Posicionar
+5715-verificarVez
+5718-jogadordaVez = 519 - JogadorDoi
+5721-ULTIMA JOGADA = JogadorUm,S,M,2
+JogadorSei,S,P,2
+JogadorCin,S,L,2
+JogadorQua,S,G,3
+JogadorTre,S,I,3
+JogadorDoi,S,F,3
+
+5723-calculoMinhaPontuacaoAtual
+5725-MINHA VEZ=FALSE
+5728-analisarStatus()
+5731-analisarStatus()=Em jogo
+5733-analisarStatus()=Posicionar
+5735-verificarVez
+5738-jogadordaVez = 519 - JogadorDoi
+5741-ULTIMA JOGADA = JogadorUm,S,M,2
+JogadorSei,S,P,2
+JogadorCin,S,L,2
+JogadorQua,S,G,3
+JogadorTre,S,I,3
+JogadorDoi,S,F,3
+
+5743-calculoMinhaPontuacaoAtual
+5745-MINHA VEZ=FALSE
+5748-analisarStatus()
+5751-analisarStatus()=Em jogo
+5753-analisarStatus()=Promover
+5755-verificarVez
+5758-jogadordaVez = 520 - JogadorTre
+5761-ULTIMA JOGADA = JogadorDoi,S,N,2
+JogadorUm,S,M,2
+JogadorSei,S,P,2
+JogadorCin,S,L,2
+JogadorQua,S,G,3
+JogadorTre,S,I,3
+
+5763-calculoMinhaPontuacaoAtual
+5765-MINHA VEZ=FALSE
+5768-analisarStatus()
+5771-analisarStatus()=Em jogo
+5773-analisarStatus()=Promover
+5775-verificarVez
+5778-jogadordaVez = 521 - JogadorQua
+5781-ULTIMA JOGADA = JogadorTre,J,A,5
+JogadorDoi,S,N,2
+JogadorUm,S,M,2
+JogadorSei,S,P,2
+JogadorCin,S,L,2
+JogadorQua,S,G,3
+
+5783-calculoMinhaPontuacaoAtual
+5785-MINHA VEZ=FALSE
+5788-analisarStatus()
+5791-analisarStatus()=Em jogo
+5793-analisarStatus()=Promover
+5795-verificarVez
+5798-jogadordaVez = 522 - JogadorCin
+5801-ULTIMA JOGADA = JogadorQua,J,I,4
+JogadorTre,J,A,5
+JogadorDoi,S,N,2
+JogadorUm,S,M,2
+JogadorSei,S,P,2
+JogadorCin,S,L,2
+
+5803-calculoMinhaPontuacaoAtual
+5805-MINHA VEZ=TRUE
+5807-autopromover
+5809-calculoNumeroPersonagensDesempregados=0
+5811-algoritmoPromocaoQualquerdeMenorNivel
+5814-PROMOCAO PERSONAGEM OK
+5817-analisarStatus()
+5820-analisarStatus()=Em jogo
+5822-analisarStatus()=Votar
+5824-verificarVez
+5827-jogadordaVez = 523 - JogadorSei
+5830-ULTIMA JOGADA = JogadorCin,J,A,10
+JogadorQua,J,I,4
+JogadorTre,J,A,5
+JogadorDoi,S,N,2
+JogadorUm,S,M,2
+JogadorSei,S,P,2
+
+5832-calculoMinhaPontuacaoAtual
+5834-MINHA VEZ=FALSE
+5837-analisarStatus()
+5840-analisarStatus()=Em jogo
+5842-analisarStatus()=Votar
+5844-verificarVez
+5847-jogadordaVez = 518 - JogadorUm
+5850-ULTIMA JOGADA = JogadorCin,J,A,10
+JogadorQua,J,I,4
+JogadorTre,J,A,5
+JogadorDoi,S,N,2
+JogadorUm,S,M,2
+JogadorSei,S,P,2
+
+5852-calculoMinhaPontuacaoAtual
+5854-MINHA VEZ=FALSE
+5857-analisarStatus()
+5860-analisarStatus()=Em jogo
+5862-analisarStatus()=Votar
+5864-verificarVez
+5867-jogadordaVez = 518 - JogadorUm
+5870-ULTIMA JOGADA = JogadorCin,J,A,10
+JogadorQua,J,I,4
+JogadorTre,J,A,5
+JogadorDoi,S,N,2
+JogadorUm,S,M,2
+JogadorSei,S,P,2
+
+5872-calculoMinhaPontuacaoAtual
+5874-MINHA VEZ=FALSE
+5877-analisarStatus()
+5880-analisarStatus()=Em jogo
+5882-analisarStatus()=Votar
+5884-verificarVez
+5887-jogadordaVez = 519 - JogadorDoi
+5890-ULTIMA JOGADA = JogadorCin,J,A,10
+JogadorQua,J,I,4
+JogadorTre,J,A,5
+JogadorDoi,S,N,2
+JogadorUm,S,M,2
+JogadorSei,S,P,2
+
+5892-calculoMinhaPontuacaoAtual
+5894-MINHA VEZ=FALSE
+5897-analisarStatus()
+5900-analisarStatus()=Em jogo
+5902-analisarStatus()=Votar
+5904-verificarVez
+5907-jogadordaVez = 520 - JogadorTre
+5910-ULTIMA JOGADA = JogadorCin,J,A,10
+JogadorQua,J,I,4
+JogadorTre,J,A,5
+JogadorDoi,S,N,2
+JogadorUm,S,M,2
+JogadorSei,S,P,2
+
+5912-calculoMinhaPontuacaoAtual
+5914-MINHA VEZ=FALSE
+5917-analisarStatus()
+5920-analisarStatus()=Em jogo
+5922-analisarStatus()=Votar
+5924-verificarVez
+5927-jogadordaVez = 520 - JogadorTre
+5930-ULTIMA JOGADA = JogadorCin,J,A,10
+JogadorQua,J,I,4
+JogadorTre,J,A,5
+JogadorDoi,S,N,2
+JogadorUm,S,M,2
+JogadorSei,S,P,2
+
+5932-calculoMinhaPontuacaoAtual
+5934-MINHA VEZ=FALSE
+5937-analisarStatus()
+5940-analisarStatus()=Em jogo
+5942-analisarStatus()=Votar
+5944-verificarVez
+5947-jogadordaVez = 520 - JogadorTre
+5950-ULTIMA JOGADA = JogadorCin,J,A,10
+JogadorQua,J,I,4
+JogadorTre,J,A,5
+JogadorDoi,S,N,2
+JogadorUm,S,M,2
+JogadorSei,S,P,2
+
+5952-calculoMinhaPontuacaoAtual
+5954-MINHA VEZ=FALSE
+5957-analisarStatus()
+5960-analisarStatus()=Em jogo
+5962-analisarStatus()=Votar
+5964-verificarVez
+5967-jogadordaVez = 521 - JogadorQua
+5970-ULTIMA JOGADA = JogadorCin,J,A,10
+JogadorQua,J,I,4
+JogadorTre,J,A,5
+JogadorDoi,S,N,2
+JogadorUm,S,M,2
+JogadorSei,S,P,2
+
+5972-calculoMinhaPontuacaoAtual
+5974-MINHA VEZ=FALSE
+5977-analisarStatus()
+5980-analisarStatus()=Em jogo
+5982-analisarStatus()=Votar
+5984-verificarVez
+5987-jogadordaVez = 522 - JogadorCin
+5990-ULTIMA JOGADA = JogadorCin,J,A,10
+JogadorQua,J,I,4
+JogadorTre,J,A,5
+JogadorDoi,S,N,2
+JogadorUm,S,M,2
+JogadorSei,S,P,2
+
+5992-calculoMinhaPontuacaoAtual
+5994-MINHA VEZ=TRUE
+5996-autovotar
+5998-algoritmoVotacaoTenhoPontosSuficientes
+6000-calculoMinhaPontuacaoAtual
+6002-calculoMaiorPontuacaoTotalAtualPossivel
+6004-calculoMaiorPontuacaoPossivelAtual
+6006-calculoMaiorPontuacaoTotalAtualPossivel/[0]3029
+6008-calculoMaiorPontuacaoTotalAtualPossivel/[1]2529
+6010-calculoMaiorPontuacaoTotalAtualPossivel/[2]1629
+6012-calculoMaiorPontuacaoTotalAtualPossivel/[3]3729
+6014-calculoMaiorPontuacaoTotalAtualPossivel/[5]2229
+6016-ERRO ALGORTMO - algortimovotacaoTenhospontossuficientes retornou falso
+6018-autovotar
+6020-algoritmoVotacaoPadrao
+6022-MEU VOTO SIM
+6025-VOTACAO OK
+6028-analisarStatus()
+6031-analisarStatus()=Em jogo
+6033-analisarStatus()=Promover
+6035-verificarVez
+6038-jogadordaVez = 523 - JogadorSei
+6041-ULTIMA JOGADA = JogadorCin,J,A,10
+JogadorQua,J,I,4
+JogadorTre,J,A,5
+JogadorDoi,S,N,2
+JogadorUm,S,M,2
+JogadorSei,S,P,2
+
+6043-calculoMinhaPontuacaoAtual
+6045-analisarUltimaVotacao
+6048-calculoQtdTotalAtualCartasNaoNoJogo=12
+6050-calculoQtdTotalAtualCartasNaoNoJogo=12
+6052-calculoNumeroPersonagensEliminados=0
+6054-calculoQtdTotalAtualCartasNaoNoJogo=11
+6056-calculoQtdTotalAtualCartasNaoNoJogo=11
+6058-calculoNumeroPersonagensEliminados=0
+6060-calculoQtdTotalAtualCartasNaoNoJogo=10
+6062-calculoQtdTotalAtualCartasNaoNoJogo=10
+6064-calculoNumeroPersonagensEliminados=0
+6066-calculoQtdTotalAtualCartasNaoNoJogo=10
+6068-calculoQtdTotalAtualCartasNaoNoJogo=10
+6070-calculoNumeroPersonagensEliminados=0
+6072-MINHA VEZ=FALSE
+6075-analisarStatus()
+6078-analisarStatus()=Em jogo
+6080-analisarStatus()=Promover
+6082-verificarVez
+6085-jogadordaVez = 523 - JogadorSei
+6088-ULTIMA JOGADA = JogadorCin,J,A,10
+JogadorQua,J,I,4
+JogadorTre,J,A,5
+JogadorDoi,S,N,2
+JogadorUm,S,M,2
+JogadorSei,S,P,2
+
+6090-calculoMinhaPontuacaoAtual
+6092-MINHA VEZ=FALSE
+6095-analisarStatus()
+6098-analisarStatus()=Em jogo
+6100-analisarStatus()=Promover
+6102-verificarVez
+6105-jogadordaVez = 518 - JogadorUm
+6108-ULTIMA JOGADA = JogadorSei,J,B,5
+JogadorCin,J,A,10
+JogadorQua,J,I,4
+JogadorTre,J,A,5
+JogadorDoi,S,N,2
+JogadorUm,S,M,2
+
+6110-calculoMinhaPontuacaoAtual
+6112-MINHA VEZ=FALSE
+6115-analisarStatus()
+6118-analisarStatus()=Em jogo
+6120-analisarStatus()=Promover
+6122-verificarVez
+6125-jogadordaVez = 519 - JogadorDoi
+6128-ULTIMA JOGADA = JogadorUm,J,M,3
+JogadorSei,J,B,5
+JogadorCin,J,A,10
+JogadorQua,J,I,4
+JogadorTre,J,A,5
+JogadorDoi,S,N,2
+
+6130-calculoMinhaPontuacaoAtual
+6132-MINHA VEZ=FALSE
+6135-analisarStatus()
+6138-analisarStatus()=Em jogo
+6140-analisarStatus()=Promover
+6142-verificarVez
+6145-jogadordaVez = 520 - JogadorTre
+6148-ULTIMA JOGADA = JogadorDoi,J,B,10
+JogadorUm,J,M,3
+JogadorSei,J,B,5
+JogadorCin,J,A,10
+JogadorQua,J,I,4
+JogadorTre,J,A,5
+
+6150-calculoMinhaPontuacaoAtual
+6152-MINHA VEZ=FALSE
+6155-analisarStatus()
+6158-analisarStatus()=Em jogo
+6160-analisarStatus()=Votar
+6162-verificarVez
+6165-jogadordaVez = 520 - JogadorTre
+6168-ULTIMA JOGADA = JogadorDoi,J,B,10
+JogadorUm,J,M,3
+JogadorSei,J,B,5
+JogadorCin,J,A,10
+JogadorQua,J,I,4
+JogadorTre,J,A,5
+
+6170-calculoMinhaPontuacaoAtual
+6172-MINHA VEZ=FALSE
+6175-analisarStatus()
+6178-analisarStatus()=Em jogo
+6180-analisarStatus()=Votar
+6182-verificarVez
+6185-jogadordaVez = 520 - JogadorTre
+6188-ULTIMA JOGADA = JogadorDoi,J,B,10
+JogadorUm,J,M,3
+JogadorSei,J,B,5
+JogadorCin,J,A,10
+JogadorQua,J,I,4
+JogadorTre,J,A,5
+
+6190-calculoMinhaPontuacaoAtual
+6192-MINHA VEZ=FALSE
+6195-analisarStatus()
+6198-analisarStatus()=Em jogo
+6200-analisarStatus()=Votar
+6202-verificarVez
+6205-jogadordaVez = 521 - JogadorQua
+6208-ULTIMA JOGADA = JogadorDoi,J,B,10
+JogadorUm,J,M,3
+JogadorSei,J,B,5
+JogadorCin,J,A,10
+JogadorQua,J,I,4
+JogadorTre,J,A,5
+
+6210-calculoMinhaPontuacaoAtual
+6212-MINHA VEZ=FALSE
+6215-analisarStatus()
+6218-analisarStatus()=Em jogo
+6220-analisarStatus()=Votar
+6222-verificarVez
+6225-jogadordaVez = 522 - JogadorCin
+6228-ULTIMA JOGADA = JogadorDoi,J,B,10
+JogadorUm,J,M,3
+JogadorSei,J,B,5
+JogadorCin,J,A,10
+JogadorQua,J,I,4
+JogadorTre,J,A,5
+
+6230-calculoMinhaPontuacaoAtual
+6232-MINHA VEZ=TRUE
+6234-autovotar
+6236-algoritmoVotacaoTenhoPontosSuficientes
+6238-calculoMinhaPontuacaoAtual
+6240-calculoMaiorPontuacaoTotalAtualPossivel
+6242-calculoMaiorPontuacaoPossivelAtual
+6244-calculoMaiorPontuacaoTotalAtualPossivel/[0]3028
+6246-calculoMaiorPontuacaoTotalAtualPossivel/[1]2528
+6248-calculoMaiorPontuacaoTotalAtualPossivel/[2]1628
+6250-calculoMaiorPontuacaoTotalAtualPossivel/[3]3728
+6252-calculoMaiorPontuacaoTotalAtualPossivel/[5]2228
+6254-ERRO ALGORTMO - algortimovotacaoTenhospontossuficientes retornou falso
+6256-autovotar
+6258-algoritmoVotacaoPadrao
+6260-MEU VOTO SIM
+6263-VOTACAO OK
+6266-analisarStatus()
+6269-analisarStatus()=Em jogo
+6271-analisarStatus()=Votar
+6273-verificarVez
+6276-jogadordaVez = 523 - JogadorSei
+6279-ULTIMA JOGADA = JogadorDoi,J,B,10
+JogadorUm,J,M,3
+JogadorSei,J,B,5
+JogadorCin,J,A,10
+JogadorQua,J,I,4
+JogadorTre,J,A,5
+
+6281-calculoMinhaPontuacaoAtual
+6283-MINHA VEZ=FALSE
+6286-analisarStatus()
+6289-analisarStatus()=Em jogo
+6291-analisarStatus()=Votar
+6293-verificarVez
+6296-jogadordaVez = 523 - JogadorSei
+6299-ULTIMA JOGADA = JogadorDoi,J,B,10
+JogadorUm,J,M,3
+JogadorSei,J,B,5
+JogadorCin,J,A,10
+JogadorQua,J,I,4
+JogadorTre,J,A,5
+
+6301-calculoMinhaPontuacaoAtual
+6303-MINHA VEZ=FALSE
+6306-analisarStatus()
+6309-analisarStatus()=Em jogo
+6311-analisarStatus()=Votar
+6313-verificarVez
+6316-jogadordaVez = 518 - JogadorUm
+6319-ULTIMA JOGADA = JogadorDoi,J,B,10
+JogadorUm,J,M,3
+JogadorSei,J,B,5
+JogadorCin,J,A,10
+JogadorQua,J,I,4
+JogadorTre,J,A,5
+
+6321-calculoMinhaPontuacaoAtual
+6323-MINHA VEZ=FALSE
+6326-analisarStatus()
+6329-analisarStatus()=Em jogo
+6331-analisarStatus()=Votar
+6333-verificarVez
+6336-jogadordaVez = 519 - JogadorDoi
+6339-ULTIMA JOGADA = JogadorDoi,J,B,10
+JogadorUm,J,M,3
+JogadorSei,J,B,5
+JogadorCin,J,A,10
+JogadorQua,J,I,4
+JogadorTre,J,A,5
+
+6341-calculoMinhaPontuacaoAtual
+6343-MINHA VEZ=FALSE
+6346-analisarStatus()
+6349-analisarStatus()=Em jogo
+6351-analisarStatus()=Votar
+6353-verificarVez
+6356-jogadordaVez = 519 - JogadorDoi
+6359-ULTIMA JOGADA = JogadorDoi,J,B,10
+JogadorUm,J,M,3
+JogadorSei,J,B,5
+JogadorCin,J,A,10
+JogadorQua,J,I,4
+JogadorTre,J,A,5
+
+6361-calculoMinhaPontuacaoAtual
+6363-MINHA VEZ=FALSE
+6366-analisarStatus()
+6369-analisarStatus()=Em jogo
+6371-analisarStatus()=Promover
+6373-verificarVez
+6376-jogadordaVez = 520 - JogadorTre
+6379-ULTIMA JOGADA = JogadorDoi,J,B,10
+JogadorUm,J,M,3
+JogadorSei,J,B,5
+JogadorCin,J,A,10
+JogadorQua,J,I,4
+JogadorTre,J,A,5
+
+6381-calculoMinhaPontuacaoAtual
+6383-analisarUltimaVotacao
+6386-calculoQtdTotalAtualCartasNaoNoJogo=7
+6388-calculoQtdTotalAtualCartasNaoNoJogo=7
+6390-calculoNumeroPersonagensEliminados=1
+6392-calculoQtdTotalAtualCartasNaoNoJogo=7
+6394-calculoQtdTotalAtualCartasNaoNoJogo=7
+6396-calculoNumeroPersonagensEliminados=1
+6398-MINHA VEZ=FALSE
+6401-analisarStatus()
+6404-analisarStatus()=Em jogo
+6406-analisarStatus()=Promover
+6408-verificarVez
+6411-jogadordaVez = 520 - JogadorTre
+6414-ULTIMA JOGADA = JogadorTre,J,C,5
+JogadorDoi,J,B,10
+JogadorUm,J,M,3
+JogadorSei,J,B,5
+JogadorCin,J,A,10
+JogadorQua,J,I,4
+
+6416-calculoMinhaPontuacaoAtual
+6418-MINHA VEZ=FALSE
+6421-analisarStatus()
+6424-analisarStatus()=Em jogo
+6426-analisarStatus()=Promover
+6428-verificarVez
+6431-jogadordaVez = 521 - JogadorQua
+6434-ULTIMA JOGADA = JogadorTre,J,C,5
+JogadorDoi,J,B,10
+JogadorUm,J,M,3
+JogadorSei,J,B,5
+JogadorCin,J,A,10
+JogadorQua,J,I,4
+
+6436-calculoMinhaPontuacaoAtual
+6438-MINHA VEZ=FALSE
+6441-analisarStatus()
+6444-analisarStatus()=Em jogo
+6446-analisarStatus()=Promover
+6448-verificarVez
+6451-jogadordaVez = 522 - JogadorCin
+6454-ULTIMA JOGADA = JogadorQua,J,I,5
+JogadorTre,J,C,5
+JogadorDoi,J,B,10
+JogadorUm,J,M,3
+JogadorSei,J,B,5
+JogadorCin,J,A,10
+
+6456-calculoMinhaPontuacaoAtual
+6458-MINHA VEZ=TRUE
+6460-autopromover
+6462-calculoNumeroPersonagensDesempregados=0
+6464-algoritmoPromocaoQualquerdeMenorNivel
+6467-PROMOCAO PERSONAGEM OK
+6470-analisarStatus()
+6473-analisarStatus()=Em jogo
+6475-analisarStatus()=Votar
+6477-verificarVez
+6480-jogadordaVez = 523 - JogadorSei
+6483-ULTIMA JOGADA = JogadorCin,J,C,10
+JogadorQua,J,I,5
+JogadorTre,J,C,5
+JogadorDoi,J,B,10
+JogadorUm,J,M,3
+JogadorSei,J,B,5
+
+6485-calculoMinhaPontuacaoAtual
+6487-MINHA VEZ=FALSE
+6490-analisarStatus()
+6493-analisarStatus()=Em jogo
+6495-analisarStatus()=Votar
+6497-verificarVez
+6500-jogadordaVez = 523 - JogadorSei
+6503-ULTIMA JOGADA = JogadorCin,J,C,10
+JogadorQua,J,I,5
+JogadorTre,J,C,5
+JogadorDoi,J,B,10
+JogadorUm,J,M,3
+JogadorSei,J,B,5
+
+6505-calculoMinhaPontuacaoAtual
+6507-MINHA VEZ=FALSE
+6510-analisarStatus()
+6513-analisarStatus()=Em jogo
+6515-analisarStatus()=Votar
+6517-verificarVez
+6520-jogadordaVez = 518 - JogadorUm
+6523-ULTIMA JOGADA = JogadorCin,J,C,10
+JogadorQua,J,I,5
+JogadorTre,J,C,5
+JogadorDoi,J,B,10
+JogadorUm,J,M,3
+JogadorSei,J,B,5
+
+6525-calculoMinhaPontuacaoAtual
+6527-MINHA VEZ=FALSE
+6530-analisarStatus()
+6533-analisarStatus()=Em jogo
+6535-analisarStatus()=Votar
+6537-verificarVez
+6540-jogadordaVez = 518 - JogadorUm
+6543-ULTIMA JOGADA = JogadorCin,J,C,10
+JogadorQua,J,I,5
+JogadorTre,J,C,5
+JogadorDoi,J,B,10
+JogadorUm,J,M,3
+JogadorSei,J,B,5
+
+6545-calculoMinhaPontuacaoAtual
+6547-MINHA VEZ=FALSE
+6550-analisarStatus()
+6553-analisarStatus()=Em jogo
+6555-analisarStatus()=Votar
+6557-verificarVez
+6560-jogadordaVez = 520 - JogadorTre
+6563-ULTIMA JOGADA = JogadorCin,J,C,10
+JogadorQua,J,I,5
+JogadorTre,J,C,5
+JogadorDoi,J,B,10
+JogadorUm,J,M,3
+JogadorSei,J,B,5
+
+6565-calculoMinhaPontuacaoAtual
+6567-MINHA VEZ=FALSE
+6570-analisarStatus()
+6573-analisarStatus()=Em jogo
+6575-analisarStatus()=Votar
+6577-verificarVez
+6580-jogadordaVez = 520 - JogadorTre
+6583-ULTIMA JOGADA = JogadorCin,J,C,10
+JogadorQua,J,I,5
+JogadorTre,J,C,5
+JogadorDoi,J,B,10
+JogadorUm,J,M,3
+JogadorSei,J,B,5
+
+6585-calculoMinhaPontuacaoAtual
+6587-MINHA VEZ=FALSE
+6590-analisarStatus()
+6593-analisarStatus()=Em jogo
+6595-analisarStatus()=Votar
+6597-verificarVez
+6600-jogadordaVez = 520 - JogadorTre
+6603-ULTIMA JOGADA = JogadorCin,J,C,10
+JogadorQua,J,I,5
+JogadorTre,J,C,5
+JogadorDoi,J,B,10
+JogadorUm,J,M,3
+JogadorSei,J,B,5
+
+6605-calculoMinhaPontuacaoAtual
+6607-MINHA VEZ=FALSE
+6610-analisarStatus()
+6613-analisarStatus()=Em jogo
+6615-analisarStatus()=Votar
+6617-verificarVez
+6620-jogadordaVez = 521 - JogadorQua
+6623-ULTIMA JOGADA = JogadorCin,J,C,10
+JogadorQua,J,I,5
+JogadorTre,J,C,5
+JogadorDoi,J,B,10
+JogadorUm,J,M,3
+JogadorSei,J,B,5
+
+6625-calculoMinhaPontuacaoAtual
+6627-MINHA VEZ=FALSE
+6630-analisarStatus()
+6633-analisarStatus()=Em jogo
+6635-analisarStatus()=Votar
+6637-verificarVez
+6640-jogadordaVez = 522 - JogadorCin
+6643-ULTIMA JOGADA = JogadorCin,J,C,10
+JogadorQua,J,I,5
+JogadorTre,J,C,5
+JogadorDoi,J,B,10
+JogadorUm,J,M,3
+JogadorSei,J,B,5
+
+6645-calculoMinhaPontuacaoAtual
+6647-MINHA VEZ=TRUE
+6649-autovotar
+6651-algoritmoVotacaoTenhoPontosSuficientes
+6653-calculoMinhaPontuacaoAtual
+6655-calculoMaiorPontuacaoTotalAtualPossivel
+6657-calculoMaiorPontuacaoPossivelAtual
+6659-calculoMaiorPontuacaoTotalAtualPossivel/[0]3037
+6661-calculoMaiorPontuacaoTotalAtualPossivel/[1]2537
+6663-calculoMaiorPontuacaoTotalAtualPossivel/[2]1637
+6665-calculoMaiorPontuacaoTotalAtualPossivel/[3]3737
+6667-calculoMaiorPontuacaoTotalAtualPossivel/[5]2237
+6669-ERRO ALGORTMO - algortimovotacaoTenhospontossuficientes retornou falso
+6671-autovotar
+6673-algoritmoVotacaoPadrao
+6675-MEU VOTO NAO
+6678-VOTACAO OK
+6681-analisarStatus()
+6684-analisarStatus()=Em jogo
+6686-analisarStatus()=Promover
+6688-verificarVez
+6691-jogadordaVez = 523 - JogadorSei
+6694-ULTIMA JOGADA = JogadorCin,J,C,10
+JogadorQua,J,I,5
+JogadorTre,J,C,5
+JogadorDoi,J,B,10
+JogadorUm,J,M,3
+JogadorSei,J,B,5
+
+6696-calculoMinhaPontuacaoAtual
+6698-analisarUltimaVotacao
+6701-calculoQtdTotalAtualCartasNaoNoJogo=5
+6703-calculoQtdTotalAtualCartasNaoNoJogo=5
+6705-calculoNumeroPersonagensEliminados=2
+6707-calculoQtdTotalAtualCartasNaoNoJogo=4
+6709-calculoQtdTotalAtualCartasNaoNoJogo=4
+6711-calculoNumeroPersonagensEliminados=2
+6713-calculoQtdTotalAtualCartasNaoNoJogo=3
+6715-calculoQtdTotalAtualCartasNaoNoJogo=3
+6717-calculoNumeroPersonagensEliminados=2
+6719-MINHA VEZ=FALSE
+6722-analisarStatus()
+6725-analisarStatus()=Em jogo
+6727-analisarStatus()=Promover
+6729-verificarVez
+6732-jogadordaVez = 518 - JogadorUm
+6735-ULTIMA JOGADA = JogadorSei,J,D,4
+JogadorCin,J,C,10
+JogadorQua,J,I,5
+JogadorTre,J,C,5
+JogadorDoi,J,B,10
+JogadorUm,J,M,3
+
+6737-calculoMinhaPontuacaoAtual
+6739-MINHA VEZ=FALSE
+6742-analisarStatus()
+6745-analisarStatus()=Em jogo
+6747-analisarStatus()=Promover
+6749-verificarVez
+6752-jogadordaVez = 518 - JogadorUm
+6755-ULTIMA JOGADA = JogadorSei,J,D,4
+JogadorCin,J,C,10
+JogadorQua,J,I,5
+JogadorTre,J,C,5
+JogadorDoi,J,B,10
+JogadorUm,J,M,3
+
+6757-calculoMinhaPontuacaoAtual
+6759-MINHA VEZ=FALSE
+6762-analisarStatus()
+6765-analisarStatus()=Em jogo
+6767-analisarStatus()=Promover
+6769-verificarVez
+6772-jogadordaVez = 519 - JogadorDoi
+6775-ULTIMA JOGADA = JogadorUm,J,M,4
+JogadorSei,J,D,4
+JogadorCin,J,C,10
+JogadorQua,J,I,5
+JogadorTre,J,C,5
+JogadorDoi,J,B,10
+
+6777-calculoMinhaPontuacaoAtual
+6779-MINHA VEZ=FALSE
+6782-analisarStatus()
+6785-analisarStatus()=Em jogo
+6787-analisarStatus()=Promover
+6789-verificarVez
+6792-jogadordaVez = 520 - JogadorTre
+6795-ULTIMA JOGADA = JogadorDoi,J,D,5
+JogadorUm,J,M,4
+JogadorSei,J,D,4
+JogadorCin,J,C,10
+JogadorQua,J,I,5
+JogadorTre,J,C,5
+
+6797-calculoMinhaPontuacaoAtual
+6799-MINHA VEZ=FALSE
+6802-analisarStatus()
+6805-analisarStatus()=Em jogo
+6807-analisarStatus()=Promover
+6809-verificarVez
+6812-jogadordaVez = 521 - JogadorQua
+6815-ULTIMA JOGADA = JogadorTre,J,D,10
+JogadorDoi,J,D,5
+JogadorUm,J,M,4
+JogadorSei,J,D,4
+JogadorCin,J,C,10
+JogadorQua,J,I,5
+
+6817-calculoMinhaPontuacaoAtual
+6819-MINHA VEZ=FALSE
+6822-analisarStatus()
+6825-analisarStatus()=Em jogo
+6827-analisarStatus()=Votar
+6829-verificarVez
+6832-jogadordaVez = 521 - JogadorQua
+6835-ULTIMA JOGADA = JogadorTre,J,D,10
+JogadorDoi,J,D,5
+JogadorUm,J,M,4
+JogadorSei,J,D,4
+JogadorCin,J,C,10
+JogadorQua,J,I,5
+
+6837-calculoMinhaPontuacaoAtual
+6839-MINHA VEZ=FALSE
+6842-analisarStatus()
+6845-analisarStatus()=Em jogo
+6847-analisarStatus()=Votar
+6849-verificarVez
+6852-jogadordaVez = 521 - JogadorQua
+6855-ULTIMA JOGADA = JogadorTre,J,D,10
+JogadorDoi,J,D,5
+JogadorUm,J,M,4
+JogadorSei,J,D,4
+JogadorCin,J,C,10
+JogadorQua,J,I,5
+
+6857-calculoMinhaPontuacaoAtual
+6859-MINHA VEZ=FALSE
+6862-analisarStatus()
+6865-analisarStatus()=Em jogo
+6867-analisarStatus()=Votar
+6869-verificarVez
+6872-jogadordaVez = 522 - JogadorCin
+6875-ULTIMA JOGADA = JogadorTre,J,D,10
+JogadorDoi,J,D,5
+JogadorUm,J,M,4
+JogadorSei,J,D,4
+JogadorCin,J,C,10
+JogadorQua,J,I,5
+
+6877-calculoMinhaPontuacaoAtual
+6879-MINHA VEZ=TRUE
+6881-autovotar
+6883-algoritmoVotacaoTenhoPontosSuficientes
+6885-calculoMinhaPontuacaoAtual
+6887-calculoMaiorPontuacaoTotalAtualPossivel
+6889-calculoMaiorPontuacaoPossivelAtual
+6891-calculoMaiorPontuacaoTotalAtualPossivel/[0]3035
+6893-calculoMaiorPontuacaoTotalAtualPossivel/[1]2535
+6895-calculoMaiorPontuacaoTotalAtualPossivel/[2]1635
+6897-calculoMaiorPontuacaoTotalAtualPossivel/[3]3735
+6899-calculoMaiorPontuacaoTotalAtualPossivel/[5]2235
+6901-ERRO ALGORTMO - algortimovotacaoTenhospontossuficientes retornou falso
+6903-autovotar
+6905-algoritmoVotacaoPadrao
+6907-MEU VOTO SIM
+6910-VOTACAO OK
+6913-analisarStatus()
+6916-analisarStatus()=Em jogo
+6918-analisarStatus()=Votar
+6920-verificarVez
+6923-jogadordaVez = 523 - JogadorSei
+6926-ULTIMA JOGADA = JogadorTre,J,D,10
+JogadorDoi,J,D,5
+JogadorUm,J,M,4
+JogadorSei,J,D,4
+JogadorCin,J,C,10
+JogadorQua,J,I,5
+
+6928-calculoMinhaPontuacaoAtual
+6930-MINHA VEZ=FALSE
+6933-analisarStatus()
+6936-analisarStatus()=Em jogo
+6938-analisarStatus()=Votar
+6940-verificarVez
+6943-jogadordaVez = 518 - JogadorUm
+6946-ULTIMA JOGADA = JogadorTre,J,D,10
+JogadorDoi,J,D,5
+JogadorUm,J,M,4
+JogadorSei,J,D,4
+JogadorCin,J,C,10
+JogadorQua,J,I,5
+
+6948-calculoMinhaPontuacaoAtual
+6950-MINHA VEZ=FALSE
+6953-analisarStatus()
+6956-analisarStatus()=Em jogo
+6958-analisarStatus()=Votar
+6960-verificarVez
+6963-jogadordaVez = 519 - JogadorDoi
+6966-ULTIMA JOGADA = JogadorTre,J,D,10
+JogadorDoi,J,D,5
+JogadorUm,J,M,4
+JogadorSei,J,D,4
+JogadorCin,J,C,10
+JogadorQua,J,I,5
+
+6968-calculoMinhaPontuacaoAtual
+6970-MINHA VEZ=FALSE
+6973-analisarStatus()
+6976-analisarStatus()=Em jogo
+6978-analisarStatus()=Votar
+6980-verificarVez
+6983-jogadordaVez = 519 - JogadorDoi
+6986-ULTIMA JOGADA = JogadorTre,J,D,10
+JogadorDoi,J,D,5
+JogadorUm,J,M,4
+JogadorSei,J,D,4
+JogadorCin,J,C,10
+JogadorQua,J,I,5
+
+6988-calculoMinhaPontuacaoAtual
+6990-MINHA VEZ=FALSE
+6993-analisarStatus()
+6996-analisarStatus()=Em jogo
+6998-analisarStatus()=Votar
+7000-verificarVez
+7003-jogadordaVez = 521 - JogadorQua
+7006-ULTIMA JOGADA = JogadorTre,J,D,10
+JogadorDoi,J,D,5
+JogadorUm,J,M,4
+JogadorSei,J,D,4
+JogadorCin,J,C,10
+JogadorQua,J,I,5
+
+7008-calculoMinhaPontuacaoAtual
+7010-analisarUltimaVotacao
+7013-calculoQtdTotalAtualCartasNaoNoJogo=3
+7015-calculoQtdTotalAtualCartasNaoNoJogo=3
+7017-calculoNumeroPersonagensEliminados=3
+7019-calculoQtdTotalAtualCartasNaoNoJogo=3
+7021-calculoQtdTotalAtualCartasNaoNoJogo=3
+7023-calculoNumeroPersonagensEliminados=3
+7025-calculoQtdTotalAtualCartasNaoNoJogo=3
+7027-calculoQtdTotalAtualCartasNaoNoJogo=3
+7029-calculoNumeroPersonagensEliminados=3
+7031-calculoQtdTotalAtualCartasNaoNoJogo=2
+7033-calculoQtdTotalAtualCartasNaoNoJogo=2
+7035-calculoNumeroPersonagensEliminados=3
+7037-MINHA VEZ=FALSE
+7040-analisarStatus()
+7043-analisarStatus()=Em jogo
+7045-analisarStatus()=Promover
+7047-verificarVez
+7050-jogadordaVez = 521 - JogadorQua
+7053-ULTIMA JOGADA = JogadorTre,J,D,10
+JogadorDoi,J,D,5
+JogadorUm,J,M,4
+JogadorSei,J,D,4
+JogadorCin,J,C,10
+JogadorQua,J,I,5
+
+7055-calculoMinhaPontuacaoAtual
+7057-MINHA VEZ=FALSE
+7060-analisarStatus()
+7063-analisarStatus()=Em jogo
+7065-analisarStatus()=Promover
+7067-verificarVez
+7070-jogadordaVez = 522 - JogadorCin
+7073-ULTIMA JOGADA = JogadorQua,J,P,3
+JogadorTre,J,D,10
+JogadorDoi,J,D,5
+JogadorUm,J,M,4
+JogadorSei,J,D,4
+JogadorCin,J,C,10
+
+7075-calculoMinhaPontuacaoAtual
+7077-MINHA VEZ=TRUE
+7079-autopromover
+7081-calculoNumeroPersonagensDesempregados=0
+7083-algoritmoPromocaoQualquerdeMenorNivel
+7086-PROMOCAO PERSONAGEM OK
+7089-analisarStatus()
+7092-analisarStatus()=Em jogo
+7094-analisarStatus()=Promover
+7096-verificarVez
+7099-jogadordaVez = 523 - JogadorSei
+7102-ULTIMA JOGADA = JogadorCin,J,E,5
+JogadorQua,J,P,3
+JogadorTre,J,D,10
+JogadorDoi,J,D,5
+JogadorUm,J,M,4
+JogadorSei,J,D,4
+
+7104-calculoMinhaPontuacaoAtual
+7106-MINHA VEZ=FALSE
+7109-analisarStatus()
+7112-analisarStatus()=Em jogo
+7114-analisarStatus()=Votar
+7116-verificarVez
+7119-jogadordaVez = 518 - JogadorUm
+7122-ULTIMA JOGADA = JogadorSei,J,E,10
+JogadorCin,J,E,5
+JogadorQua,J,P,3
+JogadorTre,J,D,10
+JogadorDoi,J,D,5
+JogadorUm,J,M,4
+
+7124-calculoMinhaPontuacaoAtual
+7126-MINHA VEZ=FALSE
+7129-analisarStatus()
+7132-analisarStatus()=Em jogo
+7134-analisarStatus()=Votar
+7136-verificarVez
+7139-jogadordaVez = 519 - JogadorDoi
+7142-ULTIMA JOGADA = JogadorSei,J,E,10
+JogadorCin,J,E,5
+JogadorQua,J,P,3
+JogadorTre,J,D,10
+JogadorDoi,J,D,5
+JogadorUm,J,M,4
+
+7144-calculoMinhaPontuacaoAtual
+7146-MINHA VEZ=FALSE
+7149-analisarStatus()
+7152-analisarStatus()=Em jogo
+7154-analisarStatus()=Votar
+7156-verificarVez
+7159-jogadordaVez = 519 - JogadorDoi
+7162-ULTIMA JOGADA = JogadorSei,J,E,10
+JogadorCin,J,E,5
+JogadorQua,J,P,3
+JogadorTre,J,D,10
+JogadorDoi,J,D,5
+JogadorUm,J,M,4
+
+7164-calculoMinhaPontuacaoAtual
+7166-MINHA VEZ=FALSE
+7169-analisarStatus()
+7172-analisarStatus()=Em jogo
+7174-analisarStatus()=Votar
+7176-verificarVez
+7179-jogadordaVez = 520 - JogadorTre
+7182-ULTIMA JOGADA = JogadorSei,J,E,10
+JogadorCin,J,E,5
+JogadorQua,J,P,3
+JogadorTre,J,D,10
+JogadorDoi,J,D,5
+JogadorUm,J,M,4
+
+7184-calculoMinhaPontuacaoAtual
+7186-MINHA VEZ=FALSE
+7189-analisarStatus()
+7192-analisarStatus()=Em jogo
+7194-analisarStatus()=Votar
+7196-verificarVez
+7199-jogadordaVez = 521 - JogadorQua
+7202-ULTIMA JOGADA = JogadorSei,J,E,10
+JogadorCin,J,E,5
+JogadorQua,J,P,3
+JogadorTre,J,D,10
+JogadorDoi,J,D,5
+JogadorUm,J,M,4
+
+7204-calculoMinhaPontuacaoAtual
+7206-MINHA VEZ=FALSE
+7209-analisarStatus()
+7212-analisarStatus()=Em jogo
+7214-analisarStatus()=Votar
+7216-verificarVez
+7219-jogadordaVez = 522 - JogadorCin
+7222-ULTIMA JOGADA = JogadorSei,J,E,10
+JogadorCin,J,E,5
+JogadorQua,J,P,3
+JogadorTre,J,D,10
+JogadorDoi,J,D,5
+JogadorUm,J,M,4
+
+7224-calculoMinhaPontuacaoAtual
+7226-MINHA VEZ=TRUE
+7228-autovotar
+7230-algoritmoVotacaoTenhoPontosSuficientes
+7232-calculoMinhaPontuacaoAtual
+7234-calculoMaiorPontuacaoTotalAtualPossivel
+7236-calculoMaiorPontuacaoPossivelAtual
+7238-calculoMaiorPontuacaoTotalAtualPossivel/[0]3032
+7240-calculoMaiorPontuacaoTotalAtualPossivel/[1]2532
+7242-calculoMaiorPontuacaoTotalAtualPossivel/[2]1632
+7244-calculoMaiorPontuacaoTotalAtualPossivel/[3]3732
+7246-calculoMaiorPontuacaoTotalAtualPossivel/[5]2232
+7248-ERRO ALGORTMO - algortimovotacaoTenhospontossuficientes retornou falso
+7250-autovotar
+7252-algoritmoVotacaoPadrao
+7254-MEU VOTO NAO
+7257-VOTACAO OK
+7260-analisarStatus()
+7263-analisarStatus()=Em jogo
+7265-analisarStatus()=Votar
+7267-verificarVez
+7270-jogadordaVez = 523 - JogadorSei
+7273-ULTIMA JOGADA = JogadorSei,J,E,10
+JogadorCin,J,E,5
+JogadorQua,J,P,3
+JogadorTre,J,D,10
+JogadorDoi,J,D,5
+JogadorUm,J,M,4
+
+7275-calculoMinhaPontuacaoAtual
+7277-MINHA VEZ=FALSE
+7280-analisarStatus()
+7283-analisarStatus()=Em jogo
+7285-analisarStatus()=Promover
+7287-verificarVez
+7290-jogadordaVez = 518 - JogadorUm
+7293-ULTIMA JOGADA = JogadorSei,J,E,10
+JogadorCin,J,E,5
+JogadorQua,J,P,3
+JogadorTre,J,D,10
+JogadorDoi,J,D,5
+JogadorUm,J,M,4
+
+7295-calculoMinhaPontuacaoAtual
+7297-analisarUltimaVotacao
+7300-calculoQtdTotalAtualCartasNaoNoJogo=1
+7302-calculoQtdTotalAtualCartasNaoNoJogo=1
+7304-calculoQtdTotalAtualCartasNaoNoJogo=1
+7306-calculoQtdTotalAtualCartasNaoNoJogo=1
+7308-calculoQtdTotalAtualCartasNaoNoJogo=1
+7310-calculoQtdTotalAtualCartasNaoNoJogo=1
+7312-calculoQtdTotalAtualCartasNaoNoJogo=1
+7314-calculoQtdTotalAtualCartasNaoNoJogo=1
+7316-calculoQtdTotalAtualCartasNaoNoJogo=0
+7318-calculoQtdTotalAtualCartasNaoNoJogo=0
+7320-MINHA VEZ=FALSE
+7323-analisarStatus()
+7326-analisarStatus()=Em jogo
+7328-analisarStatus()=Promover
+7330-verificarVez
+7333-jogadordaVez = 518 - JogadorUm
+7336-ULTIMA JOGADA = JogadorSei,J,E,10
+JogadorCin,J,E,5
+JogadorQua,J,P,3
+JogadorTre,J,D,10
+JogadorDoi,J,D,5
+JogadorUm,J,M,4
+
+7338-calculoMinhaPontuacaoAtual
+7340-MINHA VEZ=FALSE
+7343-analisarStatus()
+7346-analisarStatus()=Em jogo
+7348-analisarStatus()=Promover
+7350-verificarVez
+7353-jogadordaVez = 519 - JogadorDoi
+7356-ULTIMA JOGADA = JogadorDoi,J,F,4
+JogadorUm,J,M,5
+JogadorSei,J,E,10
+JogadorCin,J,E,5
+JogadorQua,J,P,3
+JogadorTre,J,D,10
+
+7358-calculoMinhaPontuacaoAtual
+7360-MINHA VEZ=FALSE
+7363-analisarStatus()
+7366-analisarStatus()=Em jogo
+7368-analisarStatus()=Promover
+7370-verificarVez
+7373-jogadordaVez = 520 - JogadorTre
+7376-ULTIMA JOGADA = JogadorDoi,J,F,4
+JogadorUm,J,M,5
+JogadorSei,J,E,10
+JogadorCin,J,E,5
+JogadorQua,J,P,3
+JogadorTre,J,D,10
+
+7378-calculoMinhaPontuacaoAtual
+7380-MINHA VEZ=FALSE
+7383-analisarStatus()
+7386-analisarStatus()=Em jogo
+7388-analisarStatus()=Promover
+7390-verificarVez
+7393-jogadordaVez = 521 - JogadorQua
+7396-ULTIMA JOGADA = JogadorTre,J,F,5
+JogadorDoi,J,F,4
+JogadorUm,J,M,5
+JogadorSei,J,E,10
+JogadorCin,J,E,5
+JogadorQua,J,P,3
+
+7398-calculoMinhaPontuacaoAtual
+7400-MINHA VEZ=FALSE
+7403-analisarStatus()
+7406-analisarStatus()=Em jogo
+7408-analisarStatus()=Promover
+7410-verificarVez
+7413-jogadordaVez = 521 - JogadorQua
+7416-ULTIMA JOGADA = JogadorTre,J,F,5
+JogadorDoi,J,F,4
+JogadorUm,J,M,5
+JogadorSei,J,E,10
+JogadorCin,J,E,5
+JogadorQua,J,P,3
+
+7418-calculoMinhaPontuacaoAtual
+7420-MINHA VEZ=FALSE
+7423-analisarStatus()
+7426-analisarStatus()=Em jogo
+7428-analisarStatus()=Votar
+7430-verificarVez
+7433-jogadordaVez = 522 - JogadorCin
+7436-ULTIMA JOGADA = JogadorQua,J,I,10
+JogadorTre,J,F,5
+JogadorDoi,J,F,4
+JogadorUm,J,M,5
+JogadorSei,J,E,10
+JogadorCin,J,E,5
+
+7438-calculoMinhaPontuacaoAtual
+7440-MINHA VEZ=TRUE
+7442-autovotar
+7444-MEU VOTO SIM
+7447-VOTACAO OK
+7450-analisarStatus()
+7453-analisarStatus()=Em jogo
+7455-analisarStatus()=Votar
+7457-verificarVez
+7460-jogadordaVez = 523 - JogadorSei
+7463-ULTIMA JOGADA = JogadorQua,J,I,10
+JogadorTre,J,F,5
+JogadorDoi,J,F,4
+JogadorUm,J,M,5
+JogadorSei,J,E,10
+JogadorCin,J,E,5
+
+7465-calculoMinhaPontuacaoAtual
+7467-MINHA VEZ=FALSE
+7470-analisarStatus()
+7473-analisarStatus()=Em jogo
+7475-analisarStatus()=Votar
+7477-verificarVez
+7480-jogadordaVez = 518 - JogadorUm
+7483-ULTIMA JOGADA = JogadorQua,J,I,10
+JogadorTre,J,F,5
+JogadorDoi,J,F,4
+JogadorUm,J,M,5
+JogadorSei,J,E,10
+JogadorCin,J,E,5
+
+7485-calculoMinhaPontuacaoAtual
+7487-MINHA VEZ=FALSE
+7490-analisarStatus()
+7493-analisarStatus()=Em jogo
+7495-analisarStatus()=Votar
+7497-verificarVez
+7500-jogadordaVez = 519 - JogadorDoi
+7503-ULTIMA JOGADA = JogadorQua,J,I,10
+JogadorTre,J,F,5
+JogadorDoi,J,F,4
+JogadorUm,J,M,5
+JogadorSei,J,E,10
+JogadorCin,J,E,5
+
+7505-calculoMinhaPontuacaoAtual
+7507-MINHA VEZ=FALSE
+7510-analisarStatus()
+7513-analisarStatus()=Em jogo
+7515-analisarStatus()=Votar
+7517-verificarVez
+7520-jogadordaVez = 519 - JogadorDoi
+7523-ULTIMA JOGADA = JogadorQua,J,I,10
+JogadorTre,J,F,5
+JogadorDoi,J,F,4
+JogadorUm,J,M,5
+JogadorSei,J,E,10
+JogadorCin,J,E,5
+
+7525-calculoMinhaPontuacaoAtual
+7527-MINHA VEZ=FALSE
+7530-analisarStatus()
+7533-analisarStatus()=Em jogo
+7535-analisarStatus()=Votar
+7537-verificarVez
+7540-jogadordaVez = 520 - JogadorTre
+7543-ULTIMA JOGADA = JogadorQua,J,I,10
+JogadorTre,J,F,5
+JogadorDoi,J,F,4
+JogadorUm,J,M,5
+JogadorSei,J,E,10
+JogadorCin,J,E,5
+
+7545-calculoMinhaPontuacaoAtual
+7547-MINHA VEZ=FALSE
+7550-analisarStatus()
+7553-analisarStatus()=Em jogo
+7555-analisarStatus()=Votar
+7557-verificarVez
+7560-jogadordaVez = 521 - JogadorQua
+7563-ULTIMA JOGADA = JogadorQua,J,I,10
+JogadorTre,J,F,5
+JogadorDoi,J,F,4
+JogadorUm,J,M,5
+JogadorSei,J,E,10
+JogadorCin,J,E,5
+
+7565-calculoMinhaPontuacaoAtual
+7567-MINHA VEZ=FALSE
+7570-analisarStatus()
+7573-analisarStatus()=Encerrada
+7577-analisarStatus()
+7580-analisarStatus()=Encerrada
+7584-analisarStatus()
+7587-analisarStatus()=Encerrada
+7591-analisarStatus()
+7594-analisarStatus()=Encerrada
+7598-analisarStatus()
+7601-analisarStatus()=Encerrada
+7605-analisarStatus()
+7608-analisarStatus()=Encerrada
+7612-analisarStatus()
+7615-analisarStatus()=Encerrada
+7619-analisarStatus()
+7622-analisarStatus()=Encerrada
+7626-analisarStatus()
+7629-analisarStatus()=Encerrada
+7633-analisarStatus()
+7636-analisarStatus()=Encerrada
+7640-analisarStatus()
+7643-analisarStatus()=Encerrada
+7647-analisarStatus()
+7650-analisarStatus()=Encerrada
+7654-analisarStatus()
+7657-analisarStatus()=Encerrada
+7661-analisarStatus()
+7664-analisarStatus()=Encerrada
+7668-analisarStatus()
+7671-analisarStatus()=Encerrada
+7675-analisarStatus()
+7678-analisarStatus()=Encerrada
+7682-analisarStatus()
+7685-analisarStatus()=Encerrada
+7689-analisarStatus()
+7692-analisarStatus()=Encerrada
+7696-analisarStatus()
+7699-analisarStatus()=Encerrada
+7703-analisarStatus()
+7706-analisarStatus()=Encerrada
+7710-analisarStatus()
+7713-analisarStatus()=Encerrada
+7717-analisarStatus()
+7720-analisarStatus()=Encerrada
+7724-analisarStatus()
+7727-analisarStatus()=Encerrada
+7731-analisarStatus()
+7734-analisarStatus()=Encerrada
+7738-analisarStatus()
+7741-analisarStatus()=Encerrada
+7745-analisarStatus()
+7748-analisarStatus()=Encerrada
+7752-analisarStatus()
+7755-analisarStatus()=Encerrada
+7759-analisarStatus()
+7762-analisarStatus()=Encerrada
+7766-analisarStatus()
+7769-analisarStatus()=Encerrada
+7773-analisarStatus()
+7776-analisarStatus()=Encerrada
+7780-analisarStatus()
+7783-analisarStatus()=Encerrada
+7787-analisarStatus()
+7790-analisarStatus()=Encerrada
+7794-analisarStatus()
+7797-analisarStatus()=Encerrada
+7801-analisarStatus()
+7804-analisarStatus()=Encerrada
+7808-analisarStatus()
+7811-analisarStatus()=Encerrada
+7815-analisarStatus()
+7818-analisarStatus()=Encerrada
+7822-analisarStatus()
+7825-analisarStatus()=Encerrada
+7829-analisarStatus()
+7832-analisarStatus()=Encerrada
+7836-analisarStatus()
+7839-analisarStatus()=Encerrada
+7843-analisarStatus()
+7846-analisarStatus()=Encerrada
+7850-analisarStatus()
+7853-analisarStatus()=Encerrada
+7857-analisarStatus()
+7860-analisarStatus()=Encerrada
+7864-analisarStatus()
+7867-analisarStatus()=Encerrada
+7871-analisarStatus()
+7874-analisarStatus()=Encerrada
+7878-analisarStatus()
+7881-analisarStatus()=Encerrada
+7885-analisarStatus()
+7888-analisarStatus()=Encerrada
+7892-analisarStatus()
+7895-analisarStatus()=Encerrada
+7899-analisarStatus()
+7902-analisarStatus()=Encerrada
+7906-analisarStatus()
+7909-analisarStatus()=Encerrada
+7913-analisarStatus()
+7916-analisarStatus()=Encerrada
+7920-analisarStatus()
+7923-analisarStatus()=Encerrada
+7927-analisarStatus()
+7930-analisarStatus()=Encerrada
+7934-analisarStatus()
+7937-analisarStatus()=Encerrada
+7941-analisarStatus()
+7944-analisarStatus()=Encerrada
+7948-analisarStatus()
+7951-analisarStatus()=Encerrada
+7955-analisarStatus()
+7958-analisarStatus()=Encerrada
+7962-analisarStatus()
+7965-analisarStatus()=Encerrada
+7969-analisarStatus()
+7972-analisarStatus()=Encerrada
+7976-analisarStatus()
+7979-analisarStatus()=Encerrada
+7983-analisarStatus()
+7986-analisarStatus()=Encerrada
+7990-analisarStatus()
+7993-analisarStatus()=Encerrada
+7997-analisarStatus()
+8000-analisarStatus()=Encerrada
+8004-analisarStatus()
+8007-analisarStatus()=Encerrada
+8011-analisarStatus()
+8014-analisarStatus()=Encerrada
+8018-analisarStatus()
+8021-analisarStatus()=Encerrada
+8025-analisarStatus()
+8028-analisarStatus()=Encerrada
+8032-analisarStatus()
+8035-analisarStatus()=Encerrada
+8039-analisarStatus()
+8042-analisarStatus()=Encerrada
+8046-analisarStatus()
+8049-analisarStatus()=Encerrada
+8053-analisarStatus()
+8056-analisarStatus()=Encerrada
+8060-analisarStatus()
+8063-analisarStatus()=Encerrada
+8067-analisarStatus()
+8070-analisarStatus()=Encerrada
+8074-analisarStatus()
+8077-analisarStatus()=Encerrada
+8081-analisarStatus()
+8084-analisarStatus()=Encerrada
+8088-analisarStatus()
+8091-analisarStatus()=Encerrada
+8095-analisarStatus()
+8098-analisarStatus()=Encerrada
+8102-analisarStatus()
+8105-analisarStatus()=Encerrada
+8109-analisarStatus()
+8112-analisarStatus()=Encerrada
+8116-analisarStatus()
+8119-analisarStatus()=Encerrada
+8123-analisarStatus()
+8126-analisarStatus()=Encerrada
+8130-analisarStatus()
+8133-analisarStatus()=Encerrada
+8137-analisarStatus()
+8140-analisarStatus()=Encerrada
+8144-analisarStatus()
+8147-analisarStatus()=Encerrada
+8151-analisarStatus()
+8154-analisarStatus()=Encerrada
+8158-analisarStatus()
+8161-analisarStatus()=Encerrada
+8165-analisarStatus()
+8168-analisarStatus()=Encerrada
+8172-analisarStatus()
+8175-analisarStatus()=Encerrada
+8179-analisarStatus()
+8182-analisarStatus()=Encerrada
+8186-analisarStatus()
+8189-analisarStatus()=Encerrada
+8193-analisarStatus()
+8196-analisarStatus()=Encerrada
+8200-analisarStatus()
+8203-analisarStatus()=Encerrada
+8207-analisarStatus()
+8210-analisarStatus()=Encerrada
+8214-analisarStatus()
+8217-analisarStatus()=Encerrada
+8221-analisarStatus()
+8224-analisarStatus()=Encerrada
+8228-analisarStatus()
+8231-analisarStatus()=Encerrada
+8235-analisarStatus()
+8238-analisarStatus()=Encerrada
+8242-analisarStatus()
+8245-analisarStatus()=Encerrada
+8249-analisarStatus()
+8252-analisarStatus()=Encerrada
+8256-analisarStatus()
+8259-analisarStatus()=Encerrada
+8263-analisarStatus()
+8266-analisarStatus()=Encerrada
+8270-analisarStatus()
+8273-analisarStatus()=Encerrada
+8277-analisarStatus()
+8280-analisarStatus()=Encerrada
+8284-analisarStatus()
+8287-analisarStatus()=Encerrada
+8291-analisarStatus()
+8294-analisarStatus()=Encerrada
+8298-analisarStatus()
+8301-analisarStatus()=Encerrada
+8305-analisarStatus()
+8308-analisarStatus()=Encerrada
+8312-analisarStatus()
+8315-analisarStatus()=Encerrada
+8319-analisarStatus()
+8322-analisarStatus()=Encerrada
+8326-analisarStatus()
+8329-analisarStatus()=Encerrada
+8333-analisarStatus()
+8336-analisarStatus()=Encerrada
+8340-analisarStatus()
+8343-analisarStatus()=Encerrada
+8347-analisarStatus()
+8350-analisarStatus()=Encerrada
+8354-analisarStatus()
+8357-analisarStatus()=Encerrada
+8361-analisarStatus()
+8364-analisarStatus()=Encerrada
+8368-analisarStatus()
+8371-analisarStatus()=Encerrada
+8375-analisarStatus()
+8378-analisarStatus()=Encerrada
+8382-analisarStatus()
+8385-analisarStatus()=Encerrada
+8389-analisarStatus()
+8392-analisarStatus()=Encerrada
+8396-analisarStatus()
+8399-analisarStatus()=Encerrada
+8403-analisarStatus()
+8406-analisarStatus()=Encerrada
+8410-analisarStatus()
+8413-analisarStatus()=Encerrada
+8417-analisarStatus()
+8420-analisarStatus()=Encerrada
+8424-analisarStatus()
+8427-analisarStatus()=Encerrada
+8431-analisarStatus()
+8434-analisarStatus()=Encerrada
+8438-analisarStatus()
+8441-analisarStatus()=Encerrada
+8445-analisarStatus()
+8448-analisarStatus()=Encerrada
+8452-analisarStatus()
+8455-analisarStatus()=Encerrada
+8459-analisarStatus()
+8462-analisarStatus()=Encerrada
+8466-analisarStatus()
+8469-analisarStatus()=Encerrada
+8473-analisarStatus()
+8476-analisarStatus()=Encerrada
+8480-analisarStatus()
+8483-analisarStatus()=Encerrada
+8487-analisarStatus()
+8490-analisarStatus()=Encerrada
+8494-analisarStatus()
+8497-analisarStatus()=Encerrada
+8501-analisarStatus()
+8504-analisarStatus()=Encerrada
+8508-analisarStatus()
+8511-analisarStatus()=Encerrada
+8515-analisarStatus()
+8518-analisarStatus()=Encerrada
+8522-analisarStatus()
+8525-analisarStatus()=Encerrada
+8529-analisarStatus()
+8532-analisarStatus()=Encerrada
+8536-analisarStatus()
+8539-analisarStatus()=Encerrada
+8543-analisarStatus()
+8546-analisarStatus()=Encerrada
+8550-analisarStatus()
+8553-analisarStatus()=Encerrada
+8557-analisarStatus()
+8560-analisarStatus()=Encerrada
+8564-analisarStatus()
+8567-analisarStatus()=Encerrada
+8571-analisarStatus()
+8574-analisarStatus()=Encerrada
+8578-analisarStatus()
+8581-analisarStatus()=Encerrada
+8585-analisarStatus()
+8588-analisarStatus()=Encerrada
+8592-analisarStatus()
+8595-analisarStatus()=Encerrada
+8599-analisarStatus()
+8602-analisarStatus()=Encerrada
+8606-analisarStatus()
+8609-analisarStatus()=Encerrada
+8613-analisarStatus()
+8616-analisarStatus()=Encerrada
+8620-analisarStatus()
+8623-analisarStatus()=Encerrada
+8627-analisarStatus()
+8630-analisarStatus()=Encerrada
+8634-analisarStatus()
+8637-analisarStatus()=Encerrada
+8641-analisarStatus()
+8644-analisarStatus()=Encerrada
+8648-analisarStatus()
+8651-analisarStatus()=Encerrada
+8655-analisarStatus()
+8658-analisarStatus()=Encerrada
+8662-analisarStatus()
+8665-analisarStatus()=Encerrada
+8669-analisarStatus()
+8672-analisarStatus()=Encerrada
+8676-analisarStatus()
+8679-analisarStatus()=Encerrada
+8683-analisarStatus()
+8686-analisarStatus()=Encerrada
+8690-analisarStatus()
+8693-analisarStatus()=Encerrada
+8697-analisarStatus()
+8700-analisarStatus()=Encerrada
+8704-analisarStatus()
+8707-analisarStatus()=Encerrada
+8711-analisarStatus()
+8714-analisarStatus()=Encerrada
+8718-analisarStatus()
+8721-analisarStatus()=Encerrada
+8725-analisarStatus()
+8728-analisarStatus()=Encerrada
+8732-analisarStatus()
+8735-analisarStatus()=Encerrada
+8739-analisarStatus()
+8742-analisarStatus()=Encerrada
+8746-analisarStatus()
+8749-analisarStatus()=Encerrada
+8753-analisarStatus()
+8756-analisarStatus()=Encerrada
+8760-analisarStatus()
+8763-analisarStatus()=Encerrada
+8767-analisarStatus()
+8770-analisarStatus()=Encerrada
+8774-analisarStatus()
+8777-analisarStatus()=Encerrada
+8781-analisarStatus()
+8784-analisarStatus()=Encerrada
+8788-analisarStatus()
+8791-analisarStatus()=Encerrada
+8795-analisarStatus()
+8798-analisarStatus()=Encerrada
+8802-analisarStatus()
+8805-analisarStatus()=Encerrada
+8809-analisarStatus()
+8812-analisarStatus()=Encerrada
+8816-analisarStatus()
+8819-analisarStatus()=Encerrada
+8823-analisarStatus()
+8826-analisarStatus()=Encerrada
+8830-analisarStatus()
+8833-analisarStatus()=Encerrada
+8837-analisarStatus()
+8840-analisarStatus()=Encerrada
+8844-analisarStatus()
+8847-analisarStatus()=Encerrada
+8851-analisarStatus()
+8854-analisarStatus()=Encerrada
+8858-analisarStatus()
+8861-analisarStatus()=Encerrada
+8865-analisarStatus()
+8868-analisarStatus()=Encerrada
+8872-analisarStatus()
+8875-analisarStatus()=Encerrada
+8879-analisarStatus()
+8882-analisarStatus()=Encerrada
+8886-analisarStatus()
+8889-analisarStatus()=Encerrada
+8893-analisarStatus()
+8896-analisarStatus()=Encerrada
+8900-analisarStatus()
+8903-analisarStatus()=Encerrada
+8907-analisarStatus()
+8910-analisarStatus()=Encerrada
+8914-analisarStatus()
+8917-analisarStatus()=Encerrada
+8921-analisarStatus()
+8924-analisarStatus()=Encerrada
+8928-analisarStatus()
+8931-analisarStatus()=Encerrada
+8935-analisarStatus()
+8938-analisarStatus()=Encerrada
+8942-analisarStatus()
+8945-analisarStatus()=Encerrada
+8949-analisarStatus()
+8952-analisarStatus()=Encerrada
+8956-analisarStatus()
+8959-analisarStatus()=Encerrada
+8963-analisarStatus()
+8966-analisarStatus()=Encerrada
+8970-analisarStatus()
+8973-analisarStatus()=Encerrada
+8977-analisarStatus()
+8980-analisarStatus()=Encerrada
+8984-analisarStatus()
+8987-analisarStatus()=Encerrada
+8991-analisarStatus()
+8994-analisarStatus()=Encerrada
+8998-analisarStatus()
+9001-analisarStatus()=Encerrada
+9005-analisarStatus()
+9008-analisarStatus()=Encerrada
+9012-analisarStatus()
+9015-analisarStatus()=Encerrada
+9019-analisarStatus()
+9022-analisarStatus()=Encerrada
+9026-analisarStatus()
+9029-analisarStatus()=Encerrada
+9033-analisarStatus()
+9036-analisarStatus()=Encerrada
+9040-analisarStatus()
+9043-analisarStatus()=Encerrada
+9047-analisarStatus()
+9050-analisarStatus()=Encerrada
+9054-analisarStatus()
+9057-analisarStatus()=Encerrada
+9061-analisarStatus()
+9064-analisarStatus()=Encerrada
+9068-analisarStatus()
+9071-analisarStatus()=Encerrada
+9075-analisarStatus()
+9078-analisarStatus()=Encerrada
+9082-analisarStatus()
+9085-analisarStatus()=Encerrada
+9089-analisarStatus()
+9092-analisarStatus()=Encerrada
+9096-analisarStatus()
+9099-analisarStatus()=Encerrada
+9103-analisarStatus()
+9106-analisarStatus()=Encerrada
+9110-analisarStatus()
+9113-analisarStatus()=Encerrada
+9117-analisarStatus()
+9120-analisarStatus()=Encerrada
+9124-analisarStatus()
+9127-analisarStatus()=Encerrada
+9131-analisarStatus()
+9134-analisarStatus()=Encerrada
+9138-analisarStatus()
+9141-analisarStatus()=Encerrada
+9145-analisarStatus()
+9148-analisarStatus()=Encerrada
+9152-analisarStatus()
+9155-analisarStatus()=Encerrada
+9159-analisarStatus()
+9162-analisarStatus()=Encerrada
+9166-analisarStatus()
+9169-analisarStatus()=Encerrada
+9173-analisarStatus()
+9176-analisarStatus()=Encerrada
+9180-analisarStatus()
+9183-analisarStatus()=Encerrada
+9187-analisarStatus()
+9190-analisarStatus()=Encerrada
+9194-analisarStatus()
+9197-analisarStatus()=Encerrada
+9201-analisarStatus()
+9204-analisarStatus()=Encerrada
+9208-analisarStatus()
+9211-analisarStatus()=Encerrada
+9215-analisarStatus()
+9218-analisarStatus()=Encerrada
+9222-analisarStatus()
+9225-analisarStatus()=Encerrada
+9229-analisarStatus()
+9232-analisarStatus()=Encerrada
+9236-analisarStatus()
+9239-analisarStatus()=Encerrada
+9243-analisarStatus()
+9246-analisarStatus()=Encerrada
+9250-analisarStatus()
+9253-analisarStatus()=Encerrada
+9257-analisarStatus()
+9260-analisarStatus()=Encerrada
+9264-analisarStatus()
+9267-analisarStatus()=Encerrada
+9271-analisarStatus()
+9274-analisarStatus()=Encerrada
+9278-analisarStatus()
+9281-analisarStatus()=Encerrada
+9285-analisarStatus()
+9288-analisarStatus()=Encerrada
+9292-analisarStatus()
+9295-analisarStatus()=Encerrada
+9299-analisarStatus()
+9302-analisarStatus()=Encerrada
+9306-analisarStatus()
+9309-analisarStatus()=Encerrada
+9313-analisarStatus()
+9316-analisarStatus()=Encerrada
+9320-analisarStatus()
+9323-analisarStatus()=Encerrada
+9327-analisarStatus()
+9330-analisarStatus()=Encerrada
+9334-analisarStatus()
+9337-analisarStatus()=Encerrada
+9341-analisarStatus()
+9344-analisarStatus()=Encerrada
+9348-analisarStatus()
+9351-analisarStatus()=Encerrada
+9355-analisarStatus()
+9358-analisarStatus()=Encerrada
+9362-analisarStatus()
+9365-analisarStatus()=Encerrada
+9369-analisarStatus()
+9372-analisarStatus()=Encerrada
+9376-analisarStatus()
+9379-analisarStatus()=Encerrada
+9383-analisarStatus()
+9386-analisarStatus()=Encerrada
+9390-analisarStatus()
+9393-analisarStatus()=Encerrada
+9397-analisarStatus()
+9400-analisarStatus()=Encerrada
+9404-analisarStatus()
+9407-analisarStatus()=Encerrada
+9411-analisarStatus()
+9414-analisarStatus()=Encerrada
+9418-analisarStatus()
+9421-analisarStatus()=Encerrada
+9425-analisarStatus()
+9428-analisarStatus()=Encerrada
+9432-analisarStatus()
+9435-analisarStatus()=Encerrada
+9439-analisarStatus()
+9442-analisarStatus()=Encerrada
+9446-analisarStatus()
+9449-analisarStatus()=Encerrada
+9453-analisarStatus()
+9456-analisarStatus()=Encerrada
+9460-analisarStatus()
+9463-analisarStatus()=Encerrada
+9467-analisarStatus()
+9470-analisarStatus()=Encerrada
+9474-analisarStatus()
+9477-analisarStatus()=Encerrada
+9481-analisarStatus()
+9484-analisarStatus()=Encerrada
+9488-analisarStatus()
+9491-analisarStatus()=Encerrada
+9495-analisarStatus()
+9498-analisarStatus()=Encerrada
+9502-analisarStatus()
+9505-analisarStatus()=Encerrada
+9509-analisarStatus()
+9512-analisarStatus()=Encerrada
+9516-analisarStatus()
+9519-analisarStatus()=Encerrada
+9523-analisarStatus()
+9526-analisarStatus()=Encerrada
+9530-analisarStatus()
+9533-analisarStatus()=Encerrada
+9537-analisarStatus()
+9540-analisarStatus()=Encerrada
+9544-analisarStatus()
+9547-analisarStatus()=Encerrada
+9551-analisarStatus()
+9554-analisarStatus()=Encerrada
+9558-analisarStatus()
+9561-analisarStatus()=Encerrada
+9565-analisarStatus()
+9568-analisarStatus()=Encerrada
+9572-analisarStatus()
+9575-analisarStatus()=Encerrada
+9579-analisarStatus()
+9582-analisarStatus()=Encerrada
+9586-analisarStatus()
+9589-analisarStatus()=Encerrada
+9593-analisarStatus()
+9596-analisarStatus()=Encerrada
+9600-analisarStatus()
+9603-analisarStatus()=Encerrada
+9607-analisarStatus()
+9610-analisarStatus()=Encerrada
+9614-analisarStatus()
+9617-analisarStatus()=Encerrada
+9621-analisarStatus()
+9624-analisarStatus()=Encerrada
+9628-analisarStatus()
+9631-analisarStatus()=Encerrada
+9635-analisarStatus()
+9638-analisarStatus()=Encerrada
+9642-analisarStatus()
+9645-analisarStatus()=Encerrada
+9649-analisarStatus()
+9652-analisarStatus()=Encerrada
+9656-analisarStatus()
+9659-analisarStatus()=Encerrada
+9663-analisarStatus()
+9666-analisarStatus()=Encerrada
+9670-analisarStatus()
+9673-analisarStatus()=Encerrada
+9677-analisarStatus()
+9680-analisarStatus()=Encerrada
+9684-analisarStatus()
+9687-analisarStatus()=Encerrada
+9691-analisarStatus()
+9694-analisarStatus()=Encerrada
+9698-analisarStatus()
+9701-analisarStatus()=Encerrada
+9705-analisarStatus()
+9708-analisarStatus()=Encerrada
+9712-analisarStatus()
+9715-analisarStatus()=Encerrada
+9719-analisarStatus()
+9722-analisarStatus()=Encerrada
+9726-analisarStatus()
+9729-analisarStatus()=Encerrada
+9733-analisarStatus()
+9736-analisarStatus()=Encerrada
+9740-analisarStatus()
+9743-analisarStatus()=Encerrada
+9747-analisarStatus()
+9750-analisarStatus()=Encerrada
+9754-analisarStatus()
+9757-analisarStatus()=Encerrada
+9761-analisarStatus()
+9764-analisarStatus()=Encerrada
+9768-analisarStatus()
+9771-analisarStatus()=Encerrada
+9775-analisarStatus()
+9778-analisarStatus()=Encerrada
+9782-analisarStatus()
+9785-analisarStatus()=Encerrada
+9789-analisarStatus()
+9792-analisarStatus()=Encerrada
+9796-analisarStatus()
+9799-analisarStatus()=Encerrada
+9803-analisarStatus()
+9806-analisarStatus()=Encerrada
+9810-analisarStatus()
+9813-analisarStatus()=Encerrada
+9817-analisarStatus()
+9820-analisarStatus()=Encerrada
+9824-analisarStatus()
+9827-analisarStatus()=Encerrada
+9831-analisarStatus()
+9834-analisarStatus()=Encerrada
+9838-analisarStatus()
+9841-analisarStatus()=Encerrada
+9845-analisarStatus()
+9848-analisarStatus()=Encerrada
+9852-analisarStatus()
+9855-analisarStatus()=Encerrada
+9859-analisarStatus()
+9862-analisarStatus()=Encerrada
+9866-analisarStatus()
+9869-analisarStatus()=Encerrada
+9873-analisarStatus()
+9876-analisarStatus()=Encerrada
+9880-analisarStatus()
+9883-analisarStatus()=Encerrada
+9887-analisarStatus()
+9890-analisarStatus()=Encerrada
+9894-analisarStatus()
+9897-analisarStatus()=Encerrada
+9901-analisarStatus()
+9904-analisarStatus()=Encerrada
+9908-analisarStatus()
+9911-analisarStatus()=Encerrada
+9915-analisarStatus()
+9918-analisarStatus()=Encerrada
+9922-analisarStatus()
+9925-analisarStatus()=Encerrada
+9929-analisarStatus()
+9932-analisarStatus()=Encerrada
+9936-analisarStatus()
+9939-analisarStatus()=Encerrada
+9943-analisarStatus()
+9946-analisarStatus()=Encerrada
+9950-analisarStatus()
+9953-analisarStatus()=Encerrada
+9957-analisarStatus()
+9960-analisarStatus()=Encerrada
+9964-analisarStatus()
+9967-analisarStatus()=Encerrada
+9971-analisarStatus()
+9974-analisarStatus()=Encerrada
+9978-analisarStatus()
+9981-analisarStatus()=Encerrada
+9985-analisarStatus()
+9988-analisarStatus()=Encerrada
+9992-analisarStatus()
+9995-analisarStatus()=Encerrada
+9999-analisarStatus()
+10002-analisarStatus()=Encerrada
+10006-analisarStatus()
+10009-analisarStatus()=Encerrada
+10013-analisarStatus()
+10016-analisarStatus()=Encerrada
+10020-analisarStatus()
+10023-analisarStatus()=Encerrada
+10027-analisarStatus()
+10030-analisarStatus()=Encerrada
+10034-analisarStatus()
+10037-analisarStatus()=Encerrada
+10041-analisarStatus()
+10044-analisarStatus()=Encerrada
+10048-analisarStatus()
+10051-analisarStatus()=Encerrada
+10055-analisarStatus()
+10058-analisarStatus()=Encerrada
+10062-analisarStatus()
+10065-analisarStatus()=Encerrada
+10069-analisarStatus()
+10072-analisarStatus()=Encerrada
+10076-analisarStatus()
+10079-analisarStatus()=Encerrada
+10083-analisarStatus()
+10086-analisarStatus()=Encerrada
+10090-analisarStatus()
+10093-analisarStatus()=Encerrada
+10097-analisarStatus()
+10100-analisarStatus()=Encerrada
+10104-analisarStatus()
+10107-analisarStatus()=Encerrada
+10111-analisarStatus()
+10114-analisarStatus()=Encerrada
+10118-analisarStatus()
+10121-analisarStatus()=Encerrada
+10125-analisarStatus()
+10128-analisarStatus()=Encerrada
+10132-analisarStatus()
+10135-analisarStatus()=Encerrada
+10139-analisarStatus()
+10142-analisarStatus()=Encerrada
+10146-analisarStatus()
+10149-analisarStatus()=Encerrada
+10153-analisarStatus()
+10156-analisarStatus()=Encerrada
+10160-analisarStatus()
+10163-analisarStatus()=Encerrada
+10167-analisarStatus()
+10170-analisarStatus()=Encerrada
+10174-analisarStatus()
+10177-analisarStatus()=Encerrada
+10181-analisarStatus()
+10184-analisarStatus()=Encerrada
+10188-analisarStatus()
+10191-analisarStatus()=Encerrada
+10195-analisarStatus()
+10198-analisarStatus()=Encerrada
+10202-analisarStatus()
+10205-analisarStatus()=Encerrada
+10209-analisarStatus()
+10212-analisarStatus()=Encerrada
+10216-analisarStatus()
+10219-analisarStatus()=Encerrada
+10223-analisarStatus()
+10226-analisarStatus()=Encerrada
+10230-analisarStatus()
+10233-analisarStatus()=Encerrada
+10237-analisarStatus()
+10240-analisarStatus()=Encerrada
+10244-analisarStatus()
+10247-analisarStatus()=Encerrada
+10251-analisarStatus()
+10254-analisarStatus()=Encerrada
+10258-analisarStatus()
+10261-analisarStatus()=Encerrada
+10265-analisarStatus()
+10268-analisarStatus()=Encerrada
+10272-analisarStatus()
+10275-analisarStatus()=Encerrada
+10279-analisarStatus()
+10282-analisarStatus()=Encerrada
+10286-analisarStatus()
+10289-analisarStatus()=Encerrada
+10293-analisarStatus()
+10296-analisarStatus()=Encerrada
+10300-analisarStatus()
+10303-analisarStatus()=Encerrada
+10307-analisarStatus()
+10310-analisarStatus()=Encerrada
+10314-analisarStatus()
+10317-analisarStatus()=Encerrada
+10321-analisarStatus()
+10324-analisarStatus()=Encerrada
+10328-analisarStatus()
+10331-analisarStatus()=Encerrada
+10335-analisarStatus()
+10338-analisarStatus()=Encerrada
+10342-analisarStatus()
+10345-analisarStatus()=Encerrada
+10349-analisarStatus()
+10352-analisarStatus()=Encerrada
+10356-analisarStatus()
+10359-analisarStatus()=Encerrada
+10363-analisarStatus()
+10366-analisarStatus()=Encerrada
+10370-analisarStatus()
+10373-analisarStatus()=Encerrada
+10377-analisarStatus()
+10380-analisarStatus()=Encerrada
+10384-analisarStatus()
+10387-analisarStatus()=Encerrada
+10391-analisarStatus()
+10394-analisarStatus()=Encerrada
+10398-analisarStatus()
+10401-analisarStatus()=Encerrada
+10405-analisarStatus()
+10408-analisarStatus()=Encerrada
+10412-analisarStatus()
+10415-analisarStatus()=Encerrada
+10419-analisarStatus()
+10422-analisarStatus()=Encerrada
+10426-analisarStatus()
+10429-analisarStatus()=Encerrada
+10433-analisarStatus()
+10436-analisarStatus()=Encerrada
+10440-analisarStatus()
+10443-analisarStatus()=Encerrada
+10447-analisarStatus()
+10450-analisarStatus()=Encerrada
+10454-analisarStatus()
+10457-analisarStatus()=Encerrada
+10461-analisarStatus()
+10464-analisarStatus()=Encerrada
+10468-analisarStatus()
+10471-analisarStatus()=Encerrada
+10475-analisarStatus()
+10478-analisarStatus()=Encerrada
+10482-analisarStatus()
+10485-analisarStatus()=Encerrada
+10489-analisarStatus()
+10492-analisarStatus()=Encerrada
+10496-analisarStatus()
+10499-analisarStatus()=Encerrada
+10503-analisarStatus()
+10506-analisarStatus()=Encerrada
+10510-analisarStatus()
+10513-analisarStatus()=Encerrada
+10517-analisarStatus()
+10520-analisarStatus()=Encerrada
+10524-analisarStatus()
+10527-analisarStatus()=Encerrada
+10531-analisarStatus()
+10534-analisarStatus()=Encerrada
+10538-analisarStatus()
+10541-analisarStatus()=Encerrada
+10545-analisarStatus()
+10548-analisarStatus()=Encerrada
+10552-analisarStatus()
+10555-analisarStatus()=Encerrada
+10559-analisarStatus()
+10562-analisarStatus()=Encerrada
+10566-analisarStatus()
+10569-analisarStatus()=Encerrada
+10573-analisarStatus()
+10576-analisarStatus()=Encerrada
+10580-analisarStatus()
+10583-analisarStatus()=Encerrada
+10587-analisarStatus()
+10590-analisarStatus()=Encerrada
+10594-analisarStatus()
+10597-analisarStatus()=Encerrada
+10601-analisarStatus()
+10604-analisarStatus()=Encerrada
+10608-analisarStatus()
+10611-analisarStatus()=Encerrada
+10615-analisarStatus()
+10618-analisarStatus()=Encerrada
+10622-analisarStatus()
+10625-analisarStatus()=Encerrada
+10629-analisarStatus()
+10632-analisarStatus()=Encerrada
+10636-analisarStatus()
+10639-analisarStatus()=Encerrada
+10643-analisarStatus()
+10646-analisarStatus()=Encerrada
+10650-analisarStatus()
+10653-analisarStatus()=Encerrada
+10657-analisarStatus()
+10660-analisarStatus()=Encerrada
+10664-analisarStatus()
+10667-analisarStatus()=Encerrada
+10671-analisarStatus()
+10674-analisarStatus()=Encerrada
+10678-analisarStatus()
+10681-analisarStatus()=Encerrada
+10685-analisarStatus()
+10688-analisarStatus()=Encerrada
+10692-analisarStatus()
+10695-analisarStatus()=Encerrada
+10699-analisarStatus()
+10702-analisarStatus()=Encerrada
+10706-analisarStatus()
+10709-analisarStatus()=Encerrada
+10713-analisarStatus()
+10716-analisarStatus()=Encerrada
+10720-analisarStatus()
+10723-analisarStatus()=Encerrada
+10727-analisarStatus()
+10730-analisarStatus()=Encerrada
+10734-analisarStatus()
+10737-analisarStatus()=Encerrada
+10741-analisarStatus()
+10744-analisarStatus()=Encerrada
+10748-analisarStatus()
+10751-analisarStatus()=Encerrada
+10755-analisarStatus()
+10758-analisarStatus()=Encerrada
+10762-analisarStatus()
+10765-analisarStatus()=Encerrada
+10769-analisarStatus()
+10772-analisarStatus()=Encerrada
+10776-analisarStatus()
+10779-analisarStatus()=Encerrada
+10783-analisarStatus()
+10786-analisarStatus()=Encerrada
+10790-analisarStatus()
+10793-analisarStatus()=Encerrada
+10797-analisarStatus()
+10800-analisarStatus()=Encerrada
+10804-analisarStatus()
+10807-analisarStatus()=Encerrada
+10811-analisarStatus()
+10814-analisarStatus()=Encerrada
+10818-analisarStatus()
+10821-analisarStatus()=Encerrada
+10825-analisarStatus()
+10828-analisarStatus()=Encerrada
+10832-analisarStatus()
+10835-analisarStatus()=Encerrada
+10839-analisarStatus()
+10842-analisarStatus()=Encerrada
+10846-analisarStatus()
+10849-analisarStatus()=Encerrada
+10853-analisarStatus()
+10856-analisarStatus()=Encerrada
+10860-analisarStatus()
+10863-analisarStatus()=Encerrada
+10867-analisarStatus()
+10870-analisarStatus()=Encerrada
+10874-analisarStatus()
+10877-analisarStatus()=Encerrada
+10881-analisarStatus()
+10884-analisarStatus()=Encerrada
+10888-analisarStatus()
+10891-analisarStatus()=Encerrada
+10895-analisarStatus()
+10898-analisarStatus()=Encerrada
+10902-analisarStatus()
+10905-analisarStatus()=Encerrada
+10909-analisarStatus()
+10912-analisarStatus()=Encerrada
+10916-analisarStatus()
+10919-analisarStatus()=Encerrada
+10923-analisarStatus()
+10926-analisarStatus()=Encerrada
+10930-analisarStatus()
+10933-analisarStatus()=Encerrada
+10937-analisarStatus()
+10940-analisarStatus()=Encerrada
+10944-analisarStatus()
+10947-analisarStatus()=Encerrada
+10951-analisarStatus()
+10954-analisarStatus()=Encerrada
+10958-analisarStatus()
+10961-analisarStatus()=Encerrada
+10965-analisarStatus()
+10968-analisarStatus()=Encerrada
+10972-analisarStatus()
+10975-analisarStatus()=Encerrada
+10979-analisarStatus()
+10982-analisarStatus()=Encerrada
+10986-analisarStatus()
+10989-analisarStatus()=Encerrada
+10993-analisarStatus()
+10996-analisarStatus()=Encerrada
+11000-analisarStatus()
+11003-analisarStatus()=Encerrada
+11007-analisarStatus()
+11010-analisarStatus()=Encerrada
+11014-analisarStatus()
+11017-analisarStatus()=Encerrada
+11021-analisarStatus()
+11024-analisarStatus()=Encerrada
+11028-analisarStatus()
+11031-analisarStatus()=Encerrada
+11035-analisarStatus()
+11038-analisarStatus()=Encerrada
+11042-analisarStatus()
+11045-analisarStatus()=Encerrada
+11049-analisarStatus()
+11052-analisarStatus()=Encerrada
+11056-analisarStatus()
+11059-analisarStatus()=Encerrada
+11063-analisarStatus()
+11066-analisarStatus()=Encerrada
+11070-analisarStatus()
+11073-analisarStatus()=Encerrada
+11077-analisarStatus()
+11080-analisarStatus()=Encerrada
+11084-analisarStatus()
+11087-analisarStatus()=Encerrada
+11091-analisarStatus()
+11094-analisarStatus()=Encerrada
+11098-analisarStatus()
+11101-analisarStatus()=Encerrada
+11105-analisarStatus()
+11108-analisarStatus()=Encerrada
+11112-analisarStatus()
+11115-analisarStatus()=Encerrada
+11119-analisarStatus()
+11122-analisarStatus()=Encerrada
+11126-analisarStatus()
+11129-analisarStatus()=Encerrada
+11133-analisarStatus()
+11136-analisarStatus()=Encerrada
+11140-analisarStatus()
+11143-analisarStatus()=Encerrada
+11147-analisarStatus()
+11150-analisarStatus()=Encerrada
+11154-analisarStatus()
+11157-analisarStatus()=Encerrada
+11161-analisarStatus()
+11164-analisarStatus()=Encerrada
+11168-analisarStatus()
+11171-analisarStatus()=Encerrada
+11175-analisarStatus()
+11178-analisarStatus()=Encerrada
+11182-analisarStatus()
+11185-analisarStatus()=Encerrada
+11189-analisarStatus()
+11192-analisarStatus()=Encerrada
+11196-analisarStatus()
+11199-analisarStatus()=Encerrada
+11203-analisarStatus()
+11206-analisarStatus()=Encerrada
+11210-analisarStatus()
+11213-analisarStatus()=Encerrada
+11217-analisarStatus()
+11220-analisarStatus()=Encerrada
+11224-analisarStatus()
+11227-analisarStatus()=Encerrada
+11231-analisarStatus()
+11234-analisarStatus()=Encerrada
+11238-analisarStatus()
+11241-analisarStatus()=Encerrada
+11245-analisarStatus()
+11248-analisarStatus()=Encerrada
+11252-analisarStatus()
+11255-analisarStatus()=Encerrada
+11259-analisarStatus()
+11262-analisarStatus()=Encerrada
+11266-analisarStatus()
+11269-analisarStatus()=Encerrada
+11273-analisarStatus()
+11276-analisarStatus()=Encerrada
+11280-analisarStatus()
+11283-analisarStatus()=Encerrada
+11287-analisarStatus()
+11290-analisarStatus()=Encerrada
+11294-analisarStatus()
+11297-analisarStatus()=Encerrada
+11301-analisarStatus()
+11304-analisarStatus()=Encerrada
+11308-analisarStatus()
+11311-analisarStatus()=Encerrada
+11315-analisarStatus()
+11318-analisarStatus()=Encerrada
+11322-analisarStatus()
+11325-analisarStatus()=Encerrada
+11329-analisarStatus()
+11332-analisarStatus()=Encerrada
+11336-analisarStatus()
+11339-analisarStatus()=Encerrada
+11343-analisarStatus()
+11346-analisarStatus()=Encerrada
+11350-analisarStatus()
+11353-analisarStatus()=Encerrada
+11357-analisarStatus()
+11360-analisarStatus()=Encerrada
+11364-analisarStatus()
+11367-analisarStatus()=Encerrada
+11371-analisarStatus()
+11374-analisarStatus()=Encerrada
+11378-analisarStatus()
+11381-analisarStatus()=Encerrada
+11385-analisarStatus()
+11388-analisarStatus()=Encerrada
+11392-analisarStatus()
+11395-analisarStatus()=Encerrada
+11399-analisarStatus()
+11402-analisarStatus()=Encerrada
+11406-analisarStatus()
+11409-analisarStatus()=Encerrada
+11413-analisarStatus()
+11416-analisarStatus()=Encerrada
+11420-analisarStatus()
+11423-analisarStatus()=Encerrada
+11427-analisarStatus()
+11430-analisarStatus()=Encerrada
+11434-analisarStatus()
+11437-analisarStatus()=Encerrada
+11441-analisarStatus()
+11444-analisarStatus()=Encerrada
+11448-analisarStatus()
+11451-analisarStatus()=Encerrada
+11455-analisarStatus()
+11458-analisarStatus()=Encerrada
+11462-analisarStatus()
+11465-analisarStatus()=Encerrada
+11469-analisarStatus()
+11472-analisarStatus()=Encerrada
+11476-analisarStatus()
+11479-analisarStatus()=Encerrada
+11483-analisarStatus()
+11486-analisarStatus()=Encerrada
+11490-analisarStatus()
+11493-analisarStatus()=Encerrada
+11497-analisarStatus()
+11500-analisarStatus()=Encerrada
+11504-analisarStatus()
+11507-analisarStatus()=Encerrada
+11511-analisarStatus()
+11514-analisarStatus()=Encerrada
+11518-analisarStatus()
+11521-analisarStatus()=Encerrada
+11525-analisarStatus()
+11528-analisarStatus()=Encerrada
+11532-analisarStatus()
+11535-analisarStatus()=Encerrada
+11539-analisarStatus()
+11542-analisarStatus()=Encerrada
+11546-analisarStatus()
+11549-analisarStatus()=Encerrada
+11553-analisarStatus()
+11556-analisarStatus()=Encerrada
+11560-analisarStatus()
+11563-analisarStatus()=Encerrada
+11567-analisarStatus()
+11570-analisarStatus()=Encerrada
+11574-analisarStatus()
+11577-analisarStatus()=Encerrada
+11581-analisarStatus()
+11584-analisarStatus()=Encerrada
+11588-analisarStatus()
+11591-analisarStatus()=Encerrada
+11595-analisarStatus()
+11598-analisarStatus()=Encerrada
+11602-analisarStatus()
+11605-analisarStatus()=Encerrada
+11609-analisarStatus()
+11612-analisarStatus()=Encerrada
+11616-analisarStatus()
+11619-analisarStatus()=Encerrada
+11623-analisarStatus()
+11626-analisarStatus()=Encerrada
+11630-analisarStatus()
+11633-analisarStatus()=Encerrada
+11637-analisarStatus()
+11640-analisarStatus()=Encerrada
+11644-analisarStatus()
+11647-analisarStatus()=Encerrada
+11651-analisarStatus()
+11654-analisarStatus()=Encerrada
+11658-analisarStatus()
+11661-analisarStatus()=Encerrada
+11665-analisarStatus()
+11668-analisarStatus()=Encerrada
+11672-analisarStatus()
+11675-analisarStatus()=Encerrada
+11679-analisarStatus()
+11682-analisarStatus()=Encerrada
+11686-analisarStatus()
+11689-analisarStatus()=Encerrada
+11693-analisarStatus()
+11696-analisarStatus()=Encerrada
+11700-analisarStatus()
+11703-analisarStatus()=Encerrada
+11707-analisarStatus()
+11710-analisarStatus()=Encerrada
+11714-analisarStatus()
+11717-analisarStatus()=Encerrada
+11721-analisarStatus()
+11724-analisarStatus()=Encerrada
+11728-analisarStatus()
+11731-analisarStatus()=Encerrada
+11735-analisarStatus()
+11738-analisarStatus()=Encerrada
+11742-analisarStatus()
+11745-analisarStatus()=Encerrada
+11749-analisarStatus()
+11752-analisarStatus()=Encerrada
+11756-analisarStatus()
+11759-analisarStatus()=Encerrada
+11763-analisarStatus()
+11766-analisarStatus()=Encerrada
+11770-analisarStatus()
+11773-analisarStatus()=Encerrada
+11777-analisarStatus()
+11780-analisarStatus()=Encerrada
+11784-analisarStatus()
+11787-analisarStatus()=Encerrada
+11791-analisarStatus()
+11794-analisarStatus()=Encerrada
+11798-analisarStatus()
+11801-analisarStatus()=Encerrada
+11805-analisarStatus()
+11808-analisarStatus()=Encerrada
+11812-analisarStatus()
+11815-analisarStatus()=Encerrada
+11819-analisarStatus()
+11822-analisarStatus()=Encerrada
+11826-analisarStatus()
+11829-analisarStatus()=Encerrada
+11833-analisarStatus()
+11836-analisarStatus()=Encerrada
+11840-analisarStatus()
+11843-analisarStatus()=Encerrada
+11847-analisarStatus()
+11850-analisarStatus()=Encerrada
+11854-analisarStatus()
+11857-analisarStatus()=Encerrada
+11861-analisarStatus()
+11864-analisarStatus()=Encerrada
+11868-analisarStatus()
+11871-analisarStatus()=Encerrada
+11875-analisarStatus()
+11878-analisarStatus()=Encerrada
+11882-analisarStatus()
+11885-analisarStatus()=Encerrada
+11889-analisarStatus()
+11892-analisarStatus()=Encerrada
+11896-analisarStatus()
+11899-analisarStatus()=Encerrada
+11903-analisarStatus()
+11906-analisarStatus()=Encerrada
+11910-analisarStatus()
+11913-analisarStatus()=Encerrada
+11917-analisarStatus()
+11920-analisarStatus()=Encerrada
+11924-analisarStatus()
+11927-analisarStatus()=Encerrada
+11931-analisarStatus()
+11934-analisarStatus()=Encerrada
+11938-analisarStatus()
+11941-analisarStatus()=Encerrada
+11945-analisarStatus()
+11948-analisarStatus()=Encerrada
+11952-analisarStatus()
+11955-analisarStatus()=Encerrada
+11959-analisarStatus()
+11962-analisarStatus()=Encerrada
+11966-analisarStatus()
+11969-analisarStatus()=Encerrada
+11973-analisarStatus()
+11976-analisarStatus()=Encerrada
+11980-analisarStatus()
+11983-analisarStatus()=Encerrada

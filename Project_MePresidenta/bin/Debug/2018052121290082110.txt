@@ -1,0 +1,400 @@
+5-ENTRAR PARTIDA = 410  0910D
+8-analisarStatus()
+11-analisarStatus()=Aberta
+15-analisarStatus()
+18-analisarStatus()=Aberta
+22-analisarStatus()
+25-analisarStatus()=Aberta
+29-analisarStatus()
+32-analisarStatus()=Aberta
+37-analisarStatus()
+40-analisarStatus()=Em jogo
+42-analisarStatus()=Posicionar
+45-novaRodada
+49-verificarVez
+52-jogadordaVez = 409 - iPad
+55-MINHA VEZ=FALSE
+58-analisarStatus()
+61-analisarStatus()=Em jogo
+63-analisarStatus()=Posicionar
+65-verificarVez
+68-jogadordaVez = 409 - iPad
+71-MINHA VEZ=FALSE
+74-analisarStatus()
+77-analisarStatus()=Em jogo
+79-analisarStatus()=Posicionar
+81-verificarVez
+84-jogadordaVez = 409 - iPad
+87-MINHA VEZ=FALSE
+90-analisarStatus()
+93-analisarStatus()=Em jogo
+95-analisarStatus()=Posicionar
+97-verificarVez
+100-jogadordaVez = 409 - iPad
+103-MINHA VEZ=FALSE
+106-analisarStatus()
+109-analisarStatus()=Em jogo
+111-analisarStatus()=Posicionar
+113-verificarVez
+116-jogadordaVez = 409 - iPad
+119-MINHA VEZ=FALSE
+122-analisarStatus()
+125-analisarStatus()=Em jogo
+127-analisarStatus()=Posicionar
+129-verificarVez
+132-jogadordaVez = 409 - iPad
+135-MINHA VEZ=FALSE
+138-analisarStatus()
+141-analisarStatus()=Em jogo
+143-analisarStatus()=Posicionar
+145-verificarVez
+148-jogadordaVez = 409 - iPad
+151-MINHA VEZ=FALSE
+154-analisarStatus()
+157-analisarStatus()=Em jogo
+159-analisarStatus()=Posicionar
+161-verificarVez
+164-jogadordaVez = 409 - iPad
+167-MINHA VEZ=FALSE
+170-analisarStatus()
+173-analisarStatus()=Em jogo
+175-analisarStatus()=Posicionar
+177-verificarVez
+180-jogadordaVez = 409 - iPad
+183-MINHA VEZ=FALSE
+186-analisarStatus()
+189-analisarStatus()=Em jogo
+191-analisarStatus()=Posicionar
+193-verificarVez
+196-jogadordaVez = 409 - iPad
+199-MINHA VEZ=FALSE
+202-analisarStatus()
+205-analisarStatus()=Em jogo
+207-analisarStatus()=Posicionar
+209-verificarVez
+212-jogadordaVez = 409 - iPad
+215-MINHA VEZ=FALSE
+218-analisarStatus()
+221-analisarStatus()=Em jogo
+223-analisarStatus()=Posicionar
+225-verificarVez
+228-jogadordaVez = 409 - iPad
+231-MINHA VEZ=FALSE
+234-analisarStatus()
+237-analisarStatus()=Em jogo
+239-analisarStatus()=Posicionar
+241-verificarVez
+244-jogadordaVez = 409 - iPad
+247-MINHA VEZ=FALSE
+250-analisarStatus()
+253-analisarStatus()=Em jogo
+255-analisarStatus()=Posicionar
+257-verificarVez
+260-jogadordaVez = 409 - iPad
+263-MINHA VEZ=FALSE
+266-analisarStatus()
+269-analisarStatus()=Em jogo
+271-analisarStatus()=Posicionar
+273-verificarVez
+276-jogadordaVez = 409 - iPad
+279-MINHA VEZ=FALSE
+282-analisarStatus()
+285-analisarStatus()=Em jogo
+287-analisarStatus()=Posicionar
+289-verificarVez
+292-jogadordaVez = 409 - iPad
+295-MINHA VEZ=FALSE
+298-analisarStatus()
+301-analisarStatus()=Em jogo
+303-analisarStatus()=Posicionar
+305-verificarVez
+308-jogadordaVez = 409 - iPad
+311-MINHA VEZ=FALSE
+314-analisarStatus()
+317-analisarStatus()=Em jogo
+319-analisarStatus()=Posicionar
+321-verificarVez
+324-jogadordaVez = 409 - iPad
+327-MINHA VEZ=FALSE
+330-analisarStatus()
+333-analisarStatus()=Em jogo
+335-analisarStatus()=Posicionar
+337-verificarVez
+340-jogadordaVez = 409 - iPad
+343-MINHA VEZ=FALSE
+346-analisarStatus()
+349-analisarStatus()=Em jogo
+351-analisarStatus()=Posicionar
+353-verificarVez
+356-jogadordaVez = 409 - iPad
+359-MINHA VEZ=FALSE
+362-analisarStatus()
+365-analisarStatus()=Em jogo
+367-analisarStatus()=Posicionar
+369-verificarVez
+372-jogadordaVez = 409 - iPad
+375-MINHA VEZ=FALSE
+378-analisarStatus()
+381-analisarStatus()=Em jogo
+383-analisarStatus()=Posicionar
+385-verificarVez
+388-jogadordaVez = 409 - iPad
+391-MINHA VEZ=FALSE
+394-analisarStatus()
+397-analisarStatus()=Em jogo
+399-analisarStatus()=Posicionar
+401-verificarVez
+404-jogadordaVez = 409 - iPad
+407-MINHA VEZ=FALSE
+410-analisarStatus()
+413-analisarStatus()=Em jogo
+415-analisarStatus()=Posicionar
+417-verificarVez
+420-jogadordaVez = 409 - iPad
+423-MINHA VEZ=FALSE
+426-analisarStatus()
+429-analisarStatus()=Em jogo
+431-analisarStatus()=Posicionar
+433-verificarVez
+436-jogadordaVez = 409 - iPad
+439-MINHA VEZ=FALSE
+442-analisarStatus()
+445-analisarStatus()=Em jogo
+447-analisarStatus()=Posicionar
+449-verificarVez
+452-jogadordaVez = 409 - iPad
+455-MINHA VEZ=FALSE
+458-analisarStatus()
+461-analisarStatus()=Em jogo
+463-analisarStatus()=Posicionar
+465-verificarVez
+468-jogadordaVez = 409 - iPad
+471-MINHA VEZ=FALSE
+474-analisarStatus()
+477-analisarStatus()=Em jogo
+479-analisarStatus()=Posicionar
+481-verificarVez
+484-jogadordaVez = 409 - iPad
+487-MINHA VEZ=FALSE
+490-analisarStatus()
+493-analisarStatus()=Em jogo
+495-analisarStatus()=Posicionar
+497-verificarVez
+500-jogadordaVez = 409 - iPad
+503-MINHA VEZ=FALSE
+506-analisarStatus()
+509-analisarStatus()=Em jogo
+511-analisarStatus()=Posicionar
+513-verificarVez
+516-jogadordaVez = 409 - iPad
+519-MINHA VEZ=FALSE
+522-analisarStatus()
+525-analisarStatus()=Em jogo
+527-analisarStatus()=Posicionar
+529-verificarVez
+532-jogadordaVez = 409 - iPad
+535-MINHA VEZ=FALSE
+538-analisarStatus()
+541-analisarStatus()=Em jogo
+543-analisarStatus()=Posicionar
+545-verificarVez
+548-jogadordaVez = 409 - iPad
+551-MINHA VEZ=FALSE
+554-analisarStatus()
+557-analisarStatus()=Em jogo
+559-analisarStatus()=Posicionar
+561-verificarVez
+564-jogadordaVez = 409 - iPad
+567-MINHA VEZ=FALSE
+570-analisarStatus()
+573-analisarStatus()=Em jogo
+575-analisarStatus()=Posicionar
+577-verificarVez
+580-jogadordaVez = 409 - iPad
+583-MINHA VEZ=FALSE
+586-analisarStatus()
+589-analisarStatus()=Em jogo
+591-analisarStatus()=Posicionar
+593-verificarVez
+596-jogadordaVez = 409 - iPad
+599-MINHA VEZ=FALSE
+602-analisarStatus()
+605-analisarStatus()=Em jogo
+607-analisarStatus()=Posicionar
+609-verificarVez
+612-jogadordaVez = 409 - iPad
+615-MINHA VEZ=FALSE
+618-analisarStatus()
+621-analisarStatus()=Em jogo
+623-analisarStatus()=Posicionar
+625-verificarVez
+628-jogadordaVez = 409 - iPad
+631-MINHA VEZ=FALSE
+634-analisarStatus()
+637-analisarStatus()=Em jogo
+639-analisarStatus()=Posicionar
+641-verificarVez
+644-jogadordaVez = 409 - iPad
+647-MINHA VEZ=FALSE
+650-analisarStatus()
+653-analisarStatus()=Em jogo
+655-analisarStatus()=Posicionar
+657-verificarVez
+660-jogadordaVez = 409 - iPad
+663-MINHA VEZ=FALSE
+666-analisarStatus()
+669-analisarStatus()=Em jogo
+671-analisarStatus()=Posicionar
+673-verificarVez
+676-jogadordaVez = 409 - iPad
+679-MINHA VEZ=FALSE
+682-analisarStatus()
+685-analisarStatus()=Em jogo
+687-analisarStatus()=Posicionar
+689-verificarVez
+692-jogadordaVez = 409 - iPad
+695-MINHA VEZ=FALSE
+698-analisarStatus()
+701-analisarStatus()=Em jogo
+703-analisarStatus()=Posicionar
+705-verificarVez
+708-jogadordaVez = 409 - iPad
+711-MINHA VEZ=FALSE
+714-analisarStatus()
+717-analisarStatus()=Em jogo
+719-analisarStatus()=Posicionar
+721-verificarVez
+724-jogadordaVez = 409 - iPad
+727-MINHA VEZ=FALSE
+730-analisarStatus()
+733-analisarStatus()=Em jogo
+735-analisarStatus()=Posicionar
+737-verificarVez
+740-jogadordaVez = 409 - iPad
+743-MINHA VEZ=FALSE
+746-analisarStatus()
+749-analisarStatus()=Em jogo
+751-analisarStatus()=Posicionar
+753-verificarVez
+756-jogadordaVez = 409 - iPad
+759-MINHA VEZ=FALSE
+762-analisarStatus()
+765-analisarStatus()=Em jogo
+767-analisarStatus()=Posicionar
+769-verificarVez
+772-jogadordaVez = 409 - iPad
+775-MINHA VEZ=FALSE
+778-analisarStatus()
+781-analisarStatus()=Em jogo
+783-analisarStatus()=Posicionar
+785-verificarVez
+788-jogadordaVez = 409 - iPad
+791-MINHA VEZ=FALSE
+794-analisarStatus()
+797-analisarStatus()=Em jogo
+799-analisarStatus()=Posicionar
+801-verificarVez
+804-jogadordaVez = 409 - iPad
+807-MINHA VEZ=FALSE
+810-analisarStatus()
+813-analisarStatus()=Em jogo
+815-analisarStatus()=Posicionar
+817-verificarVez
+820-jogadordaVez = 409 - iPad
+823-MINHA VEZ=FALSE
+826-analisarStatus()
+829-analisarStatus()=Em jogo
+831-analisarStatus()=Posicionar
+833-verificarVez
+836-jogadordaVez = 409 - iPad
+839-MINHA VEZ=FALSE
+842-analisarStatus()
+845-analisarStatus()=Em jogo
+847-analisarStatus()=Posicionar
+849-verificarVez
+852-jogadordaVez = 409 - iPad
+855-MINHA VEZ=FALSE
+858-analisarStatus()
+861-analisarStatus()=Em jogo
+863-analisarStatus()=Posicionar
+865-verificarVez
+868-jogadordaVez = 409 - iPad
+871-MINHA VEZ=FALSE
+874-analisarStatus()
+877-analisarStatus()=Em jogo
+879-analisarStatus()=Posicionar
+881-verificarVez
+884-jogadordaVez = 409 - iPad
+887-MINHA VEZ=FALSE
+890-analisarStatus()
+893-analisarStatus()=Em jogo
+895-analisarStatus()=Posicionar
+897-verificarVez
+900-jogadordaVez = 409 - iPad
+903-MINHA VEZ=FALSE
+906-analisarStatus()
+909-analisarStatus()=Em jogo
+911-analisarStatus()=Posicionar
+913-verificarVez
+916-jogadordaVez = 409 - iPad
+919-MINHA VEZ=FALSE
+922-analisarStatus()
+925-analisarStatus()=Em jogo
+927-analisarStatus()=Posicionar
+929-verificarVez
+932-jogadordaVez = 409 - iPad
+935-MINHA VEZ=FALSE
+938-analisarStatus()
+941-analisarStatus()=Em jogo
+943-analisarStatus()=Posicionar
+945-verificarVez
+948-jogadordaVez = 409 - iPad
+951-MINHA VEZ=FALSE
+954-analisarStatus()
+957-analisarStatus()=Em jogo
+959-analisarStatus()=Posicionar
+961-verificarVez
+964-jogadordaVez = 409 - iPad
+967-MINHA VEZ=FALSE
+970-analisarStatus()
+973-analisarStatus()=Em jogo
+975-analisarStatus()=Posicionar
+977-verificarVez
+980-jogadordaVez = 409 - iPad
+983-MINHA VEZ=FALSE
+986-analisarStatus()
+989-analisarStatus()=Em jogo
+991-analisarStatus()=Posicionar
+993-verificarVez
+996-jogadordaVez = 409 - iPad
+999-MINHA VEZ=FALSE
+1002-analisarStatus()
+1005-analisarStatus()=Em jogo
+1007-analisarStatus()=Posicionar
+1009-verificarVez
+1012-jogadordaVez = 409 - iPad
+1015-MINHA VEZ=FALSE
+1018-analisarStatus()
+1021-analisarStatus()=Em jogo
+1023-analisarStatus()=Posicionar
+1025-verificarVez
+1028-jogadordaVez = 409 - iPad
+1031-MINHA VEZ=FALSE
+1034-analisarStatus()
+1037-analisarStatus()=Em jogo
+1039-analisarStatus()=Posicionar
+1041-verificarVez
+1044-jogadordaVez = 409 - iPad
+1047-MINHA VEZ=FALSE
+1050-analisarStatus()
+1053-analisarStatus()=Em jogo
+1055-analisarStatus()=Posicionar
+1057-verificarVez
+1060-jogadordaVez = 409 - iPad
+1063-MINHA VEZ=FALSE
+1066-analisarStatus()
+1069-analisarStatus()=Em jogo
+1071-analisarStatus()=Posicionar
+1073-verificarVez
+1076-jogadordaVez = 409 - iPad
+1079-MINHA VEZ=FALSE

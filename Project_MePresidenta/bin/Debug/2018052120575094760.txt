@@ -1,0 +1,353 @@
+6-ENTRAR PARTIDA = 400  AC9A6
+9-analisarStatus()
+12-analisarStatus()=Aberta
+16-analisarStatus()
+19-analisarStatus()=Aberta
+23-analisarStatus()
+26-analisarStatus()=Aberta
+30-analisarStatus()
+33-analisarStatus()=Aberta
+37-analisarStatus()
+40-analisarStatus()=Aberta
+44-analisarStatus()
+47-analisarStatus()=Aberta
+51-analisarStatus()
+54-analisarStatus()=Aberta
+58-analisarStatus()
+61-analisarStatus()=Aberta
+65-analisarStatus()
+68-analisarStatus()=Aberta
+72-analisarStatus()
+75-analisarStatus()=Aberta
+79-analisarStatus()
+82-analisarStatus()=Aberta
+86-analisarStatus()
+89-analisarStatus()=Aberta
+93-analisarStatus()
+96-analisarStatus()=Aberta
+100-analisarStatus()
+103-analisarStatus()=Aberta
+107-analisarStatus()
+110-analisarStatus()=Aberta
+114-analisarStatus()
+117-analisarStatus()=Aberta
+121-analisarStatus()
+124-analisarStatus()=Aberta
+128-analisarStatus()
+131-analisarStatus()=Em jogo
+133-analisarStatus()=Posicionar
+136-novaRodada
+140-verificarVez
+143-jogadordaVez = 399 - JogadorDoi
+146-MINHA VEZ=FALSE
+149-analisarStatus()
+152-analisarStatus()=Em jogo
+154-analisarStatus()=Posicionar
+156-verificarVez
+159-jogadordaVez = 399 - JogadorDoi
+162-MINHA VEZ=FALSE
+165-analisarStatus()
+168-analisarStatus()=Em jogo
+170-analisarStatus()=Posicionar
+172-verificarVez
+175-jogadordaVez = 399 - JogadorDoi
+178-MINHA VEZ=FALSE
+181-analisarStatus()
+184-analisarStatus()=Em jogo
+186-analisarStatus()=Posicionar
+188-verificarVez
+191-jogadordaVez = 399 - JogadorDoi
+194-MINHA VEZ=FALSE
+197-analisarStatus()
+200-analisarStatus()=Em jogo
+202-analisarStatus()=Posicionar
+204-verificarVez
+207-jogadordaVez = 399 - JogadorDoi
+210-MINHA VEZ=FALSE
+213-analisarStatus()
+216-analisarStatus()=Em jogo
+218-analisarStatus()=Posicionar
+220-verificarVez
+223-jogadordaVez = 399 - JogadorDoi
+226-MINHA VEZ=FALSE
+229-analisarStatus()
+232-analisarStatus()=Em jogo
+234-analisarStatus()=Posicionar
+236-verificarVez
+239-jogadordaVez = 399 - JogadorDoi
+242-MINHA VEZ=FALSE
+245-analisarStatus()
+248-analisarStatus()=Em jogo
+250-analisarStatus()=Posicionar
+252-verificarVez
+255-jogadordaVez = 399 - JogadorDoi
+258-MINHA VEZ=FALSE
+261-analisarStatus()
+264-analisarStatus()=Em jogo
+266-analisarStatus()=Posicionar
+268-verificarVez
+271-jogadordaVez = 399 - JogadorDoi
+274-MINHA VEZ=FALSE
+277-analisarStatus()
+280-analisarStatus()=Em jogo
+282-analisarStatus()=Posicionar
+284-verificarVez
+287-jogadordaVez = 400 - JogadorUm
+290-ULTIMA JOGADA = JogadorDoi,S,A,1
+
+292-calculoMinhaPontuacaoAtual
+294-MINHA VEZ=TRUE
+297-analisarStatus()
+300-analisarStatus()=Em jogo
+302-analisarStatus()=Posicionar
+304-verificarVez
+307-jogadordaVez = 400 - JogadorUm
+310-ULTIMA JOGADA = JogadorDoi,S,A,1
+
+312-calculoMinhaPontuacaoAtual
+314-MINHA VEZ=TRUE
+317-analisarStatus()
+320-analisarStatus()=Em jogo
+322-analisarStatus()=Posicionar
+324-verificarVez
+327-jogadordaVez = 400 - JogadorUm
+330-ULTIMA JOGADA = JogadorDoi,S,A,1
+
+332-calculoMinhaPontuacaoAtual
+334-MINHA VEZ=TRUE
+337-analisarStatus()
+340-analisarStatus()=Em jogo
+342-analisarStatus()=Posicionar
+344-verificarVez
+347-jogadordaVez = 400 - JogadorUm
+350-ULTIMA JOGADA = JogadorDoi,S,A,1
+
+352-calculoMinhaPontuacaoAtual
+354-MINHA VEZ=TRUE
+357-analisarStatus()
+360-analisarStatus()=Em jogo
+362-analisarStatus()=Posicionar
+364-verificarVez
+367-jogadordaVez = 400 - JogadorUm
+370-ULTIMA JOGADA = JogadorDoi,S,A,1
+
+372-calculoMinhaPontuacaoAtual
+374-MINHA VEZ=TRUE
+377-analisarStatus()
+380-analisarStatus()=Em jogo
+382-analisarStatus()=Posicionar
+384-verificarVez
+387-jogadordaVez = 400 - JogadorUm
+390-ULTIMA JOGADA = JogadorDoi,S,A,1
+
+392-calculoMinhaPontuacaoAtual
+394-MINHA VEZ=TRUE
+397-analisarStatus()
+400-analisarStatus()=Em jogo
+402-analisarStatus()=Posicionar
+404-verificarVez
+407-jogadordaVez = 400 - JogadorUm
+410-ULTIMA JOGADA = JogadorDoi,S,A,1
+
+412-calculoMinhaPontuacaoAtual
+414-MINHA VEZ=TRUE
+417-analisarStatus()
+420-analisarStatus()=Em jogo
+422-analisarStatus()=Posicionar
+424-verificarVez
+427-jogadordaVez = 400 - JogadorUm
+430-ULTIMA JOGADA = JogadorDoi,S,A,1
+
+432-calculoMinhaPontuacaoAtual
+434-MINHA VEZ=TRUE
+438-POSICIONAR PERSONAGEM OK
+440-analisarStatus()
+443-analisarStatus()=Em jogo
+445-analisarStatus()=Posicionar
+447-verificarVez
+450-jogadordaVez = 399 - JogadorDoi
+453-ULTIMA JOGADA = JogadorUm,S,B,2
+JogadorDoi,S,A,1
+
+455-calculoMinhaPontuacaoAtual
+457-MINHA VEZ=FALSE
+460-analisarStatus()
+463-analisarStatus()=Em jogo
+465-analisarStatus()=Posicionar
+467-verificarVez
+470-jogadordaVez = 399 - JogadorDoi
+473-ULTIMA JOGADA = JogadorUm,S,B,2
+JogadorDoi,S,A,1
+
+475-calculoMinhaPontuacaoAtual
+477-MINHA VEZ=FALSE
+480-analisarStatus()
+483-analisarStatus()=Em jogo
+485-analisarStatus()=Posicionar
+487-verificarVez
+490-jogadordaVez = 399 - JogadorDoi
+493-ULTIMA JOGADA = JogadorUm,S,B,2
+JogadorDoi,S,A,1
+
+495-calculoMinhaPontuacaoAtual
+497-MINHA VEZ=FALSE
+500-analisarStatus()
+503-analisarStatus()=Em jogo
+505-analisarStatus()=Posicionar
+507-verificarVez
+510-jogadordaVez = 399 - JogadorDoi
+513-ULTIMA JOGADA = JogadorUm,S,B,2
+JogadorDoi,S,A,1
+
+515-calculoMinhaPontuacaoAtual
+517-MINHA VEZ=FALSE
+520-analisarStatus()
+523-analisarStatus()=Em jogo
+525-analisarStatus()=Posicionar
+527-verificarVez
+530-jogadordaVez = 399 - JogadorDoi
+533-ULTIMA JOGADA = JogadorUm,S,B,2
+JogadorDoi,S,A,1
+
+535-calculoMinhaPontuacaoAtual
+537-MINHA VEZ=FALSE
+540-analisarStatus()
+543-analisarStatus()=Em jogo
+545-analisarStatus()=Posicionar
+547-verificarVez
+550-jogadordaVez = 399 - JogadorDoi
+553-ULTIMA JOGADA = JogadorUm,S,B,2
+JogadorDoi,S,A,1
+
+555-calculoMinhaPontuacaoAtual
+557-MINHA VEZ=FALSE
+560-analisarStatus()
+563-analisarStatus()=Em jogo
+565-analisarStatus()=Posicionar
+567-verificarVez
+570-jogadordaVez = 399 - JogadorDoi
+573-ULTIMA JOGADA = JogadorUm,S,B,2
+JogadorDoi,S,A,1
+
+575-calculoMinhaPontuacaoAtual
+577-MINHA VEZ=FALSE
+580-analisarStatus()
+583-analisarStatus()=Em jogo
+585-analisarStatus()=Posicionar
+587-verificarVez
+590-jogadordaVez = 399 - JogadorDoi
+593-ULTIMA JOGADA = JogadorUm,S,B,2
+JogadorDoi,S,A,1
+
+595-calculoMinhaPontuacaoAtual
+597-MINHA VEZ=FALSE
+600-analisarStatus()
+603-analisarStatus()=Em jogo
+605-analisarStatus()=Posicionar
+607-verificarVez
+610-jogadordaVez = 399 - JogadorDoi
+613-ULTIMA JOGADA = JogadorUm,S,B,2
+JogadorDoi,S,A,1
+
+615-calculoMinhaPontuacaoAtual
+617-MINHA VEZ=FALSE
+620-analisarStatus()
+623-analisarStatus()=Em jogo
+625-analisarStatus()=Posicionar
+627-verificarVez
+630-jogadordaVez = 399 - JogadorDoi
+633-ULTIMA JOGADA = JogadorUm,S,B,2
+JogadorDoi,S,A,1
+
+635-calculoMinhaPontuacaoAtual
+637-MINHA VEZ=FALSE
+640-analisarStatus()
+643-analisarStatus()=Em jogo
+645-analisarStatus()=Posicionar
+647-verificarVez
+650-jogadordaVez = 399 - JogadorDoi
+653-ULTIMA JOGADA = JogadorUm,S,B,2
+JogadorDoi,S,A,1
+
+655-calculoMinhaPontuacaoAtual
+657-MINHA VEZ=FALSE
+660-analisarStatus()
+663-analisarStatus()=Em jogo
+665-analisarStatus()=Posicionar
+667-verificarVez
+670-jogadordaVez = 399 - JogadorDoi
+673-ULTIMA JOGADA = JogadorUm,S,B,2
+JogadorDoi,S,A,1
+
+675-calculoMinhaPontuacaoAtual
+677-MINHA VEZ=FALSE
+681-analisarStatus()
+684-analisarStatus()=Em jogo
+686-analisarStatus()=Posicionar
+688-verificarVez
+691-jogadordaVez = 399 - JogadorDoi
+694-ULTIMA JOGADA = JogadorUm,S,B,2
+JogadorDoi,S,A,1
+
+696-calculoMinhaPontuacaoAtual
+698-MINHA VEZ=FALSE
+701-analisarStatus()
+704-analisarStatus()=Em jogo
+706-analisarStatus()=Posicionar
+708-verificarVez
+711-jogadordaVez = 399 - JogadorDoi
+714-ULTIMA JOGADA = JogadorUm,S,B,2
+JogadorDoi,S,A,1
+
+716-calculoMinhaPontuacaoAtual
+718-MINHA VEZ=FALSE
+722-analisarStatus()
+725-analisarStatus()=Em jogo
+727-analisarStatus()=Posicionar
+729-verificarVez
+732-jogadordaVez = 399 - JogadorDoi
+735-ULTIMA JOGADA = JogadorUm,S,B,2
+JogadorDoi,S,A,1
+
+737-calculoMinhaPontuacaoAtual
+739-MINHA VEZ=FALSE
+742-analisarStatus()
+745-analisarStatus()=Em jogo
+747-analisarStatus()=Posicionar
+749-verificarVez
+752-jogadordaVez = 399 - JogadorDoi
+755-ULTIMA JOGADA = JogadorUm,S,B,2
+JogadorDoi,S,A,1
+
+757-calculoMinhaPontuacaoAtual
+759-MINHA VEZ=FALSE
+762-analisarStatus()
+765-analisarStatus()=Em jogo
+767-analisarStatus()=Posicionar
+769-verificarVez
+772-jogadordaVez = 399 - JogadorDoi
+775-ULTIMA JOGADA = JogadorUm,S,B,2
+JogadorDoi,S,A,1
+
+777-calculoMinhaPontuacaoAtual
+779-MINHA VEZ=FALSE
+782-analisarStatus()
+785-analisarStatus()=Em jogo
+787-analisarStatus()=Posicionar
+789-verificarVez
+792-jogadordaVez = 399 - JogadorDoi
+795-ULTIMA JOGADA = JogadorUm,S,B,2
+JogadorDoi,S,A,1
+
+797-calculoMinhaPontuacaoAtual
+799-MINHA VEZ=FALSE
+802-analisarStatus()
+805-analisarStatus()=Em jogo
+807-analisarStatus()=Posicionar
+809-verificarVez
+812-jogadordaVez = 399 - JogadorDoi
+815-ULTIMA JOGADA = JogadorUm,S,B,2
+JogadorDoi,S,A,1
+
+817-calculoMinhaPontuacaoAtual
+819-MINHA VEZ=FALSE
