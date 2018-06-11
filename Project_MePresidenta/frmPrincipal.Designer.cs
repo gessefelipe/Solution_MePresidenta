@@ -32,10 +32,13 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPrincipal));
             this.btnFechar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pbLogo = new System.Windows.Forms.PictureBox();
             this.painelLobby = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.labelNomePartidaSelecionada = new System.Windows.Forms.Label();
             this.lblDebugFileName = new System.Windows.Forms.Label();
             this.gbEntrarPartida = new System.Windows.Forms.GroupBox();
+            this.btninfo = new System.Windows.Forms.Button();
             this.lblEntrarPartida = new System.Windows.Forms.Label();
             this.txtSenhadaPartidaEntrar = new System.Windows.Forms.TextBox();
             this.lblNomeJogador = new System.Windows.Forms.Label();
@@ -59,7 +62,8 @@
             this.lblVersao = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.painelTabuleiro = new System.Windows.Forms.Panel();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnSairPartida = new System.Windows.Forms.Button();
+            this.gbDesempregados = new System.Windows.Forms.GroupBox();
             this.btnd12 = new System.Windows.Forms.Button();
             this.btnd11 = new System.Windows.Forms.Button();
             this.btnd10 = new System.Windows.Forms.Button();
@@ -73,11 +77,11 @@
             this.btnd2 = new System.Windows.Forms.Button();
             this.btnd1 = new System.Windows.Forms.Button();
             this.btnd0 = new System.Windows.Forms.Button();
-            this.btnAutoJogo = new System.Windows.Forms.Button();
+            this.btnConfiguracoes = new System.Windows.Forms.Button();
             this.btnIniciarPartida = new System.Windows.Forms.Button();
             this.gbVotacao = new System.Windows.Forms.GroupBox();
             this.btnNao = new System.Windows.Forms.Button();
-            this.label6 = new System.Windows.Forms.Label();
+            this.labelPerguntaVotacao = new System.Windows.Forms.Label();
             this.btnSim = new System.Windows.Forms.Button();
             this.gbPosicionamento = new System.Windows.Forms.GroupBox();
             this.txtPersonagem = new System.Windows.Forms.TextBox();
@@ -87,6 +91,12 @@
             this.btnPosicionar = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
             this.gbJogadores = new System.Windows.Forms.GroupBox();
+            this.labelVotacao5 = new System.Windows.Forms.Label();
+            this.labelVotacao4 = new System.Windows.Forms.Label();
+            this.labelVotacao3 = new System.Windows.Forms.Label();
+            this.labelVotacao2 = new System.Windows.Forms.Label();
+            this.labelVotacao1 = new System.Windows.Forms.Label();
+            this.labelVotacao0 = new System.Windows.Forms.Label();
             this.j1 = new System.Windows.Forms.Button();
             this.j5 = new System.Windows.Forms.Button();
             this.j4 = new System.Windows.Forms.Button();
@@ -160,33 +170,50 @@
             this.n52 = new System.Windows.Forms.Button();
             this.n51 = new System.Windows.Forms.Button();
             this.n10 = new System.Windows.Forms.Button();
-            this.btnAlgoritmoVotacaoTenhoPontosSuficientes = new System.Windows.Forms.Button();
-            this.btnAlgoritmoPromocaoQualquerdeMenorNivel = new System.Windows.Forms.Button();
-            this.btnAlgoritmoPromocaoMeudeMenorNivel = new System.Windows.Forms.Button();
-            this.btnAlgoritmoPosicionamentoEquilibrado = new System.Windows.Forms.Button();
-            this.btnAlgoritmoVotacaoPadrao = new System.Windows.Forms.Button();
-            this.btnAlgoritmoPromocaoPadrao = new System.Windows.Forms.Button();
-            this.btnAlgoritmoPosicionamentoPadrao = new System.Windows.Forms.Button();
+            this.btnAutoJogo = new System.Windows.Forms.Button();
+            this.btnAlg5 = new System.Windows.Forms.Button();
+            this.btnAlg7 = new System.Windows.Forms.Button();
+            this.btnAlg4 = new System.Windows.Forms.Button();
+            this.btnAlg3 = new System.Windows.Forms.Button();
+            this.btnAlg2 = new System.Windows.Forms.Button();
+            this.btnAlg1 = new System.Windows.Forms.Button();
+            this.btnAlg0 = new System.Windows.Forms.Button();
             this.lblArquivoDebug = new System.Windows.Forms.Label();
             this.lblErro = new System.Windows.Forms.Label();
             this.timer2 = new System.Windows.Forms.Timer(this.components);
             this.gbConfiguracoes = new System.Windows.Forms.GroupBox();
-            this.btnDesabilitarTimer = new System.Windows.Forms.Button();
+            this.btnSomenteAtualizarTabuleiro = new System.Windows.Forms.Button();
+            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.btnEntrarPartidaEmergencia = new System.Windows.Forms.Button();
+            this.txtSenhaPartidaEmergencia = new System.Windows.Forms.TextBox();
+            this.txtIdPartidaEmergencia = new System.Windows.Forms.TextBox();
+            this.lblSenhaPartidaEmergencia = new System.Windows.Forms.Label();
+            this.lblIdPartidaEmergencia = new System.Windows.Forms.Label();
+            this.lblSenhaJogadorEmergencia = new System.Windows.Forms.Label();
+            this.lblTempoSicronizacao = new System.Windows.Forms.Label();
+            this.lblIdJogadorEmergencia = new System.Windows.Forms.Label();
+            this.txtSenhaJogadorEmergencia = new System.Windows.Forms.TextBox();
+            this.txtIdJogadorEmergencia = new System.Windows.Forms.TextBox();
+            this.btnHabilitarDebug = new System.Windows.Forms.Button();
+            this.btnAlg13 = new System.Windows.Forms.Button();
+            this.btnAlg10 = new System.Windows.Forms.Button();
             this.btnTimer = new System.Windows.Forms.Button();
             this.btnHabilitarTimer = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.txtdebug = new System.Windows.Forms.TextBox();
-            this.btnConfiguracoes = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.btnMinimizar = new System.Windows.Forms.Button();
+            this.labelIndicadordeErro = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).BeginInit();
             this.painelLobby.SuspendLayout();
             this.gbEntrarPartida.SuspendLayout();
             this.gbCriarPartida.SuspendLayout();
             this.painelTabuleiro.SuspendLayout();
-            this.groupBox1.SuspendLayout();
+            this.gbDesempregados.SuspendLayout();
             this.gbVotacao.SuspendLayout();
             this.gbPosicionamento.SuspendLayout();
             this.gbJogadores.SuspendLayout();
             this.gbConfiguracoes.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -197,13 +224,15 @@
             this.btnFechar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFechar.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFechar.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.btnFechar.Location = new System.Drawing.Point(426, 8);
+            this.btnFechar.Location = new System.Drawing.Point(436, 12);
             this.btnFechar.Name = "btnFechar";
-            this.btnFechar.Size = new System.Drawing.Size(46, 41);
+            this.btnFechar.Size = new System.Drawing.Size(32, 32);
             this.btnFechar.TabIndex = 8;
             this.btnFechar.Text = "X";
             this.btnFechar.UseVisualStyleBackColor = false;
             this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
+            this.btnFechar.MouseLeave += new System.EventHandler(this.btnFechar_MouseLeave);
+            this.btnFechar.MouseHover += new System.EventHandler(this.btnFechar_MouseHover);
             // 
             // label1
             // 
@@ -211,25 +240,27 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.label1.Location = new System.Drawing.Point(170, 45);
+            this.label1.Location = new System.Drawing.Point(192, 44);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(156, 25);
             this.label1.TabIndex = 9;
             this.label1.Text = "Me Presidenta";
             // 
-            // pictureBox1
+            // pbLogo
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(84, 15);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 67);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 10;
-            this.pictureBox1.TabStop = false;
+            this.pbLogo.BackColor = System.Drawing.Color.Transparent;
+            this.pbLogo.Image = ((System.Drawing.Image)(resources.GetObject("pbLogo.Image")));
+            this.pbLogo.Location = new System.Drawing.Point(84, 15);
+            this.pbLogo.Name = "pbLogo";
+            this.pbLogo.Size = new System.Drawing.Size(100, 67);
+            this.pbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbLogo.TabIndex = 10;
+            this.pbLogo.TabStop = false;
             // 
             // painelLobby
             // 
+            this.painelLobby.Controls.Add(this.label4);
+            this.painelLobby.Controls.Add(this.labelNomePartidaSelecionada);
             this.painelLobby.Controls.Add(this.lblDebugFileName);
             this.painelLobby.Controls.Add(this.gbEntrarPartida);
             this.painelLobby.Controls.Add(this.gbCriarPartida);
@@ -240,6 +271,30 @@
             this.painelLobby.Name = "painelLobby";
             this.painelLobby.Size = new System.Drawing.Size(454, 560);
             this.painelLobby.TabIndex = 11;
+            // 
+            // label4
+            // 
+            this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.label4.Location = new System.Drawing.Point(3, 310);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(172, 21);
+            this.label4.TabIndex = 29;
+            this.label4.Text = "Partida Selecionada:";
+            // 
+            // labelNomePartidaSelecionada
+            // 
+            this.labelNomePartidaSelecionada.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNomePartidaSelecionada.AutoSize = true;
+            this.labelNomePartidaSelecionada.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelNomePartidaSelecionada.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.labelNomePartidaSelecionada.Location = new System.Drawing.Point(215, 310);
+            this.labelNomePartidaSelecionada.Name = "labelNomePartidaSelecionada";
+            this.labelNomePartidaSelecionada.Size = new System.Drawing.Size(100, 21);
+            this.labelNomePartidaSelecionada.TabIndex = 28;
+            this.labelNomePartidaSelecionada.Text = "(Nenhuma)";
             // 
             // lblDebugFileName
             // 
@@ -255,6 +310,7 @@
             // 
             // gbEntrarPartida
             // 
+            this.gbEntrarPartida.Controls.Add(this.btninfo);
             this.gbEntrarPartida.Controls.Add(this.lblEntrarPartida);
             this.gbEntrarPartida.Controls.Add(this.txtSenhadaPartidaEntrar);
             this.gbEntrarPartida.Controls.Add(this.lblNomeJogador);
@@ -267,6 +323,21 @@
             this.gbEntrarPartida.Size = new System.Drawing.Size(221, 215);
             this.gbEntrarPartida.TabIndex = 26;
             this.gbEntrarPartida.TabStop = false;
+            // 
+            // btninfo
+            // 
+            this.btninfo.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btninfo.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btninfo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btninfo.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btninfo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(18)))), ((int)(((byte)(23)))));
+            this.btninfo.Location = new System.Drawing.Point(190, 178);
+            this.btninfo.Name = "btninfo";
+            this.btninfo.Size = new System.Drawing.Size(25, 31);
+            this.btninfo.TabIndex = 30;
+            this.btninfo.Text = "?";
+            this.btninfo.UseVisualStyleBackColor = false;
+            this.btninfo.Click += new System.EventHandler(this.btninfo_Click);
             // 
             // lblEntrarPartida
             // 
@@ -341,7 +412,7 @@
             this.btnEntrarPartida.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(18)))), ((int)(((byte)(23)))));
             this.btnEntrarPartida.Location = new System.Drawing.Point(4, 178);
             this.btnEntrarPartida.Name = "btnEntrarPartida";
-            this.btnEntrarPartida.Size = new System.Drawing.Size(209, 31);
+            this.btnEntrarPartida.Size = new System.Drawing.Size(184, 31);
             this.btnEntrarPartida.TabIndex = 6;
             this.btnEntrarPartida.Text = "Entrar na Partida";
             this.btnEntrarPartida.UseVisualStyleBackColor = false;
@@ -454,12 +525,11 @@
             this.lblIdPartida.AutoSize = true;
             this.lblIdPartida.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblIdPartida.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.lblIdPartida.Location = new System.Drawing.Point(300, 308);
+            this.lblIdPartida.Location = new System.Drawing.Point(181, 311);
             this.lblIdPartida.Name = "lblIdPartida";
-            this.lblIdPartida.Size = new System.Drawing.Size(55, 21);
+            this.lblIdPartida.Size = new System.Drawing.Size(19, 21);
             this.lblIdPartida.TabIndex = 24;
-            this.lblIdPartida.Text = "semid";
-            this.lblIdPartida.Visible = false;
+            this.lblIdPartida.Text = "0";
             // 
             // btnAtualizar
             // 
@@ -468,7 +538,7 @@
             this.btnAtualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAtualizar.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAtualizar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(18)))), ((int)(((byte)(23)))));
-            this.btnAtualizar.Location = new System.Drawing.Point(361, 303);
+            this.btnAtualizar.Location = new System.Drawing.Point(361, 306);
             this.btnAtualizar.Name = "btnAtualizar";
             this.btnAtualizar.Size = new System.Drawing.Size(90, 33);
             this.btnAtualizar.TabIndex = 14;
@@ -486,10 +556,11 @@
             this.lstPartidas.FullRowSelect = true;
             this.lstPartidas.Location = new System.Drawing.Point(3, 3);
             this.lstPartidas.Name = "lstPartidas";
-            this.lstPartidas.Size = new System.Drawing.Size(448, 294);
+            this.lstPartidas.Size = new System.Drawing.Size(448, 290);
             this.lstPartidas.TabIndex = 13;
             this.lstPartidas.UseCompatibleStateImageBehavior = false;
             this.lstPartidas.View = System.Windows.Forms.View.Details;
+            this.lstPartidas.SelectedIndexChanged += new System.EventHandler(this.lstPartidas_SelectedIndexChanged);
             this.lstPartidas.DoubleClick += new System.EventHandler(this.lstPartidas_DoubleClick);
             // 
             // chCodigo
@@ -514,7 +585,7 @@
             this.lblVersao.AutoSize = true;
             this.lblVersao.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblVersao.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.lblVersao.Location = new System.Drawing.Point(263, 680);
+            this.lblVersao.Location = new System.Drawing.Point(263, 681);
             this.lblVersao.Name = "lblVersao";
             this.lblVersao.Size = new System.Drawing.Size(209, 16);
             this.lblVersao.TabIndex = 12;
@@ -527,7 +598,8 @@
             // 
             // painelTabuleiro
             // 
-            this.painelTabuleiro.Controls.Add(this.groupBox1);
+            this.painelTabuleiro.Controls.Add(this.btnSairPartida);
+            this.painelTabuleiro.Controls.Add(this.gbDesempregados);
             this.painelTabuleiro.Controls.Add(this.btnConfiguracoes);
             this.painelTabuleiro.Controls.Add(this.btnIniciarPartida);
             this.painelTabuleiro.Controls.Add(this.gbVotacao);
@@ -564,37 +636,52 @@
             this.painelTabuleiro.Controls.Add(this.n52);
             this.painelTabuleiro.Controls.Add(this.n51);
             this.painelTabuleiro.Controls.Add(this.n10);
-            this.painelTabuleiro.Location = new System.Drawing.Point(13, 99);
+            this.painelTabuleiro.Location = new System.Drawing.Point(13, 101);
             this.painelTabuleiro.Name = "painelTabuleiro";
-            this.painelTabuleiro.Size = new System.Drawing.Size(454, 560);
+            this.painelTabuleiro.Size = new System.Drawing.Size(454, 566);
             this.painelTabuleiro.TabIndex = 13;
             // 
-            // groupBox1
+            // btnSairPartida
             // 
-            this.groupBox1.Controls.Add(this.btnd12);
-            this.groupBox1.Controls.Add(this.btnd11);
-            this.groupBox1.Controls.Add(this.btnd10);
-            this.groupBox1.Controls.Add(this.btnd9);
-            this.groupBox1.Controls.Add(this.btnd8);
-            this.groupBox1.Controls.Add(this.btnd7);
-            this.groupBox1.Controls.Add(this.btnd6);
-            this.groupBox1.Controls.Add(this.btnd5);
-            this.groupBox1.Controls.Add(this.btnd4);
-            this.groupBox1.Controls.Add(this.btnd3);
-            this.groupBox1.Controls.Add(this.btnd2);
-            this.groupBox1.Controls.Add(this.btnd1);
-            this.groupBox1.Controls.Add(this.btnd0);
-            this.groupBox1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.groupBox1.Location = new System.Drawing.Point(413, 190);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(37, 367);
-            this.groupBox1.TabIndex = 42;
-            this.groupBox1.TabStop = false;
+            this.btnSairPartida.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnSairPartida.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnSairPartida.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSairPartida.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSairPartida.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(18)))), ((int)(((byte)(23)))));
+            this.btnSairPartida.Location = new System.Drawing.Point(138, 511);
+            this.btnSairPartida.Name = "btnSairPartida";
+            this.btnSairPartida.Size = new System.Drawing.Size(49, 33);
+            this.btnSairPartida.TabIndex = 46;
+            this.btnSairPartida.Text = "Sair";
+            this.btnSairPartida.UseVisualStyleBackColor = false;
+            this.btnSairPartida.Click += new System.EventHandler(this.btnSairPartida_Click);
+            // 
+            // gbDesempregados
+            // 
+            this.gbDesempregados.Controls.Add(this.btnd12);
+            this.gbDesempregados.Controls.Add(this.btnd11);
+            this.gbDesempregados.Controls.Add(this.btnd10);
+            this.gbDesempregados.Controls.Add(this.btnd9);
+            this.gbDesempregados.Controls.Add(this.btnd8);
+            this.gbDesempregados.Controls.Add(this.btnd7);
+            this.gbDesempregados.Controls.Add(this.btnd6);
+            this.gbDesempregados.Controls.Add(this.btnd5);
+            this.gbDesempregados.Controls.Add(this.btnd4);
+            this.gbDesempregados.Controls.Add(this.btnd3);
+            this.gbDesempregados.Controls.Add(this.btnd2);
+            this.gbDesempregados.Controls.Add(this.btnd1);
+            this.gbDesempregados.Controls.Add(this.btnd0);
+            this.gbDesempregados.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gbDesempregados.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.gbDesempregados.Location = new System.Drawing.Point(413, 190);
+            this.gbDesempregados.Name = "gbDesempregados";
+            this.gbDesempregados.Size = new System.Drawing.Size(37, 367);
+            this.gbDesempregados.TabIndex = 42;
+            this.gbDesempregados.TabStop = false;
             // 
             // btnd12
             // 
-            this.btnd12.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.btnd12.Cursor = System.Windows.Forms.Cursors.Default;
             this.btnd12.Location = new System.Drawing.Point(6, 337);
             this.btnd12.Name = "btnd12";
             this.btnd12.Size = new System.Drawing.Size(25, 23);
@@ -603,11 +690,10 @@
             this.btnd12.Text = "P";
             this.btnd12.UseMnemonic = false;
             this.btnd12.UseVisualStyleBackColor = false;
-            this.btnd12.UseWaitCursor = true;
             // 
             // btnd11
             // 
-            this.btnd11.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.btnd11.Cursor = System.Windows.Forms.Cursors.Default;
             this.btnd11.Location = new System.Drawing.Point(6, 310);
             this.btnd11.Name = "btnd11";
             this.btnd11.Size = new System.Drawing.Size(25, 23);
@@ -616,11 +702,10 @@
             this.btnd11.Text = "O";
             this.btnd11.UseMnemonic = false;
             this.btnd11.UseVisualStyleBackColor = false;
-            this.btnd11.UseWaitCursor = true;
             // 
             // btnd10
             // 
-            this.btnd10.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.btnd10.Cursor = System.Windows.Forms.Cursors.Default;
             this.btnd10.Location = new System.Drawing.Point(6, 283);
             this.btnd10.Name = "btnd10";
             this.btnd10.Size = new System.Drawing.Size(25, 23);
@@ -629,11 +714,10 @@
             this.btnd10.Text = "N";
             this.btnd10.UseMnemonic = false;
             this.btnd10.UseVisualStyleBackColor = false;
-            this.btnd10.UseWaitCursor = true;
             // 
             // btnd9
             // 
-            this.btnd9.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.btnd9.Cursor = System.Windows.Forms.Cursors.Default;
             this.btnd9.Location = new System.Drawing.Point(6, 256);
             this.btnd9.Name = "btnd9";
             this.btnd9.Size = new System.Drawing.Size(25, 23);
@@ -642,11 +726,10 @@
             this.btnd9.Text = "M";
             this.btnd9.UseMnemonic = false;
             this.btnd9.UseVisualStyleBackColor = false;
-            this.btnd9.UseWaitCursor = true;
             // 
             // btnd8
             // 
-            this.btnd8.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.btnd8.Cursor = System.Windows.Forms.Cursors.Default;
             this.btnd8.Location = new System.Drawing.Point(6, 229);
             this.btnd8.Name = "btnd8";
             this.btnd8.Size = new System.Drawing.Size(25, 23);
@@ -655,11 +738,10 @@
             this.btnd8.Text = "L";
             this.btnd8.UseMnemonic = false;
             this.btnd8.UseVisualStyleBackColor = false;
-            this.btnd8.UseWaitCursor = true;
             // 
             // btnd7
             // 
-            this.btnd7.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.btnd7.Cursor = System.Windows.Forms.Cursors.Default;
             this.btnd7.Location = new System.Drawing.Point(6, 202);
             this.btnd7.Name = "btnd7";
             this.btnd7.Size = new System.Drawing.Size(25, 23);
@@ -668,11 +750,10 @@
             this.btnd7.Text = "I";
             this.btnd7.UseMnemonic = false;
             this.btnd7.UseVisualStyleBackColor = false;
-            this.btnd7.UseWaitCursor = true;
             // 
             // btnd6
             // 
-            this.btnd6.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.btnd6.Cursor = System.Windows.Forms.Cursors.Default;
             this.btnd6.Location = new System.Drawing.Point(6, 175);
             this.btnd6.Name = "btnd6";
             this.btnd6.Size = new System.Drawing.Size(25, 23);
@@ -681,11 +762,10 @@
             this.btnd6.Text = "G";
             this.btnd6.UseMnemonic = false;
             this.btnd6.UseVisualStyleBackColor = false;
-            this.btnd6.UseWaitCursor = true;
             // 
             // btnd5
             // 
-            this.btnd5.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.btnd5.Cursor = System.Windows.Forms.Cursors.Default;
             this.btnd5.Location = new System.Drawing.Point(6, 148);
             this.btnd5.Name = "btnd5";
             this.btnd5.Size = new System.Drawing.Size(25, 23);
@@ -694,11 +774,10 @@
             this.btnd5.Text = "F";
             this.btnd5.UseMnemonic = false;
             this.btnd5.UseVisualStyleBackColor = false;
-            this.btnd5.UseWaitCursor = true;
             // 
             // btnd4
             // 
-            this.btnd4.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.btnd4.Cursor = System.Windows.Forms.Cursors.Default;
             this.btnd4.Location = new System.Drawing.Point(6, 121);
             this.btnd4.Name = "btnd4";
             this.btnd4.Size = new System.Drawing.Size(25, 23);
@@ -707,11 +786,10 @@
             this.btnd4.Text = "E";
             this.btnd4.UseMnemonic = false;
             this.btnd4.UseVisualStyleBackColor = false;
-            this.btnd4.UseWaitCursor = true;
             // 
             // btnd3
             // 
-            this.btnd3.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.btnd3.Cursor = System.Windows.Forms.Cursors.Default;
             this.btnd3.Location = new System.Drawing.Point(6, 94);
             this.btnd3.Name = "btnd3";
             this.btnd3.Size = new System.Drawing.Size(25, 23);
@@ -720,11 +798,10 @@
             this.btnd3.Text = "D";
             this.btnd3.UseMnemonic = false;
             this.btnd3.UseVisualStyleBackColor = false;
-            this.btnd3.UseWaitCursor = true;
             // 
             // btnd2
             // 
-            this.btnd2.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.btnd2.Cursor = System.Windows.Forms.Cursors.Default;
             this.btnd2.Location = new System.Drawing.Point(6, 67);
             this.btnd2.Name = "btnd2";
             this.btnd2.Size = new System.Drawing.Size(25, 23);
@@ -733,11 +810,10 @@
             this.btnd2.Text = "C";
             this.btnd2.UseMnemonic = false;
             this.btnd2.UseVisualStyleBackColor = false;
-            this.btnd2.UseWaitCursor = true;
             // 
             // btnd1
             // 
-            this.btnd1.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.btnd1.Cursor = System.Windows.Forms.Cursors.Default;
             this.btnd1.Location = new System.Drawing.Point(6, 40);
             this.btnd1.Name = "btnd1";
             this.btnd1.Size = new System.Drawing.Size(25, 23);
@@ -746,11 +822,10 @@
             this.btnd1.Text = "B";
             this.btnd1.UseMnemonic = false;
             this.btnd1.UseVisualStyleBackColor = false;
-            this.btnd1.UseWaitCursor = true;
             // 
             // btnd0
             // 
-            this.btnd0.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.btnd0.Cursor = System.Windows.Forms.Cursors.Default;
             this.btnd0.Location = new System.Drawing.Point(6, 13);
             this.btnd0.Name = "btnd0";
             this.btnd0.Size = new System.Drawing.Size(25, 23);
@@ -759,22 +834,21 @@
             this.btnd0.Text = "A";
             this.btnd0.UseMnemonic = false;
             this.btnd0.UseVisualStyleBackColor = false;
-            this.btnd0.UseWaitCursor = true;
             // 
-            // btnAutoJogo
+            // btnConfiguracoes
             // 
-            this.btnAutoJogo.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnAutoJogo.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.btnAutoJogo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAutoJogo.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAutoJogo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(18)))), ((int)(((byte)(23)))));
-            this.btnAutoJogo.Location = new System.Drawing.Point(6, 21);
-            this.btnAutoJogo.Name = "btnAutoJogo";
-            this.btnAutoJogo.Size = new System.Drawing.Size(165, 24);
-            this.btnAutoJogo.TabIndex = 45;
-            this.btnAutoJogo.Text = "Ativar Jogadas Automáticas";
-            this.btnAutoJogo.UseVisualStyleBackColor = false;
-            this.btnAutoJogo.Click += new System.EventHandler(this.btnAutoJogo_Click);
+            this.btnConfiguracoes.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnConfiguracoes.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnConfiguracoes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnConfiguracoes.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConfiguracoes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(18)))), ((int)(((byte)(23)))));
+            this.btnConfiguracoes.Location = new System.Drawing.Point(3, 511);
+            this.btnConfiguracoes.Name = "btnConfiguracoes";
+            this.btnConfiguracoes.Size = new System.Drawing.Size(132, 33);
+            this.btnConfiguracoes.TabIndex = 45;
+            this.btnConfiguracoes.Text = "Configurações";
+            this.btnConfiguracoes.UseVisualStyleBackColor = false;
+            this.btnConfiguracoes.Click += new System.EventHandler(this.btnConfiguracoes_Click);
             // 
             // btnIniciarPartida
             // 
@@ -783,9 +857,9 @@
             this.btnIniciarPartida.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnIniciarPartida.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnIniciarPartida.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(18)))), ((int)(((byte)(23)))));
-            this.btnIniciarPartida.Location = new System.Drawing.Point(26, 524);
+            this.btnIniciarPartida.Location = new System.Drawing.Point(3, 476);
             this.btnIniciarPartida.Name = "btnIniciarPartida";
-            this.btnIniciarPartida.Size = new System.Drawing.Size(133, 33);
+            this.btnIniciarPartida.Size = new System.Drawing.Size(184, 33);
             this.btnIniciarPartida.TabIndex = 45;
             this.btnIniciarPartida.Text = "Iniciar Partida";
             this.btnIniciarPartida.UseVisualStyleBackColor = false;
@@ -794,7 +868,7 @@
             // gbVotacao
             // 
             this.gbVotacao.Controls.Add(this.btnNao);
-            this.gbVotacao.Controls.Add(this.label6);
+            this.gbVotacao.Controls.Add(this.labelPerguntaVotacao);
             this.gbVotacao.Controls.Add(this.btnSim);
             this.gbVotacao.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gbVotacao.ForeColor = System.Drawing.Color.DeepSkyBlue;
@@ -820,16 +894,16 @@
             this.btnNao.UseVisualStyleBackColor = false;
             this.btnNao.Click += new System.EventHandler(this.btnNao_Click);
             // 
-            // label6
+            // labelPerguntaVotacao
             // 
-            this.label6.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label6.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.label6.Location = new System.Drawing.Point(9, 18);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(163, 59);
-            this.label6.TabIndex = 18;
-            this.label6.Text = "Você escolhe o candidato Bolsonaro para ser Presidente?";
+            this.labelPerguntaVotacao.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelPerguntaVotacao.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelPerguntaVotacao.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.labelPerguntaVotacao.Location = new System.Drawing.Point(9, 18);
+            this.labelPerguntaVotacao.Name = "labelPerguntaVotacao";
+            this.labelPerguntaVotacao.Size = new System.Drawing.Size(163, 59);
+            this.labelPerguntaVotacao.TabIndex = 18;
+            this.labelPerguntaVotacao.Text = "Você escolhe o candidato Bolsonaro para ser Presidente?";
             // 
             // btnSim
             // 
@@ -941,6 +1015,12 @@
             // 
             // gbJogadores
             // 
+            this.gbJogadores.Controls.Add(this.labelVotacao5);
+            this.gbJogadores.Controls.Add(this.labelVotacao4);
+            this.gbJogadores.Controls.Add(this.labelVotacao3);
+            this.gbJogadores.Controls.Add(this.labelVotacao2);
+            this.gbJogadores.Controls.Add(this.labelVotacao1);
+            this.gbJogadores.Controls.Add(this.labelVotacao0);
             this.gbJogadores.Controls.Add(this.j1);
             this.gbJogadores.Controls.Add(this.j5);
             this.gbJogadores.Controls.Add(this.j4);
@@ -992,6 +1072,79 @@
             this.gbJogadores.TabStop = false;
             this.gbJogadores.Text = "Jogadores";
             // 
+            // labelVotacao5
+            // 
+            this.labelVotacao5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelVotacao5.AutoSize = true;
+            this.labelVotacao5.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelVotacao5.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.labelVotacao5.Location = new System.Drawing.Point(341, 156);
+            this.labelVotacao5.Name = "labelVotacao5";
+            this.labelVotacao5.Size = new System.Drawing.Size(42, 17);
+            this.labelVotacao5.TabIndex = 19;
+            this.labelVotacao5.Text = "votos";
+            this.labelVotacao5.Click += new System.EventHandler(this.label5_Click);
+            // 
+            // labelVotacao4
+            // 
+            this.labelVotacao4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelVotacao4.AutoSize = true;
+            this.labelVotacao4.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelVotacao4.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.labelVotacao4.Location = new System.Drawing.Point(341, 129);
+            this.labelVotacao4.Name = "labelVotacao4";
+            this.labelVotacao4.Size = new System.Drawing.Size(42, 17);
+            this.labelVotacao4.TabIndex = 20;
+            this.labelVotacao4.Text = "votos";
+            // 
+            // labelVotacao3
+            // 
+            this.labelVotacao3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelVotacao3.AutoSize = true;
+            this.labelVotacao3.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelVotacao3.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.labelVotacao3.Location = new System.Drawing.Point(341, 102);
+            this.labelVotacao3.Name = "labelVotacao3";
+            this.labelVotacao3.Size = new System.Drawing.Size(42, 17);
+            this.labelVotacao3.TabIndex = 21;
+            this.labelVotacao3.Text = "votos";
+            // 
+            // labelVotacao2
+            // 
+            this.labelVotacao2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelVotacao2.AutoSize = true;
+            this.labelVotacao2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelVotacao2.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.labelVotacao2.Location = new System.Drawing.Point(341, 75);
+            this.labelVotacao2.Name = "labelVotacao2";
+            this.labelVotacao2.Size = new System.Drawing.Size(42, 17);
+            this.labelVotacao2.TabIndex = 22;
+            this.labelVotacao2.Text = "votos";
+            // 
+            // labelVotacao1
+            // 
+            this.labelVotacao1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelVotacao1.AutoSize = true;
+            this.labelVotacao1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelVotacao1.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.labelVotacao1.Location = new System.Drawing.Point(341, 48);
+            this.labelVotacao1.Name = "labelVotacao1";
+            this.labelVotacao1.Size = new System.Drawing.Size(42, 17);
+            this.labelVotacao1.TabIndex = 23;
+            this.labelVotacao1.Text = "votos";
+            // 
+            // labelVotacao0
+            // 
+            this.labelVotacao0.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelVotacao0.AutoSize = true;
+            this.labelVotacao0.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelVotacao0.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.labelVotacao0.Location = new System.Drawing.Point(341, 21);
+            this.labelVotacao0.Name = "labelVotacao0";
+            this.labelVotacao0.Size = new System.Drawing.Size(42, 17);
+            this.labelVotacao0.TabIndex = 24;
+            this.labelVotacao0.Text = "votos";
+            // 
             // j1
             // 
             this.j1.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -1019,7 +1172,6 @@
             this.j5.TabIndex = 7;
             this.j5.UseVisualStyleBackColor = false;
             this.j5.Visible = false;
-            this.j5.Click += new System.EventHandler(this.btnSim_Click);
             // 
             // j4
             // 
@@ -1034,7 +1186,6 @@
             this.j4.TabIndex = 7;
             this.j4.UseVisualStyleBackColor = false;
             this.j4.Visible = false;
-            this.j4.Click += new System.EventHandler(this.btnSim_Click);
             // 
             // j3
             // 
@@ -1049,7 +1200,6 @@
             this.j3.TabIndex = 7;
             this.j3.UseVisualStyleBackColor = false;
             this.j3.Visible = false;
-            this.j3.Click += new System.EventHandler(this.btnSim_Click);
             // 
             // lblPontos5
             // 
@@ -1202,7 +1352,6 @@
             this.j2.TabIndex = 7;
             this.j2.UseVisualStyleBackColor = false;
             this.j2.Visible = false;
-            this.j2.Click += new System.EventHandler(this.btnSim_Click);
             // 
             // nao53
             // 
@@ -1218,7 +1367,6 @@
             this.nao53.Text = "N";
             this.nao53.UseVisualStyleBackColor = false;
             this.nao53.Visible = false;
-            this.nao53.Click += new System.EventHandler(this.btnSim_Click);
             // 
             // nao52
             // 
@@ -1234,7 +1382,6 @@
             this.nao52.Text = "N";
             this.nao52.UseVisualStyleBackColor = false;
             this.nao52.Visible = false;
-            this.nao52.Click += new System.EventHandler(this.btnSim_Click);
             // 
             // nao51
             // 
@@ -1250,7 +1397,6 @@
             this.nao51.Text = "N";
             this.nao51.UseVisualStyleBackColor = false;
             this.nao51.Visible = false;
-            this.nao51.Click += new System.EventHandler(this.btnSim_Click);
             // 
             // nao50
             // 
@@ -1266,7 +1412,6 @@
             this.nao50.Text = "N";
             this.nao50.UseVisualStyleBackColor = false;
             this.nao50.Visible = false;
-            this.nao50.Click += new System.EventHandler(this.btnSim_Click);
             // 
             // nao43
             // 
@@ -1282,7 +1427,6 @@
             this.nao43.Text = "N";
             this.nao43.UseVisualStyleBackColor = false;
             this.nao43.Visible = false;
-            this.nao43.Click += new System.EventHandler(this.btnSim_Click);
             // 
             // nao42
             // 
@@ -1298,7 +1442,6 @@
             this.nao42.Text = "N";
             this.nao42.UseVisualStyleBackColor = false;
             this.nao42.Visible = false;
-            this.nao42.Click += new System.EventHandler(this.btnSim_Click);
             // 
             // nao41
             // 
@@ -1314,7 +1457,6 @@
             this.nao41.Text = "N";
             this.nao41.UseVisualStyleBackColor = false;
             this.nao41.Visible = false;
-            this.nao41.Click += new System.EventHandler(this.btnSim_Click);
             // 
             // nao40
             // 
@@ -1330,7 +1472,6 @@
             this.nao40.Text = "N";
             this.nao40.UseVisualStyleBackColor = false;
             this.nao40.Visible = false;
-            this.nao40.Click += new System.EventHandler(this.btnSim_Click);
             // 
             // nao33
             // 
@@ -1346,7 +1487,6 @@
             this.nao33.Text = "N";
             this.nao33.UseVisualStyleBackColor = false;
             this.nao33.Visible = false;
-            this.nao33.Click += new System.EventHandler(this.btnSim_Click);
             // 
             // nao32
             // 
@@ -1362,7 +1502,6 @@
             this.nao32.Text = "N";
             this.nao32.UseVisualStyleBackColor = false;
             this.nao32.Visible = false;
-            this.nao32.Click += new System.EventHandler(this.btnSim_Click);
             // 
             // nao31
             // 
@@ -1378,7 +1517,6 @@
             this.nao31.Text = "N";
             this.nao31.UseVisualStyleBackColor = false;
             this.nao31.Visible = false;
-            this.nao31.Click += new System.EventHandler(this.btnSim_Click);
             // 
             // nao30
             // 
@@ -1394,7 +1532,6 @@
             this.nao30.Text = "N";
             this.nao30.UseVisualStyleBackColor = false;
             this.nao30.Visible = false;
-            this.nao30.Click += new System.EventHandler(this.btnSim_Click);
             // 
             // nao23
             // 
@@ -1410,7 +1547,6 @@
             this.nao23.Text = "N";
             this.nao23.UseVisualStyleBackColor = false;
             this.nao23.Visible = false;
-            this.nao23.Click += new System.EventHandler(this.btnSim_Click);
             // 
             // nao22
             // 
@@ -1426,7 +1562,6 @@
             this.nao22.Text = "N";
             this.nao22.UseVisualStyleBackColor = false;
             this.nao22.Visible = false;
-            this.nao22.Click += new System.EventHandler(this.btnSim_Click);
             // 
             // nao21
             // 
@@ -1442,7 +1577,6 @@
             this.nao21.Text = "N";
             this.nao21.UseVisualStyleBackColor = false;
             this.nao21.Visible = false;
-            this.nao21.Click += new System.EventHandler(this.btnSim_Click);
             // 
             // nao20
             // 
@@ -1458,7 +1592,6 @@
             this.nao20.Text = "N";
             this.nao20.UseVisualStyleBackColor = false;
             this.nao20.Visible = false;
-            this.nao20.Click += new System.EventHandler(this.btnSim_Click);
             // 
             // nao13
             // 
@@ -1474,7 +1607,6 @@
             this.nao13.Text = "N";
             this.nao13.UseVisualStyleBackColor = false;
             this.nao13.Visible = false;
-            this.nao13.Click += new System.EventHandler(this.btnSim_Click);
             // 
             // nao12
             // 
@@ -1490,7 +1622,6 @@
             this.nao12.Text = "N";
             this.nao12.UseVisualStyleBackColor = false;
             this.nao12.Visible = false;
-            this.nao12.Click += new System.EventHandler(this.btnSim_Click);
             // 
             // nao11
             // 
@@ -1506,7 +1637,6 @@
             this.nao11.Text = "N";
             this.nao11.UseVisualStyleBackColor = false;
             this.nao11.Visible = false;
-            this.nao11.Click += new System.EventHandler(this.btnSim_Click);
             // 
             // nao10
             // 
@@ -1522,7 +1652,6 @@
             this.nao10.Text = "N";
             this.nao10.UseVisualStyleBackColor = false;
             this.nao10.Visible = false;
-            this.nao10.Click += new System.EventHandler(this.btnSim_Click);
             // 
             // nao03
             // 
@@ -1538,7 +1667,6 @@
             this.nao03.Text = "N";
             this.nao03.UseVisualStyleBackColor = false;
             this.nao03.Visible = false;
-            this.nao03.Click += new System.EventHandler(this.btnSim_Click);
             // 
             // nao02
             // 
@@ -1554,7 +1682,6 @@
             this.nao02.Text = "N";
             this.nao02.UseVisualStyleBackColor = false;
             this.nao02.Visible = false;
-            this.nao02.Click += new System.EventHandler(this.btnSim_Click);
             // 
             // nao01
             // 
@@ -1570,7 +1697,6 @@
             this.nao01.Text = "N";
             this.nao01.UseVisualStyleBackColor = false;
             this.nao01.Visible = false;
-            this.nao01.Click += new System.EventHandler(this.btnSim_Click);
             // 
             // nao00
             // 
@@ -1586,7 +1712,6 @@
             this.nao00.Text = "N";
             this.nao00.UseVisualStyleBackColor = false;
             this.nao00.Visible = false;
-            this.nao00.Click += new System.EventHandler(this.btnSim_Click);
             // 
             // j0
             // 
@@ -1601,7 +1726,6 @@
             this.j0.TabIndex = 7;
             this.j0.UseVisualStyleBackColor = false;
             this.j0.Visible = false;
-            this.j0.Click += new System.EventHandler(this.btnSim_Click);
             // 
             // lblNumRodada
             // 
@@ -1609,7 +1733,7 @@
             this.lblNumRodada.AutoSize = true;
             this.lblNumRodada.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNumRodada.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.lblNumRodada.Location = new System.Drawing.Point(345, 536);
+            this.lblNumRodada.Location = new System.Drawing.Point(345, 539);
             this.lblNumRodada.Name = "lblNumRodada";
             this.lblNumRodada.Size = new System.Drawing.Size(28, 17);
             this.lblNumRodada.TabIndex = 37;
@@ -1621,7 +1745,7 @@
             this.lblPontuacaoTotal.AutoSize = true;
             this.lblPontuacaoTotal.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPontuacaoTotal.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.lblPontuacaoTotal.Location = new System.Drawing.Point(345, 499);
+            this.lblPontuacaoTotal.Location = new System.Drawing.Point(345, 502);
             this.lblPontuacaoTotal.Name = "lblPontuacaoTotal";
             this.lblPontuacaoTotal.Size = new System.Drawing.Size(15, 17);
             this.lblPontuacaoTotal.TabIndex = 38;
@@ -1633,7 +1757,7 @@
             this.lblPontuacaoAtual.AutoSize = true;
             this.lblPontuacaoAtual.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPontuacaoAtual.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.lblPontuacaoAtual.Location = new System.Drawing.Point(345, 518);
+            this.lblPontuacaoAtual.Location = new System.Drawing.Point(345, 521);
             this.lblPontuacaoAtual.Name = "lblPontuacaoAtual";
             this.lblPontuacaoAtual.Size = new System.Drawing.Size(15, 17);
             this.lblPontuacaoAtual.TabIndex = 38;
@@ -1645,7 +1769,7 @@
             this.lblRodada.AutoSize = true;
             this.lblRodada.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRodada.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.lblRodada.Location = new System.Drawing.Point(275, 536);
+            this.lblRodada.Location = new System.Drawing.Point(275, 539);
             this.lblRodada.Name = "lblRodada";
             this.lblRodada.Size = new System.Drawing.Size(64, 16);
             this.lblRodada.TabIndex = 39;
@@ -1657,7 +1781,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.label2.Location = new System.Drawing.Point(223, 499);
+            this.label2.Location = new System.Drawing.Point(223, 502);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(116, 16);
             this.label2.TabIndex = 40;
@@ -1669,7 +1793,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.label3.Location = new System.Drawing.Point(219, 518);
+            this.label3.Location = new System.Drawing.Point(219, 521);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(120, 16);
             this.label3.TabIndex = 40;
@@ -1677,7 +1801,7 @@
             // 
             // n04
             // 
-            this.n04.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.n04.Cursor = System.Windows.Forms.Cursors.Default;
             this.n04.ForeColor = System.Drawing.Color.DeepSkyBlue;
             this.n04.Location = new System.Drawing.Point(346, 454);
             this.n04.Name = "n04";
@@ -1686,11 +1810,10 @@
             this.n04.TabStop = false;
             this.n04.UseMnemonic = false;
             this.n04.UseVisualStyleBackColor = false;
-            this.n04.UseWaitCursor = true;
             // 
             // n14
             // 
-            this.n14.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.n14.Cursor = System.Windows.Forms.Cursors.Default;
             this.n14.ForeColor = System.Drawing.Color.DeepSkyBlue;
             this.n14.Location = new System.Drawing.Point(346, 411);
             this.n14.Name = "n14";
@@ -1699,11 +1822,10 @@
             this.n14.TabStop = false;
             this.n14.UseMnemonic = false;
             this.n14.UseVisualStyleBackColor = false;
-            this.n14.UseWaitCursor = true;
             // 
             // n03
             // 
-            this.n03.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.n03.Cursor = System.Windows.Forms.Cursors.Default;
             this.n03.ForeColor = System.Drawing.Color.DeepSkyBlue;
             this.n03.Location = new System.Drawing.Point(300, 454);
             this.n03.Name = "n03";
@@ -1712,11 +1834,10 @@
             this.n03.TabStop = false;
             this.n03.UseMnemonic = false;
             this.n03.UseVisualStyleBackColor = false;
-            this.n03.UseWaitCursor = true;
             // 
             // n13
             // 
-            this.n13.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.n13.Cursor = System.Windows.Forms.Cursors.Default;
             this.n13.ForeColor = System.Drawing.Color.DeepSkyBlue;
             this.n13.Location = new System.Drawing.Point(300, 411);
             this.n13.Name = "n13";
@@ -1725,11 +1846,10 @@
             this.n13.TabStop = false;
             this.n13.UseMnemonic = false;
             this.n13.UseVisualStyleBackColor = false;
-            this.n13.UseWaitCursor = true;
             // 
             // n02
             // 
-            this.n02.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.n02.Cursor = System.Windows.Forms.Cursors.Default;
             this.n02.ForeColor = System.Drawing.Color.DeepSkyBlue;
             this.n02.Location = new System.Drawing.Point(254, 454);
             this.n02.Name = "n02";
@@ -1738,11 +1858,10 @@
             this.n02.TabStop = false;
             this.n02.UseMnemonic = false;
             this.n02.UseVisualStyleBackColor = false;
-            this.n02.UseWaitCursor = true;
             // 
             // n12
             // 
-            this.n12.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.n12.Cursor = System.Windows.Forms.Cursors.Default;
             this.n12.ForeColor = System.Drawing.Color.DeepSkyBlue;
             this.n12.Location = new System.Drawing.Point(254, 411);
             this.n12.Name = "n12";
@@ -1751,11 +1870,10 @@
             this.n12.TabStop = false;
             this.n12.UseMnemonic = false;
             this.n12.UseVisualStyleBackColor = false;
-            this.n12.UseWaitCursor = true;
             // 
             // n01
             // 
-            this.n01.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.n01.Cursor = System.Windows.Forms.Cursors.Default;
             this.n01.ForeColor = System.Drawing.Color.DeepSkyBlue;
             this.n01.Location = new System.Drawing.Point(208, 454);
             this.n01.Name = "n01";
@@ -1764,11 +1882,10 @@
             this.n01.TabStop = false;
             this.n01.UseMnemonic = false;
             this.n01.UseVisualStyleBackColor = false;
-            this.n01.UseWaitCursor = true;
             // 
             // n11
             // 
-            this.n11.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.n11.Cursor = System.Windows.Forms.Cursors.Default;
             this.n11.ForeColor = System.Drawing.Color.DeepSkyBlue;
             this.n11.Location = new System.Drawing.Point(208, 411);
             this.n11.Name = "n11";
@@ -1777,11 +1894,10 @@
             this.n11.TabStop = false;
             this.n11.UseMnemonic = false;
             this.n11.UseVisualStyleBackColor = false;
-            this.n11.UseWaitCursor = true;
             // 
             // n24
             // 
-            this.n24.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.n24.Cursor = System.Windows.Forms.Cursors.Default;
             this.n24.ForeColor = System.Drawing.Color.DeepSkyBlue;
             this.n24.Location = new System.Drawing.Point(346, 368);
             this.n24.Name = "n24";
@@ -1790,11 +1906,10 @@
             this.n24.TabStop = false;
             this.n24.UseMnemonic = false;
             this.n24.UseVisualStyleBackColor = false;
-            this.n24.UseWaitCursor = true;
             // 
             // n34
             // 
-            this.n34.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.n34.Cursor = System.Windows.Forms.Cursors.Default;
             this.n34.ForeColor = System.Drawing.Color.DeepSkyBlue;
             this.n34.Location = new System.Drawing.Point(346, 325);
             this.n34.Name = "n34";
@@ -1803,11 +1918,10 @@
             this.n34.TabStop = false;
             this.n34.UseMnemonic = false;
             this.n34.UseVisualStyleBackColor = false;
-            this.n34.UseWaitCursor = true;
             // 
             // n23
             // 
-            this.n23.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.n23.Cursor = System.Windows.Forms.Cursors.Default;
             this.n23.ForeColor = System.Drawing.Color.DeepSkyBlue;
             this.n23.Location = new System.Drawing.Point(300, 368);
             this.n23.Name = "n23";
@@ -1816,11 +1930,10 @@
             this.n23.TabStop = false;
             this.n23.UseMnemonic = false;
             this.n23.UseVisualStyleBackColor = false;
-            this.n23.UseWaitCursor = true;
             // 
             // n33
             // 
-            this.n33.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.n33.Cursor = System.Windows.Forms.Cursors.Default;
             this.n33.ForeColor = System.Drawing.Color.DeepSkyBlue;
             this.n33.Location = new System.Drawing.Point(300, 325);
             this.n33.Name = "n33";
@@ -1829,11 +1942,10 @@
             this.n33.TabStop = false;
             this.n33.UseMnemonic = false;
             this.n33.UseVisualStyleBackColor = false;
-            this.n33.UseWaitCursor = true;
             // 
             // n44
             // 
-            this.n44.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.n44.Cursor = System.Windows.Forms.Cursors.Default;
             this.n44.ForeColor = System.Drawing.Color.DeepSkyBlue;
             this.n44.Location = new System.Drawing.Point(346, 282);
             this.n44.Name = "n44";
@@ -1842,11 +1954,10 @@
             this.n44.TabStop = false;
             this.n44.UseMnemonic = false;
             this.n44.UseVisualStyleBackColor = false;
-            this.n44.UseWaitCursor = true;
             // 
             // n22
             // 
-            this.n22.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.n22.Cursor = System.Windows.Forms.Cursors.Default;
             this.n22.ForeColor = System.Drawing.Color.DeepSkyBlue;
             this.n22.Location = new System.Drawing.Point(254, 368);
             this.n22.Name = "n22";
@@ -1855,11 +1966,10 @@
             this.n22.TabStop = false;
             this.n22.UseMnemonic = false;
             this.n22.UseVisualStyleBackColor = false;
-            this.n22.UseWaitCursor = true;
             // 
             // n43
             // 
-            this.n43.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.n43.Cursor = System.Windows.Forms.Cursors.Default;
             this.n43.ForeColor = System.Drawing.Color.DeepSkyBlue;
             this.n43.Location = new System.Drawing.Point(300, 282);
             this.n43.Name = "n43";
@@ -1868,11 +1978,10 @@
             this.n43.TabStop = false;
             this.n43.UseMnemonic = false;
             this.n43.UseVisualStyleBackColor = false;
-            this.n43.UseWaitCursor = true;
             // 
             // n32
             // 
-            this.n32.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.n32.Cursor = System.Windows.Forms.Cursors.Default;
             this.n32.ForeColor = System.Drawing.Color.DeepSkyBlue;
             this.n32.Location = new System.Drawing.Point(254, 325);
             this.n32.Name = "n32";
@@ -1881,11 +1990,10 @@
             this.n32.TabStop = false;
             this.n32.UseMnemonic = false;
             this.n32.UseVisualStyleBackColor = false;
-            this.n32.UseWaitCursor = true;
             // 
             // n54
             // 
-            this.n54.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.n54.Cursor = System.Windows.Forms.Cursors.Default;
             this.n54.ForeColor = System.Drawing.Color.DeepSkyBlue;
             this.n54.Location = new System.Drawing.Point(346, 239);
             this.n54.Name = "n54";
@@ -1894,11 +2002,10 @@
             this.n54.TabStop = false;
             this.n54.UseMnemonic = false;
             this.n54.UseVisualStyleBackColor = false;
-            this.n54.UseWaitCursor = true;
             // 
             // n21
             // 
-            this.n21.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.n21.Cursor = System.Windows.Forms.Cursors.Default;
             this.n21.ForeColor = System.Drawing.Color.DeepSkyBlue;
             this.n21.Location = new System.Drawing.Point(208, 368);
             this.n21.Name = "n21";
@@ -1907,11 +2014,10 @@
             this.n21.TabStop = false;
             this.n21.UseMnemonic = false;
             this.n21.UseVisualStyleBackColor = false;
-            this.n21.UseWaitCursor = true;
             // 
             // n42
             // 
-            this.n42.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.n42.Cursor = System.Windows.Forms.Cursors.Default;
             this.n42.ForeColor = System.Drawing.Color.DeepSkyBlue;
             this.n42.Location = new System.Drawing.Point(254, 282);
             this.n42.Name = "n42";
@@ -1920,11 +2026,10 @@
             this.n42.TabStop = false;
             this.n42.UseMnemonic = false;
             this.n42.UseVisualStyleBackColor = false;
-            this.n42.UseWaitCursor = true;
             // 
             // n31
             // 
-            this.n31.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.n31.Cursor = System.Windows.Forms.Cursors.Default;
             this.n31.ForeColor = System.Drawing.Color.DeepSkyBlue;
             this.n31.Location = new System.Drawing.Point(208, 325);
             this.n31.Name = "n31";
@@ -1933,11 +2038,10 @@
             this.n31.TabStop = false;
             this.n31.UseMnemonic = false;
             this.n31.UseVisualStyleBackColor = false;
-            this.n31.UseWaitCursor = true;
             // 
             // n53
             // 
-            this.n53.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.n53.Cursor = System.Windows.Forms.Cursors.Default;
             this.n53.ForeColor = System.Drawing.Color.DeepSkyBlue;
             this.n53.Location = new System.Drawing.Point(300, 239);
             this.n53.Name = "n53";
@@ -1946,11 +2050,10 @@
             this.n53.TabStop = false;
             this.n53.UseMnemonic = false;
             this.n53.UseVisualStyleBackColor = false;
-            this.n53.UseWaitCursor = true;
             // 
             // n41
             // 
-            this.n41.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.n41.Cursor = System.Windows.Forms.Cursors.Default;
             this.n41.ForeColor = System.Drawing.Color.DeepSkyBlue;
             this.n41.Location = new System.Drawing.Point(208, 282);
             this.n41.Name = "n41";
@@ -1959,11 +2062,10 @@
             this.n41.TabStop = false;
             this.n41.UseMnemonic = false;
             this.n41.UseVisualStyleBackColor = false;
-            this.n41.UseWaitCursor = true;
             // 
             // n52
             // 
-            this.n52.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.n52.Cursor = System.Windows.Forms.Cursors.Default;
             this.n52.ForeColor = System.Drawing.Color.DeepSkyBlue;
             this.n52.Location = new System.Drawing.Point(254, 239);
             this.n52.Name = "n52";
@@ -1972,11 +2074,10 @@
             this.n52.TabStop = false;
             this.n52.UseMnemonic = false;
             this.n52.UseVisualStyleBackColor = false;
-            this.n52.UseWaitCursor = true;
             // 
             // n51
             // 
-            this.n51.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.n51.Cursor = System.Windows.Forms.Cursors.Default;
             this.n51.ForeColor = System.Drawing.Color.DeepSkyBlue;
             this.n51.Location = new System.Drawing.Point(208, 239);
             this.n51.Name = "n51";
@@ -1985,11 +2086,10 @@
             this.n51.TabStop = false;
             this.n51.UseMnemonic = false;
             this.n51.UseVisualStyleBackColor = false;
-            this.n51.UseWaitCursor = true;
             // 
             // n10
             // 
-            this.n10.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.n10.Cursor = System.Windows.Forms.Cursors.Default;
             this.n10.ForeColor = System.Drawing.Color.DeepSkyBlue;
             this.n10.Location = new System.Drawing.Point(276, 196);
             this.n10.Name = "n10";
@@ -1998,112 +2098,126 @@
             this.n10.TabStop = false;
             this.n10.UseMnemonic = false;
             this.n10.UseVisualStyleBackColor = false;
-            this.n10.UseWaitCursor = true;
             // 
-            // btnAlgoritmoVotacaoTenhoPontosSuficientes
+            // btnAutoJogo
             // 
-            this.btnAlgoritmoVotacaoTenhoPontosSuficientes.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnAlgoritmoVotacaoTenhoPontosSuficientes.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.btnAlgoritmoVotacaoTenhoPontosSuficientes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAlgoritmoVotacaoTenhoPontosSuficientes.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAlgoritmoVotacaoTenhoPontosSuficientes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(18)))), ((int)(((byte)(23)))));
-            this.btnAlgoritmoVotacaoTenhoPontosSuficientes.Location = new System.Drawing.Point(42, 109);
-            this.btnAlgoritmoVotacaoTenhoPontosSuficientes.Name = "btnAlgoritmoVotacaoTenhoPontosSuficientes";
-            this.btnAlgoritmoVotacaoTenhoPontosSuficientes.Size = new System.Drawing.Size(30, 23);
-            this.btnAlgoritmoVotacaoTenhoPontosSuficientes.TabIndex = 19;
-            this.btnAlgoritmoVotacaoTenhoPontosSuficientes.Text = "a5";
-            this.btnAlgoritmoVotacaoTenhoPontosSuficientes.UseVisualStyleBackColor = false;
-            this.btnAlgoritmoVotacaoTenhoPontosSuficientes.Click += new System.EventHandler(this.btnAlgoritmoVotacaoTenhoPontosSuficientes_Click);
+            this.btnAutoJogo.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnAutoJogo.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnAutoJogo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAutoJogo.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAutoJogo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(18)))), ((int)(((byte)(23)))));
+            this.btnAutoJogo.Location = new System.Drawing.Point(5, 21);
+            this.btnAutoJogo.Name = "btnAutoJogo";
+            this.btnAutoJogo.Size = new System.Drawing.Size(191, 24);
+            this.btnAutoJogo.TabIndex = 45;
+            this.btnAutoJogo.Text = "Ativar Jogadas Automáticas";
+            this.btnAutoJogo.UseVisualStyleBackColor = false;
+            this.btnAutoJogo.Click += new System.EventHandler(this.btnAutoJogo_Click);
             // 
-            // btnAlgoritmoPromocaoQualquerdeMenorNivel
+            // btnAlg5
             // 
-            this.btnAlgoritmoPromocaoQualquerdeMenorNivel.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnAlgoritmoPromocaoQualquerdeMenorNivel.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.btnAlgoritmoPromocaoQualquerdeMenorNivel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAlgoritmoPromocaoQualquerdeMenorNivel.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAlgoritmoPromocaoQualquerdeMenorNivel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(18)))), ((int)(((byte)(23)))));
-            this.btnAlgoritmoPromocaoQualquerdeMenorNivel.Location = new System.Drawing.Point(78, 80);
-            this.btnAlgoritmoPromocaoQualquerdeMenorNivel.Name = "btnAlgoritmoPromocaoQualquerdeMenorNivel";
-            this.btnAlgoritmoPromocaoQualquerdeMenorNivel.Size = new System.Drawing.Size(30, 23);
-            this.btnAlgoritmoPromocaoQualquerdeMenorNivel.TabIndex = 19;
-            this.btnAlgoritmoPromocaoQualquerdeMenorNivel.Text = "a6";
-            this.btnAlgoritmoPromocaoQualquerdeMenorNivel.UseVisualStyleBackColor = false;
-            this.btnAlgoritmoPromocaoQualquerdeMenorNivel.Click += new System.EventHandler(this.btnAlgoritmoPromocaoQualquerdeMenorNivel_Click);
+            this.btnAlg5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnAlg5.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnAlg5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAlg5.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAlg5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(18)))), ((int)(((byte)(23)))));
+            this.btnAlg5.Location = new System.Drawing.Point(44, 111);
+            this.btnAlg5.Name = "btnAlg5";
+            this.btnAlg5.Size = new System.Drawing.Size(30, 23);
+            this.btnAlg5.TabIndex = 19;
+            this.btnAlg5.Text = "a5";
+            this.btnAlg5.UseVisualStyleBackColor = false;
+            this.btnAlg5.Click += new System.EventHandler(this.btnAlg5_Click);
             // 
-            // btnAlgoritmoPromocaoMeudeMenorNivel
+            // btnAlg7
             // 
-            this.btnAlgoritmoPromocaoMeudeMenorNivel.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnAlgoritmoPromocaoMeudeMenorNivel.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.btnAlgoritmoPromocaoMeudeMenorNivel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAlgoritmoPromocaoMeudeMenorNivel.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAlgoritmoPromocaoMeudeMenorNivel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(18)))), ((int)(((byte)(23)))));
-            this.btnAlgoritmoPromocaoMeudeMenorNivel.Location = new System.Drawing.Point(42, 80);
-            this.btnAlgoritmoPromocaoMeudeMenorNivel.Name = "btnAlgoritmoPromocaoMeudeMenorNivel";
-            this.btnAlgoritmoPromocaoMeudeMenorNivel.Size = new System.Drawing.Size(30, 23);
-            this.btnAlgoritmoPromocaoMeudeMenorNivel.TabIndex = 19;
-            this.btnAlgoritmoPromocaoMeudeMenorNivel.Text = "a4";
-            this.btnAlgoritmoPromocaoMeudeMenorNivel.UseVisualStyleBackColor = false;
-            this.btnAlgoritmoPromocaoMeudeMenorNivel.Click += new System.EventHandler(this.btnAlgoritmoPromocaoMeudeMenorNivel_Click);
+            this.btnAlg7.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnAlg7.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnAlg7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAlg7.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAlg7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(18)))), ((int)(((byte)(23)))));
+            this.btnAlg7.Location = new System.Drawing.Point(80, 82);
+            this.btnAlg7.Name = "btnAlg7";
+            this.btnAlg7.Size = new System.Drawing.Size(30, 23);
+            this.btnAlg7.TabIndex = 19;
+            this.btnAlg7.Text = "a7";
+            this.btnAlg7.UseVisualStyleBackColor = false;
+            this.btnAlg7.Click += new System.EventHandler(this.btnAlg7_Click);
             // 
-            // btnAlgoritmoPosicionamentoEquilibrado
+            // btnAlg4
             // 
-            this.btnAlgoritmoPosicionamentoEquilibrado.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnAlgoritmoPosicionamentoEquilibrado.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.btnAlgoritmoPosicionamentoEquilibrado.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAlgoritmoPosicionamentoEquilibrado.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAlgoritmoPosicionamentoEquilibrado.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(18)))), ((int)(((byte)(23)))));
-            this.btnAlgoritmoPosicionamentoEquilibrado.Location = new System.Drawing.Point(42, 51);
-            this.btnAlgoritmoPosicionamentoEquilibrado.Name = "btnAlgoritmoPosicionamentoEquilibrado";
-            this.btnAlgoritmoPosicionamentoEquilibrado.Size = new System.Drawing.Size(30, 23);
-            this.btnAlgoritmoPosicionamentoEquilibrado.TabIndex = 19;
-            this.btnAlgoritmoPosicionamentoEquilibrado.Text = "a3";
-            this.btnAlgoritmoPosicionamentoEquilibrado.UseVisualStyleBackColor = false;
-            this.btnAlgoritmoPosicionamentoEquilibrado.Click += new System.EventHandler(this.btnAlgoritmoPosicionamentoEquilibrado_Click);
+            this.btnAlg4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnAlg4.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnAlg4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAlg4.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAlg4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(18)))), ((int)(((byte)(23)))));
+            this.btnAlg4.Location = new System.Drawing.Point(44, 82);
+            this.btnAlg4.Name = "btnAlg4";
+            this.btnAlg4.Size = new System.Drawing.Size(30, 23);
+            this.btnAlg4.TabIndex = 19;
+            this.btnAlg4.Text = "a4";
+            this.btnAlg4.UseVisualStyleBackColor = false;
+            this.btnAlg4.Click += new System.EventHandler(this.btnAlg4_Click);
             // 
-            // btnAlgoritmoVotacaoPadrao
+            // btnAlg3
             // 
-            this.btnAlgoritmoVotacaoPadrao.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnAlgoritmoVotacaoPadrao.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.btnAlgoritmoVotacaoPadrao.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAlgoritmoVotacaoPadrao.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAlgoritmoVotacaoPadrao.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(18)))), ((int)(((byte)(23)))));
-            this.btnAlgoritmoVotacaoPadrao.Location = new System.Drawing.Point(6, 109);
-            this.btnAlgoritmoVotacaoPadrao.Name = "btnAlgoritmoVotacaoPadrao";
-            this.btnAlgoritmoVotacaoPadrao.Size = new System.Drawing.Size(30, 23);
-            this.btnAlgoritmoVotacaoPadrao.TabIndex = 19;
-            this.btnAlgoritmoVotacaoPadrao.Text = "a2";
-            this.btnAlgoritmoVotacaoPadrao.UseVisualStyleBackColor = false;
-            this.btnAlgoritmoVotacaoPadrao.Click += new System.EventHandler(this.btnAlgoritmoVotacaoPadrao_Click);
+            this.btnAlg3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnAlg3.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnAlg3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAlg3.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAlg3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(18)))), ((int)(((byte)(23)))));
+            this.btnAlg3.Location = new System.Drawing.Point(42, 51);
+            this.btnAlg3.Name = "btnAlg3";
+            this.btnAlg3.Size = new System.Drawing.Size(30, 23);
+            this.btnAlg3.TabIndex = 19;
+            this.btnAlg3.Text = "a3";
+            this.btnAlg3.UseVisualStyleBackColor = false;
+            this.btnAlg3.Click += new System.EventHandler(this.btnAlg3_Click);
             // 
-            // btnAlgoritmoPromocaoPadrao
+            // btnAlg2
             // 
-            this.btnAlgoritmoPromocaoPadrao.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnAlgoritmoPromocaoPadrao.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.btnAlgoritmoPromocaoPadrao.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAlgoritmoPromocaoPadrao.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAlgoritmoPromocaoPadrao.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(18)))), ((int)(((byte)(23)))));
-            this.btnAlgoritmoPromocaoPadrao.Location = new System.Drawing.Point(6, 80);
-            this.btnAlgoritmoPromocaoPadrao.Name = "btnAlgoritmoPromocaoPadrao";
-            this.btnAlgoritmoPromocaoPadrao.Size = new System.Drawing.Size(30, 23);
-            this.btnAlgoritmoPromocaoPadrao.TabIndex = 19;
-            this.btnAlgoritmoPromocaoPadrao.Text = "a1";
-            this.btnAlgoritmoPromocaoPadrao.UseVisualStyleBackColor = false;
-            this.btnAlgoritmoPromocaoPadrao.Click += new System.EventHandler(this.btnAlgoritmoPromocaoPadrao_Click);
+            this.btnAlg2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnAlg2.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnAlg2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAlg2.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAlg2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(18)))), ((int)(((byte)(23)))));
+            this.btnAlg2.Location = new System.Drawing.Point(8, 111);
+            this.btnAlg2.Name = "btnAlg2";
+            this.btnAlg2.Size = new System.Drawing.Size(30, 23);
+            this.btnAlg2.TabIndex = 19;
+            this.btnAlg2.Text = "a2";
+            this.btnAlg2.UseVisualStyleBackColor = false;
+            this.btnAlg2.Click += new System.EventHandler(this.btnAlg2_Click);
             // 
-            // btnAlgoritmoPosicionamentoPadrao
+            // btnAlg1
             // 
-            this.btnAlgoritmoPosicionamentoPadrao.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnAlgoritmoPosicionamentoPadrao.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.btnAlgoritmoPosicionamentoPadrao.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAlgoritmoPosicionamentoPadrao.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAlgoritmoPosicionamentoPadrao.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(18)))), ((int)(((byte)(23)))));
-            this.btnAlgoritmoPosicionamentoPadrao.Location = new System.Drawing.Point(6, 51);
-            this.btnAlgoritmoPosicionamentoPadrao.Name = "btnAlgoritmoPosicionamentoPadrao";
-            this.btnAlgoritmoPosicionamentoPadrao.Size = new System.Drawing.Size(30, 23);
-            this.btnAlgoritmoPosicionamentoPadrao.TabIndex = 19;
-            this.btnAlgoritmoPosicionamentoPadrao.Text = "a0";
-            this.btnAlgoritmoPosicionamentoPadrao.UseVisualStyleBackColor = false;
-            this.btnAlgoritmoPosicionamentoPadrao.Click += new System.EventHandler(this.btnAlgoritmoPosicionamentoPadrao_Click);
+            this.btnAlg1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnAlg1.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnAlg1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAlg1.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAlg1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(18)))), ((int)(((byte)(23)))));
+            this.btnAlg1.Location = new System.Drawing.Point(8, 82);
+            this.btnAlg1.Name = "btnAlg1";
+            this.btnAlg1.Size = new System.Drawing.Size(30, 23);
+            this.btnAlg1.TabIndex = 19;
+            this.btnAlg1.Text = "a1";
+            this.btnAlg1.UseVisualStyleBackColor = false;
+            this.btnAlg1.Click += new System.EventHandler(this.btnAlg1_Click);
+            // 
+            // btnAlg0
+            // 
+            this.btnAlg0.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnAlg0.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnAlg0.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAlg0.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAlg0.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(18)))), ((int)(((byte)(23)))));
+            this.btnAlg0.Location = new System.Drawing.Point(6, 51);
+            this.btnAlg0.Name = "btnAlg0";
+            this.btnAlg0.Size = new System.Drawing.Size(30, 23);
+            this.btnAlg0.TabIndex = 19;
+            this.btnAlg0.Text = "a0";
+            this.btnAlg0.UseVisualStyleBackColor = false;
+            this.btnAlg0.Click += new System.EventHandler(this.btnAlg0_Click);
             // 
             // lblArquivoDebug
             // 
@@ -2111,7 +2225,7 @@
             this.lblArquivoDebug.AutoSize = true;
             this.lblArquivoDebug.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblArquivoDebug.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.lblArquivoDebug.Location = new System.Drawing.Point(10, 680);
+            this.lblArquivoDebug.Location = new System.Drawing.Point(10, 681);
             this.lblArquivoDebug.Name = "lblArquivoDebug";
             this.lblArquivoDebug.Size = new System.Drawing.Size(96, 16);
             this.lblArquivoDebug.TabIndex = 14;
@@ -2123,7 +2237,7 @@
             this.lblErro.AutoSize = true;
             this.lblErro.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblErro.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.lblErro.Location = new System.Drawing.Point(10, 662);
+            this.lblErro.Location = new System.Drawing.Point(9, 664);
             this.lblErro.Name = "lblErro";
             this.lblErro.Size = new System.Drawing.Size(59, 16);
             this.lblErro.TabIndex = 14;
@@ -2135,40 +2249,225 @@
             // 
             // gbConfiguracoes
             // 
+            this.gbConfiguracoes.Controls.Add(this.btnSomenteAtualizarTabuleiro);
+            this.gbConfiguracoes.Controls.Add(this.numericUpDown1);
+            this.gbConfiguracoes.Controls.Add(this.btnEntrarPartidaEmergencia);
+            this.gbConfiguracoes.Controls.Add(this.txtSenhaPartidaEmergencia);
+            this.gbConfiguracoes.Controls.Add(this.txtIdPartidaEmergencia);
+            this.gbConfiguracoes.Controls.Add(this.lblSenhaPartidaEmergencia);
+            this.gbConfiguracoes.Controls.Add(this.lblIdPartidaEmergencia);
+            this.gbConfiguracoes.Controls.Add(this.lblSenhaJogadorEmergencia);
+            this.gbConfiguracoes.Controls.Add(this.lblTempoSicronizacao);
+            this.gbConfiguracoes.Controls.Add(this.lblIdJogadorEmergencia);
+            this.gbConfiguracoes.Controls.Add(this.txtSenhaJogadorEmergencia);
+            this.gbConfiguracoes.Controls.Add(this.txtIdJogadorEmergencia);
+            this.gbConfiguracoes.Controls.Add(this.btnHabilitarDebug);
+            this.gbConfiguracoes.Controls.Add(this.btnAlg13);
+            this.gbConfiguracoes.Controls.Add(this.btnAlg10);
             this.gbConfiguracoes.Controls.Add(this.btnAutoJogo);
-            this.gbConfiguracoes.Controls.Add(this.btnDesabilitarTimer);
             this.gbConfiguracoes.Controls.Add(this.btnTimer);
             this.gbConfiguracoes.Controls.Add(this.btnHabilitarTimer);
-            this.gbConfiguracoes.Controls.Add(this.btnAlgoritmoVotacaoTenhoPontosSuficientes);
-            this.gbConfiguracoes.Controls.Add(this.btnAlgoritmoPromocaoQualquerdeMenorNivel);
-            this.gbConfiguracoes.Controls.Add(this.btnAlgoritmoPosicionamentoPadrao);
-            this.gbConfiguracoes.Controls.Add(this.btnAlgoritmoPromocaoMeudeMenorNivel);
-            this.gbConfiguracoes.Controls.Add(this.btnAlgoritmoPromocaoPadrao);
-            this.gbConfiguracoes.Controls.Add(this.btnAlgoritmoPosicionamentoEquilibrado);
-            this.gbConfiguracoes.Controls.Add(this.btnAlgoritmoVotacaoPadrao);
+            this.gbConfiguracoes.Controls.Add(this.btnAlg5);
+            this.gbConfiguracoes.Controls.Add(this.btnAlg7);
+            this.gbConfiguracoes.Controls.Add(this.btnAlg0);
+            this.gbConfiguracoes.Controls.Add(this.btnAlg4);
+            this.gbConfiguracoes.Controls.Add(this.btnAlg1);
+            this.gbConfiguracoes.Controls.Add(this.btnAlg3);
+            this.gbConfiguracoes.Controls.Add(this.btnAlg2);
             this.gbConfiguracoes.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gbConfiguracoes.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.gbConfiguracoes.Location = new System.Drawing.Point(493, 104);
+            this.gbConfiguracoes.Location = new System.Drawing.Point(507, 104);
             this.gbConfiguracoes.Name = "gbConfiguracoes";
-            this.gbConfiguracoes.Size = new System.Drawing.Size(186, 203);
+            this.gbConfiguracoes.Size = new System.Drawing.Size(361, 250);
             this.gbConfiguracoes.TabIndex = 42;
             this.gbConfiguracoes.TabStop = false;
             this.gbConfiguracoes.Text = "Configurações";
             // 
-            // btnDesabilitarTimer
+            // btnSomenteAtualizarTabuleiro
             // 
-            this.btnDesabilitarTimer.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnDesabilitarTimer.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.btnDesabilitarTimer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDesabilitarTimer.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDesabilitarTimer.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(18)))), ((int)(((byte)(23)))));
-            this.btnDesabilitarTimer.Location = new System.Drawing.Point(6, 174);
-            this.btnDesabilitarTimer.Name = "btnDesabilitarTimer";
-            this.btnDesabilitarTimer.Size = new System.Drawing.Size(110, 23);
-            this.btnDesabilitarTimer.TabIndex = 20;
-            this.btnDesabilitarTimer.Text = "Desabilitar Timer";
-            this.btnDesabilitarTimer.UseVisualStyleBackColor = false;
-            this.btnDesabilitarTimer.Click += new System.EventHandler(this.btnDesabilitarTimer_Click);
+            this.btnSomenteAtualizarTabuleiro.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnSomenteAtualizarTabuleiro.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnSomenteAtualizarTabuleiro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSomenteAtualizarTabuleiro.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSomenteAtualizarTabuleiro.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(18)))), ((int)(((byte)(23)))));
+            this.btnSomenteAtualizarTabuleiro.Location = new System.Drawing.Point(113, 176);
+            this.btnSomenteAtualizarTabuleiro.Name = "btnSomenteAtualizarTabuleiro";
+            this.btnSomenteAtualizarTabuleiro.Size = new System.Drawing.Size(83, 40);
+            this.btnSomenteAtualizarTabuleiro.TabIndex = 55;
+            this.btnSomenteAtualizarTabuleiro.Text = "Atualizar Tabuleiro";
+            this.btnSomenteAtualizarTabuleiro.UseVisualStyleBackColor = false;
+            this.btnSomenteAtualizarTabuleiro.Click += new System.EventHandler(this.btnSomenteAtualizarTabuleiro_Click);
+            // 
+            // numericUpDown1
+            // 
+            this.numericUpDown1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(18)))), ((int)(((byte)(23)))));
+            this.numericUpDown1.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.numericUpDown1.Location = new System.Drawing.Point(150, 222);
+            this.numericUpDown1.Name = "numericUpDown1";
+            this.numericUpDown1.Size = new System.Drawing.Size(36, 22);
+            this.numericUpDown1.TabIndex = 54;
+            this.numericUpDown1.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.numericUpDown1.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
+            // 
+            // btnEntrarPartidaEmergencia
+            // 
+            this.btnEntrarPartidaEmergencia.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnEntrarPartidaEmergencia.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnEntrarPartidaEmergencia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEntrarPartidaEmergencia.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEntrarPartidaEmergencia.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(18)))), ((int)(((byte)(23)))));
+            this.btnEntrarPartidaEmergencia.Location = new System.Drawing.Point(225, 200);
+            this.btnEntrarPartidaEmergencia.Name = "btnEntrarPartidaEmergencia";
+            this.btnEntrarPartidaEmergencia.Size = new System.Drawing.Size(128, 41);
+            this.btnEntrarPartidaEmergencia.TabIndex = 53;
+            this.btnEntrarPartidaEmergencia.Text = "Entrar Partida em Jogo";
+            this.btnEntrarPartidaEmergencia.UseVisualStyleBackColor = false;
+            this.btnEntrarPartidaEmergencia.Click += new System.EventHandler(this.btnEntrarPartidaEmergencia_Click);
+            // 
+            // txtSenhaPartidaEmergencia
+            // 
+            this.txtSenhaPartidaEmergencia.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(18)))), ((int)(((byte)(23)))));
+            this.txtSenhaPartidaEmergencia.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.txtSenhaPartidaEmergencia.Location = new System.Drawing.Point(225, 173);
+            this.txtSenhaPartidaEmergencia.Name = "txtSenhaPartidaEmergencia";
+            this.txtSenhaPartidaEmergencia.Size = new System.Drawing.Size(130, 22);
+            this.txtSenhaPartidaEmergencia.TabIndex = 52;
+            // 
+            // txtIdPartidaEmergencia
+            // 
+            this.txtIdPartidaEmergencia.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(18)))), ((int)(((byte)(23)))));
+            this.txtIdPartidaEmergencia.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.txtIdPartidaEmergencia.Location = new System.Drawing.Point(225, 128);
+            this.txtIdPartidaEmergencia.Name = "txtIdPartidaEmergencia";
+            this.txtIdPartidaEmergencia.Size = new System.Drawing.Size(130, 22);
+            this.txtIdPartidaEmergencia.TabIndex = 51;
+            // 
+            // lblSenhaPartidaEmergencia
+            // 
+            this.lblSenhaPartidaEmergencia.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblSenhaPartidaEmergencia.AutoSize = true;
+            this.lblSenhaPartidaEmergencia.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSenhaPartidaEmergencia.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.lblSenhaPartidaEmergencia.Location = new System.Drawing.Point(222, 153);
+            this.lblSenhaPartidaEmergencia.Name = "lblSenhaPartidaEmergencia";
+            this.lblSenhaPartidaEmergencia.Size = new System.Drawing.Size(113, 17);
+            this.lblSenhaPartidaEmergencia.TabIndex = 18;
+            this.lblSenhaPartidaEmergencia.Text = "Senha da Partida:";
+            // 
+            // lblIdPartidaEmergencia
+            // 
+            this.lblIdPartidaEmergencia.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblIdPartidaEmergencia.AutoSize = true;
+            this.lblIdPartidaEmergencia.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblIdPartidaEmergencia.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.lblIdPartidaEmergencia.Location = new System.Drawing.Point(222, 108);
+            this.lblIdPartidaEmergencia.Name = "lblIdPartidaEmergencia";
+            this.lblIdPartidaEmergencia.Size = new System.Drawing.Size(88, 17);
+            this.lblIdPartidaEmergencia.TabIndex = 18;
+            this.lblIdPartidaEmergencia.Text = "ID da Partida:";
+            // 
+            // lblSenhaJogadorEmergencia
+            // 
+            this.lblSenhaJogadorEmergencia.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblSenhaJogadorEmergencia.AutoSize = true;
+            this.lblSenhaJogadorEmergencia.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSenhaJogadorEmergencia.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.lblSenhaJogadorEmergencia.Location = new System.Drawing.Point(222, 63);
+            this.lblSenhaJogadorEmergencia.Name = "lblSenhaJogadorEmergencia";
+            this.lblSenhaJogadorEmergencia.Size = new System.Drawing.Size(120, 17);
+            this.lblSenhaJogadorEmergencia.TabIndex = 18;
+            this.lblSenhaJogadorEmergencia.Text = "Senha do Jogador:";
+            // 
+            // lblTempoSicronizacao
+            // 
+            this.lblTempoSicronizacao.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblTempoSicronizacao.AutoSize = true;
+            this.lblTempoSicronizacao.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTempoSicronizacao.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.lblTempoSicronizacao.Location = new System.Drawing.Point(6, 224);
+            this.lblTempoSicronizacao.Name = "lblTempoSicronizacao";
+            this.lblTempoSicronizacao.Size = new System.Drawing.Size(138, 17);
+            this.lblTempoSicronizacao.TabIndex = 18;
+            this.lblTempoSicronizacao.Text = "Tempo Sincronização:";
+            // 
+            // lblIdJogadorEmergencia
+            // 
+            this.lblIdJogadorEmergencia.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblIdJogadorEmergencia.AutoSize = true;
+            this.lblIdJogadorEmergencia.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblIdJogadorEmergencia.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.lblIdJogadorEmergencia.Location = new System.Drawing.Point(222, 18);
+            this.lblIdJogadorEmergencia.Name = "lblIdJogadorEmergencia";
+            this.lblIdJogadorEmergencia.Size = new System.Drawing.Size(95, 17);
+            this.lblIdJogadorEmergencia.TabIndex = 18;
+            this.lblIdJogadorEmergencia.Text = "ID do Jogador:";
+            // 
+            // txtSenhaJogadorEmergencia
+            // 
+            this.txtSenhaJogadorEmergencia.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(18)))), ((int)(((byte)(23)))));
+            this.txtSenhaJogadorEmergencia.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.txtSenhaJogadorEmergencia.Location = new System.Drawing.Point(225, 83);
+            this.txtSenhaJogadorEmergencia.Name = "txtSenhaJogadorEmergencia";
+            this.txtSenhaJogadorEmergencia.Size = new System.Drawing.Size(130, 22);
+            this.txtSenhaJogadorEmergencia.TabIndex = 50;
+            // 
+            // txtIdJogadorEmergencia
+            // 
+            this.txtIdJogadorEmergencia.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(18)))), ((int)(((byte)(23)))));
+            this.txtIdJogadorEmergencia.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.txtIdJogadorEmergencia.Location = new System.Drawing.Point(225, 38);
+            this.txtIdJogadorEmergencia.Name = "txtIdJogadorEmergencia";
+            this.txtIdJogadorEmergencia.Size = new System.Drawing.Size(130, 22);
+            this.txtIdJogadorEmergencia.TabIndex = 49;
+            // 
+            // btnHabilitarDebug
+            // 
+            this.btnHabilitarDebug.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnHabilitarDebug.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnHabilitarDebug.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHabilitarDebug.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHabilitarDebug.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(18)))), ((int)(((byte)(23)))));
+            this.btnHabilitarDebug.Location = new System.Drawing.Point(8, 176);
+            this.btnHabilitarDebug.Name = "btnHabilitarDebug";
+            this.btnHabilitarDebug.Size = new System.Drawing.Size(99, 40);
+            this.btnHabilitarDebug.TabIndex = 48;
+            this.btnHabilitarDebug.Text = "Habilitar Debug File";
+            this.btnHabilitarDebug.UseVisualStyleBackColor = false;
+            this.btnHabilitarDebug.Click += new System.EventHandler(this.btnHabilitarDebug_Click);
+            // 
+            // btnAlg13
+            // 
+            this.btnAlg13.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnAlg13.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnAlg13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAlg13.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAlg13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(18)))), ((int)(((byte)(23)))));
+            this.btnAlg13.Location = new System.Drawing.Point(160, 82);
+            this.btnAlg13.Name = "btnAlg13";
+            this.btnAlg13.Size = new System.Drawing.Size(36, 23);
+            this.btnAlg13.TabIndex = 47;
+            this.btnAlg13.Text = "a13";
+            this.btnAlg13.UseVisualStyleBackColor = false;
+            this.btnAlg13.Click += new System.EventHandler(this.btnAlg13_Click);
+            // 
+            // btnAlg10
+            // 
+            this.btnAlg10.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnAlg10.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnAlg10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAlg10.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAlg10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(18)))), ((int)(((byte)(23)))));
+            this.btnAlg10.Location = new System.Drawing.Point(116, 82);
+            this.btnAlg10.Name = "btnAlg10";
+            this.btnAlg10.Size = new System.Drawing.Size(38, 23);
+            this.btnAlg10.TabIndex = 46;
+            this.btnAlg10.Text = "a10";
+            this.btnAlg10.UseVisualStyleBackColor = false;
+            this.btnAlg10.Click += new System.EventHandler(this.btnAlg10_Click);
             // 
             // btnTimer
             // 
@@ -2177,11 +2476,11 @@
             this.btnTimer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnTimer.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTimer.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(18)))), ((int)(((byte)(23)))));
-            this.btnTimer.Location = new System.Drawing.Point(132, 145);
+            this.btnTimer.Location = new System.Drawing.Point(113, 147);
             this.btnTimer.Name = "btnTimer";
-            this.btnTimer.Size = new System.Drawing.Size(48, 23);
+            this.btnTimer.Size = new System.Drawing.Size(83, 23);
             this.btnTimer.TabIndex = 20;
-            this.btnTimer.Text = "Timer";
+            this.btnTimer.Text = "Timer Tick";
             this.btnTimer.UseVisualStyleBackColor = false;
             this.btnTimer.Click += new System.EventHandler(this.btnTimer_Click);
             // 
@@ -2192,9 +2491,9 @@
             this.btnHabilitarTimer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnHabilitarTimer.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHabilitarTimer.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(18)))), ((int)(((byte)(23)))));
-            this.btnHabilitarTimer.Location = new System.Drawing.Point(6, 145);
+            this.btnHabilitarTimer.Location = new System.Drawing.Point(8, 147);
             this.btnHabilitarTimer.Name = "btnHabilitarTimer";
-            this.btnHabilitarTimer.Size = new System.Drawing.Size(110, 23);
+            this.btnHabilitarTimer.Size = new System.Drawing.Size(99, 23);
             this.btnHabilitarTimer.TabIndex = 20;
             this.btnHabilitarTimer.Text = "Habilitar Timer";
             this.btnHabilitarTimer.UseVisualStyleBackColor = false;
@@ -2205,9 +2504,9 @@
             this.groupBox2.Controls.Add(this.txtdebug);
             this.groupBox2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.groupBox2.Location = new System.Drawing.Point(493, 313);
+            this.groupBox2.Location = new System.Drawing.Point(507, 361);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(186, 348);
+            this.groupBox2.Size = new System.Drawing.Size(361, 297);
             this.groupBox2.TabIndex = 42;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Debug";
@@ -2217,27 +2516,42 @@
             this.txtdebug.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtdebug.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(18)))), ((int)(((byte)(23)))));
             this.txtdebug.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.txtdebug.Location = new System.Drawing.Point(6, 21);
+            this.txtdebug.Location = new System.Drawing.Point(6, 31);
             this.txtdebug.MaxLength = 10;
             this.txtdebug.Multiline = true;
             this.txtdebug.Name = "txtdebug";
-            this.txtdebug.Size = new System.Drawing.Size(174, 321);
+            this.txtdebug.Size = new System.Drawing.Size(349, 260);
             this.txtdebug.TabIndex = 4;
             // 
-            // btnConfiguracoes
+            // btnMinimizar
             // 
-            this.btnConfiguracoes.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnConfiguracoes.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.btnConfiguracoes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnConfiguracoes.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConfiguracoes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(18)))), ((int)(((byte)(23)))));
-            this.btnConfiguracoes.Location = new System.Drawing.Point(26, 485);
-            this.btnConfiguracoes.Name = "btnConfiguracoes";
-            this.btnConfiguracoes.Size = new System.Drawing.Size(133, 33);
-            this.btnConfiguracoes.TabIndex = 45;
-            this.btnConfiguracoes.Text = "Configurações";
-            this.btnConfiguracoes.UseVisualStyleBackColor = false;
-            this.btnConfiguracoes.Click += new System.EventHandler(this.btnConfiguracoes_Click);
+            this.btnMinimizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnMinimizar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(18)))), ((int)(((byte)(23)))));
+            this.btnMinimizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMinimizar.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMinimizar.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnMinimizar.Location = new System.Drawing.Point(398, 12);
+            this.btnMinimizar.Name = "btnMinimizar";
+            this.btnMinimizar.Size = new System.Drawing.Size(32, 32);
+            this.btnMinimizar.TabIndex = 43;
+            this.btnMinimizar.Text = "_";
+            this.btnMinimizar.UseVisualStyleBackColor = false;
+            this.btnMinimizar.Click += new System.EventHandler(this.btnMinimizar_Click);
+            this.btnMinimizar.MouseLeave += new System.EventHandler(this.btnMinimizar_MouseLeave);
+            this.btnMinimizar.MouseHover += new System.EventHandler(this.btnMinimizar_MouseHover);
+            // 
+            // labelIndicadordeErro
+            // 
+            this.labelIndicadordeErro.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelIndicadordeErro.AutoSize = true;
+            this.labelIndicadordeErro.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelIndicadordeErro.ForeColor = System.Drawing.Color.Red;
+            this.labelIndicadordeErro.Location = new System.Drawing.Point(-11, 681);
+            this.labelIndicadordeErro.Name = "labelIndicadordeErro";
+            this.labelIndicadordeErro.Size = new System.Drawing.Size(11, 16);
+            this.labelIndicadordeErro.TabIndex = 45;
+            this.labelIndicadordeErro.Text = "!";
+            this.labelIndicadordeErro.Visible = false;
             // 
             // frmPrincipal
             // 
@@ -2245,13 +2559,15 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(18)))), ((int)(((byte)(23)))));
             this.ClientSize = new System.Drawing.Size(480, 700);
+            this.Controls.Add(this.labelIndicadordeErro);
+            this.Controls.Add(this.btnMinimizar);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.gbConfiguracoes);
             this.Controls.Add(this.lblErro);
             this.Controls.Add(this.lblArquivoDebug);
             this.Controls.Add(this.lblVersao);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pbLogo);
             this.Controls.Add(this.btnFechar);
             this.Controls.Add(this.painelTabuleiro);
             this.Controls.Add(this.painelLobby);
@@ -2262,7 +2578,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MePresidenta";
             this.Load += new System.EventHandler(this.frmPrincipal_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).EndInit();
             this.painelLobby.ResumeLayout(false);
             this.painelLobby.PerformLayout();
             this.gbEntrarPartida.ResumeLayout(false);
@@ -2271,13 +2587,15 @@
             this.gbCriarPartida.PerformLayout();
             this.painelTabuleiro.ResumeLayout(false);
             this.painelTabuleiro.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
+            this.gbDesempregados.ResumeLayout(false);
             this.gbVotacao.ResumeLayout(false);
             this.gbPosicionamento.ResumeLayout(false);
             this.gbPosicionamento.PerformLayout();
             this.gbJogadores.ResumeLayout(false);
             this.gbJogadores.PerformLayout();
             this.gbConfiguracoes.ResumeLayout(false);
+            this.gbConfiguracoes.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
@@ -2289,7 +2607,7 @@
 
         private System.Windows.Forms.Button btnFechar;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pbLogo;
         private System.Windows.Forms.Panel painelLobby;
         private System.Windows.Forms.ListView lstPartidas;
         private System.Windows.Forms.ColumnHeader chCodigo;
@@ -2319,7 +2637,7 @@
         private System.Windows.Forms.Button btnIniciarPartida;
         private System.Windows.Forms.GroupBox gbVotacao;
         private System.Windows.Forms.Button btnNao;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label labelPerguntaVotacao;
         private System.Windows.Forms.Button btnSim;
         private System.Windows.Forms.GroupBox gbPosicionamento;
         private System.Windows.Forms.Label label7;
@@ -2358,20 +2676,19 @@
         private System.Windows.Forms.Label lblArquivoDebug;
         private System.Windows.Forms.Label lblErro;
         private System.Windows.Forms.Button btnPromover;
-        private System.Windows.Forms.Button btnAlgoritmoPosicionamentoPadrao;
-        private System.Windows.Forms.Button btnAlgoritmoVotacaoTenhoPontosSuficientes;
-        private System.Windows.Forms.Button btnAlgoritmoPromocaoQualquerdeMenorNivel;
-        private System.Windows.Forms.Button btnAlgoritmoPromocaoMeudeMenorNivel;
-        private System.Windows.Forms.Button btnAlgoritmoPosicionamentoEquilibrado;
-        private System.Windows.Forms.Button btnAlgoritmoVotacaoPadrao;
-        private System.Windows.Forms.Button btnAlgoritmoPromocaoPadrao;
+        private System.Windows.Forms.Button btnAlg0;
+        private System.Windows.Forms.Button btnAlg5;
+        private System.Windows.Forms.Button btnAlg7;
+        private System.Windows.Forms.Button btnAlg4;
+        private System.Windows.Forms.Button btnAlg3;
+        private System.Windows.Forms.Button btnAlg2;
+        private System.Windows.Forms.Button btnAlg1;
         private System.Windows.Forms.Button btnAutoJogo;
         private System.Windows.Forms.Timer timer2;
         private System.Windows.Forms.GroupBox gbConfiguracoes;
-        private System.Windows.Forms.Button btnDesabilitarTimer;
         private System.Windows.Forms.Button btnTimer;
         private System.Windows.Forms.Button btnHabilitarTimer;
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox gbDesempregados;
         private System.Windows.Forms.Button btnd11;
         private System.Windows.Forms.Button btnd10;
         private System.Windows.Forms.Button btnd9;
@@ -2434,6 +2751,33 @@
         private System.Windows.Forms.TextBox txtSetor;
         private System.Windows.Forms.TextBox txtPersonagem;
         private System.Windows.Forms.Button btnConfiguracoes;
+        private System.Windows.Forms.Button btnSairPartida;
+        private System.Windows.Forms.Button btnAlg10;
+        private System.Windows.Forms.Button btnAlg13;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label labelNomePartidaSelecionada;
+        private System.Windows.Forms.Button btninfo;
+        private System.Windows.Forms.Button btnHabilitarDebug;
+        private System.Windows.Forms.Button btnEntrarPartidaEmergencia;
+        private System.Windows.Forms.TextBox txtSenhaPartidaEmergencia;
+        private System.Windows.Forms.TextBox txtIdPartidaEmergencia;
+        private System.Windows.Forms.TextBox txtSenhaJogadorEmergencia;
+        private System.Windows.Forms.TextBox txtIdJogadorEmergencia;
+        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.Button btnSomenteAtualizarTabuleiro;
+        private System.Windows.Forms.Label lblSenhaPartidaEmergencia;
+        private System.Windows.Forms.Label lblIdPartidaEmergencia;
+        private System.Windows.Forms.Label lblSenhaJogadorEmergencia;
+        private System.Windows.Forms.Label lblIdJogadorEmergencia;
+        private System.Windows.Forms.Button btnMinimizar;
+        private System.Windows.Forms.Label lblTempoSicronizacao;
+        private System.Windows.Forms.Label labelVotacao5;
+        private System.Windows.Forms.Label labelVotacao4;
+        private System.Windows.Forms.Label labelVotacao3;
+        private System.Windows.Forms.Label labelVotacao2;
+        private System.Windows.Forms.Label labelVotacao1;
+        private System.Windows.Forms.Label labelVotacao0;
+        private System.Windows.Forms.Label labelIndicadordeErro;
     }
 }
 

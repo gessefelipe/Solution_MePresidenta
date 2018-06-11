@@ -18,11 +18,25 @@ namespace Project_MePresidenta
         enum STATUS { PARTIDAABERTA, PARTIDAINICIADA, PARTIDAENCERRADA, MINHAVEZ, POSICIONAR, PROMOVER, VOTAR }
         enum ALGORITMO
         {
-            posicionamentoPadrao, promocaoPadrao, VotacaoPadrao
-                        , PosicionamentoEquilibrado, algoritmoPromocaoMeudeMenorNivel, VotacaoTenhoPontosSuficientes
-                        , algoritmoPromocaoQualquerdeMenorNivel
+            posicionamento0Padrao, promocao1Padrao, votacao2Padrao
+                        , posicionamento3Equilibrado, promocao4MeudeMenorNivel, votacao5TenhoPontosSuficientes
+                        , promocao7QualquerdeMenorNivel,promocao10IniciarMeuReinado, promocao13OutrosdeMaiorNivel
 
         }
+
+        public int[] _algoritmoPromocaoPrioridade =
+            {0,(int)ALGORITMO.promocao10IniciarMeuReinado
+            ,(int)ALGORITMO.promocao4MeudeMenorNivel
+            ,(int)ALGORITMO.promocao13OutrosdeMaiorNivel
+            ,(int)ALGORITMO.promocao7QualquerdeMenorNivel
+            ,(int)ALGORITMO.promocao1Padrao
+        };
+
+        public int _algoritmoPromocao;
+        public int _algoritmoPosicionamento;
+        public int _algoritmoVotacao;
+
+        public int _algoritmoPromocaoPrioridadeAtual;
 
         //PROPRIEDADES
         public int _myId;
@@ -32,11 +46,16 @@ namespace Project_MePresidenta
         //FLAGS DE CONTROLE
         public int _partidaStatus;
         public bool _rotinaPartidaIniciada;
+        public bool _rotinaPartidaEncerrada;
         public bool _autojogo;
         public bool _TimerHabilitado;
+        public bool _ConfiguracoesHabilitado;
         public int _nrodadaAtual;
         public bool _primeirajogadarealizada;
         public int _candidato;
+        public bool _mostrarPaineldeInformacoes;
+        public bool _ativarDebug;
+        public bool _forceNovaRodada;
         //PONTOS
         public int _pontuacaoAtual;
         public int _pontuacaoTotal;
@@ -51,6 +70,7 @@ namespace Project_MePresidenta
         public string[] _jogadoresHistoricoVotos = new string[6];
         public string[] _jogadoresUltimaJogadaAnalisada = new string[6];
         public int[] _jogadoresJogadacontador = new int[6];
+        public int _jogadorQueCandidatou;
 
         //PERSONAGENS
         public int _nPersonagens;
@@ -59,7 +79,9 @@ namespace Project_MePresidenta
         //-1 nao posicionado
         //x posicionado no novel x
         public bool[] _personagemMeu = new bool[13];
+        public int _personagemEliminar;
         public string[] _personagemCodinome = new string[13];
+        public string[] _personagemNome = new string[13];
 
         //NIVEIS
         public int[] _nivelQtdPersonagens = new int[11];
@@ -72,18 +94,28 @@ namespace Project_MePresidenta
         public string debugfilepath;
         public int debugfilecode;
         public int _counterDebug;
-        public string[] _debuginfileRetornoServidor = { "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" };
+        public string[] _debuginfileLastRetornoServidor = { "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" };
+        public string _debuginfileLastVariaveisGlobais;
 
         //ACEBILIDADE
-        public int _selected;
+        public int _PersonagemSelecionado;
 
 
         //ALGORITMOS
-        public int _algoritmoPromocao;
-        public int _algoritmoPosicionamento;
-        public int _algoritmoVotacao;
+        
         public int[,] _jogadoresCartas = new int[,] { { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }, { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }, { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }, { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }, { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }, { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 } };
         public int[,] _contadorPromocaoJogadorPersonagem = new int[,] { { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }, { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }, { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }, { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }, { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }, { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 } };
+
+
+        public int _calculoMinhaPontuacaoAtual;
+        public int _calculoMinhaPontuacaoTotalAtual;
+        public int _calculoMaiorPontuacaoPossivelAtual;
+        public int _calculoMaiorPontuacaoTotalAtualPossivel;
+        public bool _calculoMinhaPontuacaoeBoa;
+        public int _calculoQtdCartasNaoQueNaoSaoMinhas;
+        public int _calculoQtdMediaCartasNao;
+        public int _calculoQtdTotalAtualCartasNaoNoJogo;
+
 
         public frmPrincipal()
         {
@@ -93,126 +125,70 @@ namespace Project_MePresidenta
             this.DoubleBuffered = true;
             this.SetStyle(ControlStyles.ResizeRedraw, true);
 
-            inicio();
-        }
 
-        public void controlesVezdeOutro(int idoutrojogador)
-        {
-            btnPosicionar.Enabled = false;
-            btnNao.Enabled = false;
-            btnSim.Enabled = false;
-            btnPromover.Enabled = false;
-        }
-
-        public void controlesMinhaVez(int status)
-        {
-            switch (status)
-            {
-                case (int)STATUS.POSICIONAR:
-                    btnPosicionar.Enabled = true;
-                    btnNao.Enabled = false;
-                    btnSim.Enabled = false;
-                    btnPromover.Enabled = false;
-                    break;
-                case (int)STATUS.PROMOVER:
-                    btnPosicionar.Enabled = false;
-                    btnNao.Enabled = false;
-                    btnSim.Enabled = false;
-                    btnPromover.Enabled = true;
-                    break;
-                case (int)STATUS.VOTAR:
-                    btnPosicionar.Enabled = true;
-                    if (_jogadoresCartasNaoDiponiveis[_meuCodigoJogador] > 0)
-                    {
-                        btnNao.Enabled = true;
-                    }
-                    else
-                    {
-                        btnNao.Enabled = false;
-                    }
-                    btnSim.Enabled = true;
-                    btnPromover.Enabled = false;
-                    break;
-            }
-        }
-
-
-
-
-        public void inicio()
-        {
             _counterDebug = 0;//utilizado no debug
             debugfilepath = GetTimestamp(DateTime.Now);
             debugfilecode = 0;
+            _debuginfileLastVariaveisGlobais = "";
+            _ativarDebug = true;
+            
+            mostrarOcultarDebug();
 
             lblVersao.Text = "MePresidentaServidor.dll | Versão " + Jogo.versao;
             lblDebugFileName.Text += debugfilepath;
 
             lblArquivoDebug.Text = "Arquivo Debug: " + lblDebugFileName.Text + ".txt";
 
+            
+            _ConfiguracoesHabilitado = false;
+            botaoNaoDestacarconfiguracao(btnConfiguracoes);
+            _TimerHabilitado = true;
+            botaoDestacarConfiguracaoHabilitada(btnHabilitarTimer);
+
+            inicio();
+        }
+
+        
+        public void inicio()
+        {
+
+            lblIdPartida.Text = "";
+            labelNomePartidaSelecionada.Text = "";
+
             listarPartidas();
             inicializarVariaveisGlobais();
             inicializarJogadoresCartas();
 
-            _selected = -1;
+            _mostrarPaineldeInformacoes = true;
+            mostarOcultarInformacoes();
+            _forceNovaRodada = false;
+
+            _PersonagemSelecionado = -1;
 
             //padronizar criacao partida para testes
             txtNomedaPartida.Text = "Londres";
             txtSenhaPartida.Text = "123";
             paineis(-1);
-            timer1.Enabled = false;
             debugVariaveisGlobais("FormLoad");
+            jogadoresLimparPainel();
+            timer1.Enabled = true;
 
-            lblPontos0.Visible = false;
-            lblPontos1.Visible = false;
-            lblPontos2.Visible = false;
-            lblPontos3.Visible = false;
-            lblPontos4.Visible = false;
-            lblPontos5.Visible = false;
-            lblJogadas0.Text = "";
-            lblJogadas1.Text = "";
-            lblJogadas2.Text = "";
-            lblJogadas3.Text = "";
-            lblJogadas4.Text = "";
-            lblJogadas5.Text = "";
-            lblJogadas0.Visible = false;
-            lblJogadas1.Visible = false;
-            lblJogadas2.Visible = false;
-            lblJogadas3.Visible = false;
-            lblJogadas4.Visible = false;
-            lblJogadas5.Visible = false;
+            lblNumRodada.Text = "0/3";
+            lblPontuacaoAtual.Text = "0";
+            lblPontuacaoTotal.Text = "0";
 
-            j0.Visible = false;
-            j1.Visible = false;
-            j2.Visible = false;
-            j3.Visible = false;
-            j4.Visible = false;
-            j5.Visible = false;
-            nao00.Visible = false;
-            nao01.Visible = false;
-            nao02.Visible = false;
-            nao03.Visible = false;
-            nao10.Visible = false;
-            nao11.Visible = false;
-            nao12.Visible = false;
-            nao13.Visible = false;
-            nao20.Visible = false;
-            nao21.Visible = false;
-            nao22.Visible = false;
-            nao23.Visible = false;
-            nao30.Visible = false;
-            nao31.Visible = false;
-            nao32.Visible = false;
-            nao33.Visible = false;
-            nao40.Visible = false;
-            nao41.Visible = false;
-            nao42.Visible = false;
-            nao43.Visible = false;
-            nao50.Visible = false;
-            nao51.Visible = false;
-            nao52.Visible = false;
-            nao53.Visible = false;
+        }
 
+        public void inicializarCalculos()
+        {
+            _calculoMinhaPontuacaoAtual = 0;
+            _calculoMinhaPontuacaoTotalAtual = 0;
+            _calculoMaiorPontuacaoPossivelAtual = 0;
+            _calculoMaiorPontuacaoTotalAtualPossivel = 0;
+            _calculoMinhaPontuacaoeBoa = false;
+            _calculoQtdCartasNaoQueNaoSaoMinhas = 0;
+            _calculoQtdMediaCartasNao = 0;
+            _calculoQtdTotalAtualCartasNaoNoJogo = 0;
         }
 
 
@@ -220,15 +196,23 @@ namespace Project_MePresidenta
         {
             return value.ToString("yyyyMMddHHmmssffff");
         }
+
+        
+
+
         public void novaRodada()
         {
-            debug("novaRodada");
+            debug("novaRodada()",true,true);
             _nPersonagens = listarPersonagens();
             inicializarNiveis();
             inicializarCartasNao();
             inicializarJogadoresCartas();
+            inicializarCalculos();
+            jogadoresLimparVotacao(-1);
             listarCartas();
             tabuleiroLimpar();
+            gbVotacao.Visible = false;
+            _personagemEliminar = -1;
         }
 
         public void paineis(int status)
@@ -238,12 +222,20 @@ namespace Project_MePresidenta
                 case -1:
                     painelTabuleiro.Visible = false;
                     painelLobby.Visible = true;
+                    btnIniciarPartida.Enabled = false;
                     break;
                 case (int)STATUS.PARTIDAABERTA:
                     painelLobby.Visible = false;
-                    btnIniciarPartida.Enabled = true;
+                    if (_nJogadores > 1)
+                    {
+                        btnIniciarPartida.Enabled = true;
+                    }
+                    else
+                    {
+                        btnIniciarPartida.Enabled = false;
+                    }
                     painelTabuleiro.Visible = true;
-                    btnAutoJogo.Text = "Configurações";
+                    //btnAutoJogo.Text = "Configurações";
                     /*gbVotacao.Visible = false;
                     gbPosicionamento.Visible = false;
                     gbMinhasCartas.Visible = false;*/
@@ -252,7 +244,12 @@ namespace Project_MePresidenta
                     painelLobby.Visible = false;
                     btnIniciarPartida.Enabled = false;
                     painelTabuleiro.Visible = true;
-                    btnAutoJogo.Text = "Ativar Jogadas Automáticas"; 
+                    //btnAutoJogo.Text = "Ativar Jogadas Automáticas"; 
+                    break;
+                case (int)STATUS.PARTIDAENCERRADA:
+                    painelLobby.Visible = false;
+                    btnIniciarPartida.Enabled = false;
+                    painelTabuleiro.Visible = true;
                     break;
             }
         }
@@ -262,6 +259,8 @@ namespace Project_MePresidenta
 
         public string servidor(int metodo)
         {
+            int tentativa = 0;
+            debug("servidor("+metodo+")");
             string texto = null;
             string metodoName = "";
             while (true)
@@ -295,6 +294,7 @@ namespace Project_MePresidenta
                             metodoName = "ListarSetores";
                             break;
                         case 6:
+                            //if (!validarCriacaoPartida()) break;
                             texto = Jogo.CriarPartida(txtNomedaPartida.Text, txtSenhaPartida.Text);
                             metodoName = "CriarPartida";
                             break;
@@ -335,23 +335,38 @@ namespace Project_MePresidenta
                             metodoName = "ConsultarHistorico";
                             break;
                     }
-                    if (texto.Equals(_debuginfileRetornoServidor[metodo]))
+                    if (texto.Equals(_debuginfileLastRetornoServidor[metodo]))
                     {
                         debuginfile("RETORNO SERVIDOR " + metodoName + ": No Modifications", "RetornoServidor");
                     }
                     else
                     {
                         debuginfile("RETORNO SERVIDOR " + metodoName + ": " + texto, "RetornoServidor");
-                        _debuginfileRetornoServidor[metodo] = texto;
+                        _debuginfileLastRetornoServidor[metodo] = texto;
                     }
-                    if (!validarResultadoServidor(texto, metodo)) return null;
-                    if (texto == "") return null;
+                    if (!validarResultadoServidor(texto, metodoName))
+                    {
+                        debug("servidor(" + metodoName + ")=RETORNO INVALIDO");
+                        return null;
+                    }
 
+                    if (texto == "")
+                    {
+                        debug("servidor(" + metodoName + ")=RETORNOU VAZIO");
+                        return null;
+                    }
+
+                    debug("servidor(" + metodoName + ")=OK");
                     return texto;
                 }
                 catch (Exception e)
                 {
-                    MessageBox.Show("ERRO DE SERVIDOR:" + e.Message);
+                    debug("servidor(" + metodo + ")=ERRO DE SERVIDOR - "+e.Message);
+                    MessageBox.Show("ERRO DE SERVIDOR(Tentativa "+(++tentativa)+" de 5):" + e.Message);
+                    if (tentativa > 5)
+                    {
+                        return null;
+                    }
                     continue;
                 }
             }
@@ -362,15 +377,9 @@ namespace Project_MePresidenta
         {
             if (!_TimerHabilitado)
             {
-                btnHabilitarTimer.Enabled = true;
-                btnDesabilitarTimer.Enabled = false;
                 return;
             }
-            else
-            {
-                btnDesabilitarTimer.Enabled = true;
-                btnHabilitarTimer.Enabled = false;
-            }
+            
             timer1.Enabled = false;
 
             rotinaPrincipal();
@@ -378,25 +387,46 @@ namespace Project_MePresidenta
             timer1.Enabled = true;
         }
 
-        private bool validarResultadoServidor(string result, int metodo)
+        private bool validarResultadoServidor(string result, string metodoName)
         {
-            lblErro.Text = "Sucesso...";
+            
             if (result.Length < 4) return true;
             if (result.Substring(0, 4) == "ERRO")
             {
-                lblErro.Text = result;
+                debugUser(result+"(" + metodoName + ")", false);
                 return false;
             }
+            debugUser("Sucesso...(" + metodoName + ")", true);
             return true;
         }
+
+        public void debugUser(string texto,bool sucesso)
+        {
+            lblErro.Text = texto;
+            if (sucesso)
+            {
+                lblErro.ForeColor = Color.DeepSkyBlue;
+                debug(texto);
+            }
+            else
+            {
+                lblErro.ForeColor = Color.Red;
+                labelIndicadordeErro.Visible = true;
+                debug(texto);
+            }
+        }
+
+        
         public bool verificarVez()
         {
-            debug("verificarVez");
+            debug("verificarVez()");
+
+            bool NovaRodada = false;
 
             string result = servidor(1);
             if (result == null)
             {
-                debug("ERROR: verificarVez=false");
+                debug("ERROR: verificarVez=false - servidor");
                 return false;
             }
 
@@ -406,23 +436,25 @@ namespace Project_MePresidenta
             int posicaoPrimeiraQuebra = result.IndexOf('\r');
             if (!Int32.TryParse(result.Substring(0, posicaoPrimeiraQuebra), out jogadordaVez))
             {
-                debug("ERROR  -verificar vez= JOGADOR INDEFINIDO");
+                debug("ERROR: verificar vez= JOGADOR INDEFINIDO",true,true);
                 return false;
             }
             debug("jogadordaVez = " + jogadordaVez + " - " + _jogadoresNome[getJogadorIndex(jogadordaVez)]);
 
             //atualizar tabuleiro
-            if (texto.Length > posicaoPrimeiraQuebra)
+            //forceNovaRodada - forca o reset do tabuleiro para o caso de se iniciar uma nova rodada mas VerificarJogo retornar uma ou mais jogadas subsequentes
+            //forceNovaRodada é definida true em analisarUltimaVotacao
+            if (_forceNovaRodada || !(texto.Length > posicaoPrimeiraQuebra))//tabuleiro vazio
             {
-                _primeirajogadarealizada = true;
-                tabuleiroAtualizar(texto.Substring(posicaoPrimeiraQuebra + 2));
-                analisarUltimasJogadas();
-                _pontuacaoAtual = calculoMinhaPontuacaoAtual();
-            }
-            else
-            {
-                if (_primeirajogadarealizada)
+                if(_forceNovaRodada) debug("verificarVez()=Forcenovarodada");
+                else
                 {
+                    debug("verificarVez()=Tabuleiro vazio");
+                }
+
+                if (_primeirajogadarealizada)//só chama novaRodada() se houve ao menos uma jogada. Caso seja a rodada 1, nova rodada foi chamada ao iniciarPartida
+                {
+                    debug("verificarVez()=Ja houve jogadas - chamar novarodada()");
                     lblNumRodada.Text = Convert.ToString(++_nrodadaAtual + 1) + "/3";
                     _primeirajogadarealizada = false;
                     novaRodada();
@@ -431,7 +463,20 @@ namespace Project_MePresidenta
                 _pontuacaoAtual = 0;
                 listarJogadores();//para atualizar pontuacao
                 jogadoresMostrar();
+                _forceNovaRodada = false;
+                NovaRodada = true;
             }
+
+
+            if (texto.Length > posicaoPrimeiraQuebra)//tabuleiro cheio
+            {
+                debug("verificarVez()=>tabuleiroAtualizar()");
+                _primeirajogadarealizada = true;
+                tabuleiroAtualizar(texto.Substring(posicaoPrimeiraQuebra + 2));
+                analisarUltimasJogadas();
+                _pontuacaoAtual = calculoMinhaPontuacaoAtual();
+            }
+            
 
 
             lblPontuacaoAtual.Text = Convert.ToString(_pontuacaoAtual);
@@ -440,25 +485,53 @@ namespace Project_MePresidenta
 
             int candidato = getCandidato();
 
-            if ((_candidato > -1) && (candidato < 0))//nao e hora de votar mas houve votacao
+            if (candidato > -1)//atualizar label de votacao
             {
-                analisarUltimaVotacao(_candidato);
-                _candidato = -1;
+                debug("verificarVez()= hora de votar");
+                labelPerguntaVotacao.Text = "Você escolhe o candidato "+_personagemNome[candidato]+" para ser Presidente ?";
+                gbVotacao.Visible = true;
+                jogadoresMostrarQueVotou(jogadordaVez);
+            }
+            else
+            {
+                debug("nao ha candidatos");
+                gbVotacao.Visible = false;
             }
 
 
+
+            if ((_candidato > -1) && (candidato < 0))//nao e hora de votar mas houve votacao
+            {
+                debug("verificarVez()= Houve uma votacao");
+                if (!NovaRodada)//analisar ultima votacao apenas se nao é o caso de nova rodada. Caso contrario analisaria duas vezes a mesma votacao
+                {
+                    analisarUltimaVotacao(_candidato);
+                }
+                else
+                {
+                    NovaRodada = false;
+                }
+                
+                _candidato = -1;
+            }
+
+            if (_forceNovaRodada)
+            {//resolve o problema de outros jogadores terem realizado jogadas na nova rodada mas eu ainda nao iniciei nova rodada
+
+                return verificarVez();
+
+            }
 
             jogadoresDestacar(jogadordaVez, _meuCodigoJogador);
             tabuleiroPosicionarDesempregados();
 
             if (_myId == jogadordaVez)
             {
-                debug("MINHA VEZ=TRUE");
+                debug("MINHA VEZ=TRUE",true,true);
                 return true;
             }
 
-            //controlesVezdeOutro(jogadordaVez);
-            debug("MINHA VEZ=FALSE");
+            debug("MINHA VEZ=FALSE",true,true);
             return false;
         }
 
@@ -467,83 +540,102 @@ namespace Project_MePresidenta
             switch (jogador)
             {
                 case 0:
-                    lblJogadas0.Text = jogada + " " + lblJogadas0.Text;
+                    lblJogadas0.Text = jogada;// + " ";// + lblJogadas0.Text;
                     break;
                 case 1:
-                    lblJogadas1.Text = jogada + " " + lblJogadas1.Text;
+                    lblJogadas1.Text = jogada;// + " ";// + lblJogadas1.Text;
                     break;
                 case 2:
-                    lblJogadas2.Text = jogada + " " + lblJogadas2.Text;
+                    lblJogadas2.Text = jogada;// + " ";// + lblJogadas2.Text;
                     break;
                 case 3:
-                    lblJogadas3.Text = jogada + " " + lblJogadas3.Text;
+                    lblJogadas3.Text = jogada;// + " ";// + lblJogadas3.Text;
                     break;
                 case 4:
-                    lblJogadas4.Text = jogada + " " + lblJogadas4.Text;
+                    lblJogadas4.Text = jogada;// + " ";// + lblJogadas4.Text;
                     break;
                 case 5:
-                    lblJogadas5.Text = jogada + " " + lblJogadas5.Text;
+                    lblJogadas5.Text = jogada;// + " ";// + lblJogadas5.Text;
                     break;
 
             }
         }
 
-        public void algoritmoMostrarDestacar()
+        public void algoritmoMostrarDestacar(int algoritmoPosicionamentotemp,int algoritmoPromocaotemp,int algoritmoVotacaotemp)
         {
+            int algoritmoPosicionamento = _algoritmoPosicionamento;
+            int algoritmoPromocao = _algoritmoPromocao;
+            int algoritmoVotacao = _algoritmoVotacao;
+
+            if (algoritmoPosicionamentotemp > 0) algoritmoPosicionamento = algoritmoPosicionamentotemp;
+            if (algoritmoPromocaotemp > 0) algoritmoPromocao = algoritmoPromocaotemp;
+            if (algoritmoVotacaotemp > 0) algoritmoVotacao = algoritmoVotacaotemp;
+
+
             algoritmoNaoDestacar();
-            switch (_algoritmoPosicionamento)
+            
+            switch (algoritmoPosicionamento)
             {
-                case (int)ALGORITMO.posicionamentoPadrao:
-                    botaoDestacar1(btnAlgoritmoPosicionamentoPadrao);
-                    botaoNaoDestacar(btnAlgoritmoPosicionamentoEquilibrado);
+                case (int)ALGORITMO.posicionamento0Padrao:
+                    botaoDestacarConfiguracaoHabilitada(btnAlg0);
                     break;
-                case (int)ALGORITMO.PosicionamentoEquilibrado:
-                    botaoNaoDestacar(btnAlgoritmoPosicionamentoPadrao);
-                    botaoDestacar1(btnAlgoritmoPosicionamentoEquilibrado);
+                case (int)ALGORITMO.posicionamento3Equilibrado:
+                    botaoDestacarConfiguracaoHabilitada(btnAlg3);
                     break;
             }
-            switch (_algoritmoPromocao)
+            switch (algoritmoPromocao)
             {
-                case (int)ALGORITMO.promocaoPadrao:
-                    botaoDestacar1(btnAlgoritmoPromocaoPadrao);
+                case (int)ALGORITMO.promocao1Padrao:
+                    botaoDestacarConfiguracaoHabilitada(btnAlg1);
                     break;
-                case (int)ALGORITMO.algoritmoPromocaoMeudeMenorNivel:
-                    botaoDestacar1(btnAlgoritmoPromocaoMeudeMenorNivel);
+                case (int)ALGORITMO.promocao4MeudeMenorNivel:
+                    botaoDestacarConfiguracaoHabilitada(btnAlg4);
                     break;
-                case (int)ALGORITMO.algoritmoPromocaoQualquerdeMenorNivel:
-                    botaoDestacar1(btnAlgoritmoPromocaoQualquerdeMenorNivel);
+                case (int)ALGORITMO.promocao7QualquerdeMenorNivel:
+                    botaoDestacarConfiguracaoHabilitada(btnAlg7);
+                    break;
+                case (int)ALGORITMO.promocao10IniciarMeuReinado:
+                    botaoDestacarConfiguracaoHabilitada(btnAlg10);
+                    break;
+                case (int)ALGORITMO.promocao13OutrosdeMaiorNivel:
+                    botaoDestacarConfiguracaoHabilitada(btnAlg13);
                     break;
             }
-            switch (_algoritmoVotacao)
+            switch (algoritmoVotacao)
             {
-                case (int)ALGORITMO.VotacaoPadrao:
-                    botaoDestacar1(btnAlgoritmoVotacaoPadrao);
+                case (int)ALGORITMO.votacao2Padrao:
+                    botaoDestacarConfiguracaoHabilitada(btnAlg2);
                     break;
-                case (int)ALGORITMO.VotacaoTenhoPontosSuficientes:
-                    botaoDestacar1(btnAlgoritmoVotacaoTenhoPontosSuficientes);
+                case (int)ALGORITMO.votacao5TenhoPontosSuficientes:
+                    botaoDestacarConfiguracaoHabilitada(btnAlg5);
                     break;
             }
 
         }
+
+        
         public void algoritmoNaoDestacar()
         {
-            botaoNaoDestacar(btnAlgoritmoPosicionamentoPadrao);
-            botaoNaoDestacar(btnAlgoritmoPromocaoPadrao);
-            botaoNaoDestacar(btnAlgoritmoVotacaoPadrao);
-            botaoNaoDestacar(btnAlgoritmoPosicionamentoEquilibrado);
-            botaoNaoDestacar(btnAlgoritmoVotacaoTenhoPontosSuficientes);
-            botaoNaoDestacar(btnAlgoritmoPromocaoMeudeMenorNivel);
-            botaoNaoDestacar(btnAlgoritmoPromocaoQualquerdeMenorNivel);
+            botaoNaoDestacarconfiguracao(btnAlg0);
+            botaoNaoDestacarconfiguracao(btnAlg3);
+
+            botaoNaoDestacarconfiguracao(btnAlg1);
+            botaoNaoDestacarconfiguracao(btnAlg4);
+            botaoNaoDestacarconfiguracao(btnAlg7);
+            botaoNaoDestacarconfiguracao(btnAlg10);
+            botaoNaoDestacarconfiguracao(btnAlg13);
+
+            botaoNaoDestacarconfiguracao(btnAlg2);
+            botaoNaoDestacarconfiguracao(btnAlg5);
         }
 
 
         public int analisarStatus()
         {
-            debug("analisarStatus()");
             string status = servidor(14);
             if (status == null)
             {
-                debug("analisarStatus()=Aberta");
+                debug("analisarStatus()=Aberta porque status é null");
                 return (int)STATUS.PARTIDAABERTA;
             }
 
@@ -581,19 +673,23 @@ namespace Project_MePresidenta
                 return (int)STATUS.PARTIDAENCERRADA;
 
             }
-            debug("ERRO: analisarStatus = INDEFINIDO");
+            debug("ERRO: analisarStatus = INDEFINIDO",true,true);
 
             return -1;
         }
         private void analisarUltimaVotacao(int candidato)
         {
-            debug("analisarUltimaVotacao");
+            
             bool houveVotoNao = false;
 
             string result = servidor(13);
-            if (result == null) return;
+            if (result == null) {
+                debug("ERROR: analisarUltimaVotacao()=null",true,true);
+                return;
+            }
 
 
+            debug("analisarUltimaVotacao()="+result);
 
             string texto = result.Substring(0, result.Length - 2);
 
@@ -610,32 +706,48 @@ namespace Project_MePresidenta
                 string escolhavoto = campos[1].Trim();
 
                 _jogadoresHistoricoVotos[i] += _personagemCodinome[candidato] + escolhavoto + " ";
-                mostrarUltimaJogadaJogador(i, Convert.ToString(++_jogadoresJogadacontador[i]) + "." + _personagemCodinome[candidato] + escolhavoto);
+                //mostrarUltimaJogadaJogador(i, "("+Convert.ToString(++_jogadoresJogadacontador[i]) + ") " + escolhavoto);//_personagemCodinome[candidato] + 
+
+                jogadoresMostrarVotacao(i, escolhavoto);
+
                 if (escolhavoto.Equals("N"))
                 {
                     //se jogador votou nao carta com certeza nao lhe pertence
                     houveVotoNao = true;
                     _jogadoresCartasNaoDiponiveis[i]--;
                     _jogadoresCartas[i, candidato] = 0;//Personagem com certeza não pertece ao jogador
+                    if(_personagemEliminar == candidato)
+                    {
+                        _personagemEliminar = -1;//reset personagem eliminar
+                    }
+                    debug("analisarUltimaVotacao()=Jogador votou Nao - Personagem nao lhe pertence"+voto2, false, false,true);
                 }
                 else
                 {
                     //se numeros de cartaz nao do jogador é 0, ha poucos nao no jogo e foi ele quem promoveu a carta era dele
-                    if ((calculoQtdTotalAtualCartasNaoNoJogo() < (_nCartasNaoMax / 2)) && (_jogadoresCartasNaoDiponiveis[i] == 0) && _jogadoresUltimaJogadaAnalisada[i].Equals("J" + _personagemCodinome[candidato] + "10"))
+                    if ((_calculoQtdTotalAtualCartasNaoNoJogo < _calculoQtdMediaCartasNao) && (_jogadoresCartasNaoDiponiveis[i] == 0) && _jogadoresUltimaJogadaAnalisada[i].Equals("J" + _personagemCodinome[candidato] + "10"))
                     {
+                        debug("analisarUltimaVotacao()=Jogador votou Sim, nao tem cartas naos,ha poucos nao no jogo e foi ele quem promoveu o personagem a presidente - Personagem lhe pertence" + voto2, false, false, true);
                         _jogadoresCartas[i, candidato] += 2;
                     }
 
-                    //se há um numero consideravel de cartas nao e nao ha muitos personagens eliminados a carta nao é dele
-                    if ((calculoQtdTotalAtualCartasNaoNoJogo() > (_nCartasNaoMax / 2) && calculoNumeroPersonagensEliminados() < 5))
+                    //se há um numero consideravel de cartas nao e o jogadorr possui cartas nao e nao ha muitos personagens eliminados a carta nao é dele*
+                    if ((_calculoQtdTotalAtualCartasNaoNoJogo > _calculoQtdMediaCartasNao && calculoNumeroPersonagensEliminados() < 5)&&_jogadoresCartasNaoDiponiveis[i]>0)
                     {
+
+                        debug("analisarUltimaVotacao()=Jogador votou Sim,jogador possui naos ,ha muitos naos no jogo e nao ha muitos personagens eliminados - Personagem Nao lhe pertence" + voto2, false, false, true);
                         _jogadoresCartas[i, candidato] = 0;
                     }
 
 
 
-
-                    _jogadoresCartas[i, candidato]++;
+                    
+                    if(_jogadoresCartas[i, candidato] > 0)
+                    {
+                        debug("analisarUltimaVotacao()=Jogador votou Sim, Personagem pode ser dele" + voto2, false, false, true);
+                        _jogadoresCartas[i, candidato]++;
+                    }
+                    
                 }
                 i++;
             }
@@ -645,15 +757,29 @@ namespace Project_MePresidenta
                 _personagemStatus[candidato] = -2;//eliminado
                 _nivelQtdPersonagens[10] = 0;
                 eliminarCartaJogadoresCarta(candidato);
+                debug("analisarUltimaVotacao()=Personagem eliminado - continuar rodada",true,true);
+
+            }
+            else
+            {//só houve voto sim - forçar limpeza do tabuleiro
+                debug("analisarUltimaVotacao()=Todos votos SIM - Forçar nova rodada",true,true);
+                _forceNovaRodada = true;
             }
 
         }
+        
+
         public void analisarUltimasJogadas()
         {
             string result = servidor(15);
-            if (result == null) return;
 
-            debug("ULTIMA JOGADA = " + result);
+            debug("analisarUltimasJogadas()= " + result);
+
+            if (result == null)
+            {
+                return;
+            }
+            
 
 
             string texto = result.Substring(0, result.Length - 2);
@@ -678,76 +804,133 @@ namespace Project_MePresidenta
                 int personagemindex = getPersonagemIndex(personagem);
 
 
+                
 
 
+                //analise
                 if (jogadorindex > -1)
                 {
                     //if (jogadorindex == _meuCodigoJogador) continue;
                     if (_jogadoresUltimaJogadaAnalisada[jogadorindex].Equals(tipojogada + personagem + setor)) continue;
+
+                    if (setor.Equals("10"))//Mostrar quem candidatou o personagem
+                    {
+                        jogadoresLimparVotacao(jogadorindex);
+                    }
+
+
                     _jogadoresJogadacontador[jogadorindex]++;
                     if (tipojogada.Equals("S"))//Posicionamerto
                     {
                         if (setor.Equals("1"))//posicionamento no novel 1 supoe-se que personagem nao e do jogador
                         {
+                            debug("analisarUltimasJogadas()=Posicionamento no nivel 1 supoe que personagem nao é do jogador - "+jogada2,false,false,true);
                             _jogadoresCartas[jogadorindex, personagemindex] = 0;
                         }
                     }
                     else if (tipojogada.Equals("J"))//PROMOCAO
                     {
                         _contadorPromocaoJogadorPersonagem[jogadorindex, personagemindex]++;
-                        if (_contadorPromocaoJogadorPersonagem[jogadorindex, personagemindex] > 2)
+                        if (_contadorPromocaoJogadorPersonagem[jogadorindex, personagemindex] > 2)//jogador ja promoveu personagem 3 vezes
                         {
+                            debug("analisarUltimasJogadas()=Jogador promove muito este personagem - " + jogada2,false,false,true);
                             _jogadoresCartas[jogadorindex, personagemindex]++;
                         }
                         if (setor.Equals("1"))//promocao para o nivel 1 supoe-se que personagem é do jogador
                         {
+                            debug("analisarUltimasJogadas()=Promoveu personagem de nivel baixo - " + jogada2,false,false,true);
                             _jogadoresCartas[jogadorindex, personagemindex]++;
                         }
 
                     }
 
                     _jogadoresUltimaJogadaAnalisada[jogadorindex] = tipojogada + personagem + setor;
-                    mostrarUltimaJogadaJogador(jogadorindex, Convert.ToString(_jogadoresJogadacontador[jogadorindex]) + "." + tipojogada + personagem + setor);
+                    mostrarUltimaJogadaJogador(jogadorindex, "("+Convert.ToString(_jogadoresJogadacontador[jogadorindex]) + ") " + personagem + setor);// + tipojogada
                 }
 
 
             }
+
+            debug("analisarUltimasJogadas() - "+result+"Novo Status JogadoresCartas:", false, false, true);
+            debug(debugtextoJogadoresCartas(),false,false,true);
+
         }
 
-        public void botaoDestacar1(System.Windows.Forms.Button b)
+        public void botaoDestacarMeuPersonagem(System.Windows.Forms.Button b)
         {
             b.BackColor = Color.DeepSkyBlue;
             b.ForeColor = Color.FromArgb(9, 18, 23);
         }
-        public void botaoDestacar2(System.Windows.Forms.Button b)
+        public void botaoDestacarJogadordaVez(System.Windows.Forms.Button b)
         {
             b.BackColor = Color.Black;
             b.ForeColor = Color.White;
         }
 
-        public void botaoNaoDestacar(System.Windows.Forms.Button b)
+        public void botaoDestacarConfiguracaoHabilitada(System.Windows.Forms.Button b)
+        {
+            b.BackColor = Color.Gold;
+            //b.ForeColor = Color.White;
+        }
+
+        public void botaoDestacarPersonagemEliminado(System.Windows.Forms.Button b)
+        {
+            b.BackColor = Color.Red;
+            b.ForeColor = Color.White;
+        }
+
+        public void botaoNaoDestacarPersonagens(System.Windows.Forms.Button b)
         {
             b.BackColor = Color.FromArgb(9, 18, 23);
             b.ForeColor = Color.DeepSkyBlue;
         }
 
-        public void debug(string texto)
+        public void botaoNaoDestacarconfiguracao(System.Windows.Forms.Button b)
         {
-            //debugfile.Close();
-
-            txtdebug.Text = "\r\n" + Convert.ToString(++_counterDebug) + "-" + texto + txtdebug.Text;
-
-            debuginfile(texto, "");
+            b.BackColor = Color.DeepSkyBlue;
+            b.ForeColor = Color.FromArgb(9, 18, 23);
         }
 
-        public void debug(string texto, string nomedoarquivoadicional)
+        
+        public void debug(string texto)
         {
-            //debugfile.Close();
+            debug(texto, true, false, false, false, false);
+        }
 
-            ++_counterDebug;
-            // txtdebug.Text = "\r\n" + Convert.ToString(++_counterDebug) + "-" + texto + txtdebug.Text;
+        public void debug(string texto, bool recordGeralDebugFile)
+        {
+            debug(texto, recordGeralDebugFile, false, false, false, false);
+        }
 
-            debuginfile(texto, nomedoarquivoadicional);
+        public void debug(string texto, bool recordGeralDebugFile, bool showAdministrator)
+        {
+            debug(texto, recordGeralDebugFile, showAdministrator, false, false, false);
+        }
+
+        public void debug(string texto, bool recordGeralDebugFile, bool showAdministrator, bool recordAlgoritmoAutoFile)
+        {
+            debug(texto, recordGeralDebugFile, showAdministrator, recordAlgoritmoAutoFile, false, false);
+        }
+        public void debug(string texto, bool recordGeralDebugFile, bool showAdministrator,bool recordAlgoritmoAutoFile,bool recordRetornoServidorFile,bool recordVariablesStatusFile)
+        {
+            
+
+
+            string nomejogador="anonymous";
+            if (_meuCodigoJogador > -1)
+            {
+                nomejogador = _jogadoresNome[_meuCodigoJogador];
+            }
+            if (recordGeralDebugFile)
+                debuginfile(texto, "GeneralDebug."+nomejogador);
+            if (showAdministrator)
+                txtdebug.Text = "\r\n" + Convert.ToString(_counterDebug) + "-" + texto + txtdebug.Text;
+            if (recordAlgoritmoAutoFile)
+                debuginfile(texto, "AlgoritmoDebug." + nomejogador);
+            if (recordRetornoServidorFile)
+                debuginfile(texto, "RetornoServidor." + nomejogador);
+            if(recordVariablesStatusFile)
+                debuginfile(texto, "VariaveisStatus." + nomejogador);
 
         }
 
@@ -755,16 +938,27 @@ namespace Project_MePresidenta
 
         public void debuginfile(string texto, string nomeadicionaldoarquivo)
         {
+            if (!_ativarDebug) return;
+
+            if (!Directory.Exists(debugfilepath))
+            {
+
+                //Criamos um com o nome folder
+                Directory.CreateDirectory(debugfilepath);
+
+            }
+
+
 
             try
             {
-                debugfile = File.AppendText(nomeadicionaldoarquivo + debugfilepath + Convert.ToString(debugfilecode) + ".txt");
+                debugfile = File.AppendText(debugfilepath + "/"+ nomeadicionaldoarquivo+ Convert.ToString(debugfilecode)+".txt");
             }
             catch (Exception e)//
             {
                 //Caso nao consiga acessar o arquivo cria um novo arquivo debug
                 //MessageBox.Show(e.Message);
-                debugfile = File.AppendText(nomeadicionaldoarquivo + debugfilepath + Convert.ToString(++debugfilecode) + ".txt");
+                debugfile = File.AppendText(debugfilepath + "/" + nomeadicionaldoarquivo + Convert.ToString(++debugfilecode) + ".txt");
             }
             debugfile.WriteLine(Convert.ToString(++_counterDebug) + "-" + texto);
             debugfile.Close();
@@ -772,7 +966,8 @@ namespace Project_MePresidenta
 
         public void debugVariaveisGlobais(string rotulo)
         {
-            string texto = "\r\n\r\n************PrintVariaveisGlobais[" + _counterDebug + "] - " + rotulo + "****************************\r\n";
+            rotulo = "\r\n\r\n************PrintVariaveisGlobais - " + rotulo + "****************************\r\n";
+            string texto = "";
             //PROPRIEDADES
             texto += "_myId=" + _myId + "\r\n";
             texto += "_mySenha=" + _mySenha + "\r\n";
@@ -821,6 +1016,7 @@ namespace Project_MePresidenta
                 texto += _personagemStatus[i] + "\t";
                 texto += _personagemMeu[i] + "\t";
                 texto += _personagemCodinome[i] + "\t";
+                texto += _personagemNome[i] + "\t";
                 texto += "\r\n";
                 i++;
             }
@@ -852,9 +1048,87 @@ namespace Project_MePresidenta
             }
             texto += "\r\n";
 
-            debuginfile(texto, "VariaveisGlobais");
+
+            if (_debuginfileLastVariaveisGlobais == texto)
+            {
+                texto = "NoModifications";
+            }
+            else
+            {
+                _debuginfileLastVariaveisGlobais = texto;
+            }
+
+            debug(rotulo, false, false, false, false, true);
+            debug(texto,false,false,false,false,true);
 
         }
+
+        public void debugTabuleiro()
+        {
+            debug("debugTabuleiro()");
+            string texto = "\r\nDISPOSICAO DO TABULEIRO\r\n" + n10.Text + (calculoMeuPersonagem(n10.Text) ? ("*") : ("")) + "\r\n";
+            texto += n51.Text + (calculoMeuPersonagem(n51.Text) ? ("*") : ("")) + "\t" + n52.Text + (calculoMeuPersonagem(n52.Text) ? ("*") : ("")) + "\t" + n53.Text + (calculoMeuPersonagem(n53.Text) ? ("*") : ("")) + "\t" + n54.Text + (calculoMeuPersonagem(n54.Text) ? ("*") : ("")) + "\r\n";
+            texto += n41.Text + (calculoMeuPersonagem(n41.Text) ? ("*") : ("")) + "\t" + n42.Text + (calculoMeuPersonagem(n42.Text) ? ("*") : ("")) + "\t" + n43.Text + (calculoMeuPersonagem(n43.Text) ? ("*") : ("")) + "\t" + n44.Text + (calculoMeuPersonagem(n44.Text) ? ("*") : ("")) + "\r\n";
+            texto += n31.Text + (calculoMeuPersonagem(n31.Text) ? ("*") : ("")) + "\t" + n32.Text + (calculoMeuPersonagem(n32.Text) ? ("*") : ("")) + "\t" + n33.Text + (calculoMeuPersonagem(n33.Text) ? ("*") : ("")) + "\t" + n34.Text + (calculoMeuPersonagem(n34.Text) ? ("*") : ("")) + "\r\n";
+            texto += n21.Text + (calculoMeuPersonagem(n21.Text) ? ("*") : ("")) + "\t" + n22.Text + (calculoMeuPersonagem(n22.Text) ? ("*") : ("")) + "\t" + n23.Text + (calculoMeuPersonagem(n23.Text) ? ("*") : ("")) + "\t" + n24.Text + (calculoMeuPersonagem(n24.Text) ? ("*") : ("")) + "\r\n";
+            texto += n11.Text + (calculoMeuPersonagem(n11.Text) ? ("*") : ("")) + "\t" + n12.Text + (calculoMeuPersonagem(n12.Text) ? ("*") : ("")) + "\t" + n13.Text + (calculoMeuPersonagem(n13.Text) ? ("*") : ("")) + "\t" + n14.Text + (calculoMeuPersonagem(n14.Text) ? ("*") : ("")) + "\r\n";
+            texto += n01.Text + (calculoMeuPersonagem(n01.Text) ? ("*") : ("")) + "\t" + n02.Text + (calculoMeuPersonagem(n02.Text) ? ("*") : ("")) + "\t" + n03.Text + (calculoMeuPersonagem(n03.Text) ? ("*") : ("")) + "\t" + n04.Text + (calculoMeuPersonagem(n04.Text) ? ("*") : ("")) + "\r\n";
+            _calculoMinhaPontuacaoAtual = calculoMinhaPontuacaoAtual();
+            _calculoMinhaPontuacaoTotalAtual = calculoMinhaPontuacaoTotalAtual();
+            _calculoMaiorPontuacaoPossivelAtual = calculoMaiorPontuacaoPossivelAtual();
+            _calculoMaiorPontuacaoTotalAtualPossivel = calculoMaiorPontuacaoTotalAtualPossivel();
+            _calculoMinhaPontuacaoeBoa = calculoMinhaPontuacaoeBoa();
+            _calculoQtdCartasNaoQueNaoSaoMinhas = calculoQtdCartasNaoQueNaoSaoMinhas();
+            _calculoQtdMediaCartasNao = calculoQtdMediaCartasNao();
+            _calculoQtdTotalAtualCartasNaoNoJogo = calculoQtdTotalAtualCartasNaoNoJogo();
+
+
+
+
+            texto += "MinhaPontuacaoAtual = " + _calculoMinhaPontuacaoAtual + "\r\n";
+            texto += "MinhaPontuacaoTotal = " + _jogadoresPontos[_meuCodigoJogador] + "\r\n";
+            texto += "MinhaPontuacaoTotalAtual = " + _calculoMinhaPontuacaoTotalAtual + "\r\n";
+            texto += "MaiorPontuacaoPossivelAtual =" + _calculoMaiorPontuacaoPossivelAtual + "\r\n";
+            texto += "MaiorPontuacaoTotalAtualPossivel =" + _calculoMaiorPontuacaoTotalAtualPossivel + "\r\n";
+            texto += "MinhaPontuacaoeBoa =" + _calculoMinhaPontuacaoeBoa + "\r\n";
+            texto += "QtdCartasNaoQueNaoSaoMinhas =" + _calculoQtdCartasNaoQueNaoSaoMinhas + "\r\n";
+            texto += "QtdMediaCartasNao =" + _calculoQtdMediaCartasNao + "\r\n";
+            texto += "QtdTotalAtualCartasNaoNoJogo =" + _calculoQtdTotalAtualCartasNaoNoJogo + "\r\n";
+            texto += "\r\n";
+            debug(texto, false, false, true);
+        }
+
+        public string debugtextoJogadoresCartas()
+        {
+            string texto = "JogadoresCartas /Contadopromocoes= " + "\r\n";
+            int i = 0;
+            int j = 0;
+            while (i < 6)
+            {
+                j = 0;
+                while (j < 13)
+                {
+                    texto += _jogadoresCartas[i, j] + "\t";
+                    texto += _contadorPromocaoJogadorPersonagem[i, j] + "\t";
+                    j++;
+                }
+                texto += "\r\n";
+                i++;
+            }
+            texto += "\r\n";
+            return texto;
+        }
+
+
+
+        public bool calculoMeuPersonagem(string personagem)
+        {
+            if (personagem == "") return false;
+            if (_personagemMeu[getPersonagemIndex(personagem)])return true;
+            return false;
+        }
+
+        
 
         public int getCandidato()
         {
@@ -876,7 +1150,7 @@ namespace Project_MePresidenta
                 if (_jogadoresNome[i].Equals(nome)) return i;
                 i++;
             }
-            debug("ERRO: indice do jogador nao encontrado: " + nome);
+            debug("ERRO getJogadorIndex(): indice do jogador nao encontrado: " + nome,true,true);
             return 0;
         }
 
@@ -888,7 +1162,7 @@ namespace Project_MePresidenta
                 if (_jogadoresId[i].Equals(id)) return i;
                 i++;
             }
-            debug("ERRO: indice do jogador nao encontrado: " + id);
+            debug("ERRO getJogadorIndex(): indice do jogador nao encontrado: ",true,true);
             return 0;
         }
 
@@ -900,12 +1174,17 @@ namespace Project_MePresidenta
                 if (_personagemCodinome[i].Equals(nome)) return i;
                 i++;
             }
-            debug("ERRO: indice do Personagem nao encontrado: " + nome);
+            debug("ERRO getPersonagemIndex(): indice do Personagem nao encontrado: " + nome, true, true);
             return 0;
         }
 
         private void inicializarCartasNao()
         {
+            if (_nJogadores == 0)
+            {
+                debug("ERROR: inicializarCartasNao() - Numero de Jogadores Igual a Zero", true, true);
+                return;
+            }
             _nCartasNaoMax = _nPersonagens / _nJogadores;
             /* COnforme Manual
              * 3 jogadores = 4 cartas nao
@@ -936,7 +1215,7 @@ namespace Project_MePresidenta
         {
 
 
-            _myId = 0;
+            _myId = -1;
             _mySenha = "";
             _partidaSenha = "";
             _partidaId = 0;
@@ -944,7 +1223,7 @@ namespace Project_MePresidenta
             _partidaStatus = 0;
             _rotinaPartidaIniciada = false;
             //_autojogo = false;
-            _TimerHabilitado = false;
+            //_TimerHabilitado = false;
             _nrodadaAtual = 0;
             _primeirajogadarealizada = false;
             _candidato = -1;
@@ -967,10 +1246,12 @@ namespace Project_MePresidenta
                 _jogadoresJogadacontador[i] = 0;
                 i++;
             }
+            _jogadorQueCandidatou = -1;
 
-            _algoritmoPromocao = (int)ALGORITMO.promocaoPadrao;
-            _algoritmoPosicionamento = (int)ALGORITMO.posicionamentoPadrao;
-            _algoritmoVotacao = (int)ALGORITMO.VotacaoPadrao;
+            _algoritmoPromocao = (int)ALGORITMO.promocao1Padrao;
+            _algoritmoPosicionamento = (int)ALGORITMO.posicionamento0Padrao;
+            _algoritmoVotacao = (int)ALGORITMO.votacao2Padrao;
+            _algoritmoPromocaoPrioridadeAtual = 0;
 
         }
         public void inicializarNiveis()
@@ -998,6 +1279,75 @@ namespace Project_MePresidenta
                 i++;
             }
         }
+
+        public void jogadoresLimparPainel()
+        {
+            lblPontos0.Visible = false;
+            lblPontos1.Visible = false;
+            lblPontos2.Visible = false;
+            lblPontos3.Visible = false;
+            lblPontos4.Visible = false;
+            lblPontos5.Visible = false;
+            lblJogadas0.Text = "";
+            lblJogadas1.Text = "";
+            lblJogadas2.Text = "";
+            lblJogadas3.Text = "";
+            lblJogadas4.Text = "";
+            lblJogadas5.Text = "";
+            //lblJogadas0.Visible = false;
+            //lblJogadas1.Visible = false;
+            //lblJogadas2.Visible = false;
+            //lblJogadas3.Visible = false;
+            //lblJogadas4.Visible = false;
+            //lblJogadas5.Visible = false;
+
+            labelVotacao0.Text = "";
+            labelVotacao1.Text = "";
+            labelVotacao2.Text = "";
+            labelVotacao3.Text = "";
+            labelVotacao4.Text = "";
+            labelVotacao5.Text = "";
+            labelVotacao0.Visible = false;
+            labelVotacao1.Visible = false;
+            labelVotacao2.Visible = false;
+            labelVotacao3.Visible = false;
+            labelVotacao4.Visible = false;
+            labelVotacao5.Visible = false;
+
+
+
+            j0.Visible = false;
+            j1.Visible = false;
+            j2.Visible = false;
+            j3.Visible = false;
+            j4.Visible = false;
+            j5.Visible = false;
+            nao00.Visible = false;
+            nao01.Visible = false;
+            nao02.Visible = false;
+            nao03.Visible = false;
+            nao10.Visible = false;
+            nao11.Visible = false;
+            nao12.Visible = false;
+            nao13.Visible = false;
+            nao20.Visible = false;
+            nao21.Visible = false;
+            nao22.Visible = false;
+            nao23.Visible = false;
+            nao30.Visible = false;
+            nao31.Visible = false;
+            nao32.Visible = false;
+            nao33.Visible = false;
+            nao40.Visible = false;
+            nao41.Visible = false;
+            nao42.Visible = false;
+            nao43.Visible = false;
+            nao50.Visible = false;
+            nao51.Visible = false;
+            nao52.Visible = false;
+            nao53.Visible = false;
+        }
+
 
         public void jogadoresMostrar()
         {
@@ -1129,7 +1479,125 @@ namespace Project_MePresidenta
                     break;
             }
         }
+        public void jogadoresMostrarVotacao(int jogador, string escolhaVoto)
+        {
+            switch (jogador)
+            {
+                case 0:
+                    labelVotacao0.Text = escolhaVoto;
+                    labelVotacao0.Visible = true;
+                    break;
+                case 1:
+                    labelVotacao1.Text = escolhaVoto;
+                    labelVotacao1.Visible = true;
+                    break;
+                case 2:
+                    labelVotacao2.Text = escolhaVoto;
+                    labelVotacao2.Visible = true;
+                    break;
+                case 3:
+                    labelVotacao3.Text = escolhaVoto;
+                    labelVotacao3.Visible = true;
+                    break;
+                case 4:
+                    labelVotacao4.Text = escolhaVoto;
+                    labelVotacao4.Visible = true;
+                    break;
+                case 5:
+                    labelVotacao5.Text = escolhaVoto;
+                    labelVotacao5.Visible = true;
+                    break;
+            }
+            _jogadorQueCandidatou = -1;
+        }
 
+        public void jogadoresLimparVotacao(int jogadorQueCandidatou)
+        {
+            _jogadorQueCandidatou = jogadorQueCandidatou;
+
+            labelVotacao0.Text = "";
+            labelVotacao1.Text = "";
+            labelVotacao2.Text = "";
+            labelVotacao3.Text = "";
+            labelVotacao4.Text = "";
+            labelVotacao5.Text = "";
+            
+            switch (jogadorQueCandidatou)
+            {
+                case 0:
+                    labelVotacao0.Text = "CANDIDATOU";
+                    labelVotacao0.Visible = true;
+                    break;
+                case 1:
+                    labelVotacao1.Text = "CANDIDATOU";
+                    labelVotacao1.Visible = true;
+                    break;
+                case 2:
+                    labelVotacao2.Text = "CANDIDATOU";
+                    labelVotacao2.Visible = true;
+                    break;
+                case 3:
+                    labelVotacao3.Text = "CANDIDATOU";
+                    labelVotacao3.Visible = true;
+
+                    break;
+                case 4:
+                    labelVotacao4.Text = "CANDIDATOU";
+                    labelVotacao4.Visible = true;
+                    break;
+                case 5:
+                    labelVotacao5.Text = "CANDIDATOU";
+                    labelVotacao5.Visible = true;
+                    break;
+            }
+        }
+        public int getJogadorAnterior(int jogador)
+        {
+            int jogadoranterior = jogador-1;
+            if (jogadoranterior < 0) jogadoranterior = _nJogadores - 1;
+            return jogadoranterior;
+        }
+        public void mostrarQueVotou(int jogador)
+        {
+            switch (jogador)
+            {
+                case 0:
+                    labelVotacao0.Text = "VOTOU";
+                    labelVotacao0.Visible = true;
+                    break;
+                case 1:
+                    labelVotacao1.Text = "VOTOU";
+                    labelVotacao1.Visible = true;
+                    break;
+                case 2:
+                    labelVotacao2.Text = "VOTOU";
+                    labelVotacao2.Visible = true;
+                    break;
+                case 3:
+                    labelVotacao3.Text = "VOTOU";
+                    labelVotacao3.Visible = true;
+                    break;
+                case 4:
+                    labelVotacao4.Text = "VOTOU";
+                    labelVotacao4.Visible = true;
+                    break;
+                case 5:
+                    labelVotacao5.Text = "VOTOU";
+                    labelVotacao5.Visible = true;
+                    break;
+            }
+        }
+
+        public void jogadoresMostrarQueVotou(int jogadordavez)
+        {
+            jogadordavez = getJogadorIndex(jogadordavez);
+            int jogadorAnterior = getJogadorAnterior(jogadordavez);
+            while (jogadorAnterior != _jogadorQueCandidatou)
+            {
+                mostrarQueVotou(jogadorAnterior);
+                jogadorAnterior = getJogadorAnterior(jogadorAnterior);
+            }
+        }
         private void jogadoresDestacar(int jogadordaVez, int meucodigoJogador)
         {
             int i = 0;
@@ -1139,34 +1607,34 @@ namespace Project_MePresidenta
                 {
                     case 0:
 
-                        if ((jogadordaVez == _jogadoresId[i] && meucodigoJogador == i) || (jogadordaVez == _jogadoresId[i])) { botaoDestacar2(j0); }
-                        else if (meucodigoJogador == i) { botaoDestacar1(j0); }
-                        else { botaoNaoDestacar(j0); }
+                        if ((jogadordaVez == _jogadoresId[i] && meucodigoJogador == i) || (jogadordaVez == _jogadoresId[i])) { botaoDestacarJogadordaVez(j0); }
+                        else if (meucodigoJogador == i) { botaoDestacarMeuPersonagem(j0); }
+                        else { botaoNaoDestacarPersonagens(j0); }
                         break;
                     case 1:
-                        if ((jogadordaVez == _jogadoresId[i] && meucodigoJogador == i) || (jogadordaVez == _jogadoresId[i])) { botaoDestacar2(j1); }
-                        else if (meucodigoJogador == i) { botaoDestacar1(j1); }
-                        else { botaoNaoDestacar(j1); }
+                        if ((jogadordaVez == _jogadoresId[i] && meucodigoJogador == i) || (jogadordaVez == _jogadoresId[i])) { botaoDestacarJogadordaVez(j1); }
+                        else if (meucodigoJogador == i) { botaoDestacarMeuPersonagem(j1); }
+                        else { botaoNaoDestacarPersonagens(j1); }
                         break;
                     case 2:
-                        if ((jogadordaVez == _jogadoresId[i] && meucodigoJogador == i) || (jogadordaVez == _jogadoresId[i])) { botaoDestacar2(j2); }
-                        else if (meucodigoJogador == i) { botaoDestacar1(j2); }
-                        else { botaoNaoDestacar(j2); }
+                        if ((jogadordaVez == _jogadoresId[i] && meucodigoJogador == i) || (jogadordaVez == _jogadoresId[i])) { botaoDestacarJogadordaVez(j2); }
+                        else if (meucodigoJogador == i) { botaoDestacarMeuPersonagem(j2); }
+                        else { botaoNaoDestacarPersonagens(j2); }
                         break;
                     case 3:
-                        if ((jogadordaVez == _jogadoresId[i] && meucodigoJogador == i) || (jogadordaVez == _jogadoresId[i])) { botaoDestacar2(j3); }
-                        else if (meucodigoJogador == i) { botaoDestacar1(j3); }
-                        else { botaoNaoDestacar(j3); }
+                        if ((jogadordaVez == _jogadoresId[i] && meucodigoJogador == i) || (jogadordaVez == _jogadoresId[i])) { botaoDestacarJogadordaVez(j3); }
+                        else if (meucodigoJogador == i) { botaoDestacarMeuPersonagem(j3); }
+                        else { botaoNaoDestacarPersonagens(j3); }
                         break;
                     case 4:
-                        if ((jogadordaVez == _jogadoresId[i] && meucodigoJogador == i) || (jogadordaVez == _jogadoresId[i])) { botaoDestacar2(j4); }
-                        else if (meucodigoJogador == i) { botaoDestacar1(j4); }
-                        else { botaoNaoDestacar(j4); }
+                        if ((jogadordaVez == _jogadoresId[i] && meucodigoJogador == i) || (jogadordaVez == _jogadoresId[i])) { botaoDestacarJogadordaVez(j4); }
+                        else if (meucodigoJogador == i) { botaoDestacarMeuPersonagem(j4); }
+                        else { botaoNaoDestacarPersonagens(j4); }
                         break;
                     case 5:
-                        if ((jogadordaVez == _jogadoresId[i] && meucodigoJogador == i) || (jogadordaVez == _jogadoresId[i])) { botaoDestacar2(j5); }
-                        else if (meucodigoJogador == i) { botaoDestacar1(j5); }
-                        else { botaoNaoDestacar(j5); }
+                        if ((jogadordaVez == _jogadoresId[i] && meucodigoJogador == i) || (jogadordaVez == _jogadoresId[i])) { botaoDestacarJogadordaVez(j5); }
+                        else if (meucodigoJogador == i) { botaoDestacarMeuPersonagem(j5); }
+                        else { botaoNaoDestacarPersonagens(j5); }
                         break;
                 }
                 jogadoresMostrarCartasNao(i, _jogadoresCartasNaoDiponiveis[i]);
@@ -1178,6 +1646,12 @@ namespace Project_MePresidenta
             lstPartidas.Items.Clear();
 
             string texto = servidor(0);
+
+            if (texto == null)
+            {
+                debug("ERROR: Listar Partidas Retornou null",true,true);
+                return;
+            }
 
             texto = texto.Replace("\r", "");
 
@@ -1202,6 +1676,14 @@ namespace Project_MePresidenta
                             item.SubItems.Add("Aberto");
 
                         lstPartidas.Items.Add(item);
+
+
+                        if (itens[3].Equals("Londres")&& itens[0] == "A")
+                        {
+                            lblIdPartida.Text = itens[1];
+                            txtSenhadaPartidaEntrar.Text = "123";
+                        }
+
                     }
 
                 }
@@ -1322,6 +1804,7 @@ namespace Project_MePresidenta
 
                 string nomepersonagem = campos[0].Trim();
                 _personagemCodinome[cdPersonagem] = nomepersonagem.Substring(0, 1);
+                _personagemNome[cdPersonagem] = nomepersonagem;
                 _personagemMeu[cdPersonagem] = false;
                 _personagemStatus[cdPersonagem] = -1;
 
@@ -1407,7 +1890,9 @@ namespace Project_MePresidenta
             if (result == null) return;
             int x = Convert.ToInt32(result);
 
-            debug("NUMERO DA PARTIDA CRIADA = " + x);
+            debug("PARTIDA CRIADA = " + x);
+            _mostrarPaineldeInformacoes = false;
+            mostarOcultarInformacoes();
             txtNomedoJogador.Focus();
             listarPartidas();
 
@@ -1421,7 +1906,7 @@ namespace Project_MePresidenta
 
             string[] campos = result.Split(',');
 
-            debug("ENTRAR PARTIDA = " + campos[0] + "  " + campos[1]);
+            debug("ENTRAR PARTIDA("+idPartida+"-"+labelNomePartidaSelecionada.Text+") = " + campos[0] + "  " + campos[1]);
 
             //atualizar propriedades
             _partidaId = idPartida;
@@ -1429,10 +1914,16 @@ namespace Project_MePresidenta
             _myId = Convert.ToInt32(campos[0]);
             _mySenha = campos[1];
 
+            rotinaPartidaEntrar();
+        }
+
+        private void rotinaPartidaEntrar()
+        {
             _nJogadores = listarJogadores();
             jogadoresMostrar();
-            timer1.Enabled = true;
-            _TimerHabilitado = true;
+            //_TimerHabilitado = true;
+            mostrarHabilitarTimer();
+            novaRodada();
             rotinaPrincipal();
         }
 
@@ -1441,6 +1932,8 @@ namespace Project_MePresidenta
             string result = servidor(9);
 
             if (result == null) return;
+
+            debug("partidaIniciar()=OK");
 
             rotinaPrincipal();
         }
@@ -1452,7 +1945,7 @@ namespace Project_MePresidenta
         {
             string result = servidor(8);
             if (result == null) return false;
-            debug("POSICIONAR PERSONAGEM OK");
+            debug("POSICIONAR PERSONAGEM OK - " + txtPersonagem.Text + txtSetor.Text,true,true,true,false,false);
             return true;
         }
 
@@ -1460,7 +1953,8 @@ namespace Project_MePresidenta
         {
             string result = servidor(10);
             if (result == null) return false;
-            debug("PROMOCAO PERSONAGEM OK");
+            
+            debug("PROMOCAO PERSONAGEM OK - " + txtPersonagem.Text, true, true, true, false, false);
             return true;
 
         }
@@ -1470,15 +1964,17 @@ namespace Project_MePresidenta
 
             int candidato = getCandidato();
 
-            string result;
+            string result=null;
             if (escolha > 0)
             {
-                debug("MEU VOTO SIM");
                 result = servidor(11);
+                if(result == null)//se nao deu para votar nao
+                {
+                    escolha = 0;
+                }
             }
-            else
+            if(escolha==0)
             {
-                debug("MEU VOTO NAO");
                 result = servidor(12);
             }
 
@@ -1486,15 +1982,32 @@ namespace Project_MePresidenta
 
             _candidato = candidato;
 
-            debug("VOTACAO OK");
+            debug("VOTACAO OK - " + ((escolha > 0) ? ("SIM") : ("NAO")), true, true, true, false, false);
             return true;
 
         }
 
         public void rotinaPrincipal()
         {
+            debug("\r\n\r\n\r\n",true,false,true,true,true);
+
+            if(_myId <0)
+            {
+                debug("rotinaPrincipal() - RETURN - myId<0 - Nao entrou na Partida ainda");
+                return;
+            }
+
+            debug("\r\n\r\nrotinaPrincipal()");
             int status = analisarStatus();
-            if (status < 0) return;
+
+            _algoritmoPromocaoPrioridadeAtual = 0;
+
+            if (status < 0)
+            {
+                debug("rotinaPrincipal() - RETURN - status <0");
+                return;
+            }
+            
 
             switch (status)
             {
@@ -1507,13 +2020,18 @@ namespace Project_MePresidenta
                     if (!_rotinaPartidaIniciada) rotinaPartidaIniciada();
                     if (verificarVez())
                     {
+                        debugTabuleiro();
                         // controlesMinhaVez(status);
                         if (_autojogo)
                         {
+                            
                             if (!autoposicionar(_algoritmoPosicionamento))
                             {
-                                debug("ERRO AO AUTOPOSICIONAR");
+                               
+                                debug("ERRO AO AUTOPOSICIONAR",true,true,true);
                             }
+                            debugTabuleiro();
+
                         }
                     }
                     break;
@@ -1521,13 +2039,17 @@ namespace Project_MePresidenta
                     if (!_rotinaPartidaIniciada) rotinaPartidaIniciada();
                     if (verificarVez())
                     {
+                        debugTabuleiro();
                         //controlesMinhaVez(status);
                         if (_autojogo)
                         {
+                            
                             if (!autopromover(_algoritmoPromocao))
                             {
-                                debug("ERRO AO AUTOPROMOVER");
+                                debug("ERRO AO AUTOPROMOVER",true,true,true);
                             }
+                            debugTabuleiro();
+
                         }
                     }
 
@@ -1536,29 +2058,40 @@ namespace Project_MePresidenta
                     if (!_rotinaPartidaIniciada) rotinaPartidaIniciada();
                     if (verificarVez())
                     {
+                        debugTabuleiro();
                         //controlesMinhaVez(status);
                         if (_autojogo)
                         {
+                            
                             if (!autovotar(_algoritmoVotacao))
                             {
-                                debug("ERRO AO AUTOVOTAR");
+                                debug("ERRO AO AUTOVOTAR",true,true,true);
                             }
+                            debugTabuleiro();
+
+
                         }
                     }
                     break;
                 case (int)STATUS.PARTIDAENCERRADA:
+                    debugTabuleiro();
                     rotinaPartidaEncerrada();
                     break;
                 default:
-                    debug("ERRO: rotina = Status Indefinido: " + status);
+                    debug("ERRO: rotina = Status Indefinido: " + status, true, true);
                     break;
             }
-            debugVariaveisGlobais("Rotina");
+            debug("rotinaPrincipal() - FIM");
+            debugVariaveisGlobais("FinalRotina");
+            algoritmoMostrarDestacar(-1, -1, -1);
         }
 
         public void rotinaPartidaAberta()
         {
             _nJogadores = listarJogadores();
+            if (_nJogadores < 1) return;
+
+
             jogadoresMostrar();
             if (_nJogadores > 1)
             {
@@ -1574,15 +2107,21 @@ namespace Project_MePresidenta
         }
         public void rotinaPartidaEncerrada()
         {
-            lblPontuacaoTotal.BackColor = Color.Yellow;
-            lblErro.Text = "Partida Encerrada!!";
-            timer1.Enabled = false;
-
             listarJogadores();
+            jogadoresLimparPainel();
             jogadoresMostrar();
-            inicializarCartasNao();
+            //inicializarCartasNao();
             jogadoresDestacar(-1, _meuCodigoJogador);
             paineis((int)STATUS.PARTIDAABERTA);
+
+            lblPontuacaoTotal.Text = Convert.ToString(Convert.ToInt32(lblPontuacaoTotal.Text) + Convert.ToInt32(lblPontuacaoAtual.Text));
+            lblErro.Text = "Partida Encerrada!!";
+            //timer1.Enabled = false;
+            _TimerHabilitado = false;
+
+            
+
+            
         }
         public void rotinaPartidaIniciada()
         {
@@ -1592,70 +2131,86 @@ namespace Project_MePresidenta
             listarSetores();
             btnIniciarPartida.Enabled = false;
             _rotinaPartidaIniciada = true;//evita que esta funcao seja chamada mais de uma vez
+            lblNumRodada.Text = "1/3";
             paineis((int)STATUS.PARTIDAINICIADA);
         }
 
         public void tabuleiroLimpar()
         {
             n01.Text = "";
-            n01.BackColor = Color.FromArgb(9, 18, 23);
+            botaoNaoDestacarPersonagens(n01);
+
             n02.Text = "";
-            n02.BackColor = Color.FromArgb(9, 18, 23);
+            botaoNaoDestacarPersonagens(n02);
             n03.Text = "";
-            n03.BackColor = Color.FromArgb(9, 18, 23);
+            botaoNaoDestacarPersonagens(n03);
             n04.Text = "";
-            n04.BackColor = Color.FromArgb(9, 18, 23);
+            botaoNaoDestacarPersonagens(n04);
 
             n11.Text = "";
-            n11.BackColor = Color.FromArgb(9, 18, 23);
+            botaoNaoDestacarPersonagens(n11);
             n12.Text = "";
-            n12.BackColor = Color.FromArgb(9, 18, 23);
+            botaoNaoDestacarPersonagens(n12);
             n13.Text = "";
-            n13.BackColor = Color.FromArgb(9, 18, 23);
+            botaoNaoDestacarPersonagens(n13);
             n14.Text = "";
-            n14.BackColor = Color.FromArgb(9, 18, 23);
+            botaoNaoDestacarPersonagens(n14);
 
             n21.Text = "";
-            n21.BackColor = Color.FromArgb(9, 18, 23);
+            botaoNaoDestacarPersonagens(n21);
             n22.Text = "";
-            n22.BackColor = Color.FromArgb(9, 18, 23);
+            botaoNaoDestacarPersonagens(n22);
             n23.Text = "";
-            n23.BackColor = Color.FromArgb(9, 18, 23);
+            botaoNaoDestacarPersonagens(n23);
             n24.Text = "";
-            n24.BackColor = Color.FromArgb(9, 18, 23);
+            botaoNaoDestacarPersonagens(n24);
 
             n31.Text = "";
-            n31.BackColor = Color.FromArgb(9, 18, 23);
+            botaoNaoDestacarPersonagens(n31);
             n32.Text = "";
-            n32.BackColor = Color.FromArgb(9, 18, 23);
+            botaoNaoDestacarPersonagens(n32);
             n33.Text = "";
-            n33.BackColor = Color.FromArgb(9, 18, 23);
+            botaoNaoDestacarPersonagens(n33);
             n34.Text = "";
-            n34.BackColor = Color.FromArgb(9, 18, 23);
+            botaoNaoDestacarPersonagens(n34);
 
             n41.Text = "";
-            n41.BackColor = Color.FromArgb(9, 18, 23);
+            botaoNaoDestacarPersonagens(n41);
             n42.Text = "";
-            n42.BackColor = Color.FromArgb(9, 18, 23);
+            botaoNaoDestacarPersonagens(n42);
             n43.Text = "";
-            n43.BackColor = Color.FromArgb(9, 18, 23);
+            botaoNaoDestacarPersonagens(n43);
             n44.Text = "";
-            n44.BackColor = Color.FromArgb(9, 18, 23);
+            botaoNaoDestacarPersonagens(n44);
 
             n51.Text = "";
-            n51.BackColor = Color.FromArgb(9, 18, 23);
+            botaoNaoDestacarPersonagens(n51);
             n52.Text = "";
-            n52.BackColor = Color.FromArgb(9, 18, 23);
+            botaoNaoDestacarPersonagens(n52);
             n53.Text = "";
-            n53.BackColor = Color.FromArgb(9, 18, 23);
+            botaoNaoDestacarPersonagens(n53);
             n54.Text = "";
-            n54.BackColor = Color.FromArgb(9, 18, 23);
+            botaoNaoDestacarPersonagens(n54);
 
             n10.Text = "";
-            n10.BackColor = Color.FromArgb(9, 18, 23);
-        }
+            botaoNaoDestacarPersonagens(n10);
 
-        private void tabuleiroAtualizar(string posicoes)
+            btnd0.Text = ""; botaoNaoDestacarPersonagens(btnd0);
+            btnd1.Text = ""; botaoNaoDestacarPersonagens(btnd1);
+            btnd2.Text = ""; botaoNaoDestacarPersonagens(btnd2);
+            btnd3.Text = ""; botaoNaoDestacarPersonagens(btnd3);
+            btnd4.Text = ""; botaoNaoDestacarPersonagens(btnd4);
+            btnd5.Text = ""; botaoNaoDestacarPersonagens(btnd5);
+            btnd6.Text = ""; botaoNaoDestacarPersonagens(btnd6);
+            btnd7.Text = ""; botaoNaoDestacarPersonagens(btnd7);
+            btnd8.Text = ""; botaoNaoDestacarPersonagens(btnd8);
+            btnd9.Text = ""; botaoNaoDestacarPersonagens(btnd9);
+            btnd10.Text = ""; botaoNaoDestacarPersonagens(btnd10);
+            btnd11.Text = ""; botaoNaoDestacarPersonagens(btnd11);
+            btnd12.Text = ""; botaoNaoDestacarPersonagens(btnd12);
+
+        }
+            private void tabuleiroAtualizar(string posicoes)
         {
 
             //debug("ATUALIZAR TABULEIRO - APAGAR POSICAO 10 INICIALMENTE");
@@ -1666,7 +2221,7 @@ namespace Project_MePresidenta
             {
                 if (_personagemStatus[i] == 10)
                 {
-                    _personagemStatus[i] = -1;
+                    _personagemStatus[i] = -2;
                     _nivelQtdPersonagens[10] = 0;
                 }
                 i++;
@@ -1705,24 +2260,26 @@ namespace Project_MePresidenta
                     case 0:
                         if (status < 0)
                         {
-                            if (_personagemMeu[personagem]) botaoDestacar1(btnd0);
+                            if (_personagemMeu[personagem]) botaoDestacarMeuPersonagem(btnd0);
+                            if (_personagemMeu[personagem]&&status<-1) botaoDestacarPersonagemEliminado(btnd0);
                             btnd0.Text = _personagemCodinome[personagem];
                         }
                         else
                         {
 
-                            btnd0.Text = Convert.ToString(status);//* teste - apresentar nivel que meu personagem esta
-                            if (_personagemMeu[personagem]) btnd0.Text = Convert.ToString(status);
+                            btnd0.Text = "";//* teste - apresentar nivel que meu personagem esta
+                            //if (_personagemMeu[personagem]) btnd0.Text = Convert.ToString(status);
                         }
                         if (!_personagemMeu[personagem])
                         {
-                            botaoNaoDestacar(btnd0);
+                            botaoNaoDestacarPersonagens(btnd0);
                         }
                         break;
                     case 1:
                         if (status < 0)
                         {
-                            if (_personagemMeu[personagem]) botaoDestacar1(btnd1);
+                            if (_personagemMeu[personagem]) botaoDestacarMeuPersonagem(btnd1);
+                            if (_personagemMeu[personagem] && status < -1) botaoDestacarPersonagemEliminado(btnd1);
                             btnd1.Text = _personagemCodinome[personagem];
                         }
                         else
@@ -1731,13 +2288,14 @@ namespace Project_MePresidenta
                         }
                         if (!_personagemMeu[personagem])
                         {
-                            botaoNaoDestacar(btnd1);
+                            botaoNaoDestacarPersonagens(btnd1);
                         }
                         break;
                     case 2:
                         if (status < 0)
                         {
-                            if (_personagemMeu[personagem]) botaoDestacar1(btnd2);
+                            if (_personagemMeu[personagem]) botaoDestacarMeuPersonagem(btnd2);
+                            if (_personagemMeu[personagem] && status < -1) botaoDestacarPersonagemEliminado(btnd2);
                             btnd2.Text = _personagemCodinome[personagem];
                         }
                         else
@@ -1746,14 +2304,15 @@ namespace Project_MePresidenta
                         }
                         if (!_personagemMeu[personagem])
                         {
-                            botaoNaoDestacar(btnd2);
+                            botaoNaoDestacarPersonagens(btnd2);
                         }
 
                         break;
                     case 3:
                         if (status < 0)
                         {
-                            if (_personagemMeu[personagem]) botaoDestacar1(btnd3);
+                            if (_personagemMeu[personagem]) botaoDestacarMeuPersonagem(btnd3);
+                            if (_personagemMeu[personagem] && status < -1) botaoDestacarPersonagemEliminado(btnd3);
                             btnd3.Text = _personagemCodinome[personagem];
                         }
                         else
@@ -1762,14 +2321,15 @@ namespace Project_MePresidenta
                         }
                         if (!_personagemMeu[personagem])
                         {
-                            botaoNaoDestacar(btnd3);
+                            botaoNaoDestacarPersonagens(btnd3);
                         }
 
                         break;
                     case 4:
                         if (status < 0)
                         {
-                            if (_personagemMeu[personagem]) botaoDestacar1(btnd4);
+                            if (_personagemMeu[personagem]) botaoDestacarMeuPersonagem(btnd4);
+                            if (_personagemMeu[personagem] && status < -1) botaoDestacarPersonagemEliminado(btnd4);
                             btnd4.Text = _personagemCodinome[personagem];
                         }
                         else
@@ -1778,14 +2338,15 @@ namespace Project_MePresidenta
                         }
                         if (!_personagemMeu[personagem])
                         {
-                            botaoNaoDestacar(btnd4);
+                            botaoNaoDestacarPersonagens(btnd4);
                         }
 
                         break;
                     case 5:
                         if (status < 0)
                         {
-                            if (_personagemMeu[personagem]) botaoDestacar1(btnd5);
+                            if (_personagemMeu[personagem]) botaoDestacarMeuPersonagem(btnd5);
+                            if (_personagemMeu[personagem] && status < -1) botaoDestacarPersonagemEliminado(btnd5);
                             btnd5.Text = _personagemCodinome[personagem];
                         }
                         else
@@ -1794,14 +2355,15 @@ namespace Project_MePresidenta
                         }
                         if (!_personagemMeu[personagem])
                         {
-                            botaoNaoDestacar(btnd5);
+                            botaoNaoDestacarPersonagens(btnd5);
                         }
 
                         break;
                     case 6:
                         if (status < 0)
                         {
-                            if (_personagemMeu[personagem]) botaoDestacar1(btnd6);
+                            if (_personagemMeu[personagem]) botaoDestacarMeuPersonagem(btnd6);
+                            if (_personagemMeu[personagem] && status < -1) botaoDestacarPersonagemEliminado(btnd6);
                             btnd6.Text = _personagemCodinome[personagem];
                         }
                         else
@@ -1810,14 +2372,15 @@ namespace Project_MePresidenta
                         }
                         if (!_personagemMeu[personagem])
                         {
-                            botaoNaoDestacar(btnd6);
+                            botaoNaoDestacarPersonagens(btnd6);
                         }
 
                         break;
                     case 7:
                         if (status < 0)
                         {
-                            if (_personagemMeu[personagem]) botaoDestacar1(btnd7);
+                            if (_personagemMeu[personagem]) botaoDestacarMeuPersonagem(btnd7);
+                            if (_personagemMeu[personagem] && status < -1) botaoDestacarPersonagemEliminado(btnd7);
                             btnd7.Text = _personagemCodinome[personagem];
                         }
                         else
@@ -1826,14 +2389,15 @@ namespace Project_MePresidenta
                         }
                         if (!_personagemMeu[personagem])
                         {
-                            botaoNaoDestacar(btnd7);
+                            botaoNaoDestacarPersonagens(btnd7);
                         }
 
                         break;
                     case 8:
                         if (status < 0)
                         {
-                            if (_personagemMeu[personagem]) botaoDestacar1(btnd8);
+                            if (_personagemMeu[personagem]) botaoDestacarMeuPersonagem(btnd8);
+                            if (_personagemMeu[personagem] && status < -1) botaoDestacarPersonagemEliminado(btnd8);
                             btnd8.Text = _personagemCodinome[personagem];
                         }
                         else
@@ -1842,14 +2406,15 @@ namespace Project_MePresidenta
                         }
                         if (!_personagemMeu[personagem])
                         {
-                            botaoNaoDestacar(btnd8);
+                            botaoNaoDestacarPersonagens(btnd8);
                         }
 
                         break;
                     case 9:
                         if (status < 0)
                         {
-                            if (_personagemMeu[personagem]) botaoDestacar1(btnd9);
+                            if (_personagemMeu[personagem]) botaoDestacarMeuPersonagem(btnd9);
+                            if (_personagemMeu[personagem] && status < -1) botaoDestacarPersonagemEliminado(btnd9);
                             btnd9.Text = _personagemCodinome[personagem];
                         }
                         else
@@ -1858,14 +2423,15 @@ namespace Project_MePresidenta
                         }
                         if (!_personagemMeu[personagem])
                         {
-                            botaoNaoDestacar(btnd9);
+                            botaoNaoDestacarPersonagens(btnd9);
                         }
 
                         break;
                     case 10:
                         if (status < 0)
                         {
-                            if (_personagemMeu[personagem]) botaoDestacar1(btnd10);
+                            if (_personagemMeu[personagem]) botaoDestacarMeuPersonagem(btnd10);
+                            if (_personagemMeu[personagem] && status < -1) botaoDestacarPersonagemEliminado(btnd10);
                             btnd10.Text = _personagemCodinome[personagem];
                         }
                         else
@@ -1874,14 +2440,15 @@ namespace Project_MePresidenta
                         }
                         if (!_personagemMeu[personagem])
                         {
-                            botaoNaoDestacar(btnd10);
+                            botaoNaoDestacarPersonagens(btnd10);
                         }
 
                         break;
                     case 11:
                         if (status < 0)
                         {
-                            if (_personagemMeu[personagem]) botaoDestacar1(btnd11);
+                            if (_personagemMeu[personagem]) botaoDestacarMeuPersonagem(btnd11);
+                            if (_personagemMeu[personagem] && status < -1) botaoDestacarPersonagemEliminado(btnd11);
                             btnd11.Text = _personagemCodinome[personagem];
                         }
                         else
@@ -1890,14 +2457,15 @@ namespace Project_MePresidenta
                         }
                         if (!_personagemMeu[personagem])
                         {
-                            botaoNaoDestacar(btnd11);
+                            botaoNaoDestacarPersonagens(btnd11);
                         }
 
                         break;
                     case 12:
                         if (status < 0)
                         {
-                            if (_personagemMeu[personagem]) botaoDestacar1(btnd12);
+                            if (_personagemMeu[personagem]) botaoDestacarMeuPersonagem(btnd12);
+                            if (_personagemMeu[personagem] && status < -1) botaoDestacarPersonagemEliminado(btnd12);
                             btnd12.Text = _personagemCodinome[personagem];
                         }
                         else
@@ -1906,7 +2474,7 @@ namespace Project_MePresidenta
                         }
                         if (!_personagemMeu[personagem])
                         {
-                            botaoNaoDestacar(btnd12);
+                            botaoNaoDestacarPersonagens(btnd12);
                         }
 
                         break;
@@ -1927,7 +2495,7 @@ namespace Project_MePresidenta
                 cdPersonagem++;
                 if (cdPersonagem == _personagemCodinome.Length)
                 {
-                    debug("ERRO FUNCAO: posicionarPersonagem(): cdPersonagem nao encontrado");
+                    debug("ERRO FUNCAO: posicionarPersonagem(): cdPersonagem nao encontrado", true, true);
                     cdPersonagem = 0;
                     break;
                 }
@@ -1954,66 +2522,66 @@ namespace Project_MePresidenta
                     if (n01.Text == "")
                     {
                         n01.Text = personagem;
-                        if (_personagemMeu[cdPersonagem]) botaoDestacar1(n01);
+                        if (_personagemMeu[cdPersonagem]) botaoDestacarMeuPersonagem(n01);
                     }
                     else if (n02.Text == "")
                     {
                         n02.Text = personagem;
-                        if (_personagemMeu[cdPersonagem]) botaoDestacar1(n02);
+                        if (_personagemMeu[cdPersonagem]) botaoDestacarMeuPersonagem(n02);
                     }
                     else if (n03.Text == "")
                     {
                         n03.Text = personagem;
-                        if (_personagemMeu[cdPersonagem]) botaoDestacar1(n03);
+                        if (_personagemMeu[cdPersonagem]) botaoDestacarMeuPersonagem(n03);
                     }
                     else if (n04.Text == "")
                     {
                         n04.Text = personagem;
-                        if (_personagemMeu[cdPersonagem]) botaoDestacar1(n04);
+                        if (_personagemMeu[cdPersonagem]) botaoDestacarMeuPersonagem(n04);
                     }
                     break;
                 case 1:
                     if (n11.Text == "")
                     {
                         n11.Text = personagem;
-                        if (_personagemMeu[cdPersonagem]) botaoDestacar1(n11);
+                        if (_personagemMeu[cdPersonagem]) botaoDestacarMeuPersonagem(n11);
                     }
                     else if (n12.Text == "")
                     {
                         n12.Text = personagem;
-                        if (_personagemMeu[cdPersonagem]) botaoDestacar1(n12);
+                        if (_personagemMeu[cdPersonagem]) botaoDestacarMeuPersonagem(n12);
                     }
                     else if (n13.Text == "")
                     {
                         n13.Text = personagem;
-                        if (_personagemMeu[cdPersonagem]) botaoDestacar1(n13);
+                        if (_personagemMeu[cdPersonagem]) botaoDestacarMeuPersonagem(n13);
                     }
                     else if (n14.Text == "")
                     {
                         n14.Text = personagem;
-                        if (_personagemMeu[cdPersonagem]) botaoDestacar1(n14);
+                        if (_personagemMeu[cdPersonagem]) botaoDestacarMeuPersonagem(n14);
                     }
                     break;
                 case 2:
                     if (n21.Text == "")
                     {
                         n21.Text = personagem;
-                        if (_personagemMeu[cdPersonagem]) botaoDestacar1(n21);
+                        if (_personagemMeu[cdPersonagem]) botaoDestacarMeuPersonagem(n21);
                     }
                     else if (n22.Text == "")
                     {
                         n22.Text = personagem;
-                        if (_personagemMeu[cdPersonagem]) botaoDestacar1(n22);
+                        if (_personagemMeu[cdPersonagem]) botaoDestacarMeuPersonagem(n22);
                     }
                     else if (n23.Text == "")
                     {
                         n23.Text = personagem;
-                        if (_personagemMeu[cdPersonagem]) botaoDestacar1(n23);
+                        if (_personagemMeu[cdPersonagem]) botaoDestacarMeuPersonagem(n23);
                     }
                     else if (n24.Text == "")
                     {
                         n24.Text = personagem;
-                        if (_personagemMeu[cdPersonagem]) botaoDestacar1(n24);
+                        if (_personagemMeu[cdPersonagem]) botaoDestacarMeuPersonagem(n24);
                     }
 
                     break;
@@ -2021,22 +2589,22 @@ namespace Project_MePresidenta
                     if (n31.Text == "")
                     {
                         n31.Text = personagem;
-                        if (_personagemMeu[cdPersonagem]) botaoDestacar1(n31);
+                        if (_personagemMeu[cdPersonagem]) botaoDestacarMeuPersonagem(n31);
                     }
                     else if (n32.Text == "")
                     {
                         n32.Text = personagem;
-                        if (_personagemMeu[cdPersonagem]) botaoDestacar1(n32);
+                        if (_personagemMeu[cdPersonagem]) botaoDestacarMeuPersonagem(n32);
                     }
                     else if (n33.Text == "")
                     {
                         n33.Text = personagem;
-                        if (_personagemMeu[cdPersonagem]) botaoDestacar1(n33);
+                        if (_personagemMeu[cdPersonagem]) botaoDestacarMeuPersonagem(n33);
                     }
                     else if (n34.Text == "")
                     {
                         n34.Text = personagem;
-                        if (_personagemMeu[cdPersonagem]) botaoDestacar1(n34);
+                        if (_personagemMeu[cdPersonagem]) botaoDestacarMeuPersonagem(n34);
                     }
 
                     break;
@@ -2044,22 +2612,22 @@ namespace Project_MePresidenta
                     if (n41.Text == "")
                     {
                         n41.Text = personagem;
-                        if (_personagemMeu[cdPersonagem]) botaoDestacar1(n41);
+                        if (_personagemMeu[cdPersonagem]) botaoDestacarMeuPersonagem(n41);
                     }
                     else if (n42.Text == "")
                     {
                         n42.Text = personagem;
-                        if (_personagemMeu[cdPersonagem]) botaoDestacar1(n42);
+                        if (_personagemMeu[cdPersonagem]) botaoDestacarMeuPersonagem(n42);
                     }
                     else if (n43.Text == "")
                     {
                         n43.Text = personagem;
-                        if (_personagemMeu[cdPersonagem]) botaoDestacar1(n43);
+                        if (_personagemMeu[cdPersonagem]) botaoDestacarMeuPersonagem(n43);
                     }
                     else if (n44.Text == "")
                     {
                         n44.Text = personagem;
-                        if (_personagemMeu[cdPersonagem]) botaoDestacar1(n44);
+                        if (_personagemMeu[cdPersonagem]) botaoDestacarMeuPersonagem(n44);
                     }
 
                     break;
@@ -2067,28 +2635,28 @@ namespace Project_MePresidenta
                     if (n51.Text == "")
                     {
                         n51.Text = personagem;
-                        if (_personagemMeu[cdPersonagem]) botaoDestacar1(n51);
+                        if (_personagemMeu[cdPersonagem]) botaoDestacarMeuPersonagem(n51);
                     }
                     else if (n52.Text == "")
                     {
                         n52.Text = personagem;
-                        if (_personagemMeu[cdPersonagem]) botaoDestacar1(n52);
+                        if (_personagemMeu[cdPersonagem]) botaoDestacarMeuPersonagem(n52);
                     }
                     else if (n53.Text == "")
                     {
                         n53.Text = personagem;
-                        if (_personagemMeu[cdPersonagem]) botaoDestacar1(n53);
+                        if (_personagemMeu[cdPersonagem]) botaoDestacarMeuPersonagem(n53);
                     }
                     else if (n54.Text == "")
                     {
                         n54.Text = personagem;
-                        if (_personagemMeu[cdPersonagem]) botaoDestacar1(n54);
+                        if (_personagemMeu[cdPersonagem]) botaoDestacarMeuPersonagem(n54);
                     }
 
                     break;
                 case 10:
                     n10.Text = personagem;
-                    if (_personagemMeu[cdPersonagem]) botaoDestacar1(n10);
+                    if (_personagemMeu[cdPersonagem]) botaoDestacarMeuPersonagem(n10);
                     break;
             }
         }
@@ -2102,67 +2670,67 @@ namespace Project_MePresidenta
                     if (n01.Text == personagem)
                     {
                         n01.Text = "";
-                        n01.BackColor = Color.FromArgb(9, 18, 23);
+                        botaoNaoDestacarPersonagens(n01);
 
                     }
                     else if (n02.Text == personagem)
                     {
                         n02.Text = "";
-                        n02.BackColor = Color.FromArgb(9, 18, 23);
+                        botaoNaoDestacarPersonagens(n02);
                     }
                     else if (n03.Text == personagem)
                     {
                         n03.Text = "";
-                        n03.BackColor = Color.FromArgb(9, 18, 23);
+                        botaoNaoDestacarPersonagens(n03);
                     }
                     else if (n04.Text == personagem)
                     {
                         n04.Text = "";
-                        n04.BackColor = Color.FromArgb(9, 18, 23);
+                        botaoNaoDestacarPersonagens(n04);
                     }
                     break;
                 case 1:
                     if (n11.Text == personagem)
                     {
                         n11.Text = "";
-                        n11.BackColor = Color.FromArgb(9, 18, 23);
+                        botaoNaoDestacarPersonagens(n11);
                     }
                     else if (n12.Text == personagem)
                     {
                         n12.Text = "";
-                        n12.BackColor = Color.FromArgb(9, 18, 23);
+                        botaoNaoDestacarPersonagens(n12);
                     }
                     else if (n13.Text == personagem)
                     {
                         n13.Text = "";
-                        n13.BackColor = Color.FromArgb(9, 18, 23);
+                        botaoNaoDestacarPersonagens(n13);
                     }
                     else if (n14.Text == personagem)
                     {
                         n14.Text = "";
-                        n14.BackColor = Color.FromArgb(9, 18, 23);
+                        botaoNaoDestacarPersonagens(n14);
                     }
                     break;
                 case 2:
                     if (n21.Text == personagem)
                     {
                         n21.Text = "";
-                        n21.BackColor = Color.FromArgb(9, 18, 23);
+                        botaoNaoDestacarPersonagens(n21);
                     }
                     else if (n22.Text == personagem)
                     {
                         n22.Text = "";
-                        n22.BackColor = Color.FromArgb(9, 18, 23);
+                        botaoNaoDestacarPersonagens(n22);
                     }
                     else if (n23.Text == personagem)
                     {
                         n23.Text = "";
-                        n23.BackColor = Color.FromArgb(9, 18, 23);
+                        botaoNaoDestacarPersonagens(n23);
                     }
                     else if (n24.Text == personagem)
                     {
                         n24.Text = "";
-                        n24.BackColor = Color.FromArgb(9, 18, 23);
+                        botaoNaoDestacarPersonagens(n24);
                     }
 
                     break;
@@ -2170,22 +2738,22 @@ namespace Project_MePresidenta
                     if (n31.Text == personagem)
                     {
                         n31.Text = "";
-                        n31.BackColor = Color.FromArgb(9, 18, 23);
+                        botaoNaoDestacarPersonagens(n31);
                     }
                     else if (n32.Text == personagem)
                     {
                         n32.Text = "";
-                        n32.BackColor = Color.FromArgb(9, 18, 23);
+                        botaoNaoDestacarPersonagens(n32);
                     }
                     else if (n33.Text == personagem)
                     {
                         n33.Text = "";
-                        n33.BackColor = Color.FromArgb(9, 18, 23);
+                        botaoNaoDestacarPersonagens(n33);
                     }
                     else if (n34.Text == personagem)
                     {
                         n34.Text = "";
-                        n34.BackColor = Color.FromArgb(9, 18, 23);
+                        botaoNaoDestacarPersonagens(n34);
                     }
 
                     break;
@@ -2193,22 +2761,22 @@ namespace Project_MePresidenta
                     if (n41.Text == personagem)
                     {
                         n41.Text = "";
-                        n41.BackColor = Color.FromArgb(9, 18, 23);
+                        botaoNaoDestacarPersonagens(n41);
                     }
                     else if (n42.Text == personagem)
                     {
                         n42.Text = "";
-                        n42.BackColor = Color.FromArgb(9, 18, 23);
+                        botaoNaoDestacarPersonagens(n42);
                     }
                     else if (n43.Text == personagem)
                     {
                         n43.Text = "";
-                        n43.BackColor = Color.FromArgb(9, 18, 23);
+                        botaoNaoDestacarPersonagens(n43);
                     }
                     else if (n44.Text == personagem)
                     {
                         n44.Text = "";
-                        n44.BackColor = Color.FromArgb(9, 18, 23);
+                        botaoNaoDestacarPersonagens(n44);
                     }
 
                     break;
@@ -2216,28 +2784,28 @@ namespace Project_MePresidenta
                     if (n51.Text == personagem)
                     {
                         n51.Text = "";
-                        n51.BackColor = Color.FromArgb(9, 18, 23);
+                        botaoNaoDestacarPersonagens(n51);
                     }
                     else if (n52.Text == personagem)
                     {
                         n52.Text = "";
-                        n52.BackColor = Color.FromArgb(9, 18, 23);
+                        botaoNaoDestacarPersonagens(n52);
                     }
                     else if (n53.Text == personagem)
                     {
                         n53.Text = "";
-                        n53.BackColor = Color.FromArgb(9, 18, 23);
+                        botaoNaoDestacarPersonagens(n53);
                     }
                     else if (n54.Text == personagem)
                     {
                         n54.Text = "";
-                        n54.BackColor = Color.FromArgb(9, 18, 23);
+                        botaoNaoDestacarPersonagens(n54);
                     }
 
                     break;
                 case 10:
                     n10.Text = "";
-                    n10.BackColor = Color.FromArgb(9, 18, 23);
+                    botaoNaoDestacarPersonagens(n10);
                     break;
             }
         }
@@ -2246,20 +2814,23 @@ namespace Project_MePresidenta
 
         private void btnCriarPartida_Click(object sender, EventArgs e)
         {
+            if (txtNomedaPartida.Text == "" || txtSenhaPartida.Text == "")
+            {
+                debug("Criacao de Partida Invalida!");
+                return;
+            }
             partidaCriar();
         }
 
         private void btnEntrarPartida_Click(object sender, EventArgs e)
         {
             int idpartida;
-            if (Int32.TryParse(lblIdPartida.Text, out idpartida))
+            if ((!Int32.TryParse(lblIdPartida.Text, out idpartida)) || (txtSenhadaPartidaEntrar.Text == "") || txtNomedoJogador.Text == "")
             {
-                partidaEntrar(idpartida, txtSenhadaPartidaEntrar.Text);
+                debugUser("Dados da Partida Inválidos",false);
+                return;
             }
-            else
-            {
-                debug("ERROR: NUMERO DE PARTIDA INVALIDA");
-            }
+            partidaEntrar(idpartida, txtSenhadaPartidaEntrar.Text);
         }
 
         private void btnAtualizar_Click(object sender, EventArgs e)
@@ -2272,32 +2843,20 @@ namespace Project_MePresidenta
 
         }
 
-        private void btnAutoJogo_Click(object sender, EventArgs e)
-        {
-            
-            if (_autojogo)
-            {
-                _autojogo = false;
-                botaoNaoDestacar(btnAutoJogo);
-                algoritmoNaoDestacar();
-                btnAutoJogo.Text = "Ativar Jogadas Automaticas";
-            }
-            else
-            {
-                botaoDestacar1(btnAutoJogo);
-                algoritmoMostrarDestacar();
-                _autojogo = true;
-                btnAutoJogo.Text = "Jogadas Automáticas";
-            }
-           
-        }
+        
 
         private void btnPosicionar_Click(object sender, EventArgs e)
         {
             int setor;
             if (!Int32.TryParse(txtSetor.Text, out setor))
             {
-                MessageBox.Show("SETOR INVALIDO");
+                debug("SETOR INVALIDO");
+                return;
+            }
+            if (txtPersonagem.Text == "")
+            {
+                debug("PERSONAGEM INVALIDO");
+                return;
             }
 
             personagemPosicionar();
@@ -2310,100 +2869,106 @@ namespace Project_MePresidenta
 
         private void btnNao_Click(object sender, EventArgs e)
         {
+            if (getCandidato() == -1)
+            {
+                debug("Nenhum candidato para Votacao");
+                return;
+            }
+
             personagemVotar(0);
         }
 
         private void btnPromover_Click(object sender, EventArgs e)
         {
+            if(txtPersonagem.Text == "")
+            {
+                debug("personagem invalido");
+                return;
+            }
             personagemPromover();
         }
 
         private void btnSim_Click(object sender, EventArgs e)
         {
+            if (getCandidato() == -1)
+            {
+                debug("Nenhum candidato para Votacao");
+                return;
+            }
             personagemVotar(1);
         }
 
-        private void btnAlgoritmoPosicionamentoEquilibrado_Click(object sender, EventArgs e)
+        private void btnAlg3_Click(object sender, EventArgs e)
         {
-            _algoritmoPosicionamento = (int)ALGORITMO.PosicionamentoEquilibrado;
-            algoritmoMostrarDestacar();
+            _algoritmoPosicionamento = (int)ALGORITMO.posicionamento3Equilibrado;
+            algoritmoMostrarDestacar(-1,-1,-1);
         }
 
-        private void btnAlgoritmoPosicionamentoPadrao_Click(object sender, EventArgs e)
+        private void btnAlg0_Click(object sender, EventArgs e)
         {
-            _algoritmoPosicionamento = (int)ALGORITMO.posicionamentoPadrao;
-            algoritmoMostrarDestacar();
+            _algoritmoPosicionamento = (int)ALGORITMO.posicionamento0Padrao;
+            algoritmoMostrarDestacar(-1, -1, -1);
         }
 
-        private void btnAlgoritmoPromocaoPadrao_Click(object sender, EventArgs e)
+        private void btnAlg1_Click(object sender, EventArgs e)
         {
-            _algoritmoPromocao = (int)ALGORITMO.promocaoPadrao;
-            algoritmoMostrarDestacar();
+            _algoritmoPromocao = (int)ALGORITMO.promocao1Padrao;
+            algoritmoMostrarDestacar(-1, -1, -1);
         }
 
-        private void btnAlgoritmoVotacaoPadrao_Click(object sender, EventArgs e)
+        private void btnAlg2_Click(object sender, EventArgs e)
         {
-            _algoritmoVotacao = (int)ALGORITMO.VotacaoPadrao;
-            algoritmoMostrarDestacar();
+            _algoritmoVotacao = (int)ALGORITMO.votacao2Padrao;
+            algoritmoMostrarDestacar(-1, -1, -1);
         }
 
-        private void btnAlgoritmoPromocaoMeudeMenorNivel_Click(object sender, EventArgs e)
+        private void btnAlg4_Click(object sender, EventArgs e)
         {
-            _algoritmoPromocao = (int)ALGORITMO.algoritmoPromocaoMeudeMenorNivel;
-            algoritmoMostrarDestacar();
+            _algoritmoPromocao = (int)ALGORITMO.promocao4MeudeMenorNivel;
+            algoritmoMostrarDestacar(-1, -1, -1);
         }
 
-        private void btnAlgoritmoVotacaoTenhoPontosSuficientes_Click(object sender, EventArgs e)
+        private void btnAlg5_Click(object sender, EventArgs e)
         {
-            _algoritmoVotacao = (int)ALGORITMO.VotacaoTenhoPontosSuficientes;
-            algoritmoMostrarDestacar();
+            _algoritmoVotacao = (int)ALGORITMO.votacao5TenhoPontosSuficientes;
+            algoritmoMostrarDestacar(-1, -1, -1);
         }
 
-        private void btnAlgoritmoPromocaoQualquerdeMenorNivel_Click(object sender, EventArgs e)
+        private void btnAlg7_Click(object sender, EventArgs e)
         {
-            _algoritmoPromocao = (int)ALGORITMO.algoritmoPromocaoQualquerdeMenorNivel;
-            algoritmoMostrarDestacar();
+            _algoritmoPromocao = (int)ALGORITMO.promocao7QualquerdeMenorNivel;
+            algoritmoMostrarDestacar(-1, -1, -1);
         }
 
         public bool autoposicionar(int algoritmo)
         {
-            debug("autoposicionar");
+            debug("autoposicionar",true,false,true);
             //posicionar personagens nos niveis mais altos independente de serem meus ou nao em ordem alfabetica
             if (getCandidato() > -1)
             {
-                debug("ERRO ALGORITMO: chamou posicionamento ao inves de votacao");
+                debug("ERRO ALGORITMO: chamou posicionamento ao inves de votacao", true, true, true);
                 return false;
             }
 
             if (calculoNumeroPersonagensDesempregados() < 1)
             {
-                debug("ERRO ALGORITMO: chamou posicionamento ao inves de promocao");
+                debug("ERRO ALGORITMO: chamou posicionamento ao inves de promocao", true, true, true);
                 return false;
             }
 
 
             switch (algoritmo)
             {
-                case (int)ALGORITMO.posicionamentoPadrao:
-                    if (algoritmoPosicionarPadrao())
-                    {
-                        return true;
-                    }
-                    else
-                    {
-                        debug("ERRO: algoritmo padrao nao funcionou");
-                    }
+                case (int)ALGORITMO.posicionamento0Padrao:
+                    //algoritmoMostrarDestacar((int)ALGORITMO.posicionamento0Padrao, -1, -1);
+                    if (algoritmoPosicionarPadrao()) return true;
+                    debug("ERRO: algoritmo padrao nao funcionou", true, false, true);
                     break;
-                case (int)ALGORITMO.PosicionamentoEquilibrado:
-                    if (algoritmoPosicionamentoEquilibrado())
-                    {
-                        return true;
-                    }
-                    else
-                    {
-                        debug("ERRO: algoritmo posicionamento equilibrado nao funcionou");
-                    }
-                    return autoposicionar((int)ALGORITMO.posicionamentoPadrao);
+                case (int)ALGORITMO.posicionamento3Equilibrado:
+                    //algoritmoMostrarDestacar((int)ALGORITMO.posicionamento3Equilibrado, -1, -1);
+                    if (algoritmoPosicionamentoEquilibrado()) return true;
+                    debug("ERRO: algoritmo posicionamento equilibrado nao funcionou", true, false, true);
+                    return autoposicionar((int)ALGORITMO.posicionamento0Padrao);
             }
             return false;
         }
@@ -2413,122 +2978,139 @@ namespace Project_MePresidenta
 
         public bool autopromover(int algoritmoPromocao)
         {
-            debug("autopromover");
+            debug("autopromover", true, false, true);
             //if (!esperar()) return;
             //promover personagens em ordem alfabetica independentende de serem meus ou nao
             if (getCandidato() > -1)
             {
-                debug("ERRO ALGORITMO: chamou promocao ao inves de votacao");
+                debug("ERRO ALGORITMO: chamou promocao ao inves de votacao", true, true, true);
                 return false;
             }
 
             if (calculoNumeroPersonagensDesempregados() > 0)
             {
-                debug("ERRO ALGORITMO: chamou promocao ao inves de posicionamento");
+                debug("ERRO ALGORITMO: chamou promocao ao inves de posicionamento", true, true, true);
                 return false;
             }
 
 
-
+            if (_personagemEliminar > -1)
+            {
+                debug("autopromover: _personagem Eliminar = "+_personagemEliminar +"("+_personagemCodinome[_personagemEliminar]+")", true, false, true);
+                if (algoritmoPromocaoPadrao(_personagemEliminar)) return true;
+            }
 
 
 
 
             switch (algoritmoPromocao)
             {
-                case (int)ALGORITMO.promocaoPadrao:
-                    if (!algoritmoPromocaoPadrao(-1))
-                    {
-                        debug("ERRO ALGORITMO: Promocao Padrao");
-                    }
-                    else
-                    {
-                        return true;
-                    }
+                case (int)ALGORITMO.promocao1Padrao:
+                    //algoritmoMostrarDestacar(-1, (int)ALGORITMO.promocao1Padrao, -1);
+                    if (algoritmoPromocaoPadrao(-1)) return true;
+                    debug("ERRO ALGORITMO: Promocao Padrao Nao funcionou", true, false, true);
+                    return false;
+
+                case (int)ALGORITMO.promocao10IniciarMeuReinado:
+                    //algoritmoMostrarDestacar(-1, (int)ALGORITMO.promocao10IniciarMeuReinado, -1);
+                    if (algoritmoPromocao9IniciarMeuReinado()) return true;
                     break;
-                case (int)ALGORITMO.algoritmoPromocaoMeudeMenorNivel:
 
-
-                    //se quantidade de cartas nao dos oponentes é 0
-                    if (calculoQtdCartasNaoQueNaoSaoMinhas() <= 0)
-                    {
-                        if (algoritmoPromocaoPadrao(calculoPersonagemMeudeMaiorNivel()))
-                        {
-                            return true;
-                        }
-                        else
-                        {
-                            return autopromover((int)ALGORITMO.promocaoPadrao);
-                        }
-                    }
-
+                case (int)ALGORITMO.promocao4MeudeMenorNivel:
                     //simplesmente aumentar minha pontuacao
-                    if (algoritmoPromocaoMeudeMenorNivel())
-                    {
-                        return true;
-                    }
-                    else
-                    {
-                        debug("ERRO algoritmoPromocaoMeudeMenorNivel");
-                        if (algoritmoPromocaoOutrosdeMaiorNivel())
-                        {
-                            return true;
-                        }
-                        return autopromover((int)ALGORITMO.algoritmoPromocaoQualquerdeMenorNivel);
-                    }
+                    //algoritmoMostrarDestacar(-1, (int)ALGORITMO.promocao4MeudeMenorNivel, -1);
+                    if (algoritmoPromocaoMeudeMenorNivel()) return true;
+                    break;
 
-                case (int)ALGORITMO.algoritmoPromocaoQualquerdeMenorNivel:
-                    if (!algoritmoPromocaoQualquerdeMenorNivel())
-                    {
-                        debug("ERRO algoritmoPromocaoQualquerdeMenorNivel");
-                        return autopromover((int)ALGORITMO.promocaoPadrao);
+                case (int)ALGORITMO.promocao13OutrosdeMaiorNivel:
+                    //algoritmoMostrarDestacar(-1, (int)ALGORITMO.promocao13OutrosdeMaiorNivel, -1);
+                    if (algoritmoPromocaoOutrosdeMaiorNivel()) return true;
+                    break;
 
-                    }
-                    else
-                    {
-                        return true;
-                    }
+                case (int)ALGORITMO.promocao7QualquerdeMenorNivel:
+                    //algoritmoMostrarDestacar(-1, (int)ALGORITMO.promocao7QualquerdeMenorNivel, -1);
+                    if (algoritmoPromocaoQualquerdeMenorNivel()) return true;
+                    break;
+
             }
 
-
+            if ((_algoritmoPromocaoPrioridadeAtual+1) < _algoritmoPromocaoPrioridade.Length)
+            {
+                debug("ALGORITMO PRIORIDADE = "+ (_algoritmoPromocaoPrioridadeAtual + 1), true, false, true);
+                return autopromover(_algoritmoPromocaoPrioridade[++_algoritmoPromocaoPrioridadeAtual]);
+            }
             return false;
 
         }
+
+        
+
+        
         public bool autovotar(int algoritmo)
         {
-            debug("autovotar");
+            debug("autovotar", true, false, true);
             //if (!esperar()) return;
             //votar sim para meus personagens e nao para outros
             if (getCandidato() < 0)
             {
-                debug("ERRO ALGORITMO: Não ha candidato para autovotar");
+                debug("ERRO ALGORITMO: Não ha candidato para autovotar", true, true, true);
                 return false;
             }
 
             if (_jogadoresCartasNaoDiponiveis[_meuCodigoJogador] < 1)
             {
+                debug("Não tenho mais cartas Naos", true, false, true);
                 return personagemVotar(1);
             }
 
             switch (algoritmo)
             {
-                case (int)ALGORITMO.VotacaoPadrao:
+                case (int)ALGORITMO.votacao2Padrao:
                     if (algoritmoVotacaoPadrao()) return true;
-                    else
-                    {
-                        debug("ERRO ALGORTMO - algortimovotacaopadrao retornou falso");
-                    }
+                    debug("ERRO ALGORTMO - algortimovotacaopadrao retornou falso", true, false, true);
                     break;
-                case (int)ALGORITMO.VotacaoTenhoPontosSuficientes:
+
+                case (int)ALGORITMO.votacao5TenhoPontosSuficientes:
                     if (algoritmoVotacaoTenhoPontosSuficientes()) return true;
-                    else
-                    {
-                        debug("ERRO ALGORTMO - algortimovotacaoTenhospontossuficientes retornou falso");
-                        return autovotar((int)ALGORITMO.VotacaoPadrao);
-                    }
+                    debug("ERRO ALGORTMO - algoritmoVotacaoTenhoPontosSuficientes retornou falso", true, false, true);
+                    if (algoritmoVotacao8EconomiadeNaos()) return true;
+                    debug("ERRO ALGORTMO - algoritmoVotacao8EconomiadeNaos retornou falso", true, false, true);
+                    return autovotar((int)ALGORITMO.votacao2Padrao);
 
             }
             return false;
+        }
+        public int calculoPersonagemOutrosdeMaiorNivel()
+        {
+            int personagem = 0;
+            int nivel = 5;
+            while (nivel > 3)
+            {
+                personagem = 0;
+                while (personagem < _personagemStatus.Length)
+                {
+                    if (!_personagemMeu[personagem])
+                    {
+                        if (_personagemStatus[personagem] == nivel)
+                        {
+                            if (nivel == 5 && getCandidato() < 0)
+                            {
+                                debug("calculoPersonagemOutrosdeMaiorNivel(): ="+personagem, false, false, true);
+                                return personagem;
+                            }
+                            else if (_nivelQtdPersonagens[nivel + 1] < 4)
+                            {
+                                debug("calculoPersonagemOutrosdeMaiorNivel(): =" + personagem, false, false, true);
+                                return personagem;
+                            }
+                        }
+                    }
+                    personagem++;
+                }
+                nivel--;
+            }
+            debug("calculoPersonagemOutrosdeMaiorNivel(): Nenhum", false, false, true);
+            return -1;
         }
         public int calculoNumeroPersonagensEliminados()
         {
@@ -2542,7 +3124,7 @@ namespace Project_MePresidenta
                 }
                 personagem++;
             }
-            debug("calculoNumeroPersonagensEliminados=" + soma);
+            debug("calculoNumeroPersonagensEliminados=" + soma, false, false, true);
             return soma;
         }
 
@@ -2558,7 +3140,7 @@ namespace Project_MePresidenta
                 }
                 personagem++;
             }
-            debug("calculoNumeroPersonagensDesempregados=" + soma);
+            debug("calculoNumeroPersonagensDesempregados=" + soma, false, false, true);
             return soma;
 
         }
@@ -2576,7 +3158,7 @@ namespace Project_MePresidenta
                 i++;
             }
 
-            debug("calculoQtdCartasNaoQueNaoSaoMinhas=" + soma);
+            debug("calculoQtdCartasNaoQueNaoSaoMinhas=" + soma, false, false, true);
             return soma;
         }
 
@@ -2589,12 +3171,12 @@ namespace Project_MePresidenta
                 soma += _jogadoresCartasNaoDiponiveis[jogador];
                 jogador++;
             }
-            debug("calculoQtdTotalAtualCartasNaoNoJogo=" + soma);
+            debug("calculoQtdTotalAtualCartasNaoNoJogo=" + soma, false, false, true);
             return soma;
         }
         public int calculoPersonagemMeudeMaiorNivel()
         {
-            debug("calculoPersonagemMeudeMaiorNivel");
+            debug("calculoPersonagemMeudeMaiorNivel", false, false, true);
             int nivel = 5;
             while (nivel >= 0)
             {
@@ -2605,7 +3187,7 @@ namespace Project_MePresidenta
                     {
                         if (_personagemMeu[personagem])
                         {
-                            debug("calculoPersonagemMeudeMaiorNivel=" + personagem + "(" + _personagemCodinome[personagem] + ")");
+                            debug("calculoPersonagemMeudeMaiorNivel=" + personagem + "(" + _personagemCodinome[personagem] + ")", false, false, true);
                             return personagem;
                         }
                     }
@@ -2614,7 +3196,7 @@ namespace Project_MePresidenta
                 nivel--;
             }
 
-            debug("calculoPersonagemdeMaiorNivel=INDEFINIDO");
+            debug("calculoPersonagemdeMaiorNivel=INDEFINIDO", false, false, true);
             return -1;
         }
 
@@ -2632,7 +3214,7 @@ namespace Project_MePresidenta
 
         private int calculoMinhaPontuacaoAtual()
         {
-            debug("calculoMinhaPontuacaoAtual");
+            
             int i = 0;
             int pontos = 0;
             foreach (int status in _personagemStatus)
@@ -2647,28 +3229,35 @@ namespace Project_MePresidenta
                 }
                 i++;
             }
-
+            //debug("calculoMinhaPontuacaoAtual="+pontos, false, false, true);
             return pontos;
         }
 
         private int calculoMinhaPontuacaoTotalAtual()
         {
             int pontos = calculoMinhaPontuacaoAtual() + _jogadoresPontos[_meuCodigoJogador];
-            debug("calculoMinhaPontuacaoTotalAtual=" + pontos);
+            //debug("calculoMinhaPontuacaoTotalAtual=" + pontos, false, false, true);
             return pontos;
         }
 
         public int calculoMaiorPontuacaoPossivelAtual()
         {
-            debug("calculoMaiorPontuacaoPossivelAtual");
+            //debug("calculoMaiorPontuacaoPossivelAtual()", false, false, true);
             int nivel = 5;
             int personagem = 0;
             int[] soma = new int[6];
             int contador = 0;
             int jogador = 0;
+            int contadormax = 6;
+
+            if (getCandidato() > -1)
+            {
+                contadormax = 5;
+            }
 
             while (jogador < _nJogadores)
             {
+
                 soma[jogador] = 0;
                 contador = 0;
                 if (jogador != _meuCodigoJogador)
@@ -2690,13 +3279,17 @@ namespace Project_MePresidenta
                                 contador++;
                                 //MessageBox.Show("SOMOU "+_personagemCodinome[personagem]+"SOMA = "+soma);
 
-                                if (contador == 5) break;
+                                if (contador == contadormax)
+                                {
+                                    //debug("calculoMaiorPontuacaoPossivelAtual() - Jogador "+jogador+"("+_jogadoresNome[jogador]+") = "+soma[jogador],false,false,true);
+                                    break;
+                                }
                                 //somou os cinco maiores
 
                             }
                             personagem++;
                         }
-                        if (contador == 5) break;
+                        if (contador == contadormax) break;
 
                         nivel--;
                     }
@@ -2715,13 +3308,17 @@ namespace Project_MePresidenta
                 }
                 jogador++;
             }
-
-            return somaMaior + 10; //soma ao presidente
+            
+            if (getCandidato() > -1)
+            {
+                somaMaior += 10;
+            }
+            //debug("calculoMaiorPontuacaoPossivelAtual=" + somaMaior, false, false, true);
+            return somaMaior; //soma ao presidente
         }
 
         public int calculoQtdMeusPersonagensNoNivel(int nivel)
         {
-            debug("calculoQtdMeusPersonagensNoNivel");
             int i = 0;
             int contador = 0;
             while (i < _personagemStatus.Length)
@@ -2732,12 +3329,66 @@ namespace Project_MePresidenta
                 }
                 i++;
             }
+            debug("calculoQtdMeusPersonagensNoNivel "+nivel+"="+contador, false, false, true);
             return contador;
+        }
+        public bool calculoMinhaPontuacaoeBoa()
+        {
+            debug("calculoMinhaPontuacaoeBoa()", false, false, true);
+            
+            
+
+            if (_nrodadaAtual == 2)//o importante é termos a maior pontuacao
+            {
+                if (_calculoMaiorPontuacaoTotalAtualPossivel < _calculoMinhaPontuacaoTotalAtual)//Ninguem mais pode ganhar de mim
+                {
+                    debug("calculoMinhaPontuacaoeBoa = lider da partida - Mnha pontuacao Total Atual é maior que tudo", false, false, true);
+                    return true;
+                }
+            }
+
+            if ((_calculoMaiorPontuacaoPossivelAtual) <= (_calculoMinhaPontuacaoAtual * 0.8))//Segundo lugar tem menos de 80% dos meus pontos nesta rodada
+            {
+                debug("calculoMinhaPontuacaoeBoa = lider Oficial da rodada - maior pontuacao possivel < 80% dos meus pontos", false, false, true);
+                return true;
+            }
+
+            if (_nrodadaAtual < 2)
+            {
+                if ((_calculoMaiorPontuacaoPossivelAtual * 0.75) <= (_calculoMinhaPontuacaoTotalAtual))//Se tenho 75% da maior pontuacao minha pontuacao é boa
+                {
+                    debug("calculoMinhaPontuacaoeBoa = uma boa rodada - nao é a ultima e tenho 75% da maior pontuacao possivel", false, false, true);
+                    return true;
+                }
+            }
+            debug("calculoMinhaPontuacaoeBoa = false", false, false, true);
+            return false;
+        }
+        public int calculoMaiorPontuacaoTotalAtualPossivel()
+        {
+            //debug("calculoMaiorPontuacaoTotalAtualPossivel()", false, false, true);
+            int i = 0;
+            int maiorPontuacaoPossivelAtual = calculoMaiorPontuacaoPossivelAtual();
+            int maiorPontuacaoTotalAtualPossivel = 0;
+            while (i < _nJogadores)
+            {
+                if (i != _meuCodigoJogador)
+                {
+                    if ((_jogadoresPontos[i] + maiorPontuacaoPossivelAtual) > maiorPontuacaoTotalAtualPossivel)
+                    {
+                        maiorPontuacaoTotalAtualPossivel = _jogadoresPontos[i] + maiorPontuacaoPossivelAtual;
+                    }
+                    //debug("calculoMaiorPontuacaoTotalAtualPossivel()= jogador[" + i + "]("+_jogadoresNome[i]+")=" + (_jogadoresPontos[i] + maiorPontuacaoPossivelAtual), false, false, true);
+                }
+                i++;
+            }
+
+            return maiorPontuacaoTotalAtualPossivel;
         }
 
         public bool algoritmoPosicionarPadrao()
         {
-            debug("algoritmoPosicionarPadrao");
+            debug("algoritmoPosicionarPadrao", false, false, true);
             //posiciona os personagens nos nivens mais altos em ordem alfabetica
             int personagem = 0;
             int nivel = 4;
@@ -2753,13 +3404,13 @@ namespace Project_MePresidenta
                             txtPersonagem.Text = _personagemCodinome[personagem];
                             txtSetor.Text = Convert.ToString(nivel);
 
-                            debug("algoritmoPosicionarPadrao - Tentar posicionar " + personagem + "(" + _personagemCodinome[personagem] + ")");
+                            debug("algoritmoPosicionarPadrao - Tentar posicionar " + personagem + "(" + _personagemCodinome[personagem] + ")", false, false, true);
 
                             if (personagemPosicionar())
                             {
                                 return true;
                             }
-                            debug("algoritmoPosicionarPadrao - personagemPosicionar()=false");
+                            debug("algoritmoPosicionarPadrao - personagemPosicionar()=false", false, false, true);
                         }
                         nivel--;
                     }
@@ -2778,9 +3429,9 @@ namespace Project_MePresidenta
 
         public bool algoritmoPosicionamentoEquilibrado()
         {
-            debug("algoritmoPosicionamentoEquilibrado");
-            int personagem = 0;
-            while (personagem < _personagemStatus.Length)
+            debug("algoritmoPosicionamentoEquilibrado()", false, false, true);
+            int personagem = _personagemStatus.Length-1;
+            while (personagem > -1 )
             {
                 if (calculoPersonagemDesempregado(personagem))
                 {
@@ -2789,8 +3440,14 @@ namespace Project_MePresidenta
                         int nivel = 4;
                         while (nivel > 0)
                         {
-                            if (calculoQtdMeusPersonagensNoNivel(nivel) < 2 && calculoNivelDisponivel(nivel))
+                            int qtdPersonagensMeusnoNivel = calculoQtdMeusPersonagensNoNivel(nivel);
+                            if (qtdPersonagensMeusnoNivel < 2 && calculoNivelDisponivel(nivel))
                             {
+                                if(nivel == 4 && qtdPersonagensMeusnoNivel > 0)//*posicionar apenas um personagem no nivel 4
+                                {
+                                    nivel--;
+                                    continue;
+                                }
                                 txtPersonagem.Text = _personagemCodinome[personagem];
                                 txtSetor.Text = Convert.ToString(nivel);
                                 if (personagemPosicionar()) return true;
@@ -2799,8 +3456,9 @@ namespace Project_MePresidenta
                         }
                     }
                 }
-                personagem++;
+                personagem--;
             }
+            debug("algoritmoPosicionamentoEquilibrado()=false;", false, false, true);
             return false;
         }
 
@@ -2808,7 +3466,7 @@ namespace Project_MePresidenta
         public bool algoritmoPromocaoPadrao(int personagemPrioritario)
         {
 
-            debug("algoritmoPromocaoPadrao");
+            debug("algoritmoPromocaoPadrao", false, false, true);
             //promove em ordem alfabetica
             int personagem = 0;
             if (personagemPrioritario > -1)
@@ -2841,19 +3499,29 @@ namespace Project_MePresidenta
         }
         public bool algoritmoPromocaoMeudeMenorNivel()
         {
-            debug("algoritmoPromocaoMeudeMenorNivel");
+            debug("algoritmoPromocaoMeudeMenorNivel()", false, false, true);
             int personagem = 0;
             int nivel = 0;
-            while (nivel < 5)
+            
+
+            while (nivel < 4)//evita que eu promova personagem para o nivel 5
             {
                 personagem = _personagemStatus.Length - 1;
                 while (personagem >= 0)
                 {
-                    if (_personagemMeu[personagem] && _personagemStatus[personagem] > -1)
+                    if (_personagemMeu[personagem] && _personagemStatus[personagem] > -1 && _personagemStatus[personagem]==nivel)
                     {
                         if ((_nivelQtdPersonagens[_personagemStatus[personagem] + 1]) < 4)
                         {
+                            //if (calculoMinhaPontuacaoeBoa()&&)
+                            //{
+                            //    debug("algoritmoPromocaoMeudeMenorNivel() = false - PONTUACAO E BOA - NAO VOU PROMOVER O MEU", "tracert");
+                            //    return false;//evita movimentos de meus personagens de niveis mais alto
+                            //}
+
+
                             txtPersonagem.Text = _personagemCodinome[personagem];
+                            debug("algoritmoPromocaoMeudeMenorNivel() = "+ txtPersonagem.Text, false, false, true);
                             if (personagemPromover()) return true;
                         }
                     }
@@ -2861,14 +3529,24 @@ namespace Project_MePresidenta
                 }
                 nivel++;
             }
+            debug("algoritmoPromocaoMeudeMenorNivel()=false", false, false, true);
             return false;
         }
+        public int calculoQtdMediaCartasNao()
+        {
+            int qtdMediaCartasNao = (_nCartasNaoMax * (_nJogadores - 1) / 2);
+            debug("calculoQtdMediaCartasNao() = "+qtdMediaCartasNao, false, false, true);
+            return qtdMediaCartasNao;
+        }
+
         public bool algoritmoPromocaoOutrosdeMaiorNivel()
         {
-            debug("algoritmoPromocaoOutrosdeMaiorNivel");
-
-            if (calculoQtdCartasNaoQueNaoSaoMinhas() < 4)
+            debug("algoritmoPromocaoOutrosdeMaiorNivel()", false, false, true);
+            
+            
+            if (_calculoQtdCartasNaoQueNaoSaoMinhas < _calculoQtdMediaCartasNao)//se cartas nao dos oponente sao poucas há um risco grande deste personagem qu eu eleger ser eleito
             {
+                debug("algoritmoPromocaoOutrosdeMaiorNivel() = false - POUCAS CARTAS NAO NO JOGO - Muito arriscado promover oponente", false, false, true);
                 return false;
             }
 
@@ -2884,9 +3562,10 @@ namespace Project_MePresidenta
                     {
                         if (!_personagemMeu[personagem])
                         {
-                            if ((_nivelQtdPersonagens[_personagemStatus[personagem] + 1]) < 4)
+                            if ((calculoNivelDisponivel(_personagemStatus[personagem]+1)))
                             {
                                 txtPersonagem.Text = _personagemCodinome[personagem];
+                                debug("algoritmoPromocaoOutrosdeMaiorNivel() = "+personagem+"("+_personagemCodinome[personagem]+")", false, false, true);
                                 if (personagemPromover()) return true;
                             }
                         }
@@ -2895,12 +3574,13 @@ namespace Project_MePresidenta
                 }
                 nivel--;
             }
+            debug("algoritmoPromocaoOutrosdeMaiorNivel() = false", false, false, true);
             return false;
         }
 
         public bool algoritmoPromocaoQualquerdeMenorNivel()
         {
-            debug("algoritmoPromocaoQualquerdeMenorNivel");
+            debug("algoritmoPromocaoQualquerdeMenorNivel()", false, false, true);
             int personagem = 0;
             int nivel = 0;
             while (nivel < 5)
@@ -2913,6 +3593,7 @@ namespace Project_MePresidenta
                         if ((_nivelQtdPersonagens[_personagemStatus[personagem] + 1]) < 4)
                         {
                             txtPersonagem.Text = _personagemCodinome[personagem];
+                            debug("algoritmoPromocaoQualquerdeMenorNivel()="+ _personagemCodinome[personagem], false, false, true);
                             if (personagemPromover()) return true;
                         }
                     }
@@ -2920,15 +3601,46 @@ namespace Project_MePresidenta
                 }
                 nivel++;
             }
+            debug("algoritmoPromocaoQualquerdeMenorNivel()=false", false, false, true);
+            return false;
+        }
+
+        public bool algoritmoPromocao9IniciarMeuReinado()
+        {
+            //passar a promover meu personagem de nivel mais alto ate a presidencia
+            //somente os oponente nao mais tiverem cartas nao
+            debug("algoritmoPromocao9IniciarMeuReinado()", false, false, true);
+
+            int personagemOutrosdeMaiorNivel = calculoPersonagemOutrosdeMaiorNivel();
+            int personagemMeudeMaiorNivel = calculoPersonagemMeudeMaiorNivel();
+
+            if (calculoQtdCartasNaoQueNaoSaoMinhas() <= 0)
+            {
+                //se eu tenho cartas nao vou investir numa votacao em que eu vote Nao
+                if (_jogadoresCartasNaoDiponiveis[_meuCodigoJogador] > 0)
+                {
+                    
+                    //se diferenca entre os niveis dos dois personagens <2 passar a eliminar este personagem do outro
+                    if (personagemOutrosdeMaiorNivel > -1)
+                    {
+                        if (_personagemStatus[personagemMeudeMaiorNivel] - _personagemStatus[personagemOutrosdeMaiorNivel] <2)
+                        {
+                            debug("algoritmoPromocao9IniciarMeuReinado(): Há um personagem para ser eliminado - "+ personagemOutrosdeMaiorNivel, false, false, true);
+                            _personagemEliminar = personagemOutrosdeMaiorNivel;
+                            if (algoritmoPromocaoPadrao(_personagemEliminar)) return true;
+                        }
+                    }
+                }
+                debug("algoritmoPromocao9IniciarMeuReinado(): Promover meu personagem de Maior Nivel - - Iniciar Reinado " + personagemMeudeMaiorNivel, false, false, true);
+                if (algoritmoPromocaoPadrao(calculoPersonagemMeudeMaiorNivel())) return true;
+            }
             return false;
         }
 
 
-
-
         public bool algoritmoVotacaoPadrao()
         {
-            debug("algoritmoVotacaoPadrao");
+            debug("algoritmoVotacaoPadrao()", false, false, true);
             int candidato = getCandidato();
             if (_personagemMeu[candidato] || (_jogadoresCartasNaoDiponiveis[_meuCodigoJogador] < 1))
             {
@@ -2942,48 +3654,38 @@ namespace Project_MePresidenta
         public bool algoritmoVotacaoTenhoPontosSuficientes()
         {
 
-            debug("algoritmoVotacaoTenhoPontosSuficientes");
-            int minhaPontuacaoTotalAtual = _jogadoresPontos[_meuCodigoJogador] + calculoMinhaPontuacaoAtual();
-
-
-            //_TimerHabilitado = false;
-
-
-
-            //Ninguem mais pode ganhar de mim
-            if (calculoMaiorPontuacaoTotalAtualPossivel() < minhaPontuacaoTotalAtual)
+            if (_calculoMinhaPontuacaoeBoa)
             {
+                debug("algoritmoVotacaoTenhoPontosSuficientes - VOTAR SIM", false, false, true);
                 return personagemVotar(1);
             }
-            //ALguem pode conseguir mais pontos que eu
-
-
-
-            //se for possivel mais pontos
+            debug("algoritmoVotacaoTenhoPontosSuficientes - false", false, false, true);
             return false;
         }
 
-        public int calculoMaiorPontuacaoTotalAtualPossivel()
+        public bool algoritmoVotacao8EconomiadeNaos()
         {
-            debug("calculoMaiorPontuacaoTotalAtualPossivel");
-            int i = 0;
-            int maiorPontuacaoPossivelAtual = calculoMaiorPontuacaoPossivelAtual();
-            int maiorPontuacaoTotalAtualPossivel = 0;
-            while (i < _nJogadores)
+            debug("algoritmoVotacao8EconomiadeNaos()", false, false, true);
+            
+            if (_calculoQtdCartasNaoQueNaoSaoMinhas>_calculoQtdMediaCartasNao)//Se há uma quantidade elevada de Cartas Nao no jogo, Economizar Naos
             {
-                if (i != _meuCodigoJogador)
+                debug("algoritmoVotacao8EconomiadeNaos - Há uma quantidade consideravel de votos Nao", false, false, true);
+                if (_calculoMaiorPontuacaoTotalAtualPossivel*0.75<= _calculoMinhaPontuacaoTotalAtual)//e ainda tenho uma pontuacao relativamente boa
                 {
-                    if ((_jogadoresPontos[i] + maiorPontuacaoPossivelAtual) > maiorPontuacaoTotalAtualPossivel)
-                    {
-                        maiorPontuacaoTotalAtualPossivel += _jogadoresPontos[i] + maiorPontuacaoPossivelAtual;
-                    }
-                    debug("calculoMaiorPontuacaoTotalAtualPossivel" + "/[" + i + "]" + _jogadoresPontos[i] + maiorPontuacaoPossivelAtual);
+                    debug("algoritmoVotacao8EconomiadeNaos - Tenho uma pontuacao consideravel - VOTAR SIM", false, false, true);
+                    return personagemVotar(1);
                 }
-                i++;
+                else
+                {
+                    debug("algoritmoVotacao8EconomiadeNaos - Porem a maior pontuacao possivel é muito maior - Nao da para economizar Nao agora", false, false, true);
+                }
             }
-
-            return maiorPontuacaoTotalAtualPossivel;
+            debug("algoritmoVotacao8EconomiadeNaos()= false", false, false, true);
+            return false;
         }
+
+        
+        
 
         
         public void eliminarCartaJogadoresCarta(int carta)
@@ -3000,27 +3702,19 @@ namespace Project_MePresidenta
         {
             if (lstPartidas.SelectedItems[0].SubItems[2].Text == "Jogando")
             {
-                lblNomeJogador.Visible = false;
-                lblSenhaPartida_Entrar.Visible = false;
-                txtNomedoJogador.Visible = false;
-                txtSenhadaPartidaEntrar.Visible = false;
-                btnEntrarPartida.Visible = false;
-                lblEntrarPartida.Visible = false;
-                lblInformacaoDesenvolvido.Visible = true;
+                _mostrarPaineldeInformacoes = true;
+                mostarOcultarInformacoes();
                 MessageBox.Show("Erro: A partida não está aberta!", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else
             {
                 lblIdPartida.Text = lstPartidas.SelectedItems[0].SubItems[0].Text;
-                lblNomeJogador.Visible = true;
-                lblSenhaPartida_Entrar.Visible = true;
-                txtNomedoJogador.Visible = true;
-                txtSenhadaPartidaEntrar.Visible = true;
-                btnEntrarPartida.Visible = true;
-                lblEntrarPartida.Visible = true;
-                lblInformacaoDesenvolvido.Visible = false;
+                labelNomePartidaSelecionada.Text = lstPartidas.SelectedItems[0].SubItems[1].Text;
+                _mostrarPaineldeInformacoes = false;
+                mostarOcultarInformacoes();
 
-                MessageBox.Show("A Partida " + lstPartidas.SelectedItems[0].SubItems[1].Text + " foi selecionada com sucesso!\n\nInsira o nome do jogador e a senha da \npartida no canto inferior direito para \nentrar na partida.", "Partida selecionada", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                //MessageBox.Show("A Partida " + lstPartidas.SelectedItems[0].SubItems[1].Text + " foi selecionada com sucesso!\n\nInsira o nome do jogador e a senha da \npartida no canto inferior direito para \nentrar na partida.", "Partida selecionada", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                txtNomedoJogador.Focus();
             }
         }
 
@@ -3034,12 +3728,14 @@ namespace Project_MePresidenta
             timer2.Start();
         }
 
+        
+
         private void timer2_Tick(object sender, EventArgs e)
         {
             timer1.Stop();
             if (this.Opacity > 0.0)
             {
-                this.Opacity -= 0.03;
+                this.Opacity -= 0.1;
             }
             else
             {
@@ -3055,16 +3751,53 @@ namespace Project_MePresidenta
 
         private void btnHabilitarTimer_Click(object sender, EventArgs e)
         {
-            _TimerHabilitado = true;
-            btnHabilitarTimer.Enabled = false;
-            btnDesabilitarTimer.Enabled = true;
+            if (_TimerHabilitado) _TimerHabilitado = false;
+            else _TimerHabilitado = true;
+
+            mostrarHabilitarTimer();
+            
+        }
+
+        public void mostrarHabilitarTimer()
+        {
+            if (!_TimerHabilitado)
+            {
+                _TimerHabilitado = false;
+                botaoNaoDestacarconfiguracao(btnHabilitarTimer);
+                btnHabilitarTimer.Text = "Habilitar Timer";
+
+            }
+            else
+            {
+                _TimerHabilitado = true;
+                botaoDestacarConfiguracaoHabilitada(btnHabilitarTimer);
+                btnHabilitarTimer.Text = "Timer Habilitado";
+            }
         }
 
         private void btnDesabilitarTimer_Click(object sender, EventArgs e)
         {
-            _TimerHabilitado = false;
-            btnDesabilitarTimer.Enabled = false;
-            btnHabilitarTimer.Enabled = true;
+            
+        }
+
+        private void btnAutoJogo_Click(object sender, EventArgs e)
+        {
+
+            if (_autojogo)
+            {
+                _autojogo = false;
+                botaoNaoDestacarconfiguracao(btnAutoJogo);
+                algoritmoNaoDestacar();
+                btnAutoJogo.Text = "Ativar Jogadas Automaticas";
+            }
+            else
+            {
+                botaoDestacarConfiguracaoHabilitada(btnAutoJogo);
+                algoritmoMostrarDestacar(-1,-1,-1);
+                _autojogo = true;
+                btnAutoJogo.Text = "Jogadas Automáticas";
+            }
+
         }
 
         // Mover o Formulário pela tela
@@ -3093,10 +3826,166 @@ namespace Project_MePresidenta
 
         private void btnConfiguracoes_Click(object sender, EventArgs e)
         {
-            if (this.Size.Width == 480)
-                this.Size = new System.Drawing.Size(691, 700);
+            
+            if (!_ConfiguracoesHabilitado)
+            {
+                this.Size = new System.Drawing.Size(880, 700);
+                pbLogo.Location = new Point(284, 15);
+                _ConfiguracoesHabilitado = true;
+                botaoDestacarConfiguracaoHabilitada(btnConfiguracoes);
+            }
+
             else
+            {
+                _ConfiguracoesHabilitado = false;
+                botaoNaoDestacarconfiguracao(btnConfiguracoes);
                 this.Size = new System.Drawing.Size(480, 700);
+                pbLogo.Location = new Point(84, 15);
+            }
+        }
+
+        private void btnSairPartida_Click(object sender, EventArgs e)
+        {
+            if(analisarStatus()!=(int)STATUS.PARTIDAENCERRADA)
+            {
+                DialogResult result = MessageBox.Show("Deseja sair da partida?", "Confirmação", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation);
+                if (result == DialogResult.Yes) partidaSair();
+                return;
+            }
+
+            partidaSair();
+        }
+
+        private void btnFechar_MouseHover(object sender, EventArgs e)
+        {
+            botaoDestacarPersonagemEliminado(btnFechar);
+        }
+
+        private void btnFechar_MouseLeave(object sender, EventArgs e)
+        {
+            botaoNaoDestacarPersonagens(btnFechar);
+        }
+
+        private void btnAlg10_Click(object sender, EventArgs e)
+        {
+            _algoritmoPromocao = (int)ALGORITMO.promocao10IniciarMeuReinado;
+            algoritmoMostrarDestacar(-1, -1, -1);
+        }
+
+        private void btnAlg13_Click(object sender, EventArgs e)
+        {
+            _algoritmoPromocao = (int)ALGORITMO.promocao13OutrosdeMaiorNivel;
+            algoritmoMostrarDestacar(-1, -1, -1);
+        }
+
+        private void btninfo_Click(object sender, EventArgs e)
+        {
+            if (_mostrarPaineldeInformacoes) _mostrarPaineldeInformacoes = false;
+            else _mostrarPaineldeInformacoes = true;
+            mostarOcultarInformacoes();
+        }
+
+        public void mostarOcultarInformacoes()
+        {
+            if (_mostrarPaineldeInformacoes == false)//ocultar painel de informacoes
+            {
+                lblEntrarPartida.Visible = true;
+                lblInformacaoDesenvolvido.Visible = false;
+                _mostrarPaineldeInformacoes = false;
+                lblNomeJogador.Visible = true;
+                lblSenhaPartida_Entrar.Visible = true;
+                txtNomedoJogador.Visible = true;
+                txtSenhadaPartidaEntrar.Visible = true;
+                btnEntrarPartida.Visible = true;
+                btninfo.Text = "?";
+            }
+            else
+            { //ocultar painel de entrarPartida
+                lblEntrarPartida.Visible = false;
+                lblInformacaoDesenvolvido.Visible = true;
+                _mostrarPaineldeInformacoes = true;
+                lblNomeJogador.Visible = false;
+                lblSenhaPartida_Entrar.Visible = false;
+                txtNomedoJogador.Visible = false;
+                txtSenhadaPartidaEntrar.Visible = false;
+                btnEntrarPartida.Visible = false;
+                btninfo.Text = "x";
+            }
+        }
+
+        private void lstPartidas_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnHabilitarDebug_Click(object sender, EventArgs e)
+        {
+            if (_ativarDebug) _ativarDebug = false;
+            else _ativarDebug = true;
+            mostrarOcultarDebug();
+        }
+
+        public void mostrarOcultarDebug()
+        {
+            if (_ativarDebug)
+            {
+                btnHabilitarDebug.Text = "Debug Ativado";
+                botaoDestacarConfiguracaoHabilitada(btnHabilitarDebug);
+            }
+            else
+            {
+                botaoNaoDestacarconfiguracao(btnHabilitarDebug);
+                btnHabilitarDebug.Text = "Ativar Debug";
+            }
+        }
+
+        private void btnEntrarPartidaEmergencia_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                _myId = Convert.ToInt32(txtIdJogadorEmergencia.Text);
+                _mySenha = txtSenhaJogadorEmergencia.Text;
+                _partidaId = Convert.ToInt32(txtIdPartidaEmergencia.Text);
+                _partidaSenha = txtSenhaPartidaEmergencia.Text;
+                rotinaPartidaEntrar();
+            }catch(Exception error)
+            {
+                MessageBox.Show(error.Message);
+            }
+            
+        }
+
+        private void numericUpDown1_ValueChanged(object sender, EventArgs e)
+        {
+            timer1.Interval = (int)numericUpDown1.Value * 1000;
+        }
+
+        private void btnSomenteAtualizarTabuleiro_Click(object sender, EventArgs e)
+        {
+            bool autojogosave = _autojogo;
+            _autojogo = false;
+            rotinaPrincipal();
+            _autojogo = autojogosave;
+        }
+
+        private void btnMinimizar_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void btnMinimizar_MouseHover(object sender, EventArgs e)
+        {
+            botaoDestacarPersonagemEliminado(btnMinimizar);
+        }
+
+        private void btnMinimizar_MouseLeave(object sender, EventArgs e)
+        {
+            botaoNaoDestacarPersonagens(btnMinimizar);
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="pbLogo.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAArwAAAHTCAYAAADF8MtRAAAABGdBTUEAALGeYUxB9wAAACBjSFJNAACH
         EAAAjBIAAP1NAACBPgAAWesAARIPAAA85gAAGc66ySIyAAABK2lDQ1BQaG90b3Nob3AgSUNDIHByb2Zp
@@ -1470,12 +1470,11 @@
 </value>
   </data>
   <data name="lblInformacaoDesenvolvido.Text" xml:space="preserve">
-    <value>Este projeto foi desenvolvido du-
-rante a disciplina "Projeto Integra-
-grador III: Sistema Autônomo" no 
-Centro Universitário Senac.
-
-O trabalho foi desenvolvido pelos alunos Gessé Felipe, Luiz Reginaldo, Vinicius Elias e Vinicius Trindade, alunos do 3º semestre do curso de Bacharelado em Ciência da Computação.</value>
+    <value>Este projeto foi desenvolvido durante a disciplina "Projeto Integrador III: Sistema Autônomo" no Centro Universitário Senac por alunos do 3º semestre do curso de Bacharelado em Ciência da Computação:
+- Gessé Felipe
+- Luiz Reginaldo
+- Vinicius Elias
+- Vinicius Trindade</value>
   </data>
   <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
